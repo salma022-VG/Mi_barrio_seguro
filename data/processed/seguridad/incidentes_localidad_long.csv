@@ -1,0 +1,1621 @@
+source,locality_code,locality_name,year,metric,count,period_label,period_start_month,period_end_month,is_partial_year
+incidente_reportado_123,01,Usaquén,2018,alteracion_orden_publico,12822,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,alteracion_orden_publico,10382,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,alteracion_orden_publico,10099,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,alteracion_orden_publico,11712,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,alteracion_orden_publico,8246,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,alteracion_orden_publico,8232,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,alteracion_orden_publico,7353,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,alteracion_orden_publico,11231,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,alteracion_orden_publico,11448,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2018,disparos,283,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,disparos,291,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,disparos,184,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,disparos,402,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,disparos,323,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,disparos,412,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,disparos,260,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,disparos,304,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,disparos,387,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2018,habitantes_calle,881,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,habitantes_calle,633,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,habitantes_calle,405,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,habitantes_calle,511,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,habitantes_calle,407,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,habitantes_calle,538,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,habitantes_calle,546,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,habitantes_calle,733,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,habitantes_calle,830,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2018,hurto,4888,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,hurto,4752,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,hurto,2754,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,hurto,3176,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,hurto,3485,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,hurto,3787,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,hurto,2953,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,hurto,3617,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,hurto,3357,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2018,maltrato,3553,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,maltrato,3193,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,maltrato,2021,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,maltrato,1842,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,maltrato,1076,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,maltrato,2586,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,maltrato,2219,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,maltrato,2722,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,maltrato,3104,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2018,maltrato_mujer,3115,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,maltrato_mujer,2692,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,maltrato_mujer,1592,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,maltrato_mujer,1494,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,maltrato_mujer,759,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,maltrato_mujer,2235,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,maltrato_mujer,1905,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,maltrato_mujer,2394,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,maltrato_mujer,2696,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2018,narcoticos,2367,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,narcoticos,2380,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,narcoticos,1948,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,narcoticos,2005,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,narcoticos,1427,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,narcoticos,1475,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,narcoticos,1358,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,narcoticos,1638,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,narcoticos,1653,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2018,porte_ilegal_armas,598,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,porte_ilegal_armas,557,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,porte_ilegal_armas,64,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,porte_ilegal_armas,155,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,porte_ilegal_armas,123,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,porte_ilegal_armas,138,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,porte_ilegal_armas,106,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,porte_ilegal_armas,121,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,porte_ilegal_armas,136,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2018,rinas,12096,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2019,rinas,10554,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2020,rinas,7848,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2021,rinas,8421,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2022,rinas,8164,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2023,rinas,8835,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2024,rinas,7540,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2025,rinas,9014,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,01,Usaquén,2026,rinas,9809,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,alteracion_orden_publico,6384,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,alteracion_orden_publico,5495,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,alteracion_orden_publico,3916,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,alteracion_orden_publico,5049,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,alteracion_orden_publico,5607,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,alteracion_orden_publico,5170,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,alteracion_orden_publico,3915,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,alteracion_orden_publico,5334,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,alteracion_orden_publico,6389,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,disparos,86,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,disparos,88,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,disparos,53,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,disparos,87,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,disparos,144,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,disparos,120,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,disparos,81,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,disparos,165,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,disparos,106,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,habitantes_calle,1055,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,habitantes_calle,853,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,habitantes_calle,361,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,habitantes_calle,321,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,habitantes_calle,443,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,habitantes_calle,498,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,habitantes_calle,587,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,habitantes_calle,855,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,habitantes_calle,724,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,hurto,2718,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,hurto,3420,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,hurto,1574,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,hurto,1622,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,hurto,2387,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,hurto,2603,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,hurto,2051,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,hurto,2720,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,hurto,2953,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,maltrato,1074,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,maltrato,1088,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,maltrato,573,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,maltrato,489,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,maltrato,401,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,maltrato,792,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,maltrato,821,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,maltrato,1020,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,maltrato,1219,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,maltrato_mujer,945,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,maltrato_mujer,955,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,maltrato_mujer,453,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,maltrato_mujer,416,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,maltrato_mujer,298,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,maltrato_mujer,701,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,maltrato_mujer,735,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,maltrato_mujer,930,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,maltrato_mujer,1115,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,narcoticos,1084,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,narcoticos,1203,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,narcoticos,545,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,narcoticos,576,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,narcoticos,592,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,narcoticos,602,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,narcoticos,637,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,narcoticos,743,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,narcoticos,768,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,porte_ilegal_armas,202,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,porte_ilegal_armas,212,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,porte_ilegal_armas,28,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,porte_ilegal_armas,49,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,porte_ilegal_armas,58,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,porte_ilegal_armas,63,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,porte_ilegal_armas,39,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,porte_ilegal_armas,54,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,porte_ilegal_armas,82,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2018,rinas,5365,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2019,rinas,5507,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2020,rinas,2880,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2021,rinas,2677,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2022,rinas,4112,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2023,rinas,3884,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2024,rinas,3755,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2025,rinas,4548,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,02,Chapinero,2026,rinas,4992,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,alteracion_orden_publico,3301,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,alteracion_orden_publico,2520,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,alteracion_orden_publico,2844,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,alteracion_orden_publico,3162,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,alteracion_orden_publico,2697,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,alteracion_orden_publico,2281,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,alteracion_orden_publico,2160,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,alteracion_orden_publico,2764,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,alteracion_orden_publico,3473,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,disparos,130,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,disparos,108,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,disparos,75,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,disparos,140,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,disparos,190,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,disparos,153,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,disparos,170,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,disparos,156,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,disparos,148,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,habitantes_calle,626,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,habitantes_calle,363,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,habitantes_calle,206,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,habitantes_calle,219,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,habitantes_calle,271,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,habitantes_calle,304,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,habitantes_calle,306,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,habitantes_calle,473,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,habitantes_calle,455,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,hurto,2224,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,hurto,2003,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,hurto,1156,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,hurto,1671,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,hurto,1857,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,hurto,1859,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,hurto,1819,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,hurto,1924,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,hurto,2015,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,maltrato,1089,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,maltrato,1093,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,maltrato,887,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,maltrato,820,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,maltrato,535,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,maltrato,1039,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,maltrato,988,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,maltrato,1210,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,maltrato,1295,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,maltrato_mujer,931,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,maltrato_mujer,916,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,maltrato_mujer,621,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,maltrato_mujer,676,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,maltrato_mujer,384,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,maltrato_mujer,923,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,maltrato_mujer,838,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,maltrato_mujer,1084,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,maltrato_mujer,1148,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,narcoticos,1170,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,narcoticos,1527,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,narcoticos,1223,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,narcoticos,1242,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,narcoticos,940,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,narcoticos,924,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,narcoticos,737,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,narcoticos,1125,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,narcoticos,1556,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,porte_ilegal_armas,174,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,porte_ilegal_armas,159,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,porte_ilegal_armas,28,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,porte_ilegal_armas,60,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,porte_ilegal_armas,64,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,porte_ilegal_armas,60,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,porte_ilegal_armas,60,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,porte_ilegal_armas,78,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,porte_ilegal_armas,64,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2018,rinas,4308,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2019,rinas,4105,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2020,rinas,3215,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2021,rinas,3475,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2022,rinas,3943,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2023,rinas,3879,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2024,rinas,3578,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2025,rinas,4191,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,03,Santa Fe,2026,rinas,4363,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,alteracion_orden_publico,7160,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,alteracion_orden_publico,6221,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,alteracion_orden_publico,7815,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,alteracion_orden_publico,9640,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,alteracion_orden_publico,6015,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,alteracion_orden_publico,5524,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,alteracion_orden_publico,5210,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,alteracion_orden_publico,6458,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,alteracion_orden_publico,8141,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,disparos,261,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,disparos,290,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,disparos,221,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,disparos,399,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,disparos,451,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,disparos,401,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,disparos,349,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,disparos,422,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,disparos,464,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,habitantes_calle,372,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,habitantes_calle,287,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,habitantes_calle,185,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,habitantes_calle,242,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,habitantes_calle,236,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,habitantes_calle,299,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,habitantes_calle,276,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,habitantes_calle,383,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,habitantes_calle,424,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,hurto,2635,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,hurto,2580,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,hurto,1922,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,hurto,2619,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,hurto,2549,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,hurto,2968,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,hurto,2490,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,hurto,2312,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,hurto,2338,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,maltrato,4202,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,maltrato,4078,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,maltrato,2718,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,maltrato,2828,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,maltrato,1568,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,maltrato,3606,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,maltrato,3212,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,maltrato,3623,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,maltrato,3882,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,maltrato_mujer,3617,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,maltrato_mujer,3454,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,maltrato_mujer,2110,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,maltrato_mujer,2331,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,maltrato_mujer,1134,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,maltrato_mujer,3127,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,maltrato_mujer,2786,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,maltrato_mujer,3074,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,maltrato_mujer,3431,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,narcoticos,2241,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,narcoticos,2427,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,narcoticos,2721,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,narcoticos,2657,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,narcoticos,1679,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,narcoticos,1510,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,narcoticos,1292,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,narcoticos,1347,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,narcoticos,1456,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,porte_ilegal_armas,409,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,porte_ilegal_armas,434,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,porte_ilegal_armas,78,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,porte_ilegal_armas,99,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,porte_ilegal_armas,165,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,porte_ilegal_armas,122,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,porte_ilegal_armas,102,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,porte_ilegal_armas,117,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,porte_ilegal_armas,126,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2018,rinas,11675,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2019,rinas,11338,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2020,rinas,9904,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2021,rinas,11023,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2022,rinas,10640,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2023,rinas,10604,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2024,rinas,9328,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2025,rinas,9887,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,04,San Cristóbal,2026,rinas,10506,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,alteracion_orden_publico,3984,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,alteracion_orden_publico,3045,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,alteracion_orden_publico,6023,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,alteracion_orden_publico,7382,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,alteracion_orden_publico,4027,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,alteracion_orden_publico,4093,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,alteracion_orden_publico,3553,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,alteracion_orden_publico,6144,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,alteracion_orden_publico,7117,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,disparos,269,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,disparos,231,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,disparos,262,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,disparos,374,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,disparos,463,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,disparos,378,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,disparos,369,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,disparos,364,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,disparos,477,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,habitantes_calle,96,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,habitantes_calle,55,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,habitantes_calle,77,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,habitantes_calle,96,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,habitantes_calle,68,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,habitantes_calle,111,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,habitantes_calle,99,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,habitantes_calle,148,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,habitantes_calle,151,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,hurto,1832,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,hurto,1414,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,hurto,1340,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,hurto,1903,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,hurto,1796,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,hurto,1847,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,hurto,1559,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,hurto,1737,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,hurto,1484,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,maltrato,3241,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,maltrato,2954,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,maltrato,2498,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,maltrato,2882,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,maltrato,1492,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,maltrato,3480,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,maltrato,3162,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,maltrato,3634,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,maltrato,4064,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,maltrato_mujer,2823,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,maltrato_mujer,2528,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,maltrato_mujer,1940,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,maltrato_mujer,2362,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,maltrato_mujer,1079,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,maltrato_mujer,3002,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,maltrato_mujer,2654,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,maltrato_mujer,3142,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,maltrato_mujer,3546,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,narcoticos,1157,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,narcoticos,1150,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,narcoticos,1692,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,narcoticos,1654,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,narcoticos,983,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,narcoticos,1097,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,narcoticos,992,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,narcoticos,1335,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,narcoticos,1193,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,porte_ilegal_armas,360,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,porte_ilegal_armas,318,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,porte_ilegal_armas,81,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,porte_ilegal_armas,111,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,porte_ilegal_armas,127,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,porte_ilegal_armas,103,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,porte_ilegal_armas,97,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,porte_ilegal_armas,121,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,porte_ilegal_armas,98,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2018,rinas,9053,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2019,rinas,7603,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2020,rinas,8736,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2021,rinas,10616,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2022,rinas,9245,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2023,rinas,9933,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2024,rinas,8699,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2025,rinas,10122,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,05,Usme,2026,rinas,10960,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,alteracion_orden_publico,3225,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,alteracion_orden_publico,2842,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,alteracion_orden_publico,2663,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,alteracion_orden_publico,3215,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,alteracion_orden_publico,2578,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,alteracion_orden_publico,2755,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,alteracion_orden_publico,2740,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,alteracion_orden_publico,3515,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,alteracion_orden_publico,4320,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,disparos,119,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,disparos,158,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,disparos,52,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,disparos,139,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,disparos,198,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,disparos,141,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,disparos,168,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,disparos,208,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,disparos,166,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,habitantes_calle,157,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,habitantes_calle,132,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,habitantes_calle,102,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,habitantes_calle,100,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,habitantes_calle,89,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,habitantes_calle,157,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,habitantes_calle,117,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,habitantes_calle,225,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,habitantes_calle,243,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,hurto,1532,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,hurto,1285,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,hurto,1011,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,hurto,1332,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,hurto,1179,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,hurto,1247,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,hurto,1229,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,hurto,1331,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,hurto,1183,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,maltrato,1608,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,maltrato,1421,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,maltrato,896,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,maltrato,836,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,maltrato,560,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,maltrato,1154,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,maltrato,1147,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,maltrato,1389,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,maltrato,1396,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,maltrato_mujer,1394,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,maltrato_mujer,1218,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,maltrato_mujer,704,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,maltrato_mujer,669,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,maltrato_mujer,408,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,maltrato_mujer,998,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,maltrato_mujer,948,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,maltrato_mujer,1207,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,maltrato_mujer,1183,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,narcoticos,928,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,narcoticos,851,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,narcoticos,611,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,narcoticos,696,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,narcoticos,488,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,narcoticos,610,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,narcoticos,564,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,narcoticos,640,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,narcoticos,577,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,porte_ilegal_armas,200,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,porte_ilegal_armas,189,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,porte_ilegal_armas,32,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,porte_ilegal_armas,36,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,porte_ilegal_armas,50,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,porte_ilegal_armas,55,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,porte_ilegal_armas,59,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,porte_ilegal_armas,56,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,porte_ilegal_armas,47,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2018,rinas,5218,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2019,rinas,4406,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2020,rinas,3529,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2021,rinas,3724,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2022,rinas,4044,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2023,rinas,4090,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2024,rinas,3582,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2025,rinas,4671,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,06,Tunjuelito,2026,rinas,4231,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,alteracion_orden_publico,10685,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,alteracion_orden_publico,9792,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,alteracion_orden_publico,13428,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,alteracion_orden_publico,15396,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,alteracion_orden_publico,9511,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,alteracion_orden_publico,9111,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,alteracion_orden_publico,7389,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,alteracion_orden_publico,12269,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,alteracion_orden_publico,14389,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,disparos,449,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,disparos,444,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,disparos,239,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,disparos,425,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,disparos,641,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,disparos,442,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,disparos,378,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,disparos,467,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,disparos,560,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,habitantes_calle,265,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,habitantes_calle,197,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,habitantes_calle,197,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,habitantes_calle,243,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,habitantes_calle,258,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,habitantes_calle,285,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,habitantes_calle,229,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,habitantes_calle,371,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,habitantes_calle,396,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,hurto,4111,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,hurto,4528,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,hurto,2872,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,hurto,3970,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,hurto,3861,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,hurto,3886,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,hurto,2681,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,hurto,3348,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,hurto,3425,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,maltrato,6434,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,maltrato,6229,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,maltrato,4489,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,maltrato,4871,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,maltrato,2700,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,maltrato,5921,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,maltrato,4940,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,maltrato,6026,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,maltrato,6731,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,maltrato_mujer,5512,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,maltrato_mujer,5271,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,maltrato_mujer,3477,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,maltrato_mujer,4043,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,maltrato_mujer,1892,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,maltrato_mujer,5162,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,maltrato_mujer,4205,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,maltrato_mujer,5233,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,maltrato_mujer,5847,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,narcoticos,2419,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,narcoticos,2607,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,narcoticos,3191,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,narcoticos,3080,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,narcoticos,2112,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,narcoticos,2254,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,narcoticos,1556,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,narcoticos,2213,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,narcoticos,2140,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,porte_ilegal_armas,645,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,porte_ilegal_armas,638,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,porte_ilegal_armas,107,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,porte_ilegal_armas,173,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,porte_ilegal_armas,198,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,porte_ilegal_armas,142,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,porte_ilegal_armas,138,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,porte_ilegal_armas,184,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,porte_ilegal_armas,151,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2018,rinas,17512,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2019,rinas,16799,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2020,rinas,16019,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2021,rinas,18907,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2022,rinas,17092,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2023,rinas,17703,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2024,rinas,13855,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2025,rinas,16558,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,07,Bosa,2026,rinas,18593,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,alteracion_orden_publico,17861,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,alteracion_orden_publico,16498,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,alteracion_orden_publico,18107,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,alteracion_orden_publico,23653,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,alteracion_orden_publico,16647,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,alteracion_orden_publico,16536,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,alteracion_orden_publico,13231,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,alteracion_orden_publico,18885,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,alteracion_orden_publico,21781,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,disparos,614,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,disparos,629,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,disparos,388,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,disparos,859,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,disparos,1061,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,disparos,881,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,disparos,673,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,disparos,800,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,disparos,875,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,habitantes_calle,1069,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,habitantes_calle,686,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,habitantes_calle,550,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,habitantes_calle,662,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,habitantes_calle,623,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,habitantes_calle,674,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,habitantes_calle,642,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,habitantes_calle,936,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,habitantes_calle,855,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,hurto,8500,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,hurto,7853,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,hurto,4583,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,hurto,7273,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,hurto,6795,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,hurto,7456,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,hurto,5834,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,hurto,6705,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,hurto,6528,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,maltrato,8998,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,maltrato,8608,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,maltrato,5687,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,maltrato,5777,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,maltrato,3360,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,maltrato,7329,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,maltrato,6628,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,maltrato,7684,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,maltrato,8850,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,maltrato_mujer,7745,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,maltrato_mujer,7275,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,maltrato_mujer,4339,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,maltrato_mujer,4721,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,maltrato_mujer,2370,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,maltrato_mujer,6349,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,maltrato_mujer,5673,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,maltrato_mujer,6752,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,maltrato_mujer,7832,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,narcoticos,4992,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,narcoticos,5478,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,narcoticos,4785,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,narcoticos,5383,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,narcoticos,3700,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,narcoticos,4016,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,narcoticos,3346,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,narcoticos,3750,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,narcoticos,3907,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,porte_ilegal_armas,1113,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,porte_ilegal_armas,1170,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,porte_ilegal_armas,138,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,porte_ilegal_armas,316,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,porte_ilegal_armas,298,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,porte_ilegal_armas,278,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,porte_ilegal_armas,217,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,porte_ilegal_armas,233,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,porte_ilegal_armas,255,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2018,rinas,26921,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2019,rinas,25331,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2020,rinas,20106,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2021,rinas,24079,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2022,rinas,23113,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2023,rinas,23111,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2024,rinas,19337,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2025,rinas,22204,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,08,Kennedy,2026,rinas,24635,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,alteracion_orden_publico,4841,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,alteracion_orden_publico,4479,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,alteracion_orden_publico,5168,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,alteracion_orden_publico,5128,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,alteracion_orden_publico,4322,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,alteracion_orden_publico,4198,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,alteracion_orden_publico,4084,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,alteracion_orden_publico,6118,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,alteracion_orden_publico,6691,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,disparos,103,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,disparos,169,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,disparos,84,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,disparos,187,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,disparos,211,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,disparos,201,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,disparos,247,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,disparos,325,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,disparos,236,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,habitantes_calle,289,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,habitantes_calle,251,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,habitantes_calle,194,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,habitantes_calle,264,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,habitantes_calle,309,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,habitantes_calle,368,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,habitantes_calle,341,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,habitantes_calle,535,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,habitantes_calle,439,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,hurto,2548,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,hurto,2669,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,hurto,1987,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,hurto,2327,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,hurto,2675,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,hurto,3343,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,hurto,2515,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,hurto,2998,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,hurto,2957,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,maltrato,2374,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,maltrato,2243,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,maltrato,1584,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,maltrato,1408,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,maltrato,887,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,maltrato,2123,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,maltrato,1744,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,maltrato,2186,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,maltrato,2696,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,maltrato_mujer,2038,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,maltrato_mujer,1873,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,maltrato_mujer,1228,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,maltrato_mujer,1109,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,maltrato_mujer,628,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,maltrato_mujer,1824,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,maltrato_mujer,1476,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,maltrato_mujer,1934,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,maltrato_mujer,2320,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,narcoticos,1539,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,narcoticos,1546,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,narcoticos,1393,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,narcoticos,1411,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,narcoticos,1294,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,narcoticos,1724,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,narcoticos,1256,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,narcoticos,1348,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,narcoticos,1259,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,porte_ilegal_armas,322,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,porte_ilegal_armas,309,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,porte_ilegal_armas,56,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,porte_ilegal_armas,76,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,porte_ilegal_armas,75,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,porte_ilegal_armas,112,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,porte_ilegal_armas,88,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,porte_ilegal_armas,99,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,porte_ilegal_armas,87,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2018,rinas,8009,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2019,rinas,7367,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2020,rinas,6107,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2021,rinas,6087,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2022,rinas,6493,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2023,rinas,7036,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2024,rinas,6059,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2025,rinas,7249,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,09,Fontibón,2026,rinas,7811,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,alteracion_orden_publico,14067,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,alteracion_orden_publico,13921,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,alteracion_orden_publico,14974,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,alteracion_orden_publico,21814,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,alteracion_orden_publico,13735,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,alteracion_orden_publico,15597,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,alteracion_orden_publico,11274,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,alteracion_orden_publico,15260,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,alteracion_orden_publico,18272,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,disparos,348,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,disparos,502,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,disparos,396,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,disparos,715,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,disparos,681,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,disparos,842,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,disparos,580,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,disparos,613,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,disparos,688,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,habitantes_calle,1090,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,habitantes_calle,992,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,habitantes_calle,810,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,habitantes_calle,1292,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,habitantes_calle,1150,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,habitantes_calle,1050,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,habitantes_calle,971,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,habitantes_calle,1560,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,habitantes_calle,1503,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,hurto,6369,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,hurto,6867,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,hurto,4613,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,hurto,6337,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,hurto,6306,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,hurto,7229,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,hurto,5456,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,hurto,6388,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,hurto,6478,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,maltrato,6233,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,maltrato,5949,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,maltrato,3866,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,maltrato,4204,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,maltrato,2293,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,maltrato,5189,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,maltrato,4303,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,maltrato,5208,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,maltrato,6040,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,maltrato_mujer,5403,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,maltrato_mujer,5101,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,maltrato_mujer,2965,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,maltrato_mujer,3425,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,maltrato_mujer,1579,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,maltrato_mujer,4499,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,maltrato_mujer,3695,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,maltrato_mujer,4458,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,maltrato_mujer,5298,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,narcoticos,3568,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,narcoticos,4805,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,narcoticos,4409,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,narcoticos,6076,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,narcoticos,4030,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,narcoticos,3957,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,narcoticos,3139,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,narcoticos,4315,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,narcoticos,4422,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,porte_ilegal_armas,804,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,porte_ilegal_armas,947,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,porte_ilegal_armas,143,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,porte_ilegal_armas,261,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,porte_ilegal_armas,271,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,porte_ilegal_armas,303,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,porte_ilegal_armas,194,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,porte_ilegal_armas,259,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,porte_ilegal_armas,239,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2018,rinas,19139,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2019,rinas,18360,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2020,rinas,14834,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2021,rinas,18749,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2022,rinas,16472,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2023,rinas,17115,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2024,rinas,14347,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2025,rinas,16640,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,10,Engativá,2026,rinas,18340,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,alteracion_orden_publico,22154,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,alteracion_orden_publico,20022,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,alteracion_orden_publico,21620,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,alteracion_orden_publico,24802,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,alteracion_orden_publico,16835,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,alteracion_orden_publico,15529,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,alteracion_orden_publico,13942,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,alteracion_orden_publico,21267,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,alteracion_orden_publico,24478,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,disparos,489,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,disparos,443,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,disparos,386,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,disparos,649,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,disparos,682,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,disparos,639,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,disparos,547,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,disparos,597,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,disparos,591,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,habitantes_calle,982,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,habitantes_calle,865,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,habitantes_calle,631,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,habitantes_calle,837,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,habitantes_calle,915,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,habitantes_calle,987,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,habitantes_calle,988,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,habitantes_calle,1269,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,habitantes_calle,959,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,hurto,7338,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,hurto,7053,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,hurto,4701,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,hurto,6087,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,hurto,6593,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,hurto,7025,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,hurto,5440,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,hurto,6400,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,hurto,6359,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,maltrato,8882,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,maltrato,8206,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,maltrato,5829,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,maltrato,5496,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,maltrato,3345,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,maltrato,7131,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,maltrato,6513,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,maltrato,7675,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,maltrato,8834,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,maltrato_mujer,7640,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,maltrato_mujer,6964,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,maltrato_mujer,4498,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,maltrato_mujer,4478,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,maltrato_mujer,2339,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,maltrato_mujer,6190,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,maltrato_mujer,5607,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,maltrato_mujer,6699,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,maltrato_mujer,7682,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,narcoticos,5428,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,narcoticos,5972,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,narcoticos,5431,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,narcoticos,5517,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,narcoticos,4332,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,narcoticos,4639,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,narcoticos,4158,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,narcoticos,4770,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,narcoticos,4269,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,porte_ilegal_armas,852,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,porte_ilegal_armas,784,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,porte_ilegal_armas,150,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,porte_ilegal_armas,215,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,porte_ilegal_armas,251,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,porte_ilegal_armas,255,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,porte_ilegal_armas,200,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,porte_ilegal_armas,309,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,porte_ilegal_armas,245,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2018,rinas,27603,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2019,rinas,25158,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2020,rinas,21882,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2021,rinas,23730,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2022,rinas,23056,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2023,rinas,23129,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2024,rinas,20822,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2025,rinas,23203,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,11,Suba,2026,rinas,25498,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,alteracion_orden_publico,3554,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,alteracion_orden_publico,3357,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,alteracion_orden_publico,2791,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,alteracion_orden_publico,3863,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,alteracion_orden_publico,3558,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,alteracion_orden_publico,3734,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,alteracion_orden_publico,3382,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,alteracion_orden_publico,4237,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,alteracion_orden_publico,4753,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,disparos,55,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,disparos,91,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,disparos,48,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,disparos,150,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,disparos,160,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,disparos,124,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,disparos,144,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,disparos,137,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,disparos,154,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,habitantes_calle,624,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,habitantes_calle,453,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,habitantes_calle,390,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,habitantes_calle,450,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,habitantes_calle,378,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,habitantes_calle,383,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,habitantes_calle,373,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,habitantes_calle,614,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,habitantes_calle,607,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,hurto,2078,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,hurto,2247,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,hurto,1301,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,hurto,1957,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,hurto,2008,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,hurto,2442,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,hurto,1975,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,hurto,2421,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,hurto,2632,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,maltrato,1072,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,maltrato,1015,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,maltrato,769,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,maltrato,604,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,maltrato,396,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,maltrato,954,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,maltrato,847,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,maltrato,1018,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,maltrato,1219,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,maltrato_mujer,942,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,maltrato_mujer,893,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,maltrato_mujer,553,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,maltrato_mujer,470,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,maltrato_mujer,271,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,maltrato_mujer,844,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,maltrato_mujer,738,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,maltrato_mujer,912,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,maltrato_mujer,1074,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,narcoticos,767,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,narcoticos,886,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,narcoticos,740,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,narcoticos,1076,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,narcoticos,933,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,narcoticos,894,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,narcoticos,875,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,narcoticos,1096,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,narcoticos,1150,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,porte_ilegal_armas,174,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,porte_ilegal_armas,205,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,porte_ilegal_armas,35,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,porte_ilegal_armas,67,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,porte_ilegal_armas,63,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,porte_ilegal_armas,73,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,porte_ilegal_armas,47,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,porte_ilegal_armas,50,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,porte_ilegal_armas,72,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2018,rinas,4605,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2019,rinas,4278,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2020,rinas,3020,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2021,rinas,3468,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2022,rinas,3541,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2023,rinas,4086,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2024,rinas,3630,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2025,rinas,4107,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,12,Barrios Unidos,2026,rinas,4329,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,alteracion_orden_publico,4363,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,alteracion_orden_publico,3571,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,alteracion_orden_publico,2755,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,alteracion_orden_publico,3856,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,alteracion_orden_publico,3192,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,alteracion_orden_publico,3134,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,alteracion_orden_publico,2809,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,alteracion_orden_publico,4503,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,alteracion_orden_publico,4114,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,disparos,84,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,disparos,84,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,disparos,53,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,disparos,104,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,disparos,142,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,disparos,134,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,disparos,137,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,disparos,105,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,disparos,167,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,habitantes_calle,1116,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,habitantes_calle,678,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,habitantes_calle,619,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,habitantes_calle,788,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,habitantes_calle,676,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,habitantes_calle,827,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,habitantes_calle,795,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,habitantes_calle,1226,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,habitantes_calle,1495,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,hurto,2270,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,hurto,2306,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,hurto,1431,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,hurto,1772,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,hurto,2240,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,hurto,2685,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,hurto,2133,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,hurto,2683,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,hurto,3486,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,maltrato,834,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,maltrato,793,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,maltrato,598,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,maltrato,492,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,maltrato,364,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,maltrato,778,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,maltrato,764,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,maltrato,907,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,maltrato,1042,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,maltrato_mujer,732,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,maltrato_mujer,674,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,maltrato_mujer,428,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,maltrato_mujer,398,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,maltrato_mujer,277,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,maltrato_mujer,686,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,maltrato_mujer,675,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,maltrato_mujer,821,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,maltrato_mujer,932,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,narcoticos,1091,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,narcoticos,1101,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,narcoticos,709,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,narcoticos,832,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,narcoticos,653,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,narcoticos,835,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,narcoticos,591,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,narcoticos,847,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,narcoticos,826,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,porte_ilegal_armas,170,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,porte_ilegal_armas,176,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,porte_ilegal_armas,23,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,porte_ilegal_armas,49,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,porte_ilegal_armas,46,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,porte_ilegal_armas,51,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,porte_ilegal_armas,40,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,porte_ilegal_armas,80,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,porte_ilegal_armas,66,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2018,rinas,3874,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2019,rinas,3398,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2020,rinas,2430,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2021,rinas,2643,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2022,rinas,3322,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2023,rinas,3781,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2024,rinas,3436,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2025,rinas,3944,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,13,Teusaquillo,2026,rinas,4158,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,alteracion_orden_publico,2776,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,alteracion_orden_publico,3085,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,alteracion_orden_publico,2639,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,alteracion_orden_publico,3865,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,alteracion_orden_publico,4742,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,alteracion_orden_publico,3794,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,alteracion_orden_publico,2895,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,alteracion_orden_publico,4152,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,alteracion_orden_publico,3823,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,disparos,85,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,disparos,92,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,disparos,61,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,disparos,128,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,disparos,112,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,disparos,107,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,disparos,118,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,disparos,200,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,disparos,440,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,habitantes_calle,988,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,habitantes_calle,700,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,habitantes_calle,517,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,habitantes_calle,472,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,habitantes_calle,388,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,habitantes_calle,369,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,habitantes_calle,420,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,habitantes_calle,582,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,habitantes_calle,553,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,hurto,1841,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,hurto,1939,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,hurto,1280,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,hurto,1860,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,hurto,1824,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,hurto,1929,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,hurto,1907,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,hurto,2396,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,hurto,2425,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,maltrato,1022,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,maltrato,948,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,maltrato,757,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,maltrato,671,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,maltrato,311,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,maltrato,792,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,maltrato,729,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,maltrato,903,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,maltrato,1119,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,maltrato_mujer,888,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,maltrato_mujer,830,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,maltrato_mujer,540,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,maltrato_mujer,552,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,maltrato_mujer,209,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,maltrato_mujer,701,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,maltrato_mujer,614,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,maltrato_mujer,792,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,maltrato_mujer,992,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,narcoticos,1276,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,narcoticos,1529,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,narcoticos,1166,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,narcoticos,1002,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,narcoticos,796,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,narcoticos,671,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,narcoticos,693,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,narcoticos,796,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,narcoticos,859,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,porte_ilegal_armas,181,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,porte_ilegal_armas,137,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,porte_ilegal_armas,26,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,porte_ilegal_armas,54,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,porte_ilegal_armas,55,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,porte_ilegal_armas,57,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,porte_ilegal_armas,51,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,porte_ilegal_armas,65,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,porte_ilegal_armas,65,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2018,rinas,3908,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2019,rinas,3594,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2020,rinas,2824,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2021,rinas,3195,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2022,rinas,3243,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2023,rinas,3142,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2024,rinas,2814,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2025,rinas,3488,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,14,Los Mártires,2026,rinas,3811,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,alteracion_orden_publico,2381,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,alteracion_orden_publico,1874,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,alteracion_orden_publico,1864,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,alteracion_orden_publico,2660,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,alteracion_orden_publico,2326,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,alteracion_orden_publico,2359,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,alteracion_orden_publico,1990,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,alteracion_orden_publico,2803,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,alteracion_orden_publico,2866,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,disparos,85,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,disparos,57,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,disparos,35,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,disparos,117,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,disparos,112,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,disparos,129,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,disparos,104,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,disparos,107,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,disparos,98,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,habitantes_calle,257,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,habitantes_calle,241,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,habitantes_calle,222,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,habitantes_calle,261,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,habitantes_calle,312,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,habitantes_calle,337,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,habitantes_calle,423,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,habitantes_calle,568,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,habitantes_calle,484,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,hurto,1121,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,hurto,1127,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,hurto,870,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,hurto,1192,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,hurto,1305,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,hurto,1340,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,hurto,1131,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,hurto,1553,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,hurto,1284,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,maltrato,892,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,maltrato,821,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,maltrato,510,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,maltrato,485,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,maltrato,278,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,maltrato,632,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,maltrato,565,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,maltrato,663,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,maltrato,725,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,maltrato_mujer,774,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,maltrato_mujer,688,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,maltrato_mujer,398,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,maltrato_mujer,409,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,maltrato_mujer,196,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,maltrato_mujer,537,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,maltrato_mujer,502,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,maltrato_mujer,575,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,maltrato_mujer,654,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,narcoticos,501,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,narcoticos,613,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,narcoticos,443,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,narcoticos,608,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,narcoticos,412,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,narcoticos,543,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,narcoticos,414,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,narcoticos,473,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,narcoticos,574,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,porte_ilegal_armas,127,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,porte_ilegal_armas,131,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,porte_ilegal_armas,15,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,porte_ilegal_armas,44,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,porte_ilegal_armas,55,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,porte_ilegal_armas,55,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,porte_ilegal_armas,30,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,porte_ilegal_armas,40,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,porte_ilegal_armas,33,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2018,rinas,3225,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2019,rinas,2872,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2020,rinas,2072,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2021,rinas,2519,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2022,rinas,2597,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2023,rinas,2649,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2024,rinas,2305,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2025,rinas,2644,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,15,Antonio Nariño,2026,rinas,2661,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,alteracion_orden_publico,5175,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,alteracion_orden_publico,4353,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,alteracion_orden_publico,4924,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,alteracion_orden_publico,4972,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,alteracion_orden_publico,4275,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,alteracion_orden_publico,4251,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,alteracion_orden_publico,4365,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,alteracion_orden_publico,6011,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,alteracion_orden_publico,6326,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,disparos,231,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,disparos,168,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,disparos,117,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,disparos,216,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,disparos,265,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,disparos,293,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,disparos,275,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,disparos,337,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,disparos,299,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,habitantes_calle,1345,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,habitantes_calle,757,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,habitantes_calle,588,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,habitantes_calle,544,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,habitantes_calle,453,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,habitantes_calle,536,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,habitantes_calle,495,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,habitantes_calle,726,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,habitantes_calle,546,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,hurto,3368,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,hurto,3091,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,hurto,1938,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,hurto,2553,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,hurto,2601,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,hurto,2831,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,hurto,2737,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,hurto,3355,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,hurto,2939,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,maltrato,1764,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,maltrato,1818,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,maltrato,1271,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,maltrato,1067,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,maltrato,659,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,maltrato,1462,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,maltrato,1496,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,maltrato,1673,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,maltrato,1812,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,maltrato_mujer,1537,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,maltrato_mujer,1539,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,maltrato_mujer,970,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,maltrato_mujer,882,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,maltrato_mujer,447,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,maltrato_mujer,1263,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,maltrato_mujer,1295,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,maltrato_mujer,1465,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,maltrato_mujer,1601,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,narcoticos,1466,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,narcoticos,1475,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,narcoticos,1311,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,narcoticos,1224,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,narcoticos,926,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,narcoticos,1045,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,narcoticos,913,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,narcoticos,1139,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,narcoticos,1003,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,porte_ilegal_armas,385,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,porte_ilegal_armas,382,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,porte_ilegal_armas,44,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,porte_ilegal_armas,73,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,porte_ilegal_armas,95,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,porte_ilegal_armas,80,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,porte_ilegal_armas,100,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,porte_ilegal_armas,104,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,porte_ilegal_armas,108,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2018,rinas,6282,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2019,rinas,6009,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2020,rinas,4764,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2021,rinas,4859,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2022,rinas,5141,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2023,rinas,5291,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2024,rinas,4984,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2025,rinas,5678,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,16,Puente Aranda,2026,rinas,5617,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,alteracion_orden_publico,814,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,alteracion_orden_publico,864,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,alteracion_orden_publico,511,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,alteracion_orden_publico,439,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,alteracion_orden_publico,538,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,alteracion_orden_publico,598,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,alteracion_orden_publico,519,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,alteracion_orden_publico,970,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,alteracion_orden_publico,838,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,disparos,16,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,disparos,13,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,disparos,9,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,disparos,13,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,disparos,8,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,disparos,13,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,disparos,16,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,disparos,18,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,disparos,23,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,habitantes_calle,148,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,habitantes_calle,80,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,habitantes_calle,36,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,habitantes_calle,39,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,habitantes_calle,72,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,habitantes_calle,105,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,habitantes_calle,83,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,habitantes_calle,86,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,habitantes_calle,91,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,hurto,412,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,hurto,360,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,hurto,212,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,hurto,191,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,hurto,262,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,hurto,283,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,hurto,287,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,hurto,314,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,hurto,305,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,maltrato,276,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,maltrato,255,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,maltrato,149,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,maltrato,152,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,maltrato,77,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,maltrato,167,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,maltrato,162,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,maltrato,194,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,maltrato,233,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,maltrato_mujer,232,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,maltrato_mujer,210,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,maltrato_mujer,86,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,maltrato_mujer,126,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,maltrato_mujer,63,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,maltrato_mujer,146,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,maltrato_mujer,136,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,maltrato_mujer,169,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,maltrato_mujer,200,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,narcoticos,362,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,narcoticos,280,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,narcoticos,140,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,narcoticos,175,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,narcoticos,187,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,narcoticos,190,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,narcoticos,126,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,narcoticos,148,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,narcoticos,145,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,porte_ilegal_armas,21,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,porte_ilegal_armas,20,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,porte_ilegal_armas,5,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,porte_ilegal_armas,6,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,porte_ilegal_armas,7,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,porte_ilegal_armas,14,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,porte_ilegal_armas,5,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,porte_ilegal_armas,9,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,porte_ilegal_armas,6,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2018,rinas,1066,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2019,rinas,892,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2020,rinas,612,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2021,rinas,589,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2022,rinas,770,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2023,rinas,675,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2024,rinas,681,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2025,rinas,745,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,17,La Candelaria,2026,rinas,781,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,alteracion_orden_publico,7976,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,alteracion_orden_publico,7078,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,alteracion_orden_publico,8649,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,alteracion_orden_publico,9686,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,alteracion_orden_publico,5625,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,alteracion_orden_publico,5837,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,alteracion_orden_publico,5525,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,alteracion_orden_publico,7936,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,alteracion_orden_publico,9778,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,disparos,436,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,disparos,347,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,disparos,319,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,disparos,501,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,disparos,510,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,disparos,438,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,disparos,342,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,disparos,469,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,disparos,517,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,habitantes_calle,550,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,habitantes_calle,422,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,habitantes_calle,369,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,habitantes_calle,402,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,habitantes_calle,468,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,habitantes_calle,365,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,habitantes_calle,405,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,habitantes_calle,520,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,habitantes_calle,488,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,hurto,3138,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,hurto,2718,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,hurto,1834,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,hurto,2876,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,hurto,2366,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,hurto,2572,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,hurto,2308,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,hurto,2715,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,hurto,2675,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,maltrato,3706,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,maltrato,3564,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,maltrato,2443,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,maltrato,2475,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,maltrato,1259,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,maltrato,2995,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,maltrato,2654,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,maltrato,3404,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,maltrato,3707,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,maltrato_mujer,3210,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,maltrato_mujer,3062,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,maltrato_mujer,1919,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,maltrato_mujer,2070,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,maltrato_mujer,906,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,maltrato_mujer,2620,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,maltrato_mujer,2284,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,maltrato_mujer,2999,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,maltrato_mujer,3306,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,narcoticos,2471,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,narcoticos,2497,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,narcoticos,2630,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,narcoticos,3049,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,narcoticos,2088,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,narcoticos,1558,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,narcoticos,1502,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,narcoticos,2314,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,narcoticos,2242,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,porte_ilegal_armas,608,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,porte_ilegal_armas,532,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,porte_ilegal_armas,89,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,porte_ilegal_armas,133,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,porte_ilegal_armas,123,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,porte_ilegal_armas,115,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,porte_ilegal_armas,97,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,porte_ilegal_armas,137,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,porte_ilegal_armas,132,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2018,rinas,10901,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2019,rinas,10236,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2020,rinas,8962,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2021,rinas,10143,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2022,rinas,8709,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2023,rinas,9343,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2024,rinas,7816,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2025,rinas,9613,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,18,Rafael Uribe Uribe,2026,rinas,10382,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,alteracion_orden_publico,11955,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,alteracion_orden_publico,10104,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,alteracion_orden_publico,11981,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,alteracion_orden_publico,13423,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,alteracion_orden_publico,7927,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,alteracion_orden_publico,7233,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,alteracion_orden_publico,6303,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,alteracion_orden_publico,10041,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,alteracion_orden_publico,11419,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,disparos,678,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,disparos,550,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,disparos,362,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,disparos,768,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,disparos,890,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,disparos,840,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,disparos,631,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,disparos,694,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,disparos,803,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,habitantes_calle,335,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,habitantes_calle,237,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,habitantes_calle,159,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,habitantes_calle,186,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,habitantes_calle,206,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,habitantes_calle,174,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,habitantes_calle,193,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,habitantes_calle,256,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,habitantes_calle,289,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,hurto,4065,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,hurto,3363,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,hurto,2481,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,hurto,3925,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,hurto,3520,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,hurto,3505,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,hurto,2782,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,hurto,2807,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,hurto,3151,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,maltrato,6863,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,maltrato,6273,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,maltrato,4079,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,maltrato,4545,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,maltrato,2482,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,maltrato,5638,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,maltrato,4852,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,maltrato,5605,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,maltrato,6792,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,maltrato_mujer,5970,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,maltrato_mujer,5346,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,maltrato_mujer,3236,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,maltrato_mujer,3789,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,maltrato_mujer,1788,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,maltrato_mujer,4880,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,maltrato_mujer,4214,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,maltrato_mujer,4940,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,maltrato_mujer,5987,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,narcoticos,3010,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,narcoticos,3579,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,narcoticos,3733,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,narcoticos,3534,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,narcoticos,1725,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,narcoticos,2305,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,narcoticos,1724,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,narcoticos,1880,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,narcoticos,2375,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,porte_ilegal_armas,770,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,porte_ilegal_armas,718,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,porte_ilegal_armas,170,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,porte_ilegal_armas,255,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,porte_ilegal_armas,231,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,porte_ilegal_armas,213,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,porte_ilegal_armas,158,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,porte_ilegal_armas,158,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,porte_ilegal_armas,193,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2018,rinas,18185,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2019,rinas,16274,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2020,rinas,14506,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2021,rinas,17378,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2022,rinas,15528,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2023,rinas,15586,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2024,rinas,13291,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2025,rinas,14874,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,19,Ciudad Bolívar,2026,rinas,16958,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,alteracion_orden_publico,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,alteracion_orden_publico,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,alteracion_orden_publico,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,alteracion_orden_publico,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,alteracion_orden_publico,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,alteracion_orden_publico,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,alteracion_orden_publico,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,alteracion_orden_publico,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,alteracion_orden_publico,2,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,disparos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,disparos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,disparos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,disparos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,disparos,3,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,disparos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,disparos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,disparos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,disparos,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,habitantes_calle,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,habitantes_calle,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,habitantes_calle,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,habitantes_calle,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,habitantes_calle,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,habitantes_calle,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,habitantes_calle,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,habitantes_calle,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,habitantes_calle,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,hurto,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,hurto,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,hurto,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,hurto,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,hurto,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,hurto,3,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,hurto,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,hurto,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,hurto,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,maltrato,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,maltrato,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,maltrato,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,maltrato,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,maltrato,2,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,maltrato,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,maltrato,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,maltrato,6,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,maltrato,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,maltrato_mujer,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,maltrato_mujer,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,maltrato_mujer,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,maltrato_mujer,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,maltrato_mujer,2,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,maltrato_mujer,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,maltrato_mujer,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,maltrato_mujer,6,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,maltrato_mujer,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,narcoticos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,narcoticos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,narcoticos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,narcoticos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,narcoticos,2,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,narcoticos,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,narcoticos,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,narcoticos,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,narcoticos,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,porte_ilegal_armas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2018,rinas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2019,rinas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2020,rinas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2021,rinas,0,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2022,rinas,9,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2023,rinas,6,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2024,rinas,1,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2025,rinas,5,Ene-May (2025vs2026),1,5,True
+incidente_reportado_123,20,Sumapaz,2026,rinas,2,Ene-May (2025vs2026),1,5,True

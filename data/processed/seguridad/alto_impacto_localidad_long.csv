@@ -1,0 +1,1981 @@
+source,locality_code,locality_name,year,metric,count,period_label,period_start_month,period_end_month,is_partial_year
+delito_alto_impacto,01,Usaquén,2018,delitos_sexuales,115,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,delitos_sexuales,103,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,delitos_sexuales,77,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,delitos_sexuales,94,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,delitos_sexuales,115,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,delitos_sexuales,102,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,delitos_sexuales,179,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,delitos_sexuales,170,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,delitos_sexuales,124,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,homicidios,13,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,homicidios,15,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,homicidios,23,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,homicidios,17,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,homicidios,13,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,homicidios,13,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,homicidios,21,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,homicidios,25,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,homicidios,18,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,hurto_automotores,138,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,hurto_automotores,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,hurto_automotores,76,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,hurto_automotores,78,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,hurto_automotores,86,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,hurto_automotores,39,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,hurto_automotores,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,hurto_automotores,27,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,hurto_automotores,43,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,hurto_bicicletas,333,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,hurto_bicicletas,278,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,hurto_bicicletas,273,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,hurto_bicicletas,217,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,hurto_bicicletas,221,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,hurto_bicicletas,144,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,hurto_bicicletas,225,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,hurto_bicicletas,168,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,hurto_bicicletas,180,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,hurto_celulares,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,hurto_celulares,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,hurto_celulares,102,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,hurto_celulares,96,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,hurto_celulares,63,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,hurto_celulares,34,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,hurto_celulares,50,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,hurto_celulares,51,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,hurto_celulares,59,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,hurto_comercio,2328,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,hurto_comercio,2004,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,hurto_comercio,1513,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,hurto_comercio,1438,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,hurto_comercio,1386,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,hurto_comercio,1140,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,hurto_comercio,1216,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,hurto_comercio,1237,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,hurto_comercio,1009,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,hurto_motocicletas,1178,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,hurto_motocicletas,1429,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,hurto_motocicletas,991,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,hurto_motocicletas,849,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,hurto_motocicletas,854,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,hurto_motocicletas,409,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,hurto_motocicletas,422,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,hurto_motocicletas,382,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,hurto_motocicletas,366,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,hurto_personas,9913,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,hurto_personas,11979,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,hurto_personas,6945,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,hurto_personas,6489,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,hurto_personas,7329,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,hurto_personas,3421,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,hurto_personas,3591,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,hurto_personas,3421,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,hurto_personas,3290,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,hurto_residencias,1085,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,hurto_residencias,865,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,hurto_residencias,871,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,hurto_residencias,820,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,hurto_residencias,558,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,hurto_residencias,274,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,hurto_residencias,240,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,hurto_residencias,230,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,hurto_residencias,236,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,lesiones_personales,585,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,lesiones_personales,400,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,lesiones_personales,258,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,lesiones_personales,411,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,lesiones_personales,421,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,lesiones_personales,294,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,lesiones_personales,293,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,lesiones_personales,350,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2018,violencia_intrafamiliar,617,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2019,violencia_intrafamiliar,567,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2020,violencia_intrafamiliar,762,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2021,violencia_intrafamiliar,691,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2022,violencia_intrafamiliar,521,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2023,violencia_intrafamiliar,420,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2024,violencia_intrafamiliar,929,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2025,violencia_intrafamiliar,652,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,01,Usaquén,2026,violencia_intrafamiliar,798,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,delitos_sexuales,71,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,delitos_sexuales,59,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,delitos_sexuales,37,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,delitos_sexuales,67,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,delitos_sexuales,100,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,delitos_sexuales,47,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,delitos_sexuales,165,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,delitos_sexuales,104,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,delitos_sexuales,90,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,homicidios,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,homicidios,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,homicidios,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,homicidios,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,homicidios,6,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,homicidios,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,homicidios,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,hurto_automotores,42,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,hurto_automotores,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,hurto_automotores,48,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,hurto_automotores,18,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,hurto_automotores,46,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,hurto_automotores,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,hurto_automotores,33,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,hurto_automotores,18,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,hurto_automotores,21,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,hurto_bicicletas,219,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,hurto_bicicletas,219,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,hurto_bicicletas,168,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,hurto_bicicletas,130,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,hurto_bicicletas,150,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,hurto_bicicletas,109,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,hurto_bicicletas,127,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,hurto_bicicletas,102,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,hurto_bicicletas,125,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,hurto_celulares,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,hurto_celulares,34,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,hurto_celulares,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,hurto_celulares,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,hurto_celulares,42,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,hurto_celulares,28,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,hurto_celulares,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,hurto_celulares,17,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,hurto_celulares,49,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,hurto_comercio,2489,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,hurto_comercio,2728,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,hurto_comercio,1638,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,hurto_comercio,1389,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,hurto_comercio,2321,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,hurto_comercio,2514,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,hurto_comercio,1743,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,hurto_comercio,1384,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,hurto_comercio,1379,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,hurto_motocicletas,1368,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,hurto_motocicletas,1614,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,hurto_motocicletas,1100,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,hurto_motocicletas,727,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,hurto_motocicletas,763,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,hurto_motocicletas,486,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,hurto_motocicletas,428,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,hurto_motocicletas,325,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,hurto_motocicletas,392,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,hurto_personas,10373,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,hurto_personas,14343,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,hurto_personas,6902,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,hurto_personas,5810,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,hurto_personas,10050,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,hurto_personas,6332,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,hurto_personas,5210,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,hurto_personas,3655,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,hurto_personas,3865,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,hurto_residencias,555,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,hurto_residencias,525,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,hurto_residencias,482,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,hurto_residencias,338,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,hurto_residencias,242,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,hurto_residencias,131,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,hurto_residencias,111,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,hurto_residencias,134,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,hurto_residencias,159,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,lesiones_personales,391,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,lesiones_personales,259,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,lesiones_personales,183,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,lesiones_personales,195,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,lesiones_personales,314,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,lesiones_personales,178,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,lesiones_personales,194,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,lesiones_personales,205,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2018,violencia_intrafamiliar,276,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2019,violencia_intrafamiliar,189,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2020,violencia_intrafamiliar,229,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2021,violencia_intrafamiliar,250,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2022,violencia_intrafamiliar,371,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2023,violencia_intrafamiliar,197,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2024,violencia_intrafamiliar,425,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2025,violencia_intrafamiliar,285,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,02,Chapinero,2026,violencia_intrafamiliar,488,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,delitos_sexuales,70,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,delitos_sexuales,72,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,delitos_sexuales,56,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,delitos_sexuales,98,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,delitos_sexuales,112,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,delitos_sexuales,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,delitos_sexuales,119,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,delitos_sexuales,170,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,delitos_sexuales,157,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,homicidios,10,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,homicidios,16,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,homicidios,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,homicidios,20,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,homicidios,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,homicidios,28,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,homicidios,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,homicidios,37,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,homicidios,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,hurto_automotores,40,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,hurto_automotores,22,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,hurto_automotores,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,hurto_automotores,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,hurto_automotores,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,hurto_automotores,12,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,hurto_automotores,23,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,hurto_automotores,22,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,hurto_automotores,16,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,hurto_bicicletas,89,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,hurto_bicicletas,74,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,hurto_bicicletas,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,hurto_bicicletas,125,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,hurto_bicicletas,79,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,hurto_bicicletas,75,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,hurto_bicicletas,63,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,hurto_bicicletas,83,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,hurto_bicicletas,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,hurto_celulares,52,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,hurto_celulares,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,hurto_celulares,20,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,hurto_celulares,44,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,hurto_celulares,47,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,hurto_celulares,22,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,hurto_celulares,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,hurto_celulares,42,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,hurto_celulares,46,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,hurto_comercio,1906,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,hurto_comercio,1622,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,hurto_comercio,1015,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,hurto_comercio,992,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,hurto_comercio,1494,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,hurto_comercio,1356,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,hurto_comercio,1194,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,hurto_comercio,874,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,hurto_comercio,874,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,hurto_motocicletas,849,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,hurto_motocicletas,721,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,hurto_motocicletas,438,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,hurto_motocicletas,474,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,hurto_motocicletas,451,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,hurto_motocicletas,314,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,hurto_motocicletas,246,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,hurto_motocicletas,142,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,hurto_motocicletas,109,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,hurto_personas,7067,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,hurto_personas,7615,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,hurto_personas,4274,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,hurto_personas,4217,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,hurto_personas,6456,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,hurto_personas,3694,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,hurto_personas,3294,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,hurto_personas,2797,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,hurto_personas,2970,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,hurto_residencias,200,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,hurto_residencias,129,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,hurto_residencias,128,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,hurto_residencias,110,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,hurto_residencias,94,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,hurto_residencias,69,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,hurto_residencias,59,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,hurto_residencias,68,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,hurto_residencias,88,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,lesiones_personales,557,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,lesiones_personales,369,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,lesiones_personales,272,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,lesiones_personales,317,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,lesiones_personales,384,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,lesiones_personales,316,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,lesiones_personales,256,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,lesiones_personales,316,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2018,violencia_intrafamiliar,292,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2019,violencia_intrafamiliar,203,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2020,violencia_intrafamiliar,304,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2021,violencia_intrafamiliar,362,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2022,violencia_intrafamiliar,466,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2023,violencia_intrafamiliar,276,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2024,violencia_intrafamiliar,230,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2025,violencia_intrafamiliar,561,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,03,Santa Fe,2026,violencia_intrafamiliar,966,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,delitos_sexuales,145,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,delitos_sexuales,142,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,delitos_sexuales,134,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,delitos_sexuales,164,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,delitos_sexuales,185,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,delitos_sexuales,158,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,delitos_sexuales,164,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,delitos_sexuales,207,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,delitos_sexuales,201,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,homicidios,21,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,homicidios,11,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,homicidios,25,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,homicidios,25,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,homicidios,15,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,homicidios,18,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,homicidios,20,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,homicidios,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,homicidios,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,hurto_automotores,118,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,hurto_automotores,102,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,hurto_automotores,94,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,hurto_automotores,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,hurto_automotores,83,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,hurto_automotores,77,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,hurto_automotores,44,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,hurto_automotores,51,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,hurto_automotores,51,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,hurto_bicicletas,28,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,hurto_bicicletas,23,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,hurto_bicicletas,55,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,hurto_bicicletas,103,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,hurto_bicicletas,53,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,hurto_bicicletas,65,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,hurto_bicicletas,48,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,hurto_bicicletas,40,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,hurto_bicicletas,50,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,hurto_celulares,182,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,hurto_celulares,180,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,hurto_celulares,180,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,hurto_celulares,230,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,hurto_celulares,211,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,hurto_celulares,150,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,hurto_celulares,128,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,hurto_celulares,71,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,hurto_celulares,97,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,hurto_comercio,667,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,hurto_comercio,671,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,hurto_comercio,603,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,hurto_comercio,768,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,hurto_comercio,616,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,hurto_comercio,619,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,hurto_comercio,512,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,hurto_comercio,457,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,hurto_comercio,454,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,hurto_motocicletas,386,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,hurto_motocicletas,541,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,hurto_motocicletas,427,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,hurto_motocicletas,256,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,hurto_motocicletas,275,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,hurto_motocicletas,247,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,hurto_motocicletas,169,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,hurto_motocicletas,137,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,hurto_motocicletas,101,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,hurto_personas,2265,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,hurto_personas,2830,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,hurto_personas,2489,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,hurto_personas,3160,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,hurto_personas,2812,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,hurto_personas,1661,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,hurto_personas,1427,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,hurto_personas,1321,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,hurto_personas,1340,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,hurto_residencias,453,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,hurto_residencias,442,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,hurto_residencias,302,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,hurto_residencias,331,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,hurto_residencias,205,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,hurto_residencias,146,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,hurto_residencias,98,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,hurto_residencias,88,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,hurto_residencias,95,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,lesiones_personales,797,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,lesiones_personales,696,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,lesiones_personales,416,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,lesiones_personales,580,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,lesiones_personales,538,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,lesiones_personales,424,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,lesiones_personales,368,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,lesiones_personales,478,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2018,violencia_intrafamiliar,1103,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2019,violencia_intrafamiliar,1000,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2020,violencia_intrafamiliar,1132,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2021,violencia_intrafamiliar,952,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2022,violencia_intrafamiliar,977,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2023,violencia_intrafamiliar,702,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2024,violencia_intrafamiliar,692,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2025,violencia_intrafamiliar,715,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,04,San Cristóbal,2026,violencia_intrafamiliar,1483,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,delitos_sexuales,122,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,delitos_sexuales,216,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,delitos_sexuales,155,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,delitos_sexuales,171,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,delitos_sexuales,186,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,delitos_sexuales,154,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,delitos_sexuales,303,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,delitos_sexuales,198,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,delitos_sexuales,133,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,homicidios,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,homicidios,35,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,homicidios,22,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,homicidios,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,homicidios,32,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,homicidios,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,homicidios,42,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,homicidios,25,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,homicidios,31,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,hurto_automotores,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,hurto_automotores,90,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,hurto_automotores,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,hurto_automotores,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,hurto_automotores,71,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,hurto_automotores,51,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,hurto_automotores,62,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,hurto_automotores,46,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,hurto_automotores,32,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,hurto_bicicletas,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,hurto_bicicletas,16,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,hurto_bicicletas,19,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,hurto_bicicletas,46,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,hurto_bicicletas,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,hurto_bicicletas,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,hurto_bicicletas,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,hurto_bicicletas,34,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,hurto_bicicletas,22,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,hurto_celulares,154,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,hurto_celulares,130,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,hurto_celulares,90,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,hurto_celulares,140,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,hurto_celulares,176,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,hurto_celulares,81,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,hurto_celulares,97,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,hurto_celulares,83,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,hurto_celulares,75,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,hurto_comercio,466,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,hurto_comercio,481,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,hurto_comercio,435,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,hurto_comercio,501,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,hurto_comercio,489,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,hurto_comercio,454,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,hurto_comercio,340,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,hurto_comercio,304,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,hurto_comercio,264,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,hurto_motocicletas,374,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,hurto_motocicletas,451,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,hurto_motocicletas,327,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,hurto_motocicletas,266,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,hurto_motocicletas,185,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,hurto_motocicletas,149,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,hurto_motocicletas,113,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,hurto_motocicletas,104,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,hurto_motocicletas,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,hurto_personas,1642,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,hurto_personas,2164,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,hurto_personas,1733,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,hurto_personas,2079,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,hurto_personas,2261,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,hurto_personas,1309,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,hurto_personas,1055,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,hurto_personas,1143,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,hurto_personas,894,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,hurto_residencias,459,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,hurto_residencias,527,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,hurto_residencias,345,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,hurto_residencias,336,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,hurto_residencias,230,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,hurto_residencias,141,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,hurto_residencias,108,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,hurto_residencias,61,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,hurto_residencias,86,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,lesiones_personales,729,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,lesiones_personales,672,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,lesiones_personales,471,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,lesiones_personales,578,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,lesiones_personales,558,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,lesiones_personales,341,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,lesiones_personales,348,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,lesiones_personales,375,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2018,violencia_intrafamiliar,988,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2019,violencia_intrafamiliar,781,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2020,violencia_intrafamiliar,970,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2021,violencia_intrafamiliar,876,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2022,violencia_intrafamiliar,966,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2023,violencia_intrafamiliar,587,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2024,violencia_intrafamiliar,734,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2025,violencia_intrafamiliar,623,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,05,Usme,2026,violencia_intrafamiliar,1184,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,delitos_sexuales,55,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,delitos_sexuales,70,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,delitos_sexuales,54,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,delitos_sexuales,49,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,delitos_sexuales,79,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,delitos_sexuales,55,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,delitos_sexuales,83,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,delitos_sexuales,105,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,delitos_sexuales,75,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,homicidios,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,homicidios,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,homicidios,6,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,homicidios,12,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,homicidios,7,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,homicidios,11,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,homicidios,11,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,homicidios,10,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,homicidios,10,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,hurto_automotores,72,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,hurto_automotores,80,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,hurto_automotores,60,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,hurto_automotores,38,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,hurto_automotores,63,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,hurto_automotores,22,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,hurto_automotores,34,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,hurto_automotores,47,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,hurto_automotores,44,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,hurto_bicicletas,48,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,hurto_bicicletas,52,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,hurto_bicicletas,91,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,hurto_bicicletas,101,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,hurto_bicicletas,70,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,hurto_bicicletas,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,hurto_bicicletas,55,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,hurto_bicicletas,74,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,hurto_bicicletas,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,hurto_celulares,94,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,hurto_celulares,70,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,hurto_celulares,82,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,hurto_celulares,86,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,hurto_celulares,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,hurto_celulares,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,hurto_celulares,48,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,hurto_celulares,31,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,hurto_celulares,39,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,hurto_comercio,547,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,hurto_comercio,574,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,hurto_comercio,423,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,hurto_comercio,491,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,hurto_comercio,468,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,hurto_comercio,324,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,hurto_comercio,337,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,hurto_comercio,361,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,hurto_comercio,266,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,hurto_motocicletas,338,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,hurto_motocicletas,329,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,hurto_motocicletas,276,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,hurto_motocicletas,192,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,hurto_motocicletas,154,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,hurto_motocicletas,75,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,hurto_motocicletas,63,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,hurto_motocicletas,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,hurto_motocicletas,66,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,hurto_personas,2074,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,hurto_personas,2656,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,hurto_personas,1874,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,hurto_personas,2018,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,hurto_personas,2209,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,hurto_personas,964,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,hurto_personas,976,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,hurto_personas,1122,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,hurto_personas,888,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,hurto_residencias,252,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,hurto_residencias,209,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,hurto_residencias,145,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,hurto_residencias,199,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,hurto_residencias,69,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,hurto_residencias,37,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,hurto_residencias,44,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,hurto_residencias,59,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,hurto_residencias,55,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,lesiones_personales,384,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,lesiones_personales,453,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,lesiones_personales,211,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,lesiones_personales,225,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,lesiones_personales,226,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,lesiones_personales,165,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,lesiones_personales,231,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,lesiones_personales,209,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2018,violencia_intrafamiliar,437,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2019,violencia_intrafamiliar,440,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2020,violencia_intrafamiliar,374,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2021,violencia_intrafamiliar,289,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2022,violencia_intrafamiliar,458,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2023,violencia_intrafamiliar,213,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2024,violencia_intrafamiliar,245,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2025,violencia_intrafamiliar,391,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,06,Tunjuelito,2026,violencia_intrafamiliar,420,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,delitos_sexuales,195,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,delitos_sexuales,218,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,delitos_sexuales,204,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,delitos_sexuales,223,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,delitos_sexuales,301,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,delitos_sexuales,227,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,delitos_sexuales,261,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,delitos_sexuales,245,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,delitos_sexuales,214,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,homicidios,47,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,homicidios,37,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,homicidios,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,homicidios,52,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,homicidios,39,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,homicidios,50,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,homicidios,46,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,homicidios,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,homicidios,37,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,hurto_automotores,130,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,hurto_automotores,164,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,hurto_automotores,158,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,hurto_automotores,190,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,hurto_automotores,202,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,hurto_automotores,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,hurto_automotores,93,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,hurto_automotores,69,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,hurto_automotores,68,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,hurto_bicicletas,173,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,hurto_bicicletas,239,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,hurto_bicicletas,331,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,hurto_bicicletas,427,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,hurto_bicicletas,277,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,hurto_bicicletas,234,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,hurto_bicicletas,209,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,hurto_bicicletas,276,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,hurto_bicicletas,309,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,hurto_celulares,414,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,hurto_celulares,444,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,hurto_celulares,312,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,hurto_celulares,388,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,hurto_celulares,382,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,hurto_celulares,182,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,hurto_celulares,214,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,hurto_celulares,211,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,hurto_celulares,165,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,hurto_comercio,1116,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,hurto_comercio,1162,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,hurto_comercio,807,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,hurto_comercio,1259,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,hurto_comercio,1149,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,hurto_comercio,1027,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,hurto_comercio,757,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,hurto_comercio,633,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,hurto_comercio,753,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,hurto_motocicletas,639,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,hurto_motocicletas,623,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,hurto_motocicletas,418,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,hurto_motocicletas,411,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,hurto_motocicletas,398,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,hurto_motocicletas,232,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,hurto_motocicletas,175,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,hurto_motocicletas,109,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,hurto_motocicletas,120,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,hurto_personas,3949,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,hurto_personas,5065,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,hurto_personas,3808,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,hurto_personas,5275,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,hurto_personas,5392,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,hurto_personas,2857,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,hurto_personas,2239,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,hurto_personas,2305,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,hurto_personas,2587,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,hurto_residencias,854,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,hurto_residencias,1048,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,hurto_residencias,604,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,hurto_residencias,645,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,hurto_residencias,355,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,hurto_residencias,150,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,hurto_residencias,142,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,hurto_residencias,114,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,hurto_residencias,145,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,lesiones_personales,926,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,lesiones_personales,957,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,lesiones_personales,548,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,lesiones_personales,888,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,lesiones_personales,805,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,lesiones_personales,585,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,lesiones_personales,535,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,lesiones_personales,570,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2018,violencia_intrafamiliar,2032,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2019,violencia_intrafamiliar,1777,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2020,violencia_intrafamiliar,2138,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2021,violencia_intrafamiliar,1682,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2022,violencia_intrafamiliar,1705,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2023,violencia_intrafamiliar,1158,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2024,violencia_intrafamiliar,1314,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2025,violencia_intrafamiliar,910,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,07,Bosa,2026,violencia_intrafamiliar,2135,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,delitos_sexuales,266,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,delitos_sexuales,284,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,delitos_sexuales,242,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,delitos_sexuales,272,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,delitos_sexuales,325,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,delitos_sexuales,233,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,delitos_sexuales,355,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,delitos_sexuales,279,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,delitos_sexuales,241,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,homicidios,60,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,homicidios,54,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,homicidios,51,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,homicidios,60,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,homicidios,55,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,homicidios,60,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,homicidios,77,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,homicidios,70,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,homicidios,56,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,hurto_automotores,606,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,hurto_automotores,674,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,hurto_automotores,462,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,hurto_automotores,664,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,hurto_automotores,643,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,hurto_automotores,398,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,hurto_automotores,494,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,hurto_automotores,266,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,hurto_automotores,190,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,hurto_bicicletas,364,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,hurto_bicicletas,477,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,hurto_bicicletas,664,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,hurto_bicicletas,666,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,hurto_bicicletas,583,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,hurto_bicicletas,643,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,hurto_bicicletas,530,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,hurto_bicicletas,373,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,hurto_bicicletas,341,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,hurto_celulares,654,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,hurto_celulares,696,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,hurto_celulares,500,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,hurto_celulares,666,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,hurto_celulares,817,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,hurto_celulares,433,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,hurto_celulares,502,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,hurto_celulares,345,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,hurto_celulares,288,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,hurto_comercio,2901,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,hurto_comercio,2858,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,hurto_comercio,1941,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,hurto_comercio,2430,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,hurto_comercio,2464,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,hurto_comercio,2585,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,hurto_comercio,1644,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,hurto_comercio,1165,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,hurto_comercio,1029,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,hurto_motocicletas,1827,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,hurto_motocicletas,1751,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,hurto_motocicletas,1045,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,hurto_motocicletas,1066,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,hurto_motocicletas,780,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,hurto_motocicletas,496,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,hurto_motocicletas,417,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,hurto_motocicletas,294,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,hurto_motocicletas,211,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,hurto_personas,10690,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,hurto_personas,13142,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,hurto_personas,9045,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,hurto_personas,10340,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,hurto_personas,11737,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,hurto_personas,7458,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,hurto_personas,5368,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,hurto_personas,4682,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,hurto_personas,4068,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,hurto_residencias,1502,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,hurto_residencias,1578,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,hurto_residencias,1143,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,hurto_residencias,1205,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,hurto_residencias,647,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,hurto_residencias,420,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,hurto_residencias,302,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,hurto_residencias,213,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,hurto_residencias,255,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,lesiones_personales,1456,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,lesiones_personales,1481,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,lesiones_personales,791,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,lesiones_personales,1246,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,lesiones_personales,1194,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,lesiones_personales,865,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,lesiones_personales,943,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,lesiones_personales,776,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2018,violencia_intrafamiliar,1953,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2019,violencia_intrafamiliar,1936,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2020,violencia_intrafamiliar,2082,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2021,violencia_intrafamiliar,1719,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2022,violencia_intrafamiliar,2087,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2023,violencia_intrafamiliar,1011,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2024,violencia_intrafamiliar,1756,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2025,violencia_intrafamiliar,1584,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,08,Kennedy,2026,violencia_intrafamiliar,2447,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,delitos_sexuales,85,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,delitos_sexuales,91,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,delitos_sexuales,71,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,delitos_sexuales,77,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,delitos_sexuales,110,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,delitos_sexuales,70,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,delitos_sexuales,110,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,delitos_sexuales,119,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,delitos_sexuales,158,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,homicidios,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,homicidios,9,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,homicidios,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,homicidios,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,homicidios,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,homicidios,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,homicidios,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,homicidios,18,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,homicidios,11,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,hurto_automotores,118,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,hurto_automotores,116,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,hurto_automotores,102,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,hurto_automotores,96,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,hurto_automotores,129,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,hurto_automotores,59,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,hurto_automotores,45,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,hurto_automotores,48,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,hurto_automotores,50,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,hurto_bicicletas,186,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,hurto_bicicletas,266,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,hurto_bicicletas,255,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,hurto_bicicletas,271,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,hurto_bicicletas,306,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,hurto_bicicletas,251,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,hurto_bicicletas,278,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,hurto_bicicletas,262,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,hurto_bicicletas,299,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,hurto_celulares,170,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,hurto_celulares,120,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,hurto_celulares,128,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,hurto_celulares,88,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,hurto_celulares,151,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,hurto_celulares,79,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,hurto_celulares,48,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,hurto_celulares,25,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,hurto_celulares,97,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,hurto_comercio,1464,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,hurto_comercio,1650,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,hurto_comercio,1158,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,hurto_comercio,1327,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,hurto_comercio,1639,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,hurto_comercio,1440,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,hurto_comercio,1174,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,hurto_comercio,930,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,hurto_comercio,827,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,hurto_motocicletas,1156,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,hurto_motocicletas,1173,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,hurto_motocicletas,722,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,hurto_motocicletas,641,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,hurto_motocicletas,831,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,hurto_motocicletas,469,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,hurto_motocicletas,294,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,hurto_motocicletas,245,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,hurto_motocicletas,179,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,hurto_personas,5940,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,hurto_personas,8009,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,hurto_personas,5305,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,hurto_personas,5651,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,hurto_personas,7603,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,hurto_personas,3633,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,hurto_personas,3556,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,hurto_personas,3282,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,hurto_personas,2901,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,hurto_residencias,551,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,hurto_residencias,570,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,hurto_residencias,475,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,hurto_residencias,424,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,hurto_residencias,308,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,hurto_residencias,160,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,hurto_residencias,157,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,hurto_residencias,137,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,hurto_residencias,102,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,lesiones_personales,477,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,lesiones_personales,402,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,lesiones_personales,191,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,lesiones_personales,347,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,lesiones_personales,464,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,lesiones_personales,283,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,lesiones_personales,206,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,lesiones_personales,198,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2018,violencia_intrafamiliar,534,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2019,violencia_intrafamiliar,631,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2020,violencia_intrafamiliar,563,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2021,violencia_intrafamiliar,462,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2022,violencia_intrafamiliar,717,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2023,violencia_intrafamiliar,331,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2024,violencia_intrafamiliar,1013,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2025,violencia_intrafamiliar,954,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,09,Fontibón,2026,violencia_intrafamiliar,1074,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,delitos_sexuales,170,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,delitos_sexuales,211,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,delitos_sexuales,151,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,delitos_sexuales,209,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,delitos_sexuales,247,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,delitos_sexuales,152,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,delitos_sexuales,245,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,delitos_sexuales,307,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,delitos_sexuales,248,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,homicidios,16,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,homicidios,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,homicidios,17,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,homicidios,17,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,homicidios,21,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,homicidios,31,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,homicidios,20,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,homicidios,13,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,homicidios,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,hurto_automotores,384,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,hurto_automotores,406,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,hurto_automotores,298,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,hurto_automotores,376,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,hurto_automotores,380,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,hurto_automotores,205,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,hurto_automotores,171,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,hurto_automotores,142,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,hurto_automotores,142,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,hurto_bicicletas,421,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,hurto_bicicletas,531,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,hurto_bicicletas,568,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,hurto_bicicletas,621,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,hurto_bicicletas,480,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,hurto_bicicletas,575,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,hurto_bicicletas,555,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,hurto_bicicletas,485,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,hurto_bicicletas,410,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,hurto_celulares,376,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,hurto_celulares,398,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,hurto_celulares,224,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,hurto_celulares,390,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,hurto_celulares,432,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,hurto_celulares,263,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,hurto_celulares,239,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,hurto_celulares,227,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,hurto_celulares,145,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,hurto_comercio,2405,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,hurto_comercio,2409,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,hurto_comercio,1818,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,hurto_comercio,2283,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,hurto_comercio,2404,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,hurto_comercio,2443,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,hurto_comercio,1768,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,hurto_comercio,1487,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,hurto_comercio,1410,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,hurto_motocicletas,1751,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,hurto_motocicletas,1758,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,hurto_motocicletas,1121,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,hurto_motocicletas,878,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,hurto_motocicletas,872,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,hurto_motocicletas,572,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,hurto_motocicletas,401,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,hurto_motocicletas,332,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,hurto_motocicletas,307,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,hurto_personas,9424,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,hurto_personas,12185,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,hurto_personas,8605,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,hurto_personas,10215,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,hurto_personas,11373,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,hurto_personas,6659,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,hurto_personas,5360,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,hurto_personas,5279,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,hurto_personas,4556,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,hurto_residencias,1541,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,hurto_residencias,1719,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,hurto_residencias,994,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,hurto_residencias,1037,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,hurto_residencias,599,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,hurto_residencias,609,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,hurto_residencias,318,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,hurto_residencias,299,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,hurto_residencias,390,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,lesiones_personales,1027,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,lesiones_personales,730,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,lesiones_personales,453,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,lesiones_personales,698,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,lesiones_personales,868,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,lesiones_personales,564,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,lesiones_personales,435,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,lesiones_personales,520,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2018,violencia_intrafamiliar,1431,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2019,violencia_intrafamiliar,1141,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2020,violencia_intrafamiliar,1644,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2021,violencia_intrafamiliar,1317,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2022,violencia_intrafamiliar,1639,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2023,violencia_intrafamiliar,640,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2024,violencia_intrafamiliar,1427,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2025,violencia_intrafamiliar,1801,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,10,Engativá,2026,violencia_intrafamiliar,2043,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,delitos_sexuales,229,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,delitos_sexuales,243,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,delitos_sexuales,253,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,delitos_sexuales,339,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,delitos_sexuales,327,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,delitos_sexuales,196,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,delitos_sexuales,358,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,delitos_sexuales,304,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,delitos_sexuales,257,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,homicidios,34,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,homicidios,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,homicidios,28,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,homicidios,21,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,homicidios,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,homicidios,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,homicidios,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,homicidios,34,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,homicidios,31,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,hurto_automotores,228,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,hurto_automotores,278,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,hurto_automotores,180,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,hurto_automotores,198,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,hurto_automotores,266,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,hurto_automotores,177,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,hurto_automotores,107,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,hurto_automotores,103,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,hurto_automotores,97,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,hurto_bicicletas,493,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,hurto_bicicletas,428,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,hurto_bicicletas,514,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,hurto_bicicletas,524,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,hurto_bicicletas,528,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,hurto_bicicletas,521,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,hurto_bicicletas,536,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,hurto_bicicletas,513,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,hurto_bicicletas,465,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,hurto_celulares,260,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,hurto_celulares,308,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,hurto_celulares,274,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,hurto_celulares,358,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,hurto_celulares,385,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,hurto_celulares,215,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,hurto_celulares,210,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,hurto_celulares,136,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,hurto_celulares,114,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,hurto_comercio,2715,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,hurto_comercio,2523,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,hurto_comercio,1887,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,hurto_comercio,2190,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,hurto_comercio,2489,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,hurto_comercio,2879,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,hurto_comercio,1982,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,hurto_comercio,1699,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,hurto_comercio,1416,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,hurto_motocicletas,1746,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,hurto_motocicletas,1783,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,hurto_motocicletas,1279,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,hurto_motocicletas,994,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,hurto_motocicletas,960,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,hurto_motocicletas,660,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,hurto_motocicletas,544,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,hurto_motocicletas,457,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,hurto_motocicletas,388,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,hurto_personas,11043,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,hurto_personas,13089,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,hurto_personas,8755,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,hurto_personas,9240,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,hurto_personas,11820,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,hurto_personas,7681,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,hurto_personas,5849,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,hurto_personas,5762,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,hurto_personas,4858,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,hurto_residencias,1696,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,hurto_residencias,1627,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,hurto_residencias,1191,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,hurto_residencias,1249,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,hurto_residencias,821,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,hurto_residencias,495,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,hurto_residencias,349,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,hurto_residencias,338,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,hurto_residencias,402,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,lesiones_personales,1278,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,lesiones_personales,833,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,lesiones_personales,595,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,lesiones_personales,843,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,lesiones_personales,1042,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,lesiones_personales,767,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,lesiones_personales,574,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,lesiones_personales,727,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2018,violencia_intrafamiliar,1681,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2019,violencia_intrafamiliar,1578,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2020,violencia_intrafamiliar,1862,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2021,violencia_intrafamiliar,1969,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2022,violencia_intrafamiliar,1699,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2023,violencia_intrafamiliar,1326,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2024,violencia_intrafamiliar,2133,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2025,violencia_intrafamiliar,1708,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,11,Suba,2026,violencia_intrafamiliar,2327,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,delitos_sexuales,46,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,delitos_sexuales,45,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,delitos_sexuales,42,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,delitos_sexuales,47,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,delitos_sexuales,90,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,delitos_sexuales,44,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,delitos_sexuales,87,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,delitos_sexuales,79,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,delitos_sexuales,75,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,homicidios,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,homicidios,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,homicidios,7,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,homicidios,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,homicidios,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,homicidios,13,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,homicidios,11,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,homicidios,7,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,hurto_automotores,78,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,hurto_automotores,100,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,hurto_automotores,62,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,hurto_automotores,76,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,hurto_automotores,66,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,hurto_automotores,37,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,hurto_automotores,46,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,hurto_automotores,42,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,hurto_automotores,52,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,hurto_bicicletas,153,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,hurto_bicicletas,161,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,hurto_bicicletas,146,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,hurto_bicicletas,171,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,hurto_bicicletas,136,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,hurto_bicicletas,152,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,hurto_bicicletas,159,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,hurto_bicicletas,149,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,hurto_bicicletas,101,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,hurto_celulares,52,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,hurto_celulares,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,hurto_celulares,56,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,hurto_celulares,82,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,hurto_celulares,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,hurto_celulares,45,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,hurto_celulares,52,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,hurto_celulares,65,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,hurto_celulares,50,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,hurto_comercio,1124,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,hurto_comercio,1095,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,hurto_comercio,820,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,hurto_comercio,782,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,hurto_comercio,901,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,hurto_comercio,920,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,hurto_comercio,885,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,hurto_comercio,686,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,hurto_comercio,619,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,hurto_motocicletas,672,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,hurto_motocicletas,746,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,hurto_motocicletas,532,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,hurto_motocicletas,515,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,hurto_motocicletas,465,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,hurto_motocicletas,251,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,hurto_motocicletas,254,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,hurto_motocicletas,196,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,hurto_motocicletas,201,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,hurto_personas,4306,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,hurto_personas,5533,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,hurto_personas,3363,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,hurto_personas,3644,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,hurto_personas,4468,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,hurto_personas,2971,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,hurto_personas,2474,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,hurto_personas,2077,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,hurto_personas,1867,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,hurto_residencias,399,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,hurto_residencias,424,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,hurto_residencias,253,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,hurto_residencias,257,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,hurto_residencias,196,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,hurto_residencias,100,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,hurto_residencias,87,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,hurto_residencias,103,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,hurto_residencias,110,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,lesiones_personales,362,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,lesiones_personales,255,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,lesiones_personales,188,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,lesiones_personales,218,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,lesiones_personales,288,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,lesiones_personales,236,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,lesiones_personales,198,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,lesiones_personales,216,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2018,violencia_intrafamiliar,267,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2019,violencia_intrafamiliar,162,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2020,violencia_intrafamiliar,276,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2021,violencia_intrafamiliar,269,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2022,violencia_intrafamiliar,243,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2023,violencia_intrafamiliar,152,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2024,violencia_intrafamiliar,361,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2025,violencia_intrafamiliar,508,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,12,Barrios Unidos,2026,violencia_intrafamiliar,542,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,delitos_sexuales,54,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,delitos_sexuales,69,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,delitos_sexuales,44,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,delitos_sexuales,49,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,delitos_sexuales,38,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,delitos_sexuales,67,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,delitos_sexuales,199,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,delitos_sexuales,123,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,delitos_sexuales,90,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,homicidios,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,homicidios,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,homicidios,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,homicidios,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,homicidios,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,homicidios,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,homicidios,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,hurto_automotores,76,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,hurto_automotores,74,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,hurto_automotores,40,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,hurto_automotores,54,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,hurto_automotores,56,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,hurto_automotores,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,hurto_automotores,62,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,hurto_automotores,43,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,hurto_automotores,47,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,hurto_bicicletas,203,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,hurto_bicicletas,213,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,hurto_bicicletas,157,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,hurto_bicicletas,210,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,hurto_bicicletas,138,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,hurto_bicicletas,211,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,hurto_bicicletas,147,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,hurto_bicicletas,154,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,hurto_bicicletas,147,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,hurto_celulares,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,hurto_celulares,46,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,hurto_celulares,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,hurto_celulares,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,hurto_celulares,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,hurto_celulares,44,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,hurto_celulares,63,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,hurto_celulares,37,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,hurto_celulares,40,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,hurto_comercio,1759,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,hurto_comercio,1628,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,hurto_comercio,1000,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,hurto_comercio,955,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,hurto_comercio,1473,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,hurto_comercio,1774,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,hurto_comercio,1259,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,hurto_comercio,1119,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,hurto_comercio,1251,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,hurto_motocicletas,1116,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,hurto_motocicletas,945,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,hurto_motocicletas,652,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,hurto_motocicletas,424,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,hurto_motocicletas,529,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,hurto_motocicletas,271,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,hurto_motocicletas,246,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,hurto_motocicletas,247,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,hurto_motocicletas,215,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,hurto_personas,7111,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,hurto_personas,8147,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,hurto_personas,4452,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,hurto_personas,4270,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,hurto_personas,6372,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,hurto_personas,4793,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,hurto_personas,3270,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,hurto_personas,3734,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,hurto_personas,3404,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,hurto_residencias,510,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,hurto_residencias,612,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,hurto_residencias,433,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,hurto_residencias,370,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,hurto_residencias,266,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,hurto_residencias,203,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,hurto_residencias,149,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,hurto_residencias,150,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,hurto_residencias,141,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,lesiones_personales,440,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,lesiones_personales,206,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,lesiones_personales,105,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,lesiones_personales,149,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,lesiones_personales,206,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,lesiones_personales,145,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,lesiones_personales,206,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,lesiones_personales,213,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2018,violencia_intrafamiliar,255,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2019,violencia_intrafamiliar,103,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2020,violencia_intrafamiliar,177,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2021,violencia_intrafamiliar,246,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2022,violencia_intrafamiliar,283,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2023,violencia_intrafamiliar,119,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2024,violencia_intrafamiliar,338,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2025,violencia_intrafamiliar,553,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,13,Teusaquillo,2026,violencia_intrafamiliar,419,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,delitos_sexuales,49,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,delitos_sexuales,49,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,delitos_sexuales,51,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,delitos_sexuales,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,delitos_sexuales,156,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,delitos_sexuales,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,delitos_sexuales,340,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,delitos_sexuales,131,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,delitos_sexuales,92,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,homicidios,28,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,homicidios,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,homicidios,26,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,homicidios,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,homicidios,23,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,homicidios,18,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,homicidios,13,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,homicidios,20,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,homicidios,21,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,hurto_automotores,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,hurto_automotores,80,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,hurto_automotores,42,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,hurto_automotores,68,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,hurto_automotores,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,hurto_automotores,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,hurto_automotores,52,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,hurto_automotores,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,hurto_automotores,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,hurto_bicicletas,81,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,hurto_bicicletas,63,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,hurto_bicicletas,63,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,hurto_bicicletas,139,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,hurto_bicicletas,86,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,hurto_bicicletas,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,hurto_bicicletas,183,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,hurto_bicicletas,91,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,hurto_bicicletas,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,hurto_celulares,66,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,hurto_celulares,48,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,hurto_celulares,50,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,hurto_celulares,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,hurto_celulares,118,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,hurto_celulares,66,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,hurto_celulares,63,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,hurto_celulares,41,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,hurto_celulares,48,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,hurto_comercio,1059,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,hurto_comercio,1078,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,hurto_comercio,765,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,hurto_comercio,895,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,hurto_comercio,886,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,hurto_comercio,999,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,hurto_comercio,1037,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,hurto_comercio,654,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,hurto_comercio,656,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,hurto_motocicletas,642,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,hurto_motocicletas,528,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,hurto_motocicletas,380,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,hurto_motocicletas,373,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,hurto_motocicletas,479,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,hurto_motocicletas,277,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,hurto_motocicletas,381,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,hurto_motocicletas,154,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,hurto_motocicletas,129,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,hurto_personas,3967,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,hurto_personas,5084,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,hurto_personas,3200,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,hurto_personas,3727,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,hurto_personas,4039,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,hurto_personas,2833,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,hurto_personas,4665,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,hurto_personas,2167,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,hurto_personas,1957,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,hurto_residencias,208,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,hurto_residencias,178,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,hurto_residencias,162,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,hurto_residencias,197,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,hurto_residencias,143,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,hurto_residencias,75,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,hurto_residencias,69,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,hurto_residencias,53,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,hurto_residencias,43,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,lesiones_personales,440,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,lesiones_personales,261,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,lesiones_personales,210,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,lesiones_personales,292,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,lesiones_personales,432,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,lesiones_personales,294,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,lesiones_personales,323,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,lesiones_personales,252,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2018,violencia_intrafamiliar,252,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2019,violencia_intrafamiliar,152,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2020,violencia_intrafamiliar,218,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2021,violencia_intrafamiliar,243,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2022,violencia_intrafamiliar,424,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2023,violencia_intrafamiliar,179,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2024,violencia_intrafamiliar,905,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2025,violencia_intrafamiliar,372,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,14,Los Mártires,2026,violencia_intrafamiliar,446,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,delitos_sexuales,35,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,delitos_sexuales,29,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,delitos_sexuales,27,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,delitos_sexuales,39,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,delitos_sexuales,50,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,delitos_sexuales,25,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,delitos_sexuales,65,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,delitos_sexuales,43,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,delitos_sexuales,39,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,homicidios,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,homicidios,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,homicidios,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,homicidios,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,homicidios,7,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,homicidios,6,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,hurto_automotores,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,hurto_automotores,114,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,hurto_automotores,80,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,hurto_automotores,96,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,hurto_automotores,73,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,hurto_automotores,62,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,hurto_automotores,55,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,hurto_automotores,32,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,hurto_automotores,25,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,hurto_bicicletas,59,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,hurto_bicicletas,35,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,hurto_bicicletas,72,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,hurto_bicicletas,70,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,hurto_bicicletas,56,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,hurto_bicicletas,45,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,hurto_bicicletas,40,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,hurto_bicicletas,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,hurto_bicicletas,50,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,hurto_celulares,38,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,hurto_celulares,62,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,hurto_celulares,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,hurto_celulares,82,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,hurto_celulares,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,hurto_celulares,31,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,hurto_celulares,68,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,hurto_celulares,39,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,hurto_celulares,41,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,hurto_comercio,492,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,hurto_comercio,518,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,hurto_comercio,396,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,hurto_comercio,577,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,hurto_comercio,481,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,hurto_comercio,541,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,hurto_comercio,379,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,hurto_comercio,321,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,hurto_comercio,328,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,hurto_motocicletas,571,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,hurto_motocicletas,588,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,hurto_motocicletas,364,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,hurto_motocicletas,356,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,hurto_motocicletas,374,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,hurto_motocicletas,156,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,hurto_motocicletas,146,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,hurto_motocicletas,119,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,hurto_motocicletas,136,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,hurto_personas,1621,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,hurto_personas,2337,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,hurto_personas,1639,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,hurto_personas,2143,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,hurto_personas,2308,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,hurto_personas,1428,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,hurto_personas,1057,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,hurto_personas,913,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,hurto_personas,946,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,hurto_residencias,184,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,hurto_residencias,167,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,hurto_residencias,154,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,hurto_residencias,167,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,hurto_residencias,83,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,hurto_residencias,53,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,hurto_residencias,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,hurto_residencias,33,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,hurto_residencias,44,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,lesiones_personales,240,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,lesiones_personales,185,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,lesiones_personales,97,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,lesiones_personales,173,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,lesiones_personales,171,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,lesiones_personales,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,lesiones_personales,153,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,lesiones_personales,98,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2018,violencia_intrafamiliar,193,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2019,violencia_intrafamiliar,140,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2020,violencia_intrafamiliar,205,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2021,violencia_intrafamiliar,175,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2022,violencia_intrafamiliar,258,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2023,violencia_intrafamiliar,123,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2024,violencia_intrafamiliar,143,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2025,violencia_intrafamiliar,164,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,15,Antonio Nariño,2026,violencia_intrafamiliar,289,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,delitos_sexuales,91,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,delitos_sexuales,123,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,delitos_sexuales,77,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,delitos_sexuales,80,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,delitos_sexuales,143,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,delitos_sexuales,100,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,delitos_sexuales,94,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,delitos_sexuales,198,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,delitos_sexuales,214,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,homicidios,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,homicidios,12,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,homicidios,31,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,homicidios,9,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,homicidios,6,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,homicidios,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,homicidios,11,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,homicidios,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,homicidios,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,hurto_automotores,300,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,hurto_automotores,304,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,hurto_automotores,204,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,hurto_automotores,208,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,hurto_automotores,268,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,hurto_automotores,122,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,hurto_automotores,136,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,hurto_automotores,168,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,hurto_automotores,85,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,hurto_bicicletas,133,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,hurto_bicicletas,119,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,hurto_bicicletas,167,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,hurto_bicicletas,192,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,hurto_bicicletas,128,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,hurto_bicicletas,140,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,hurto_bicicletas,130,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,hurto_bicicletas,172,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,hurto_bicicletas,154,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,hurto_celulares,152,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,hurto_celulares,166,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,hurto_celulares,88,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,hurto_celulares,192,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,hurto_celulares,218,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,hurto_celulares,108,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,hurto_celulares,117,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,hurto_celulares,94,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,hurto_celulares,83,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,hurto_comercio,1183,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,hurto_comercio,1057,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,hurto_comercio,897,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,hurto_comercio,1114,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,hurto_comercio,1202,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,hurto_comercio,1035,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,hurto_comercio,768,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,hurto_comercio,814,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,hurto_comercio,659,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,hurto_motocicletas,975,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,hurto_motocicletas,1339,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,hurto_motocicletas,602,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,hurto_motocicletas,683,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,hurto_motocicletas,652,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,hurto_motocicletas,307,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,hurto_motocicletas,303,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,hurto_motocicletas,255,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,hurto_motocicletas,253,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,hurto_personas,4462,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,hurto_personas,5674,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,hurto_personas,3997,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,hurto_personas,4673,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,hurto_personas,5425,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,hurto_personas,3063,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,hurto_personas,2426,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,hurto_personas,2957,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,hurto_personas,2685,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,hurto_residencias,546,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,hurto_residencias,417,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,hurto_residencias,475,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,hurto_residencias,418,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,hurto_residencias,223,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,hurto_residencias,139,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,hurto_residencias,105,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,hurto_residencias,127,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,hurto_residencias,115,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,lesiones_personales,634,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,lesiones_personales,408,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,lesiones_personales,245,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,lesiones_personales,332,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,lesiones_personales,466,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,lesiones_personales,368,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,lesiones_personales,295,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,lesiones_personales,342,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2018,violencia_intrafamiliar,422,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2019,violencia_intrafamiliar,413,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2020,violencia_intrafamiliar,518,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2021,violencia_intrafamiliar,651,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2022,violencia_intrafamiliar,487,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2023,violencia_intrafamiliar,378,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2024,violencia_intrafamiliar,264,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2025,violencia_intrafamiliar,919,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,16,Puente Aranda,2026,violencia_intrafamiliar,1186,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,delitos_sexuales,19,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,delitos_sexuales,75,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,delitos_sexuales,77,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,delitos_sexuales,107,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,delitos_sexuales,60,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,delitos_sexuales,20,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,delitos_sexuales,51,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,delitos_sexuales,35,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,delitos_sexuales,20,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,homicidios,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,homicidios,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,homicidios,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,homicidios,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,homicidios,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,homicidios,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,homicidios,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,hurto_automotores,10,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,hurto_automotores,18,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,hurto_automotores,16,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,hurto_automotores,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,hurto_automotores,18,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,hurto_automotores,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,hurto_automotores,6,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,hurto_automotores,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,hurto_automotores,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,hurto_bicicletas,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,hurto_bicicletas,19,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,hurto_bicicletas,17,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,hurto_bicicletas,20,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,hurto_bicicletas,6,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,hurto_bicicletas,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,hurto_bicicletas,7,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,hurto_bicicletas,9,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,hurto_bicicletas,24,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,hurto_celulares,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,hurto_celulares,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,hurto_celulares,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,hurto_celulares,10,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,hurto_celulares,10,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,hurto_celulares,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,hurto_celulares,4,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,hurto_celulares,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,hurto_celulares,5,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,hurto_comercio,392,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,hurto_comercio,291,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,hurto_comercio,218,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,hurto_comercio,194,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,hurto_comercio,134,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,hurto_comercio,151,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,hurto_comercio,189,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,hurto_comercio,219,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,hurto_comercio,233,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,hurto_motocicletas,160,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,hurto_motocicletas,243,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,hurto_motocicletas,151,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,hurto_motocicletas,141,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,hurto_motocicletas,133,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,hurto_motocicletas,72,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,hurto_motocicletas,90,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,hurto_motocicletas,82,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,hurto_motocicletas,61,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,hurto_personas,1590,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,hurto_personas,1734,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,hurto_personas,900,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,hurto_personas,836,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,hurto_personas,823,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,hurto_personas,461,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,hurto_personas,538,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,hurto_personas,598,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,hurto_personas,620,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,hurto_residencias,75,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,hurto_residencias,33,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,hurto_residencias,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,hurto_residencias,36,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,hurto_residencias,17,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,hurto_residencias,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,hurto_residencias,19,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,hurto_residencias,10,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,hurto_residencias,16,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,lesiones_personales,100,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,lesiones_personales,117,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,lesiones_personales,77,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,lesiones_personales,144,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,lesiones_personales,99,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,lesiones_personales,70,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,lesiones_personales,81,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,lesiones_personales,93,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2018,violencia_intrafamiliar,42,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2019,violencia_intrafamiliar,60,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2020,violencia_intrafamiliar,80,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2021,violencia_intrafamiliar,98,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2022,violencia_intrafamiliar,416,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2023,violencia_intrafamiliar,54,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2024,violencia_intrafamiliar,67,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2025,violencia_intrafamiliar,99,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,17,La Candelaria,2026,violencia_intrafamiliar,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,delitos_sexuales,126,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,delitos_sexuales,140,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,delitos_sexuales,97,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,delitos_sexuales,100,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,delitos_sexuales,170,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,delitos_sexuales,94,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,delitos_sexuales,242,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,delitos_sexuales,143,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,delitos_sexuales,136,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,homicidios,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,homicidios,28,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,homicidios,35,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,homicidios,33,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,homicidios,37,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,homicidios,30,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,homicidios,17,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,homicidios,32,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,homicidios,33,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,hurto_automotores,158,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,hurto_automotores,170,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,hurto_automotores,150,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,hurto_automotores,98,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,hurto_automotores,136,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,hurto_automotores,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,hurto_automotores,130,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,hurto_automotores,67,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,hurto_automotores,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,hurto_bicicletas,69,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,hurto_bicicletas,64,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,hurto_bicicletas,89,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,hurto_bicicletas,99,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,hurto_bicicletas,91,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,hurto_bicicletas,80,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,hurto_bicicletas,51,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,hurto_bicicletas,67,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,hurto_bicicletas,57,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,hurto_celulares,198,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,hurto_celulares,218,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,hurto_celulares,112,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,hurto_celulares,286,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,hurto_celulares,240,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,hurto_celulares,128,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,hurto_celulares,145,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,hurto_celulares,99,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,hurto_celulares,116,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,hurto_comercio,833,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,hurto_comercio,848,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,hurto_comercio,679,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,hurto_comercio,883,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,hurto_comercio,823,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,hurto_comercio,780,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,hurto_comercio,568,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,hurto_comercio,469,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,hurto_comercio,436,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,hurto_motocicletas,451,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,hurto_motocicletas,496,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,hurto_motocicletas,343,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,hurto_motocicletas,456,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,hurto_motocicletas,250,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,hurto_motocicletas,245,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,hurto_motocicletas,148,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,hurto_motocicletas,93,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,hurto_motocicletas,99,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,hurto_personas,3098,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,hurto_personas,3970,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,hurto_personas,2732,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,hurto_personas,3488,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,hurto_personas,3719,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,hurto_personas,2351,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,hurto_personas,1581,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,hurto_personas,1643,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,hurto_personas,1517,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,hurto_residencias,542,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,hurto_residencias,433,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,hurto_residencias,385,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,hurto_residencias,337,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,hurto_residencias,236,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,hurto_residencias,158,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,hurto_residencias,125,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,hurto_residencias,96,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,hurto_residencias,102,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,lesiones_personales,717,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,lesiones_personales,688,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,lesiones_personales,420,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,lesiones_personales,514,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,lesiones_personales,507,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,lesiones_personales,447,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,lesiones_personales,424,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,lesiones_personales,385,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2018,violencia_intrafamiliar,642,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2019,violencia_intrafamiliar,684,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2020,violencia_intrafamiliar,694,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2021,violencia_intrafamiliar,717,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2022,violencia_intrafamiliar,770,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2023,violencia_intrafamiliar,457,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2024,violencia_intrafamiliar,628,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2025,violencia_intrafamiliar,680,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,18,Rafael Uribe Uribe,2026,violencia_intrafamiliar,1000,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,delitos_sexuales,203,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,delitos_sexuales,258,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,delitos_sexuales,256,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,delitos_sexuales,259,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,delitos_sexuales,332,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,delitos_sexuales,394,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,delitos_sexuales,316,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,delitos_sexuales,411,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,delitos_sexuales,253,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,homicidios,100,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,homicidios,76,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,homicidios,80,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,homicidios,80,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,homicidios,76,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,homicidios,84,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,homicidios,73,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,homicidios,103,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,homicidios,82,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,hurto_automotores,152,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,hurto_automotores,138,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,hurto_automotores,156,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,hurto_automotores,204,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,hurto_automotores,202,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,hurto_automotores,183,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,hurto_automotores,199,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,hurto_automotores,85,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,hurto_automotores,115,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,hurto_bicicletas,57,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,hurto_bicicletas,72,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,hurto_bicicletas,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,hurto_bicicletas,114,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,hurto_bicicletas,96,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,hurto_bicicletas,129,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,hurto_bicicletas,106,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,hurto_bicicletas,69,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,hurto_bicicletas,58,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,hurto_celulares,390,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,hurto_celulares,316,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,hurto_celulares,260,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,hurto_celulares,432,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,hurto_celulares,550,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,hurto_celulares,315,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,hurto_celulares,341,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,hurto_celulares,176,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,hurto_celulares,159,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,hurto_comercio,873,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,hurto_comercio,956,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,hurto_comercio,783,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,hurto_comercio,1225,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,hurto_comercio,1018,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,hurto_comercio,945,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,hurto_comercio,711,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,hurto_comercio,551,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,hurto_comercio,441,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,hurto_motocicletas,466,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,hurto_motocicletas,507,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,hurto_motocicletas,373,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,hurto_motocicletas,411,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,hurto_motocicletas,358,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,hurto_motocicletas,239,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,hurto_motocicletas,196,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,hurto_motocicletas,118,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,hurto_motocicletas,99,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,hurto_personas,3041,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,hurto_personas,4012,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,hurto_personas,3286,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,hurto_personas,4474,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,hurto_personas,4429,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,hurto_personas,2829,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,hurto_personas,2204,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,hurto_personas,2185,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,hurto_personas,1693,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,hurto_residencias,621,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,hurto_residencias,575,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,hurto_residencias,461,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,hurto_residencias,471,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,hurto_residencias,344,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,hurto_residencias,156,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,hurto_residencias,162,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,hurto_residencias,128,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,hurto_residencias,156,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,lesiones_personales,981,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,lesiones_personales,1022,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,lesiones_personales,698,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,lesiones_personales,840,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,lesiones_personales,909,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,lesiones_personales,881,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,lesiones_personales,930,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,lesiones_personales,737,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2018,violencia_intrafamiliar,1915,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2019,violencia_intrafamiliar,1365,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2020,violencia_intrafamiliar,1902,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2021,violencia_intrafamiliar,1303,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2022,violencia_intrafamiliar,1838,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2023,violencia_intrafamiliar,2357,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2024,violencia_intrafamiliar,1440,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2025,violencia_intrafamiliar,1691,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,19,Ciudad Bolívar,2026,violencia_intrafamiliar,2432,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,delitos_sexuales,7,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,delitos_sexuales,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,delitos_sexuales,10,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,delitos_sexuales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,delitos_sexuales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,delitos_sexuales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,delitos_sexuales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,delitos_sexuales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,delitos_sexuales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,homicidios,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,homicidios,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,homicidios,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,homicidios,2,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,homicidios,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,homicidios,3,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,homicidios,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,homicidios,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,homicidios,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,hurto_automotores,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,hurto_bicicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,hurto_celulares,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,hurto_comercio,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,hurto_motocicletas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,hurto_personas,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,hurto_residencias,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,lesiones_personales,14,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,lesiones_personales,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,lesiones_personales,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2018,violencia_intrafamiliar,8,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2019,violencia_intrafamiliar,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2020,violencia_intrafamiliar,12,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2021,violencia_intrafamiliar,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2022,violencia_intrafamiliar,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2023,violencia_intrafamiliar,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2024,violencia_intrafamiliar,1,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2025,violencia_intrafamiliar,0,Ene-May (2025vs2026),1,5,True
+delito_alto_impacto,20,Sumapaz,2026,violencia_intrafamiliar,0,Ene-May (2025vs2026),1,5,True

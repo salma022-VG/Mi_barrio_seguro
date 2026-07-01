@@ -1,0 +1,1849 @@
+source,locality_code,locality_name,year,metric,count,period_label,period_start_month,period_end_month,coverage
+delito_alto_impacto_anual,09,Fontibón,2018,homicidios,19,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,lesiones_personales,1083,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,hurto_personas,6204,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,hurto_residencias,414,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,hurto_automotores,138,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,hurto_bicicletas,475,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,hurto_comercio,1346,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,hurto_celulares,3617,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,hurto_motocicletas,178,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,delitos_sexuales,216,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2018,violencia_intrafamiliar,1375,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,homicidios,27,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,lesiones_personales,808,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,hurto_personas,7803,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,hurto_residencias,452,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,hurto_automotores,145,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,hurto_bicicletas,647,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,hurto_comercio,1178,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,hurto_celulares,3690,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,hurto_motocicletas,135,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,delitos_sexuales,205,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2019,violencia_intrafamiliar,1449,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,homicidios,22,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,lesiones_personales,640,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,hurto_personas,5305,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,hurto_residencias,431,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,hurto_automotores,163,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,hurto_bicicletas,735,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,hurto_comercio,821,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,hurto_celulares,3136,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,hurto_motocicletas,139,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,delitos_sexuales,180,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2020,violencia_intrafamiliar,1302,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,homicidios,29,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,lesiones_personales,871,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,hurto_personas,7013,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,hurto_residencias,362,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,hurto_automotores,153,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,hurto_bicicletas,672,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,hurto_comercio,709,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,hurto_celulares,3603,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,hurto_motocicletas,141,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,delitos_sexuales,195,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2021,violencia_intrafamiliar,1155,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,homicidios,27,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,lesiones_personales,819,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,hurto_personas,9190,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,hurto_residencias,423,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,hurto_automotores,158,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,hurto_bicicletas,871,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,hurto_comercio,976,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,hurto_celulares,4119,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,hurto_motocicletas,189,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,delitos_sexuales,199,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2022,violencia_intrafamiliar,1497,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,homicidios,32,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,lesiones_personales,791,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,hurto_personas,8938,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,hurto_residencias,386,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,hurto_automotores,156,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,hurto_bicicletas,589,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,hurto_comercio,856,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,hurto_celulares,2882,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,hurto_motocicletas,184,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,delitos_sexuales,175,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2023,violencia_intrafamiliar,1386,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,homicidios,37,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,lesiones_personales,669,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,hurto_personas,8185,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,hurto_residencias,317,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,hurto_automotores,134,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,hurto_bicicletas,567,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,hurto_comercio,689,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,hurto_motocicletas,164,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,delitos_sexuales,326,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2024,violencia_intrafamiliar,2359,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,homicidios,36,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,lesiones_personales,405,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,hurto_personas,6598,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,hurto_residencias,265,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,hurto_automotores,121,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,hurto_bicicletas,466,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,hurto_comercio,462,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,hurto_celulares,1738,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,hurto_motocicletas,150,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,delitos_sexuales,198,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,09,Fontibón,2025,violencia_intrafamiliar,1702,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,homicidios,257,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,lesiones_personales,2311,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,hurto_personas,3305,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,hurto_residencias,532,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,hurto_automotores,195,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,hurto_bicicletas,159,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,hurto_comercio,477,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,hurto_celulares,2215,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,hurto_motocicletas,424,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,delitos_sexuales,527,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2018,violencia_intrafamiliar,3948,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,homicidios,195,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,lesiones_personales,2392,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,hurto_personas,4194,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,hurto_residencias,605,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,hurto_automotores,176,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,hurto_bicicletas,176,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,hurto_comercio,533,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,hurto_celulares,2143,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,hurto_motocicletas,389,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,delitos_sexuales,634,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2019,violencia_intrafamiliar,3792,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,homicidios,210,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,lesiones_personales,1743,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,hurto_personas,3633,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,hurto_residencias,474,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,hurto_automotores,240,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,hurto_bicicletas,324,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,hurto_comercio,348,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,hurto_celulares,2428,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,hurto_motocicletas,379,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,delitos_sexuales,490,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2020,violencia_intrafamiliar,3949,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,homicidios,207,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,lesiones_personales,2202,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,hurto_personas,5000,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,hurto_residencias,409,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,hurto_automotores,263,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,hurto_bicicletas,315,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,hurto_comercio,381,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,hurto_celulares,2918,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,hurto_motocicletas,597,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,delitos_sexuales,662,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2021,violencia_intrafamiliar,3406,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,homicidios,198,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,lesiones_personales,1798,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,hurto_personas,5576,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,hurto_residencias,404,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,hurto_automotores,292,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,hurto_bicicletas,228,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,hurto_comercio,453,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,hurto_celulares,2581,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,hurto_motocicletas,640,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,delitos_sexuales,690,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2022,violencia_intrafamiliar,3748,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,homicidios,188,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,lesiones_personales,2068,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,hurto_personas,6596,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,hurto_residencias,468,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,hurto_automotores,353,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,hurto_bicicletas,248,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,hurto_comercio,432,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,hurto_celulares,1998,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,hurto_motocicletas,757,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,delitos_sexuales,990,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2023,violencia_intrafamiliar,5856,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,homicidios,237,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,lesiones_personales,2283,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,hurto_personas,4769,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,hurto_residencias,348,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,hurto_automotores,343,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,hurto_bicicletas,185,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,hurto_comercio,374,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,hurto_motocicletas,641,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,delitos_sexuales,980,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2024,violencia_intrafamiliar,4773,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,homicidios,237,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,lesiones_personales,1411,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,hurto_personas,4243,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,hurto_residencias,269,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,hurto_automotores,259,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,hurto_bicicletas,112,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,hurto_comercio,233,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,hurto_celulares,1037,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,hurto_motocicletas,537,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,delitos_sexuales,641,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,19,Ciudad Bolívar,2025,violencia_intrafamiliar,3296,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,homicidios,55,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,lesiones_personales,1057,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,hurto_personas,4412,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,hurto_residencias,157,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,hurto_automotores,84,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,hurto_bicicletas,206,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,hurto_comercio,685,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,hurto_celulares,2665,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,hurto_motocicletas,62,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,delitos_sexuales,103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2018,violencia_intrafamiliar,462,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,homicidios,66,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,lesiones_personales,597,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,hurto_personas,5493,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,hurto_residencias,188,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,hurto_automotores,79,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,hurto_bicicletas,180,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,hurto_comercio,620,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,hurto_celulares,2724,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,hurto_motocicletas,82,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,delitos_sexuales,138,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2019,violencia_intrafamiliar,459,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,homicidios,52,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,lesiones_personales,572,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,hurto_personas,3362,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,hurto_residencias,218,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,hurto_automotores,82,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,hurto_bicicletas,256,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,hurto_comercio,446,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,hurto_celulares,1968,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,hurto_motocicletas,81,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,delitos_sexuales,167,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2020,violencia_intrafamiliar,573,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,homicidios,71,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,lesiones_personales,787,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,hurto_personas,4364,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,hurto_residencias,211,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,hurto_automotores,94,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,hurto_bicicletas,270,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,hurto_comercio,493,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,hurto_celulares,2515,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,hurto_motocicletas,117,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,delitos_sexuales,245,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2021,violencia_intrafamiliar,692,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,homicidios,49,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,lesiones_personales,808,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,hurto_personas,5721,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,hurto_residencias,182,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,hurto_automotores,75,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,hurto_bicicletas,174,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,hurto_comercio,554,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,hurto_celulares,2708,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,hurto_motocicletas,145,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,delitos_sexuales,349,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2022,violencia_intrafamiliar,907,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,homicidios,48,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,lesiones_personales,1179,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,hurto_personas,9097,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,hurto_residencias,254,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,hurto_automotores,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,hurto_bicicletas,138,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,hurto_comercio,713,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,hurto_celulares,2082,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,hurto_motocicletas,166,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,delitos_sexuales,556,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2023,violencia_intrafamiliar,1432,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,homicidios,46,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,lesiones_personales,1069,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,hurto_personas,11499,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,hurto_residencias,180,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,hurto_automotores,135,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,hurto_bicicletas,405,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,hurto_comercio,830,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,hurto_motocicletas,174,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,delitos_sexuales,967,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2024,violencia_intrafamiliar,3674,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,homicidios,45,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,lesiones_personales,444,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,hurto_personas,4570,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,hurto_residencias,103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,hurto_automotores,73,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,hurto_bicicletas,134,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,hurto_comercio,276,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,hurto_celulares,1347,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,hurto_motocicletas,135,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,delitos_sexuales,206,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,14,Los Mártires,2025,violencia_intrafamiliar,641,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,homicidios,13,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,lesiones_personales,515,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,hurto_personas,1804,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,hurto_residencias,133,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,hurto_automotores,114,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,hurto_bicicletas,110,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,hurto_comercio,703,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,hurto_celulares,1183,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,hurto_motocicletas,59,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,delitos_sexuales,63,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2018,violencia_intrafamiliar,442,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,homicidios,11,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,lesiones_personales,429,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,hurto_personas,2420,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,hurto_residencias,158,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,hurto_automotores,106,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,hurto_bicicletas,98,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,hurto_comercio,708,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,hurto_celulares,1215,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,hurto_motocicletas,88,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,delitos_sexuales,75,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2019,violencia_intrafamiliar,442,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,homicidios,11,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,lesiones_personales,295,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,hurto_personas,1909,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,hurto_residencias,187,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,hurto_automotores,120,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,hurto_bicicletas,200,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,hurto_comercio,409,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,hurto_celulares,1203,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,hurto_motocicletas,95,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,delitos_sexuales,63,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2020,violencia_intrafamiliar,455,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,homicidios,16,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,lesiones_personales,422,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,hurto_personas,2482,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,hurto_residencias,153,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,hurto_automotores,116,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,hurto_bicicletas,144,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,hurto_comercio,419,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,hurto_celulares,1361,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,hurto_motocicletas,86,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,delitos_sexuales,107,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2021,violencia_intrafamiliar,455,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,homicidios,21,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,lesiones_personales,352,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,hurto_personas,2744,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,hurto_residencias,120,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,hurto_automotores,107,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,hurto_bicicletas,154,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,hurto_comercio,428,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,hurto_celulares,1255,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,hurto_motocicletas,101,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,delitos_sexuales,89,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2022,violencia_intrafamiliar,466,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,homicidios,13,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,lesiones_personales,313,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,hurto_personas,3228,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,hurto_residencias,120,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,hurto_automotores,143,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,hurto_bicicletas,96,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,hurto_comercio,357,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,hurto_celulares,1098,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,hurto_motocicletas,87,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,delitos_sexuales,79,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2023,violencia_intrafamiliar,434,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,homicidios,14,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,lesiones_personales,330,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,hurto_personas,2244,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,hurto_residencias,74,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,hurto_automotores,129,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,hurto_bicicletas,83,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,hurto_comercio,354,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,hurto_motocicletas,142,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,delitos_sexuales,140,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2024,violencia_intrafamiliar,379,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,homicidios,10,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,lesiones_personales,202,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,hurto_personas,1987,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,hurto_residencias,73,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,hurto_automotores,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,hurto_bicicletas,88,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,hurto_comercio,233,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,hurto_celulares,652,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,hurto_motocicletas,123,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,delitos_sexuales,76,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,15,Antonio Nariño,2025,violencia_intrafamiliar,320,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,homicidios,10,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,lesiones_personales,799,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,hurto_personas,10204,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,hurto_residencias,404,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,hurto_automotores,54,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,hurto_bicicletas,495,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,hurto_comercio,1665,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,hurto_celulares,7586,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,hurto_motocicletas,30,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,delitos_sexuales,203,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2018,violencia_intrafamiliar,568,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,homicidios,15,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,lesiones_personales,627,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,hurto_personas,13551,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,hurto_residencias,416,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,hurto_automotores,46,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,hurto_bicicletas,434,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,hurto_comercio,1882,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,hurto_celulares,6579,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,hurto_motocicletas,35,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,delitos_sexuales,137,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2019,violencia_intrafamiliar,457,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,homicidios,9,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,lesiones_personales,383,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,hurto_personas,5369,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,hurto_residencias,366,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,hurto_automotores,37,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,hurto_bicicletas,362,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,hurto_comercio,985,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,hurto_celulares,3292,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,hurto_motocicletas,34,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,delitos_sexuales,110,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2020,violencia_intrafamiliar,551,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,homicidios,13,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,lesiones_personales,549,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,hurto_personas,8424,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,hurto_residencias,322,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,hurto_automotores,55,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,hurto_bicicletas,285,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,hurto_comercio,822,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,hurto_celulares,4841,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,hurto_motocicletas,38,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,delitos_sexuales,149,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2021,violencia_intrafamiliar,505,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,homicidios,15,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,lesiones_personales,597,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,hurto_personas,11994,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,hurto_residencias,370,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,hurto_automotores,56,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,hurto_bicicletas,305,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,hurto_comercio,918,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,hurto_celulares,6318,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,hurto_motocicletas,64,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,delitos_sexuales,164,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2022,violencia_intrafamiliar,724,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,homicidios,16,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,lesiones_personales,567,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,hurto_personas,14976,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,hurto_residencias,376,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,hurto_automotores,57,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,hurto_bicicletas,223,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,hurto_comercio,933,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,hurto_celulares,5355,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,hurto_motocicletas,90,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,delitos_sexuales,153,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2023,violencia_intrafamiliar,723,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,homicidios,18,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,lesiones_personales,552,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,hurto_personas,10977,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,hurto_residencias,290,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,hurto_automotores,68,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,hurto_bicicletas,228,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,hurto_comercio,955,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,hurto_motocicletas,69,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,delitos_sexuales,354,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2024,violencia_intrafamiliar,1012,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,homicidios,14,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,lesiones_personales,370,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,hurto_personas,8041,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,hurto_residencias,286,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,hurto_automotores,42,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,hurto_bicicletas,239,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,hurto_comercio,666,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,hurto_celulares,3183,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,hurto_motocicletas,68,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,delitos_sexuales,150,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,02,Chapinero,2025,violencia_intrafamiliar,593,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,lesiones_personales,22,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,hurto_personas,3,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,hurto_comercio,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,delitos_sexuales,11,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2018,violencia_intrafamiliar,28,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,lesiones_personales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,hurto_personas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,hurto_comercio,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,hurto_motocicletas,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,delitos_sexuales,7,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2019,violencia_intrafamiliar,2,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,homicidios,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,lesiones_personales,11,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,hurto_personas,2,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,hurto_comercio,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,delitos_sexuales,17,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2020,violencia_intrafamiliar,24,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,homicidios,2,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,lesiones_personales,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,hurto_personas,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,hurto_comercio,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,delitos_sexuales,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2021,violencia_intrafamiliar,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,homicidios,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,lesiones_personales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,hurto_personas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,hurto_comercio,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,hurto_motocicletas,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,delitos_sexuales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2022,violencia_intrafamiliar,2,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,homicidios,3,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,lesiones_personales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,hurto_personas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,hurto_comercio,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,delitos_sexuales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2023,violencia_intrafamiliar,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,homicidios,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,lesiones_personales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,hurto_personas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,hurto_comercio,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,delitos_sexuales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2024,violencia_intrafamiliar,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,lesiones_personales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,hurto_personas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,hurto_comercio,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,delitos_sexuales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,20,Sumapaz,2025,violencia_intrafamiliar,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,homicidios,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,lesiones_personales,1601,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,hurto_personas,3347,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,hurto_residencias,482,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,hurto_automotores,172,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,hurto_bicicletas,171,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,hurto_comercio,474,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,hurto_celulares,2094,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,hurto_motocicletas,225,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,delitos_sexuales,270,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2018,violencia_intrafamiliar,1324,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,homicidios,61,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,lesiones_personales,1483,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,hurto_personas,3995,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,hurto_residencias,421,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,hurto_automotores,187,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,hurto_bicicletas,158,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,hurto_comercio,499,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,hurto_celulares,1937,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,hurto_motocicletas,304,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,delitos_sexuales,339,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2019,violencia_intrafamiliar,1781,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,homicidios,86,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,lesiones_personales,1150,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,hurto_personas,2990,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,hurto_residencias,359,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,hurto_automotores,174,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,hurto_bicicletas,256,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,hurto_comercio,372,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,hurto_celulares,1950,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,hurto_motocicletas,168,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,delitos_sexuales,247,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2020,violencia_intrafamiliar,1752,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,homicidios,84,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,lesiones_personales,1319,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,hurto_personas,4020,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,hurto_residencias,302,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,hurto_automotores,181,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,hurto_bicicletas,217,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,hurto_comercio,457,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,hurto_celulares,2231,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,hurto_motocicletas,298,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,delitos_sexuales,257,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2021,violencia_intrafamiliar,1688,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,homicidios,80,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,lesiones_personales,1037,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,hurto_personas,4488,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,hurto_residencias,311,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,hurto_automotores,182,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,hurto_bicicletas,192,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,hurto_comercio,347,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,hurto_celulares,2078,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,hurto_motocicletas,302,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,delitos_sexuales,336,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2022,violencia_intrafamiliar,1458,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,homicidios,78,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,lesiones_personales,1067,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,hurto_personas,5461,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,hurto_residencias,380,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,hurto_automotores,328,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,hurto_bicicletas,152,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,hurto_comercio,389,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,hurto_celulares,1679,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,hurto_motocicletas,309,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,delitos_sexuales,290,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2023,violencia_intrafamiliar,1614,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,homicidios,54,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,lesiones_personales,1053,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,hurto_personas,3354,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,hurto_residencias,281,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,hurto_automotores,250,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,hurto_bicicletas,131,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,hurto_comercio,318,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,hurto_motocicletas,314,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,delitos_sexuales,499,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2024,violencia_intrafamiliar,1726,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,homicidios,80,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,lesiones_personales,712,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,hurto_personas,3300,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,hurto_residencias,190,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,hurto_automotores,200,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,hurto_bicicletas,100,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,hurto_comercio,172,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,hurto_celulares,857,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,hurto_motocicletas,296,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,delitos_sexuales,224,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,18,Rafael Uribe Uribe,2025,violencia_intrafamiliar,1290,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,homicidios,3,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,lesiones_personales,242,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,hurto_personas,1573,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,hurto_residencias,45,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,hurto_automotores,6,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,hurto_bicicletas,22,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,hurto_comercio,192,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,hurto_celulares,883,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,hurto_motocicletas,5,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,delitos_sexuales,52,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2018,violencia_intrafamiliar,125,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,homicidios,2,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,lesiones_personales,266,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,hurto_personas,1844,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,hurto_residencias,45,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,hurto_automotores,35,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,hurto_bicicletas,28,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,hurto_comercio,357,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,hurto_celulares,738,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,hurto_motocicletas,7,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,delitos_sexuales,315,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2019,violencia_intrafamiliar,182,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,homicidios,3,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,lesiones_personales,224,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,hurto_personas,781,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,hurto_residencias,46,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,hurto_automotores,16,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,hurto_bicicletas,41,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,hurto_comercio,157,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,hurto_celulares,419,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,hurto_motocicletas,16,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,delitos_sexuales,192,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2020,violencia_intrafamiliar,268,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,homicidios,6,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,lesiones_personales,307,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,hurto_personas,973,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,hurto_residencias,33,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,hurto_automotores,12,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,hurto_bicicletas,37,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,hurto_comercio,395,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,hurto_celulares,455,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,hurto_motocicletas,12,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,delitos_sexuales,245,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2021,violencia_intrafamiliar,302,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,homicidios,3,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,lesiones_personales,196,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,hurto_personas,1327,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,hurto_residencias,35,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,hurto_automotores,19,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,hurto_bicicletas,13,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,hurto_comercio,174,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,hurto_celulares,633,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,hurto_motocicletas,13,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,delitos_sexuales,114,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2022,violencia_intrafamiliar,675,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,homicidios,8,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,lesiones_personales,190,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,hurto_personas,1309,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,hurto_residencias,33,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,hurto_automotores,7,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,hurto_bicicletas,16,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,hurto_comercio,149,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,hurto_celulares,388,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,hurto_motocicletas,15,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,delitos_sexuales,44,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2023,violencia_intrafamiliar,136,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,homicidios,4,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,lesiones_personales,198,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,hurto_personas,1798,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,hurto_residencias,40,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,hurto_automotores,16,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,hurto_bicicletas,26,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,hurto_comercio,189,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,hurto_motocicletas,10,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,delitos_sexuales,132,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2024,violencia_intrafamiliar,299,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,homicidios,3,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,lesiones_personales,153,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,hurto_personas,1378,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,hurto_residencias,21,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,hurto_automotores,10,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,hurto_bicicletas,32,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,hurto_comercio,142,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,hurto_celulares,510,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,hurto_motocicletas,13,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,delitos_sexuales,52,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,17,La Candelaria,2025,violencia_intrafamiliar,148,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,homicidios,12,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,lesiones_personales,751,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,hurto_personas,4572,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,hurto_residencias,331,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,hurto_automotores,103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,hurto_bicicletas,390,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,hurto_comercio,713,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,hurto_celulares,2864,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,hurto_motocicletas,63,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,delitos_sexuales,103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2018,violencia_intrafamiliar,581,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,homicidios,9,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,lesiones_personales,565,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,hurto_personas,5432,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,hurto_residencias,302,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,hurto_automotores,110,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,hurto_bicicletas,395,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,hurto_comercio,794,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,hurto_celulares,2577,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,hurto_motocicletas,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,delitos_sexuales,108,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2019,violencia_intrafamiliar,573,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,homicidios,9,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,lesiones_personales,452,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,hurto_personas,3279,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,hurto_residencias,297,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,hurto_automotores,91,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,hurto_bicicletas,398,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,hurto_comercio,581,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,hurto_celulares,1981,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,hurto_motocicletas,65,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,delitos_sexuales,87,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2020,violencia_intrafamiliar,657,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,homicidios,11,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,lesiones_personales,592,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,hurto_personas,4264,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,hurto_residencias,286,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,hurto_automotores,115,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,hurto_bicicletas,435,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,hurto_comercio,529,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,hurto_celulares,2083,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,hurto_motocicletas,103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,delitos_sexuales,144,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2021,violencia_intrafamiliar,715,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,homicidios,12,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,lesiones_personales,617,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,hurto_personas,5402,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,hurto_residencias,255,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,hurto_automotores,84,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,hurto_bicicletas,304,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,hurto_comercio,522,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,hurto_celulares,2404,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,hurto_motocicletas,86,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,delitos_sexuales,204,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2022,violencia_intrafamiliar,769,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,homicidios,17,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,lesiones_personales,608,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,hurto_personas,6931,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,hurto_residencias,230,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,hurto_automotores,78,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,hurto_bicicletas,360,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,hurto_comercio,530,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,hurto_celulares,2142,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,hurto_motocicletas,94,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,delitos_sexuales,142,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2023,violencia_intrafamiliar,590,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,homicidios,21,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,lesiones_personales,478,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,hurto_personas,5141,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,hurto_residencias,220,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,hurto_automotores,132,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,hurto_bicicletas,303,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,hurto_comercio,498,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,hurto_motocicletas,130,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,delitos_sexuales,190,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2024,violencia_intrafamiliar,914,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,homicidios,18,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,lesiones_personales,382,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,hurto_personas,4006,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,hurto_residencias,199,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,hurto_automotores,114,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,hurto_bicicletas,231,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,hurto_comercio,386,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,hurto_celulares,1395,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,hurto_motocicletas,131,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,delitos_sexuales,139,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,12,Barrios Unidos,2025,violencia_intrafamiliar,753,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,homicidios,6,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,lesiones_personales,743,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,hurto_personas,6976,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,hurto_residencias,395,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,hurto_automotores,96,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,hurto_bicicletas,509,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,hurto_comercio,1144,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,hurto_celulares,4328,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,hurto_motocicletas,50,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,delitos_sexuales,126,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2018,violencia_intrafamiliar,524,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,homicidios,4,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,lesiones_personales,421,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,hurto_personas,8132,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,hurto_residencias,465,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,hurto_automotores,91,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,hurto_bicicletas,511,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,hurto_comercio,974,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,hurto_celulares,4006,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,hurto_motocicletas,53,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,delitos_sexuales,136,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2019,violencia_intrafamiliar,337,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,homicidios,5,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,lesiones_personales,282,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,hurto_personas,3931,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,hurto_residencias,375,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,hurto_automotores,66,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,hurto_bicicletas,477,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,hurto_comercio,586,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,hurto_celulares,2313,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,hurto_motocicletas,44,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,delitos_sexuales,91,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2020,violencia_intrafamiliar,438,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,homicidios,16,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,lesiones_personales,505,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,hurto_personas,5296,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,hurto_residencias,376,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,hurto_automotores,96,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,hurto_bicicletas,477,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,hurto_comercio,526,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,hurto_celulares,2663,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,hurto_motocicletas,66,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,delitos_sexuales,140,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2021,violencia_intrafamiliar,1029,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,homicidios,15,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,lesiones_personales,444,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,hurto_personas,7959,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,hurto_residencias,410,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,hurto_automotores,82,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,hurto_bicicletas,359,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,hurto_comercio,625,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,hurto_celulares,4103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,hurto_motocicletas,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,delitos_sexuales,149,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2022,violencia_intrafamiliar,628,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,homicidios,13,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,lesiones_personales,403,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,hurto_personas,10228,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,hurto_residencias,446,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,hurto_automotores,179,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,hurto_bicicletas,400,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,hurto_comercio,516,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,hurto_celulares,3657,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,hurto_motocicletas,115,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,delitos_sexuales,143,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2023,violencia_intrafamiliar,363,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,homicidios,10,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,lesiones_personales,498,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,hurto_personas,7545,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,hurto_residencias,304,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,hurto_automotores,135,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,hurto_bicicletas,311,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,hurto_comercio,533,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,hurto_motocicletas,135,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,delitos_sexuales,371,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2024,violencia_intrafamiliar,829,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,homicidios,12,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,lesiones_personales,421,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,hurto_personas,7452,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,hurto_residencias,268,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,hurto_automotores,105,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,hurto_bicicletas,293,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,hurto_comercio,437,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,hurto_celulares,2544,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,hurto_motocicletas,117,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,delitos_sexuales,180,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,13,Teusaquillo,2025,violencia_intrafamiliar,739,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,homicidios,26,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,lesiones_personales,1249,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,hurto_personas,4761,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,hurto_residencias,451,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,hurto_automotores,405,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,hurto_bicicletas,327,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,hurto_comercio,1296,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,hurto_celulares,3066,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,hurto_motocicletas,167,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,delitos_sexuales,209,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2018,violencia_intrafamiliar,1018,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,homicidios,35,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,lesiones_personales,986,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,hurto_personas,5804,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,hurto_residencias,391,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,hurto_automotores,361,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,hurto_bicicletas,257,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,hurto_comercio,1213,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,hurto_celulares,2666,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,hurto_motocicletas,216,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,delitos_sexuales,279,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2019,violencia_intrafamiliar,1185,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,homicidios,45,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,lesiones_personales,757,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,hurto_personas,4257,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,hurto_residencias,483,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,hurto_automotores,327,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,hurto_bicicletas,490,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,hurto_comercio,642,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,hurto_celulares,2622,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,hurto_motocicletas,145,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,delitos_sexuales,163,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2020,violencia_intrafamiliar,1101,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,homicidios,18,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,lesiones_personales,907,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,hurto_personas,5468,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,hurto_residencias,409,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,hurto_automotores,308,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,hurto_bicicletas,413,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,hurto_comercio,701,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,hurto_celulares,2796,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,hurto_motocicletas,247,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,delitos_sexuales,210,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2021,violencia_intrafamiliar,1688,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,homicidios,21,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,lesiones_personales,917,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,hurto_personas,6691,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,hurto_residencias,327,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,hurto_automotores,297,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,hurto_bicicletas,375,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,hurto_comercio,721,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,hurto_celulares,3129,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,hurto_motocicletas,289,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,delitos_sexuales,314,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2022,violencia_intrafamiliar,1071,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,homicidios,16,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,lesiones_personales,845,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,hurto_personas,6964,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,hurto_residencias,328,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,hurto_automotores,345,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,hurto_bicicletas,294,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,hurto_comercio,635,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,hurto_celulares,2187,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,hurto_motocicletas,254,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,delitos_sexuales,307,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2023,violencia_intrafamiliar,1134,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,homicidios,25,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,lesiones_personales,753,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,hurto_personas,5614,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,hurto_residencias,260,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,hurto_automotores,443,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,hurto_bicicletas,253,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,hurto_comercio,687,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,hurto_motocicletas,262,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,delitos_sexuales,298,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2024,violencia_intrafamiliar,969,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,homicidios,36,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,lesiones_personales,680,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,hurto_personas,5701,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,hurto_residencias,244,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,hurto_automotores,346,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,hurto_bicicletas,238,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,hurto_comercio,515,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,hurto_celulares,1592,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,hurto_motocicletas,221,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,delitos_sexuales,278,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,16,Puente Aranda,2025,violencia_intrafamiliar,1515,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,homicidios,36,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,lesiones_personales,1249,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,hurto_personas,9117,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,hurto_residencias,844,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,hurto_automotores,158,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,hurto_bicicletas,789,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,hurto_comercio,1295,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,hurto_celulares,5336,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,hurto_motocicletas,79,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,delitos_sexuales,263,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2018,violencia_intrafamiliar,1403,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,homicidios,33,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,lesiones_personales,917,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,hurto_personas,10806,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,hurto_residencias,744,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,hurto_automotores,103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,hurto_bicicletas,634,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,hurto_comercio,1475,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,hurto_celulares,4783,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,hurto_motocicletas,117,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,delitos_sexuales,312,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2019,violencia_intrafamiliar,1657,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,homicidios,50,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,lesiones_personales,710,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,hurto_personas,6144,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,hurto_residencias,661,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,hurto_automotores,114,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,hurto_bicicletas,672,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,hurto_comercio,1020,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,hurto_celulares,3499,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,hurto_motocicletas,113,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,delitos_sexuales,239,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2020,violencia_intrafamiliar,1844,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,homicidios,37,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,lesiones_personales,1080,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,hurto_personas,7734,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,hurto_residencias,607,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,hurto_automotores,144,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,hurto_bicicletas,545,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,hurto_comercio,896,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,hurto_celulares,3889,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,hurto_motocicletas,119,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,delitos_sexuales,265,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2021,violencia_intrafamiliar,1598,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,homicidios,34,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,lesiones_personales,800,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,hurto_personas,9314,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,hurto_residencias,654,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,hurto_automotores,149,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,hurto_bicicletas,521,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,hurto_comercio,939,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,hurto_celulares,4032,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,hurto_motocicletas,83,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,delitos_sexuales,287,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2022,violencia_intrafamiliar,1312,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,homicidios,35,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,lesiones_personales,786,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,hurto_personas,8643,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,hurto_residencias,666,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,hurto_automotores,102,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,hurto_bicicletas,344,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,hurto_comercio,902,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,hurto_celulares,2596,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,hurto_motocicletas,103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,delitos_sexuales,268,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2023,violencia_intrafamiliar,1477,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,homicidios,47,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,lesiones_personales,811,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,hurto_personas,8641,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,hurto_residencias,618,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,hurto_automotores,117,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,hurto_bicicletas,470,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,hurto_comercio,918,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,hurto_motocicletas,140,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,delitos_sexuales,441,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2024,violencia_intrafamiliar,2179,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,homicidios,48,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,lesiones_personales,650,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,hurto_personas,6847,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,hurto_residencias,472,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,hurto_automotores,79,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,hurto_bicicletas,362,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,hurto_comercio,681,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,hurto_celulares,2325,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,hurto_motocicletas,119,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,delitos_sexuales,271,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,01,Usaquén,2025,violencia_intrafamiliar,1129,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,homicidios,54,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,lesiones_personales,1718,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,hurto_personas,2343,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,hurto_residencias,407,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,hurto_automotores,120,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,hurto_bicicletas,60,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,hurto_comercio,405,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,hurto_celulares,1530,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,hurto_motocicletas,195,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,delitos_sexuales,327,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2018,violencia_intrafamiliar,2345,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,homicidios,46,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,lesiones_personales,1444,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,hurto_personas,2857,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,hurto_residencias,359,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,hurto_automotores,150,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,hurto_bicicletas,65,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,hurto_comercio,578,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,hurto_celulares,1451,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,hurto_motocicletas,240,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,delitos_sexuales,408,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2019,violencia_intrafamiliar,2649,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,homicidios,54,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,lesiones_personales,1148,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,hurto_personas,2566,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,hurto_residencias,322,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,hurto_automotores,131,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,hurto_bicicletas,134,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,hurto_comercio,402,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,hurto_celulares,1702,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,hurto_motocicletas,229,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,delitos_sexuales,311,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2020,violencia_intrafamiliar,2538,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,homicidios,68,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,lesiones_personales,1339,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,hurto_personas,3305,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,hurto_residencias,263,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,hurto_automotores,151,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,hurto_bicicletas,166,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,hurto_comercio,289,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,hurto_celulares,1828,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,hurto_motocicletas,241,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,delitos_sexuales,362,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2021,violencia_intrafamiliar,2288,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,homicidios,50,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,lesiones_personales,1081,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,hurto_personas,3671,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,hurto_residencias,265,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,hurto_automotores,116,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,hurto_bicicletas,130,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,hurto_comercio,337,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,hurto_celulares,1655,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,hurto_motocicletas,259,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,delitos_sexuales,386,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2022,violencia_intrafamiliar,1855,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,homicidios,56,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,lesiones_personales,1210,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,hurto_personas,3917,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,hurto_residencias,322,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,hurto_automotores,152,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,hurto_bicicletas,103,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,hurto_comercio,458,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,hurto_celulares,1238,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,hurto_motocicletas,306,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,delitos_sexuales,415,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2023,violencia_intrafamiliar,2407,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,homicidios,52,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,lesiones_personales,1126,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,hurto_personas,3236,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,hurto_residencias,228,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,hurto_automotores,131,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,hurto_bicicletas,93,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,hurto_comercio,378,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,hurto_motocicletas,252,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,delitos_sexuales,432,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2024,violencia_intrafamiliar,2082,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,homicidios,81,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,lesiones_personales,928,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,hurto_personas,2765,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,hurto_residencias,177,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,hurto_automotores,155,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,hurto_bicicletas,72,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,hurto_comercio,280,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,hurto_celulares,879,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,hurto_motocicletas,208,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,delitos_sexuales,349,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,04,San Cristóbal,2025,violencia_intrafamiliar,1585,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,homicidios,85,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,lesiones_personales,1551,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,hurto_personas,1854,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,hurto_residencias,424,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,hurto_automotores,78,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,hurto_bicicletas,33,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,hurto_comercio,441,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,hurto_celulares,1142,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,hurto_motocicletas,175,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,delitos_sexuales,355,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2018,violencia_intrafamiliar,1870,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,homicidios,90,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,lesiones_personales,1489,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,hurto_personas,2294,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,hurto_residencias,456,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,hurto_automotores,104,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,hurto_bicicletas,42,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,hurto_comercio,522,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,hurto_celulares,1144,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,hurto_motocicletas,164,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,delitos_sexuales,455,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2019,violencia_intrafamiliar,2173,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,homicidios,67,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,lesiones_personales,1233,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,hurto_personas,1884,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,hurto_residencias,306,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,hurto_automotores,86,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,hurto_bicicletas,104,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,hurto_comercio,284,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,hurto_celulares,1191,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,hurto_motocicletas,145,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,delitos_sexuales,341,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2020,violencia_intrafamiliar,2411,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,homicidios,75,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,lesiones_personales,1414,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,hurto_personas,2340,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,hurto_residencias,287,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,hurto_automotores,96,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,hurto_bicicletas,81,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,hurto_comercio,252,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,hurto_celulares,1291,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,hurto_motocicletas,191,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,delitos_sexuales,401,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2021,violencia_intrafamiliar,2164,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,homicidios,71,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,lesiones_personales,1109,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,hurto_personas,3027,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,hurto_residencias,265,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,hurto_automotores,100,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,hurto_bicicletas,53,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,hurto_comercio,262,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,hurto_celulares,1324,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,hurto_motocicletas,223,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,delitos_sexuales,366,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2022,violencia_intrafamiliar,1932,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,homicidios,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,lesiones_personales,1067,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,hurto_personas,3187,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,hurto_residencias,377,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,hurto_automotores,158,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,hurto_bicicletas,45,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,hurto_comercio,291,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,hurto_celulares,929,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,hurto_motocicletas,240,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,delitos_sexuales,435,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2023,violencia_intrafamiliar,1990,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,homicidios,91,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,lesiones_personales,986,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,hurto_personas,2383,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,hurto_residencias,240,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,hurto_automotores,132,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,hurto_bicicletas,45,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,hurto_comercio,263,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,hurto_motocicletas,224,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,delitos_sexuales,623,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2024,violencia_intrafamiliar,1927,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,homicidios,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,lesiones_personales,834,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,hurto_personas,2139,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,hurto_residencias,140,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,hurto_automotores,116,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,hurto_bicicletas,36,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,hurto_comercio,170,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,hurto_celulares,524,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,hurto_motocicletas,216,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,delitos_sexuales,325,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,05,Usme,2025,violencia_intrafamiliar,1102,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,homicidios,102,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,lesiones_personales,2230,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,hurto_personas,4340,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,hurto_residencias,775,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,hurto_automotores,197,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,hurto_bicicletas,431,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,hurto_comercio,718,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,hurto_celulares,2751,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,hurto_motocicletas,546,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,delitos_sexuales,547,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2018,violencia_intrafamiliar,4760,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,homicidios,107,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,lesiones_personales,2042,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,hurto_personas,5225,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,hurto_residencias,773,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,hurto_automotores,209,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,hurto_bicicletas,621,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,hurto_comercio,597,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,hurto_celulares,2469,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,hurto_motocicletas,490,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,delitos_sexuales,632,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2019,violencia_intrafamiliar,4676,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,homicidios,84,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,lesiones_personales,1582,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,hurto_personas,4516,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,hurto_residencias,635,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,hurto_automotores,229,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,hurto_bicicletas,1029,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,hurto_comercio,409,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,hurto_celulares,2388,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,hurto_motocicletas,490,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,delitos_sexuales,537,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2020,violencia_intrafamiliar,4728,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,homicidios,114,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,lesiones_personales,2213,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,hurto_personas,6205,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,hurto_residencias,508,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,hurto_automotores,284,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,hurto_bicicletas,928,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,hurto_comercio,427,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,hurto_celulares,3112,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,hurto_motocicletas,577,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,delitos_sexuales,592,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2021,violencia_intrafamiliar,4010,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,homicidios,90,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,lesiones_personales,1674,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,hurto_personas,6824,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,hurto_residencias,412,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,hurto_automotores,275,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,hurto_bicicletas,663,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,hurto_comercio,466,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,hurto_celulares,2958,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,hurto_motocicletas,457,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,delitos_sexuales,647,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2022,violencia_intrafamiliar,3695,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,homicidios,112,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,lesiones_personales,1615,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,hurto_personas,7284,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,hurto_residencias,409,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,hurto_automotores,228,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,hurto_bicicletas,515,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,hurto_comercio,483,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,hurto_celulares,2288,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,hurto_motocicletas,470,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,delitos_sexuales,594,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2023,violencia_intrafamiliar,3829,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,homicidios,119,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,lesiones_personales,1434,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,hurto_personas,5346,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,hurto_residencias,319,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,hurto_automotores,193,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,hurto_bicicletas,496,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,hurto_comercio,363,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,hurto_motocicletas,495,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,delitos_sexuales,594,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2024,violencia_intrafamiliar,3651,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,homicidios,90,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,lesiones_personales,1374,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,hurto_personas,4848,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,hurto_residencias,248,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,hurto_automotores,177,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,hurto_bicicletas,481,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,hurto_comercio,206,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,hurto_celulares,1303,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,hurto_motocicletas,472,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,delitos_sexuales,454,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,07,Bosa,2025,violencia_intrafamiliar,2089,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,homicidios,139,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,lesiones_personales,3496,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,hurto_personas,11081,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,hurto_residencias,1244,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,hurto_automotores,783,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,hurto_bicicletas,1026,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,hurto_comercio,1966,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,hurto_celulares,7207,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,hurto_motocicletas,839,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,delitos_sexuales,629,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2018,violencia_intrafamiliar,4449,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,homicidios,137,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,lesiones_personales,3087,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,hurto_personas,13044,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,hurto_residencias,1287,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,hurto_automotores,788,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,hurto_bicicletas,1170,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,hurto_comercio,1780,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,hurto_celulares,6216,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,hurto_motocicletas,820,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,delitos_sexuales,730,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2019,violencia_intrafamiliar,5107,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,homicidios,143,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,lesiones_personales,2196,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,hurto_personas,9546,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,hurto_residencias,1020,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,hurto_automotores,702,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,hurto_bicicletas,1816,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,hurto_comercio,1093,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,hurto_celulares,5217,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,hurto_motocicletas,659,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,delitos_sexuales,577,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2020,violencia_intrafamiliar,4882,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,homicidios,187,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,lesiones_personales,2994,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,hurto_personas,11981,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,hurto_residencias,988,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,hurto_automotores,815,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,hurto_bicicletas,1442,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,hurto_comercio,1036,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,hurto_celulares,6044,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,hurto_motocicletas,814,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,delitos_sexuales,622,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2021,violencia_intrafamiliar,4387,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,homicidios,117,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,lesiones_personales,2517,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,hurto_personas,14539,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,hurto_residencias,818,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,hurto_automotores,828,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,hurto_bicicletas,1449,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,hurto_comercio,968,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,hurto_celulares,6371,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,hurto_motocicletas,968,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,delitos_sexuales,681,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2022,violencia_intrafamiliar,4207,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,homicidios,171,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,lesiones_personales,2306,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,hurto_personas,16152,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,hurto_residencias,872,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,hurto_automotores,969,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,hurto_bicicletas,1252,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,hurto_comercio,936,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,hurto_celulares,5162,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,hurto_motocicletas,1058,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,delitos_sexuales,654,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2023,violencia_intrafamiliar,3914,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,homicidios,177,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,lesiones_personales,2446,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,hurto_personas,11961,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,hurto_residencias,662,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,hurto_automotores,997,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,hurto_bicicletas,1066,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,hurto_comercio,884,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,hurto_motocicletas,1050,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,delitos_sexuales,817,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2024,violencia_intrafamiliar,4630,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,homicidios,161,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,lesiones_personales,1572,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,hurto_personas,9354,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,hurto_residencias,471,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,hurto_automotores,623,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,hurto_bicicletas,734,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,hurto_comercio,583,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,hurto_celulares,2319,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,hurto_motocicletas,820,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,delitos_sexuales,447,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,08,Kennedy,2025,violencia_intrafamiliar,3190,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,homicidios,35,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,lesiones_personales,2116,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,hurto_personas,9667,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,hurto_residencias,1207,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,hurto_automotores,460,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,hurto_bicicletas,1166,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,hurto_comercio,1951,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,hurto_celulares,5983,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,hurto_motocicletas,422,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,delitos_sexuales,406,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2018,violencia_intrafamiliar,3072,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,homicidios,53,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,lesiones_personales,1589,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,hurto_personas,11535,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,hurto_residencias,1213,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,hurto_automotores,508,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,hurto_bicicletas,1265,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,hurto_comercio,1839,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,hurto_celulares,5609,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,hurto_motocicletas,420,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,delitos_sexuales,446,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2019,violencia_intrafamiliar,3225,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,homicidios,51,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,lesiones_personales,1347,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,hurto_personas,9006,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,hurto_residencias,981,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,hurto_automotores,407,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,hurto_bicicletas,1629,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,hurto_comercio,1213,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,hurto_celulares,5167,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,hurto_motocicletas,342,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,delitos_sexuales,387,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2020,violencia_intrafamiliar,3742,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,homicidios,53,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,lesiones_personales,1781,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,hurto_personas,11734,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,hurto_residencias,913,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,hurto_automotores,553,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,hurto_bicicletas,1415,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,hurto_comercio,952,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,hurto_celulares,5955,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,hurto_motocicletas,483,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,delitos_sexuales,459,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2021,violencia_intrafamiliar,3314,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,homicidios,47,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,lesiones_personales,1619,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,hurto_personas,13702,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,hurto_residencias,871,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,hurto_automotores,464,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,hurto_bicicletas,1242,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,hurto_comercio,1019,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,hurto_celulares,6252,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,hurto_motocicletas,525,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,delitos_sexuales,497,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2022,violencia_intrafamiliar,3276,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,homicidios,60,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,lesiones_personales,1595,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,hurto_personas,15458,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,hurto_residencias,1229,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,hurto_automotores,461,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,hurto_bicicletas,1216,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,hurto_comercio,1080,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,hurto_celulares,5144,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,hurto_motocicletas,635,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,delitos_sexuales,416,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2023,violencia_intrafamiliar,2781,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,homicidios,66,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,lesiones_personales,1380,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,hurto_personas,12343,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,hurto_residencias,631,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,hurto_automotores,416,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,hurto_bicicletas,1065,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,hurto_comercio,888,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,hurto_motocicletas,621,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,delitos_sexuales,669,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2024,violencia_intrafamiliar,3871,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,homicidios,51,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,lesiones_personales,1098,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,hurto_personas,10209,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,hurto_residencias,616,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,hurto_automotores,373,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,hurto_bicicletas,851,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,hurto_comercio,690,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,hurto_celulares,2836,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,hurto_motocicletas,509,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,delitos_sexuales,519,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,10,Engativá,2025,violencia_intrafamiliar,3117,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,homicidios,88,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,lesiones_personales,2458,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,hurto_personas,10971,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,hurto_residencias,1382,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,hurto_automotores,326,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,hurto_bicicletas,1210,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,hurto_comercio,1888,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,hurto_celulares,6617,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,hurto_motocicletas,322,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,delitos_sexuales,549,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2018,violencia_intrafamiliar,3972,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,homicidios,81,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,lesiones_personales,1893,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,hurto_personas,12708,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,hurto_residencias,1302,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,hurto_automotores,331,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,hurto_bicicletas,1139,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,hurto_comercio,1945,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,hurto_celulares,5886,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,hurto_motocicletas,392,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,delitos_sexuales,611,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2019,violencia_intrafamiliar,4394,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,homicidios,81,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,lesiones_personales,1633,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,hurto_personas,8818,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,hurto_residencias,1130,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,hurto_automotores,327,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,hurto_bicicletas,1473,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,hurto_comercio,1364,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,hurto_celulares,5129,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,hurto_motocicletas,363,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,delitos_sexuales,642,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2020,violencia_intrafamiliar,4416,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,homicidios,61,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,lesiones_personales,2143,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,hurto_personas,10897,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,hurto_residencias,1073,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,hurto_automotores,337,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,hurto_bicicletas,1277,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,hurto_comercio,1089,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,hurto_celulares,5683,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,hurto_motocicletas,449,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,delitos_sexuales,739,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2021,violencia_intrafamiliar,4831,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,homicidios,84,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,lesiones_personales,1909,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,hurto_personas,14544,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,hurto_residencias,947,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,hurto_automotores,318,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,hurto_bicicletas,1281,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,hurto_comercio,1177,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,hurto_celulares,6741,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,hurto_motocicletas,459,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,delitos_sexuales,719,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2022,violencia_intrafamiliar,3749,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,homicidios,77,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,lesiones_personales,2008,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,hurto_personas,17656,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,hurto_residencias,1042,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,hurto_automotores,337,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,hurto_bicicletas,1090,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,hurto_comercio,1242,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,hurto_celulares,5962,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,hurto_motocicletas,528,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,delitos_sexuales,610,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2023,violencia_intrafamiliar,4308,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,homicidios,77,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,lesiones_personales,1685,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,hurto_personas,12836,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,hurto_residencias,813,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,hurto_automotores,235,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,hurto_bicicletas,1022,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,hurto_comercio,1093,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,hurto_motocicletas,504,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,delitos_sexuales,863,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2024,violencia_intrafamiliar,5300,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,homicidios,92,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,lesiones_personales,1446,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,hurto_personas,10775,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,hurto_residencias,745,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,hurto_automotores,219,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,hurto_bicicletas,947,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,hurto_comercio,850,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,hurto_celulares,3312,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,hurto_motocicletas,334,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,delitos_sexuales,473,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,11,Suba,2025,violencia_intrafamiliar,2987,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,homicidios,23,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,lesiones_personales,892,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,hurto_personas,2181,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,hurto_residencias,214,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,hurto_automotores,120,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,hurto_bicicletas,137,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,hurto_comercio,356,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,hurto_celulares,1382,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,hurto_motocicletas,113,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,delitos_sexuales,148,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2018,violencia_intrafamiliar,940,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,homicidios,38,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,lesiones_personales,883,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,hurto_personas,2551,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,hurto_residencias,165,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,hurto_automotores,73,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,hurto_bicicletas,145,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,hurto_comercio,341,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,hurto_celulares,1234,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,hurto_motocicletas,101,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,delitos_sexuales,165,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2019,violencia_intrafamiliar,1045,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,homicidios,20,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,lesiones_personales,541,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,hurto_personas,1905,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,hurto_residencias,174,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,hurto_automotores,76,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,hurto_bicicletas,234,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,hurto_comercio,273,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,hurto_celulares,1154,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,hurto_motocicletas,111,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,delitos_sexuales,114,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2020,violencia_intrafamiliar,947,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,homicidios,27,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,lesiones_personales,587,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,hurto_personas,2426,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,hurto_residencias,154,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,hurto_automotores,69,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,hurto_bicicletas,234,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,hurto_comercio,174,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,hurto_celulares,1226,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,hurto_motocicletas,114,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,delitos_sexuales,138,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2021,violencia_intrafamiliar,880,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,homicidios,20,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,lesiones_personales,477,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,hurto_personas,2766,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,hurto_residencias,120,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,hurto_automotores,84,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,hurto_bicicletas,147,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,hurto_comercio,174,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,hurto_celulares,1253,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,hurto_motocicletas,105,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,delitos_sexuales,173,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2022,violencia_intrafamiliar,876,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,homicidios,21,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,lesiones_personales,485,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,hurto_personas,2787,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,hurto_residencias,92,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,hurto_automotores,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,hurto_bicicletas,131,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,hurto_comercio,152,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,hurto_celulares,839,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,hurto_motocicletas,89,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,delitos_sexuales,154,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2023,violencia_intrafamiliar,825,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,homicidios,27,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,lesiones_personales,537,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,hurto_personas,2354,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,hurto_residencias,100,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,hurto_automotores,86,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,hurto_bicicletas,127,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,hurto_comercio,162,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,hurto_motocicletas,89,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,delitos_sexuales,205,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2024,violencia_intrafamiliar,786,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,homicidios,30,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,lesiones_personales,375,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,hurto_personas,2215,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,hurto_residencias,92,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,hurto_automotores,79,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,hurto_bicicletas,119,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,hurto_comercio,138,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,hurto_celulares,614,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,hurto_motocicletas,94,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,delitos_sexuales,139,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,06,Tunjuelito,2025,violencia_intrafamiliar,725,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,homicidios,31,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,lesiones_personales,1223,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,hurto_personas,7228,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,hurto_residencias,178,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,hurto_automotores,39,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,hurto_bicicletas,203,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,hurto_comercio,910,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,hurto_celulares,4655,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,hurto_motocicletas,43,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,delitos_sexuales,170,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2018,violencia_intrafamiliar,621,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,homicidios,42,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,lesiones_personales,868,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,hurto_personas,8099,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,hurto_residencias,159,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,hurto_automotores,35,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,hurto_bicicletas,160,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,hurto_comercio,804,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,hurto_celulares,4220,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,hurto_motocicletas,35,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,delitos_sexuales,174,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2019,violencia_intrafamiliar,583,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,homicidios,34,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,lesiones_personales,659,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,hurto_personas,3921,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,hurto_residencias,137,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,hurto_automotores,40,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,hurto_bicicletas,225,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,hurto_comercio,429,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,hurto_celulares,2440,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,hurto_motocicletas,34,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,delitos_sexuales,142,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2020,violencia_intrafamiliar,725,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,homicidios,47,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,lesiones_personales,807,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,hurto_personas,4813,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,hurto_residencias,124,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,hurto_automotores,38,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,hurto_bicicletas,259,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,hurto_comercio,545,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,hurto_celulares,2501,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,hurto_motocicletas,63,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,delitos_sexuales,271,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2021,violencia_intrafamiliar,1038,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,homicidios,62,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,lesiones_personales,794,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,hurto_personas,7639,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,hurto_residencias,129,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,hurto_automotores,45,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,hurto_bicicletas,208,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,hurto_comercio,534,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,hurto_celulares,3775,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,hurto_motocicletas,70,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,delitos_sexuales,233,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2022,violencia_intrafamiliar,1008,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,homicidios,50,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,lesiones_personales,827,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,hurto_personas,8792,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,hurto_residencias,170,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,hurto_automotores,41,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,hurto_bicicletas,173,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,hurto_comercio,597,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,hurto_celulares,2759,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,hurto_motocicletas,65,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,delitos_sexuales,293,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2023,violencia_intrafamiliar,1104,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,homicidios,91,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,lesiones_personales,745,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,hurto_personas,9553,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,hurto_residencias,152,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,hurto_automotores,54,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,hurto_bicicletas,165,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,hurto_comercio,567,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,hurto_motocicletas,85,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,delitos_sexuales,526,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2024,violencia_intrafamiliar,1848,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,homicidios,62,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,lesiones_personales,526,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,hurto_personas,5466,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,hurto_residencias,117,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,hurto_automotores,44,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,hurto_bicicletas,157,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,hurto_comercio,246,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,hurto_celulares,1669,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,hurto_motocicletas,92,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,delitos_sexuales,260,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,03,Santa Fe,2025,violencia_intrafamiliar,914,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,lesiones_personales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,hurto_personas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,hurto_residencias,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,hurto_comercio,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,delitos_sexuales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2018,violencia_intrafamiliar,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,lesiones_personales,18,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,hurto_personas,41,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,hurto_residencias,4,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,hurto_bicicletas,4,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,hurto_comercio,47,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,hurto_celulares,20,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,delitos_sexuales,3,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2019,violencia_intrafamiliar,5,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,homicidios,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,lesiones_personales,9,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,hurto_personas,7,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,hurto_residencias,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,hurto_automotores,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,hurto_bicicletas,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,hurto_comercio,3,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,hurto_celulares,4,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,delitos_sexuales,4,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2020,violencia_intrafamiliar,5,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,lesiones_personales,34,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,hurto_personas,45,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,hurto_residencias,4,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,hurto_bicicletas,11,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,hurto_comercio,34,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,hurto_celulares,28,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,delitos_sexuales,2,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2021,violencia_intrafamiliar,18,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,lesiones_personales,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,hurto_personas,14,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,hurto_residencias,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,hurto_bicicletas,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,hurto_comercio,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,hurto_celulares,5,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,hurto_motocicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,delitos_sexuales,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2022,violencia_intrafamiliar,2,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,lesiones_personales,130,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,hurto_personas,1143,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,hurto_residencias,24,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,hurto_automotores,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,hurto_bicicletas,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,hurto_comercio,13,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,hurto_motocicletas,2,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,delitos_sexuales,64,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2023,violencia_intrafamiliar,246,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,lesiones_personales,140,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,hurto_personas,725,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,hurto_residencias,19,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,hurto_automotores,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,hurto_bicicletas,1,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,hurto_comercio,33,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,hurto_celulares,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,hurto_motocicletas,8,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,delitos_sexuales,241,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2024,violencia_intrafamiliar,562,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,homicidios,0,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,lesiones_personales,7151,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,hurto_personas,21906,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,hurto_residencias,999,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,hurto_automotores,44,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,hurto_bicicletas,19,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,hurto_comercio,286,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,hurto_celulares,55,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,hurto_motocicletas,63,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,delitos_sexuales,3479,Ene-Dic (2024vs2025),1,12,full_year
+delito_alto_impacto_anual,99,Sin Localización,2025,violencia_intrafamiliar,20982,Ene-Dic (2024vs2025),1,12,full_year
