@@ -942,17 +942,17 @@
                             'Año del Reporte', 'anio'
                         );
 
-                        // Hurtos - registeredAt_person es la columna correcta
+                        // Hurtos - usar nombres correctos del Excel
                         const hurtos = getValue(row,
-                            'registeredAt_person', 'Hurtos', 'hurtos', 'Hurtos a Personas',
-                            'hurtos_a_personas', 'hurts', 'HURTOS', 'Hurtos a personas'
+                            'official_thefts', 'registeredAt_person', 'Hurtos', 'hurtos',
+                            'Hurtos a Personas', 'hurtos_a_personas', 'hurts', 'HURTOS'
                         );
 
-                        // Incidentes - registeredAt_123_total es la columna correcta
+                        // Incidentes - usar nombres correctos del Excel
                         const incidentes = getValue(row,
-                            'registeredAt_123_total', 'Incidentes', 'incidentes', 'Incidentes 123',
-                            'incidentes_123', 'incidents_123_total', 'incidentes_housing_1',
-                            'incidents_per_year', 'INCIDENTES', 'Incidentes 123'
+                            'official_incidents_123', 'registeredAt_123_total', 'Incidentes',
+                            'incidentes', 'Incidentes 123', 'incidentes_123', 'incidents_123_total',
+                            'incidentes_housing_1', 'incidents_per_year', 'INCIDENTES'
                         );
 
                         // Convertir a números si es posible
@@ -1704,10 +1704,10 @@
                     };
 
                     // Usar nombres exactos de columnas del Excel
-                    const hurtos2025 = getMapValue(latest2025, 'registeredAt_person', 'Hurtos', 'hurtos', 'official_marks');
-                    const incidentes2025 = getMapValue(latest2025, 'registeredAt_123_total', 'incidentes_housing_1', 'Incidentes', 'incidents_per_year');
-                    const hurtos2024 = getMapValue(latest2024 || {}, 'registeredAt_person', 'Hurtos', 'hurtos', 'official_marks');
-                    const incidentes2024 = getMapValue(latest2024 || {}, 'registeredAt_123_total', 'incidentes_housing_1', 'Incidentes', 'incidents_per_year');
+                    const hurtos2025 = getMapValue(latest2025, 'official_thefts', 'registeredAt_person', 'Hurtos', 'hurtos', 'official_marks');
+                    const incidentes2025 = getMapValue(latest2025, 'official_incidents_123', 'registeredAt_123_total', 'incidentes_housing_1', 'Incidentes', 'incidents_per_year');
+                    const hurtos2024 = getMapValue(latest2024 || {}, 'official_thefts', 'registeredAt_person', 'Hurtos', 'hurtos', 'official_marks');
+                    const incidentes2024 = getMapValue(latest2024 || {}, 'official_incidents_123', 'registeredAt_123_total', 'incidentes_housing_1', 'Incidentes', 'incidents_per_year');
 
                     let html = `
                         <div style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); color: white; padding: 20px; border-radius: 13px 13px 0 0; display: flex; justify-content: space-between; align-items: center;">
