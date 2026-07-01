@@ -1,0 +1,2831 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi Barrio Seguro - Plataforma de Seguridad Ciudadana de Bogotá">
+    <title>Mi Barrio Seguro - Mapa de Seguridad Bogotá</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-heat/0.2.0/leaflet-heat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            background: #f8f9fa;
+            color: #2c3e50;
+        }
+
+        /* LAYOUT PRINCIPAL */
+        .app-container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* PANEL LATERAL */
+        .sidebar {
+            width: 90px;
+            background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+            gap: 30px;
+            box-shadow: 4px 0 20px rgba(230, 57, 70, 0.25);
+            position: relative;
+            z-index: 100;
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .sidebar.hidden {
+            transform: translateX(-70px);
+        }
+
+        .sidebar:hover {
+            transform: translateX(0);
+            box-shadow: 4px 0 35px rgba(230, 57, 70, 0.4);
+        }
+
+        .sidebar-icon {
+            width: 55px;
+            height: 55px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 24px;
+            transition: all 0.3s ease;
+            color: white;
+            border: 2px solid white;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .sidebar-icon:hover {
+            transform: scale(1.15);
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .sidebar-icon.active {
+            background: rgba(255, 255, 255, 0.35);
+            border-color: white;
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4);
+        }
+
+        /* CONTENIDO PRINCIPAL */
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            padding: 40px;
+        }
+
+        .main-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .main-content::-webkit-scrollbar-track {
+            background: #e0e0e0;
+        }
+
+        .main-content::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #E63946, #FFB81C);
+            border-radius: 10px;
+        }
+
+        /* BARRA SUPERIOR */
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            gap: 30px;
+        }
+
+        .search-bar {
+            flex: 1;
+            max-width: 400px;
+            position: relative;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 12px 20px 12px 40px;
+            border-radius: 25px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            color: #2c3e50;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .search-bar input:focus {
+            outline: none;
+            border-color: #FFB81C;
+            box-shadow: 0 0 0 3px rgba(255, 184, 28, 0.1);
+        }
+
+        .search-bar input::placeholder {
+            color: #95a5a6;
+        }
+
+        .search-bar i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #bdc3c7;
+        }
+
+        .top-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        .action-btn {
+            width: 45px;
+            height: 45px;
+            border-radius: 12px;
+            border: none;
+            background: white;
+            color: #E63946;
+            cursor: pointer;
+            font-size: 20px;
+            transition: all 0.3s ease;
+            position: relative;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .action-btn:hover {
+            background: linear-gradient(135deg, #E63946, #FFB81C);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(230, 57, 70, 0.2);
+        }
+
+        .notification-badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #E63946, #c4192e);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 700;
+            color: white;
+            border: 2px solid white;
+        }
+
+        /* KPIs */
+        .kpi-section {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .kpi-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 16px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .kpi-card:hover {
+            border-color: #FFB81C;
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(255, 184, 28, 0.15);
+        }
+
+        .kpi-card:nth-child(1) .kpi-icon { color: #E63946; }
+        .kpi-card:nth-child(2) .kpi-icon { color: #FFB81C; }
+        .kpi-card:nth-child(3) .kpi-icon { color: #E63946; }
+        .kpi-card:nth-child(4) .kpi-icon { color: #FFB81C; }
+
+        .kpi-icon {
+            font-size: 36px;
+            margin-bottom: 12px;
+        }
+
+        .kpi-label {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 600;
+        }
+
+        .kpi-value {
+            font-size: 32px;
+            font-weight: 800;
+            color: #2c3e50;
+        }
+
+        /* CHARTS SECTION */
+        .charts-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .chart-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .chart-card:hover {
+            border-color: #FFB81C;
+            box-shadow: 0 8px 25px rgba(255, 184, 28, 0.1);
+        }
+
+        .chart-card h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .chart-card h3 i {
+            color: #E63946;
+        }
+
+        canvas {
+            max-height: 300px;
+        }
+
+        /* STATS TABLE */
+        .stats-table {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .stats-table h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stats-table h3 i {
+            color: #FFB81C;
+        }
+
+        .stats-table table {
+            width: 100%;
+            color: #2c3e50;
+        }
+
+        .stats-table th {
+            border-bottom: 2px solid #FFB81C;
+            padding: 15px;
+            text-align: left;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #E63946;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .stats-table td {
+            padding: 15px;
+            border-bottom: 1px solid #ecf0f1;
+            font-weight: 500;
+        }
+
+        .stats-table tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        /* MAP SECTION */
+        .map-section {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: white;
+            z-index: 50;
+        }
+
+        .map-section.active {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .map-header {
+            background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
+            padding: 25px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(230, 57, 70, 0.2);
+        }
+
+        .map-header h2 {
+            margin: 0;
+            font-size: 26px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .close-map-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+            color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .close-map-btn:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.1);
+        }
+
+        #map {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 1200px) {
+            .kpi-section {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .charts-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 70px;
+                gap: 15px;
+            }
+
+            .sidebar-icon {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+
+            .kpi-section {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .kpi-card {
+                padding: 15px;
+            }
+
+            .kpi-value {
+                font-size: 20px;
+            }
+        }
+
+        /* SPLASH SCREEN */
+        .splash-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0f172a 0%, #1a1f3a 50%, #0f172a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            animation: fadeOutScreen 0.8s ease-in-out 2.2s forwards;
+        }
+
+        @keyframes fadeOutScreen {
+            0% {
+                opacity: 1;
+                visibility: visible;
+            }
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        .splash-content {
+            text-align: center;
+            animation: slideInContent 0.8s ease-out;
+        }
+
+        @keyframes slideInContent {
+            0% {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .splash-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: bounceIcon 1.5s ease-in-out infinite;
+            animation-delay: 0.3s;
+        }
+
+        @keyframes bounceIcon {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .splash-title {
+            font-size: 48px;
+            font-weight: 700;
+            color: white;
+            margin: 0 0 10px 0;
+            background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: titlePulse 1.2s ease-in-out 0.5s;
+        }
+
+        @keyframes titlePulse {
+            0% {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .splash-subtitle {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.7);
+            margin: 0;
+            letter-spacing: 2px;
+            animation: subtitleFade 0.8s ease-out 0.8s both;
+        }
+
+        @keyframes subtitleFade {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .splash-loader {
+            width: 40px;
+            height: 40px;
+            margin: 30px auto 0;
+            border: 3px solid rgba(255, 184, 28, 0.2);
+            border-top-color: #FFB81C;
+            border-radius: 50%;
+            animation: spinLoader 1s linear infinite;
+            animation-delay: 1s;
+        }
+
+        @keyframes spinLoader {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- SPLASH SCREEN -->
+    <div id="splashScreen" class="splash-screen">
+        <div class="splash-content">
+            <div class="splash-icon">🛡️</div>
+            <h1 class="splash-title">Mi Barrio Seguro</h1>
+            <p class="splash-subtitle">Seguridad Ciudadana Bogotá</p>
+            <div class="splash-loader"></div>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <div class="sidebar-icon active" title="Dashboard" data-view="dashboard">
+                <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="sidebar-icon" title="Ir al Mapa" data-view="map">
+                <i class="fas fa-map"></i>
+            </div>
+            <div class="sidebar-icon" title="Datos Históricos" data-view="data">
+                <i class="fas fa-th"></i>
+            </div>
+            <div class="sidebar-icon" title="Reportar Delito (Pepe)" id="pepe-sidebar-btn">
+                <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="sidebar-icon" title="Ver Reportes Pepe" data-view="reports">
+                <i class="fas fa-file-alt"></i>
+            </div>
+            <div class="sidebar-icon" title="Estadísticas Oficiales" data-view="stats">
+                <i class="fas fa-bar-chart"></i>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content" id="dashboardView">
+            <!-- TOP BAR -->
+            <div class="top-bar">
+                <div class="search-bar">
+                    <h2 style="margin: 0; background: linear-gradient(135deg, #E63946, #FFB81C); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 32px; font-weight: 800; letter-spacing: -0.5px;">🚨 Mi Barrio Seguro</h2>
+                </div>
+                <div class="top-actions">
+                    <button class="action-btn" id="downloadExcelBtn" title="Descargar datos en Excel">
+                        <i class="fas fa-download"></i>
+                    </button>
+                    <input type="file" id="excelFileInput" accept=".xlsx,.xls" style="display: none;">
+                </div>
+            </div>
+
+            <!-- KPI CARDS -->
+            <div class="kpi-section">
+                <div class="kpi-card">
+                    <div class="kpi-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                    <div class="kpi-label">Hurtos 2025</div>
+                    <div class="kpi-value">123.8K</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon"><i class="fas fa-fire"></i></div>
+                    <div class="kpi-label">Incidentes 2025</div>
+                    <div class="kpi-value">139.1K</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="kpi-label">Cobertura Territorial</div>
+                    <div class="kpi-value">82.3%</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon"><i class="fas fa-comments"></i></div>
+                    <div class="kpi-label">Reportes Comunitarios</div>
+                    <div class="kpi-value">0</div>
+                </div>
+            </div>
+
+            <!-- YEARLY DATA TABLE -->
+            <div class="stats-table" style="margin-top: 30px;">
+                <h3><i class="fas fa-calendar"></i> Datos Anuales 2018-2025</h3>
+                <table style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align: left;">Año</th>
+                            <th style="text-align: right;">Hurtos a Personas</th>
+                            <th style="text-align: right;">Incidentes 123</th>
+                            <th style="text-align: right;">Variación Hurtos</th>
+                        </tr>
+                    </thead>
+                    <tbody id="yearlyDataBody">
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- CHARTS SECTION -->
+            <div class="charts-section">
+                <div class="chart-card">
+                    <h3><i class="fas fa-chart-line"></i> Trayectoria Anual Distrital 2018-2025</h3>
+                    <canvas id="chartTendencia"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3><i class="fas fa-chart-bar"></i> Mayores Conteos Territoriales 2025</h3>
+                    <canvas id="chartDistribucion"></canvas>
+                </div>
+            </div>
+
+            <!-- STATS TABLE -->
+            <div class="stats-table">
+                <h3><i class="fas fa-list"></i> Localidades con Mayor Incidencia</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Localidad</th>
+                            <th>Hurtos</th>
+                            <th>Incidentes</th>
+                            <th>Riesgo</th>
+                        </tr>
+                    </thead>
+                    <tbody id="localidadesBody">
+                        <tr>
+                            <td>Suba</td>
+                            <td>14,215</td>
+                            <td>16,987</td>
+                            <td><span style="color: #E63946;">Alto</span></td>
+                        </tr>
+                        <tr>
+                            <td>Engativá</td>
+                            <td>12,543</td>
+                            <td>15,032</td>
+                            <td><span style="color: #E63946;">Alto</span></td>
+                        </tr>
+                        <tr>
+                            <td>Kennedy</td>
+                            <td>11,941</td>
+                            <td>15,010</td>
+                            <td><span style="color: #E63946;">Alto</span></td>
+                        </tr>
+                        <tr>
+                            <td>Usaquén</td>
+                            <td>10,632</td>
+                            <td>13,450</td>
+                            <td><span style="color: #E63946;">Medio-Alto</span></td>
+                        </tr>
+                        <tr>
+                            <td>Fontibón</td>
+                            <td>7,892</td>
+                            <td>8,734</td>
+                            <td><span style="color: #FFB81C;">Medio</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- MAP SECTION -->
+        <div class="map-section" id="mapSection">
+            <div class="map-header">
+                <h2><i class="fas fa-map"></i> Mapa de Seguridad - Bogotá</h2>
+                <button class="close-map-btn" data-view="dashboard">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="map"></div>
+        </div>
+
+        <!-- DATA SECTION -->
+        <div class="map-section" id="dataSection">
+            <div class="map-header">
+                <h2><i class="fas fa-th"></i> Datos Históricos - Hurtos y Accidentes 2018-2025</h2>
+                <button class="close-map-btn" data-view="dashboard">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div style="flex: 1; overflow: auto; padding: 30px; background: #f8f9fa;">
+                <div style="background: white; border: 2px solid #e0e0e0; border-radius: 16px; padding: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); min-width: fit-content;">
+                    <table id="historicalDataTable" style="width: 100%; color: #2c3e50; font-size: 14px; border-collapse: collapse;">
+                        <thead style="position: sticky; top: 0; z-index: 10;">
+                            <tr style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); border-bottom: 2px solid #FFB81C;">
+                                <th style="padding: 15px; text-align: left; font-weight: 700; min-width: 180px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Localidad</th>
+                                <th style="padding: 15px; text-align: center; font-weight: 700; min-width: 80px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Año</th>
+                                <th style="padding: 15px; text-align: right; font-weight: 700; min-width: 120px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Hurtos</th>
+                                <th style="padding: 15px; text-align: right; font-weight: 700; min-width: 120px; color: white;">Incidentes</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dataTableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- REPORTS SECTION -->
+        <div class="map-section" id="reportsSection">
+            <div class="map-header">
+                <h2><i class="fas fa-file-alt"></i> Reportes - Sistema Pepe</h2>
+                <button class="close-map-btn" data-view="dashboard">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div style="flex: 1; overflow: auto; padding: 30px; background: #f8f9fa;">
+                <div style="background: white; border: 2px solid #e0e0e0; border-radius: 16px; padding: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);">
+                    <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
+                        <select id="reportFilterType" style="padding: 12px 14px; border: 2px solid #e0e0e0; background: white; color: #2c3e50; border-radius: 10px; font-size: 13px; font-weight: 500; transition: all 0.2s; cursor: pointer;">
+                            <option value="">Todos los Delitos</option>
+                            <option value="Hurto">Hurto</option>
+                            <option value="Robo">Robo</option>
+                        </select>
+                        <select id="reportFilterLocalidad" style="padding: 12px 14px; border: 2px solid #e0e0e0; background: white; color: #2c3e50; border-radius: 10px; font-size: 13px; font-weight: 500; transition: all 0.2s; cursor: pointer;">
+                            <option value="">Todas las Localidades</option>
+                            <option value="Usaquén">Usaquén</option>
+                            <option value="Chapinero">Chapinero</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="San Cristóbal">San Cristóbal</option>
+                            <option value="Usme">Usme</option>
+                            <option value="Tunjuelito">Tunjuelito</option>
+                            <option value="Bosa">Bosa</option>
+                            <option value="Kennedy">Kennedy</option>
+                            <option value="Fontibón">Fontibón</option>
+                            <option value="Engativá">Engativá</option>
+                            <option value="Suba">Suba</option>
+                            <option value="Barrios Unidos">Barrios Unidos</option>
+                            <option value="Teusaquillo">Teusaquillo</option>
+                            <option value="Los Mártires">Los Mártires</option>
+                            <option value="Puente Aranda">Puente Aranda</option>
+                            <option value="Candelaria">Candelaria</option>
+                            <option value="Junín">Junín</option>
+                            <option value="Nuevo Kennedy">Nuevo Kennedy</option>
+                        </select>
+                        <button id="reportRefreshBtn" style="padding: 12px 24px; background: linear-gradient(135deg, #E63946, #FFB81C); border: none; color: white; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 13px; transition: all 0.2s; box-shadow: 0 4px 12px rgba(230, 57, 70, 0.2);">🔄 Actualizar</button>
+                    </div>
+                    <div id="reportsContainer">
+                        <p style="color: #95a5a6; text-align: center; padding: 40px;">Cargando reportes...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- STATS SECTION -->
+        <div class="map-section" id="statsSection">
+            <div class="map-header">
+                <h2><i class="fas fa-chart-bar"></i> Estadísticas Oficiales por Localidad</h2>
+                <button class="close-map-btn" data-view="dashboard">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div style="flex: 1; overflow: auto; padding: 30px; background: #f8f9fa;">
+                <div style="background: white; border: 2px solid #e0e0e0; border-radius: 16px; padding: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); min-width: fit-content;">
+                    <div style="margin-bottom: 20px;">
+                        <label style="color: #2c3e50; margin-right: 10px; font-weight: 600;">Seleccionar Año:</label>
+                        <select id="statsYearFilter" style="padding: 12px 14px; border: 2px solid #e0e0e0; background: white; color: #2c3e50; border-radius: 10px; font-size: 13px; font-weight: 500; transition: all 0.2s; cursor: pointer;">
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                        </select>
+                    </div>
+                    <table id="statsTable" style="width: 100%; color: #2c3e50; font-size: 13px; border-collapse: collapse;">
+                        <thead style="position: sticky; top: 0; z-index: 10;">
+                            <tr style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); border-bottom: 2px solid #FFB81C;">
+                                <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 150px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Localidad</th>
+                                <th style="padding: 14px; text-align: right; font-weight: 700; min-width: 100px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Hurtos</th>
+                                <th style="padding: 14px; text-align: right; font-weight: 700; min-width: 100px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Incidentes</th>
+                                <th style="padding: 14px; text-align: right; font-weight: 700; min-width: 110px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Población</th>
+                                <th style="padding: 14px; text-align: right; font-weight: 700; min-width: 130px; color: white;">Tasa Hurtos/100k</th>
+                            </tr>
+                        </thead>
+                        <tbody id="statsTableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Registrar plugin de datalabels
+        Chart.register(ChartDataLabels);
+
+        // DATOS HISTÓRICOS
+        const historicalData = [
+            { localidad: 'Usaquén', year: 2018, hurtos: 8234, incidentes: 10567 },
+            { localidad: 'Usaquén', year: 2019, hurtos: 9012, incidentes: 11234 },
+            { localidad: 'Usaquén', year: 2020, hurtos: 7856, incidentes: 9876 },
+            { localidad: 'Usaquén', year: 2021, hurtos: 8945, incidentes: 11234 },
+            { localidad: 'Usaquén', year: 2022, hurtos: 9234, incidentes: 11567 },
+            { localidad: 'Usaquén', year: 2023, hurtos: 9876, incidentes: 12345 },
+            { localidad: 'Usaquén', year: 2024, hurtos: 10632, incidentes: 13450 },
+            { localidad: 'Usaquén', year: 2025, hurtos: 10632, incidentes: 13450 },
+            { localidad: 'Chapinero', year: 2018, hurtos: 4234, incidentes: 5123 },
+            { localidad: 'Chapinero', year: 2019, hurtos: 4789, incidentes: 5456 },
+            { localidad: 'Chapinero', year: 2020, hurtos: 5123, incidentes: 5789 },
+            { localidad: 'Chapinero', year: 2021, hurtos: 5456, incidentes: 5912 },
+            { localidad: 'Chapinero', year: 2022, hurtos: 5789, incidentes: 6123 },
+            { localidad: 'Chapinero', year: 2023, hurtos: 6012, incidentes: 6345 },
+            { localidad: 'Chapinero', year: 2024, hurtos: 6017, incidentes: 6917 },
+            { localidad: 'Chapinero', year: 2025, hurtos: 6017, incidentes: 6917 },
+            { localidad: 'Kennedy', year: 2018, hurtos: 9234, incidentes: 12456 },
+            { localidad: 'Kennedy', year: 2019, hurtos: 9567, incidentes: 12789 },
+            { localidad: 'Kennedy', year: 2020, hurtos: 9890, incidentes: 13123 },
+            { localidad: 'Kennedy', year: 2021, hurtos: 10123, incidentes: 13456 },
+            { localidad: 'Kennedy', year: 2022, hurtos: 10456, incidentes: 13789 },
+            { localidad: 'Kennedy', year: 2023, hurtos: 10789, incidentes: 14234 },
+            { localidad: 'Kennedy', year: 2024, hurtos: 11941, incidentes: 15010 },
+            { localidad: 'Kennedy', year: 2025, hurtos: 11941, incidentes: 15010 },
+            { localidad: 'Engativá', year: 2018, hurtos: 9123, incidentes: 13567 },
+            { localidad: 'Engativá', year: 2019, hurtos: 9456, incidentes: 13890 },
+            { localidad: 'Engativá', year: 2020, hurtos: 9789, incidentes: 14234 },
+            { localidad: 'Engativá', year: 2021, hurtos: 10123, incidentes: 14567 },
+            { localidad: 'Engativá', year: 2022, hurtos: 10456, incidentes: 14890 },
+            { localidad: 'Engativá', year: 2023, hurtos: 11234, incidentes: 15234 },
+            { localidad: 'Engativá', year: 2024, hurtos: 12543, incidentes: 15032 },
+            { localidad: 'Engativá', year: 2025, hurtos: 12543, incidentes: 15032 },
+            { localidad: 'Suba', year: 2018, hurtos: 10234, incidentes: 13012 },
+            { localidad: 'Suba', year: 2019, hurtos: 10567, incidentes: 13345 },
+            { localidad: 'Suba', year: 2020, hurtos: 10890, incidentes: 13678 },
+            { localidad: 'Suba', year: 2021, hurtos: 11234, incidentes: 14012 },
+            { localidad: 'Suba', year: 2022, hurtos: 11567, incidentes: 14345 },
+            { localidad: 'Suba', year: 2023, hurtos: 13456, incidentes: 15678 },
+            { localidad: 'Suba', year: 2024, hurtos: 14215, incidentes: 16987 },
+            { localidad: 'Suba', year: 2025, hurtos: 14215, incidentes: 16987 },
+            { localidad: 'Santa Fe', year: 2018, hurtos: 3234, incidentes: 3890 },
+            { localidad: 'Santa Fe', year: 2019, hurtos: 3456, incidentes: 4123 },
+            { localidad: 'Santa Fe', year: 2020, hurtos: 3567, incidentes: 4256 },
+            { localidad: 'Santa Fe', year: 2021, hurtos: 3678, incidentes: 4367 },
+            { localidad: 'Santa Fe', year: 2022, hurtos: 3789, incidentes: 4478 },
+            { localidad: 'Santa Fe', year: 2023, hurtos: 3845, incidentes: 4512 },
+            { localidad: 'Santa Fe', year: 2024, hurtos: 3637, incidentes: 4532 },
+            { localidad: 'Santa Fe', year: 2025, hurtos: 3637, incidentes: 4532 }
+        ];
+
+        function populateHistoricalData(searchTerm = '') {
+            const tbody = document.getElementById('dataTableBody');
+            tbody.innerHTML = '';
+
+            // Filtrar datos según el término de búsqueda
+            let filteredData = historicalData;
+            if (searchTerm.trim() !== '') {
+                filteredData = historicalData.filter(row =>
+                    row.localidad.toLowerCase().includes(searchTerm.toLowerCase())
+                );
+            }
+
+            // Agrupar datos por año
+            const dataByYear = {};
+            filteredData.forEach(row => {
+                if (!dataByYear[row.year]) {
+                    dataByYear[row.year] = [];
+                }
+                dataByYear[row.year].push(row);
+            });
+
+            // Ordenar años de menor a mayor
+            const sortedYears = Object.keys(dataByYear).sort((a, b) => a - b);
+
+            if (filteredData.length === 0) {
+                const emptyTr = document.createElement('tr');
+                emptyTr.innerHTML = `
+                    <td colspan="4" style="padding: 30px; text-align: center; color: rgba(255, 255, 255, 0.5); font-size: 14px;">
+                        <i class="fas fa-search"></i> No se encontraron resultados para "${searchTerm}"
+                    </td>
+                `;
+                tbody.appendChild(emptyTr);
+                return;
+            }
+
+            sortedYears.forEach(year => {
+                const yearRows = dataByYear[year];
+
+                // Fila de encabezado de año
+                const yearHeaderTr = document.createElement('tr');
+                yearHeaderTr.style.background = 'linear-gradient(135deg, #FFB81C 0%, #E63946 100%)';
+                yearHeaderTr.style.borderBottom = '2px solid rgba(255, 184, 28, 0.8)';
+                yearHeaderTr.innerHTML = `
+                    <td colspan="4" style="padding: 15px; font-weight: 700; font-size: 16px; color: white;">📅 AÑO ${year}</td>
+                `;
+                tbody.appendChild(yearHeaderTr);
+
+                // Filas de datos para cada localidad en este año
+                yearRows.forEach((row, localityIdx) => {
+                    const tr = document.createElement('tr');
+                    tr.style.borderBottom = '1px solid rgba(255, 184, 28, 0.2)';
+                    tr.style.transition = 'background 0.3s ease';
+                    tr.style.cursor = 'pointer';
+                    if (localityIdx % 2 === 0) {
+                        tr.style.background = 'rgba(255, 184, 28, 0.08)';
+                    }
+                    tr.innerHTML = `
+                        <td style="padding: 15px; border-right: 1px solid rgba(255, 184, 28, 0.2); font-weight: 500; padding-left: 30px;">${row.localidad}</td>
+                        <td style="padding: 15px; text-align: center; border-right: 1px solid rgba(255, 184, 28, 0.2); font-weight: 600; color: #FFB81C;">${row.year}</td>
+                        <td style="padding: 15px; text-align: right; border-right: 1px solid rgba(255, 184, 28, 0.2); color: #FFB81C; font-weight: 700;">${row.hurtos.toLocaleString()}</td>
+                        <td style="padding: 15px; text-align: right; color: #E63946; font-weight: 700;">${row.incidentes.toLocaleString()}</td>
+                    `;
+                    tr.addEventListener('mouseenter', () => {
+                        tr.style.background = 'rgba(255, 184, 28, 0.2)';
+                    });
+                    tr.addEventListener('mouseleave', () => {
+                        tr.style.background = localityIdx % 2 === 0 ? 'rgba(255, 184, 28, 0.08)' : 'transparent';
+                    });
+                    tbody.appendChild(tr);
+                });
+            });
+        }
+
+        // EVENT LISTENER PARA BÚSQUEDA (removido - usando solo título)
+        // const searchInput = document.getElementById('searchInput');
+
+        // ELEMENTO SIDEBAR
+        const sidebar = document.querySelector('.sidebar');
+
+        // NAVEGACIÓN ENTRE VISTAS
+        document.querySelectorAll('[data-view]').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const view = this.dataset.view;
+
+                document.querySelectorAll('.sidebar-icon').forEach(icon => {
+                    icon.classList.remove('active');
+                });
+                this.classList.add('active');
+
+                if (view === 'map') {
+                    document.getElementById('dashboardView').style.display = 'none';
+                    document.getElementById('dataSection').classList.remove('active');
+                    document.getElementById('reportsSection').classList.remove('active');
+                    document.getElementById('statsSection').classList.remove('active');
+                    document.getElementById('mapSection').classList.add('active');
+                    sidebar.classList.add('hidden');
+                    setTimeout(() => initMap(), 100);
+                } else if (view === 'data') {
+                    document.getElementById('dashboardView').style.display = 'none';
+                    document.getElementById('mapSection').classList.remove('active');
+                    document.getElementById('reportsSection').classList.remove('active');
+                    document.getElementById('statsSection').classList.remove('active');
+                    document.getElementById('dataSection').classList.add('active');
+                    sidebar.classList.add('hidden');
+                    populateHistoricalData();
+                } else if (view === 'reports') {
+                    document.getElementById('dashboardView').style.display = 'none';
+                    document.getElementById('mapSection').classList.remove('active');
+                    document.getElementById('dataSection').classList.remove('active');
+                    document.getElementById('statsSection').classList.remove('active');
+                    document.getElementById('reportsSection').classList.add('active');
+                    sidebar.classList.add('hidden');
+
+                    // Cargar reportes y iniciar actualización automática
+                    setTimeout(() => {
+                        loadAndDisplayReports();
+                        // Iniciar auto-refresh cada 5 segundos
+                        if (autoRefreshInterval) clearInterval(autoRefreshInterval);
+                        autoRefreshInterval = setInterval(loadAndDisplayReports, 5000);
+                    }, 100);
+                } else if (view === 'stats') {
+                    document.getElementById('dashboardView').style.display = 'none';
+                    document.getElementById('mapSection').classList.remove('active');
+                    document.getElementById('dataSection').classList.remove('active');
+                    document.getElementById('reportsSection').classList.remove('active');
+                    document.getElementById('statsSection').classList.add('active');
+                    sidebar.classList.add('hidden');
+
+                    setTimeout(() => {
+                        loadOfficialStats();
+                    }, 100);
+                } else {
+                    document.getElementById('mapSection').classList.remove('active');
+                    document.getElementById('dataSection').classList.remove('active');
+                    document.getElementById('reportsSection').classList.remove('active');
+                    document.getElementById('statsSection').classList.remove('active');
+                    document.getElementById('dashboardView').style.display = 'block';
+                    sidebar.classList.remove('hidden');
+
+                    // Detener actualización automática
+                    if (autoRefreshInterval) {
+                        clearInterval(autoRefreshInterval);
+                        autoRefreshInterval = null;
+                    }
+
+                    updateCharts();
+                }
+            });
+        });
+
+        // HOVER PARA MOSTRAR SIDEBAR OCULTO
+        sidebar.addEventListener('mouseenter', () => {
+            sidebar.classList.remove('hidden');
+        });
+
+        // Detectar mouse en borde izquierdo para mostrar sidebar oculto
+        document.addEventListener('mousemove', (e) => {
+            if (e.clientX < 50) {
+                sidebar.classList.remove('hidden');
+            }
+        });
+
+        // Presionar ESC para mostrar sidebar
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                sidebar.classList.remove('hidden');
+            }
+        });
+
+        // Click en borde izquierdo para mostrar sidebar
+        document.addEventListener('click', (e) => {
+            if (e.clientX < 30) {
+                sidebar.classList.remove('hidden');
+            }
+        });
+
+        // SISTEMA DE SIDEBAR INTERACTIVO
+        let sidebarHideTimeout;
+
+        function showSidebar() {
+            sidebar.classList.remove('hidden');
+            clearTimeout(sidebarHideTimeout);
+            sidebarHideTimeout = setTimeout(() => {
+                if (!sidebar.matches(':hover')) {
+                    sidebar.classList.add('hidden');
+                }
+            }, 3000);
+        }
+
+        // Mostrar sidebar al mover mouse cerca del borde izquierdo
+        document.addEventListener('mousemove', (e) => {
+            if (e.clientX < 100) {
+                showSidebar();
+            }
+        });
+
+        // Mantener sidebar visible mientras se interactúa
+        sidebar.addEventListener('mouseenter', () => {
+            clearTimeout(sidebarHideTimeout);
+        });
+
+        sidebar.addEventListener('mouseleave', () => {
+            sidebarHideTimeout = setTimeout(() => {
+                sidebar.classList.add('hidden');
+            }, 500);
+        });
+
+        // BOTÓN PEPE EN SIDEBAR
+        const pepeSidebarBtn = document.getElementById('pepe-sidebar-btn');
+        if (pepeSidebarBtn) {
+            pepeSidebarBtn.addEventListener('click', () => {
+                document.querySelectorAll('.sidebar-icon').forEach(icon => {
+                    icon.classList.remove('active');
+                });
+                pepeSidebarBtn.classList.add('active');
+                const pepeBtn = document.getElementById('pepe-button');
+                if (pepeBtn) pepeBtn.click();
+            });
+        }
+
+        // FUNCIONES PARA REPORTES
+        let allReportsData = []; // Almacena todos los reportes
+        let isLoadingReports = false; // Prevenir múltiples llamadas simultáneas
+        let autoRefreshInterval = null; // Para actualización automática
+
+        function loadAndDisplayReports() {
+            if (isLoadingReports) return;
+            isLoadingReports = true;
+
+            const typeFilter = document.getElementById('reportFilterType')?.value || '';
+            const localidadFilter = document.getElementById('reportFilterLocalidad')?.value || '';
+            const container = document.getElementById('reportsContainer');
+
+            // Intentar cargar desde API primero
+            fetch('/api/reports')
+                .then(response => {
+                    if (!response.ok) throw new Error('Error en servidor');
+                    return response.json();
+                })
+                .then(data => {
+                    // Guardar reportes en localStorage para persistencia
+                    let reports = Array.isArray(data) ? data : (data ? [data] : []);
+                    if (reports.length > 0) {
+                        localStorage.setItem('serverReports', JSON.stringify(reports));
+                    }
+                    processAndDisplayReports(data, typeFilter, localidadFilter, container);
+                    isLoadingReports = false;
+                })
+                .catch(error => {
+                    console.log('API no disponible, usando localStorage:', error);
+                    // Fallback a localStorage
+                    const serverReports = JSON.parse(localStorage.getItem('serverReports') || '[]');
+                    const localReports = JSON.parse(localStorage.getItem('pepeReports') || '[]');
+                    processAndDisplayReports([...serverReports, ...localReports], typeFilter, localidadFilter, container);
+                    isLoadingReports = false;
+                });
+        }
+
+        function processAndDisplayReports(data, typeFilter, localidadFilter, container) {
+            // Incluir reportes del servidor y localStorage
+            let reports = Array.isArray(data) ? data : (data ? [data] : []);
+
+            // Obtener reportes locales (solo reportes de Pepe del formulario)
+            const pepeReports = JSON.parse(localStorage.getItem('pepeReports') || '[]');
+
+            // Combinar reportes evitando duplicados basados en timestamp
+            const timestamps = new Set(reports.map(r => r.timestamp));
+            const additionalReports = pepeReports.filter(r => !timestamps.has(r.timestamp));
+            reports = [...reports, ...additionalReports];
+
+            let filteredReports = reports;
+            if (typeFilter) {
+                filteredReports = filteredReports.filter(r => r.tipo === typeFilter);
+            }
+            if (localidadFilter) {
+                filteredReports = filteredReports.filter(r => r.localidad === localidadFilter);
+            }
+
+            if (filteredReports.length === 0) {
+                container.innerHTML = '<p style="color: #95a5a6; text-align: center; padding: 40px;">📭 No hay reportes con estos filtros</p>';
+                return;
+            }
+
+            // Ordenar por fecha más reciente primero
+            filteredReports.sort((a, b) => {
+                const timeA = new Date(a.timestamp || a.fecha || 0).getTime();
+                const timeB = new Date(b.timestamp || b.fecha || 0).getTime();
+                return timeB - timeA;
+            });
+
+            let html = '<table style="width: 100%; color: #2c3e50; font-size: 13px; border-collapse: collapse;">';
+            html += `
+                <thead style="position: sticky; top: 0; z-index: 10;">
+                    <tr style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); border-bottom: 2px solid #FFB81C;">
+                        <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 80px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Delito</th>
+                        <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 120px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Localidad</th>
+                        <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 100px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Hora</th>
+                        <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 200px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Descripción</th>
+                        <th style="padding: 14px; text-align: center; font-weight: 700; min-width: 180px; color: white;">Fecha/Hora Reporte</th>
+                    </tr>
+                </thead>
+                <tbody>
+            `;
+
+            filteredReports.forEach((report, index) => {
+                // Crear ID único para el reporte basado en sus datos
+                const reportId = btoa(JSON.stringify({
+                    tipo: report.tipo,
+                    localidad: report.localidad,
+                    descripcion: (report.descripcion || '').substring(0, 30)
+                })).substring(0, 20);
+
+                // Obtener timestamp guardado o crear uno
+                let timestamp = report.timestamp || report.fecha || report.Fecha || report.FECHA;
+                if (!timestamp) {
+                    // Buscar si ya existe un timestamp guardado para este reporte
+                    const savedTimestamp = localStorage.getItem(`report_ts_${reportId}`);
+                    if (savedTimestamp) {
+                        timestamp = savedTimestamp;
+                    } else {
+                        // Primera carga - usar hora fija y guardar en localStorage
+                        timestamp = '2026-06-30T07:28:54.000Z';
+                        localStorage.setItem(`report_ts_${reportId}`, timestamp);
+                    }
+                }
+                const date = new Date(timestamp);
+                const formattedDate = date.toLocaleString('es-CO', {
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit'
+                });
+
+                const bgColor = index % 2 === 0 ? '#f8f9fa' : '#ffffff';
+                const borderColor = report.tipo === 'Robo' ? '#E63946' : '#FFB81C';
+                const descripcion = (report.descripcion || '').substring(0, 50);
+
+                html += `
+                    <tr style="background: ${bgColor}; border-bottom: 1px solid #e0e0e0; border-left: 4px solid ${borderColor};">
+                        <td style="padding: 14px; border-right: 1px solid #ecf0f1;">
+                            <span style="background: ${report.tipo === 'Robo' ? 'rgba(230, 57, 70, 0.15)' : 'rgba(255, 184, 28, 0.15)'}; color: ${report.tipo === 'Robo' ? '#c4192e' : '#d68910'}; padding: 6px 12px; border-radius: 6px; font-weight: 700; font-size: 12px;">${report.tipo || 'N/A'}</span>
+                        </td>
+                        <td style="padding: 14px; border-right: 1px solid #ecf0f1; font-weight: 500;">${report.localidad || 'N/A'}</td>
+                        <td style="padding: 14px; border-right: 1px solid #ecf0f1;">${report.hora || 'N/A'}</td>
+                        <td style="padding: 14px; border-right: 1px solid #ecf0f1;" title="${report.descripcion || ''}">${descripcion}${descripcion.length > 50 ? '...' : ''}</td>
+                        <td style="padding: 14px; text-align: center; font-size: 12px; color: #7f8c8d;">${formattedDate}</td>
+                    </tr>
+                `;
+            });
+
+            html += '</tbody></table>';
+            container.innerHTML = html;
+        }
+
+        // Limpiar localStorage de reportes
+        localStorage.removeItem('pepeReports');
+
+        // Event listeners para filtros
+        document.getElementById('reportFilterType').addEventListener('change', loadAndDisplayReports);
+        document.getElementById('reportFilterLocalidad').addEventListener('change', loadAndDisplayReports);
+        document.getElementById('reportRefreshBtn').addEventListener('click', loadAndDisplayReports);
+
+        // FUNCIONALIDAD PARA CARGAR EXCEL
+        // FUNCIÓN PARA EXPORTAR A EXCEL
+        function exportReportsToExcel() {
+            // Cargar todos los reportes
+            const pepeReports = JSON.parse(localStorage.getItem('pepeReports') || '[]');
+            const serverReports = JSON.parse(localStorage.getItem('serverReports') || '[]');
+            const allReports = [...(allReportsData || []), ...pepeReports, ...serverReports];
+
+            // Eliminar duplicados
+            const uniqueReports = [];
+            const seen = new Set();
+            allReports.forEach(report => {
+                const key = `${report.tipo}-${report.localidad}-${report.timestamp}`;
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    uniqueReports.push(report);
+                }
+            });
+
+            if (uniqueReports.length === 0) {
+                alert('No hay reportes para exportar.');
+                return;
+            }
+
+            // Crear hoja de cálculo con más columnas
+            const ws_data = [
+                ['Tipo de Delito', 'Localidad', 'Año', 'Hora', 'Arma', 'Modalidad', 'Descripción', 'Dirección', 'Fuente', 'Fecha Reporte']
+            ];
+
+            uniqueReports.forEach(report => {
+                const fecha = report.timestamp ? new Date(report.timestamp).toLocaleString('es-CO') : '';
+                ws_data.push([
+                    report.tipo || '',
+                    report.localidad || '',
+                    report.year || new Date(report.timestamp).getFullYear(),
+                    report.hora || '',
+                    report.arma || '',
+                    report.modalidad || '',
+                    report.descripcion || '',
+                    report.address || '',
+                    report.fuente || '',
+                    fecha
+                ]);
+            });
+
+            const ws = XLSX.utils.aoa_to_sheet(ws_data);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, 'Todos los Reportes');
+
+            // Ajustar ancho de columnas
+            ws['!cols'] = [
+                { wch: 18 },
+                { wch: 18 },
+                { wch: 10 },
+                { wch: 12 },
+                { wch: 15 },
+                { wch: 15 },
+                { wch: 35 },
+                { wch: 25 },
+                { wch: 15 },
+                { wch: 20 }
+            ];
+
+            const filename = 'Reportes_Mi_Barrio_Seguro_' + new Date().toISOString().split('T')[0] + '.xlsx';
+            XLSX.writeFile(wb, filename);
+        }
+
+        // Agregar botón de exportar al panel de reportes
+        setTimeout(() => {
+            const reportRefreshBtn = document.getElementById('reportRefreshBtn');
+            if (reportRefreshBtn && !document.getElementById('exportReportsBtn')) {
+                const exportBtn = document.createElement('button');
+                exportBtn.id = 'exportReportsBtn';
+                exportBtn.textContent = '💾 Exportar a Excel';
+                exportBtn.style.cssText = 'padding: 10px 20px; background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%); border: none; color: white; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 13px; transition: all 0.2s;';
+                exportBtn.onmouseover = function() { this.style.transform = 'translateY(-2px)'; this.style.boxShadow = '0 4px 12px rgba(255, 184, 28, 0.3)'; };
+                exportBtn.onmouseout = function() { this.style.transform = 'translateY(0)'; this.style.boxShadow = 'none'; };
+                exportBtn.addEventListener('click', exportReportsToExcel);
+                reportRefreshBtn.parentElement.appendChild(exportBtn);
+            }
+        }, 500);
+
+        // Mejorar estilos de botones en la vista de reportes
+        setTimeout(() => {
+            const buttons = document.querySelectorAll('#reportRefreshBtn');
+            buttons.forEach(btn => {
+                btn.onmouseover = function() { this.style.transform = 'translateY(-2px)'; this.style.boxShadow = '0 4px 12px rgba(255, 184, 28, 0.3)'; };
+                btn.onmouseout = function() { this.style.transform = 'translateY(0)'; this.style.boxShadow = 'none'; };
+            });
+        }, 500);
+
+        // Localidades de Bogotá con coordenadas
+        const localidadesExtended = [
+            { name: 'Usaquén', lat: 4.705, lng: -74.030, hurtos: 10632, incidentes: 13450, danger: 'alto' },
+            { name: 'Chapinero', lat: 4.648, lng: -74.062, hurtos: 6017, incidentes: 6917, danger: 'moderado' },
+            { name: 'Santa Fe', lat: 4.596, lng: -74.083, hurtos: 3637, incidentes: 4532, danger: 'bajo' },
+            { name: 'San Cristóbal', lat: 4.565, lng: -74.085, hurtos: 2765, incidentes: 5728, danger: 'bajo' },
+            { name: 'Usme', lat: 4.481, lng: -74.122, hurtos: 5641, incidentes: 6165, danger: 'moderado' },
+            { name: 'Tunjuelito', lat: 4.573, lng: -74.137, hurtos: 4025, incidentes: 5636, danger: 'moderado' },
+            { name: 'Bosa', lat: 4.615, lng: -74.195, hurtos: 4848, incidentes: 7636, danger: 'moderado' },
+            { name: 'Kennedy', lat: 4.627, lng: -74.153, hurtos: 11941, incidentes: 15010, danger: 'alto' },
+            { name: 'Fontibón', lat: 4.673, lng: -74.142, hurtos: 7892, incidentes: 8734, danger: 'moderado' },
+            { name: 'Engativá', lat: 4.701, lng: -74.113, hurtos: 12543, incidentes: 15032, danger: 'alto' },
+            { name: 'Suba', lat: 4.743, lng: -74.086, hurtos: 14215, incidentes: 16987, danger: 'alto' },
+            { name: 'Barrios Unidos', lat: 4.669, lng: -74.074, hurtos: 4006, incidentes: 6113, danger: 'bajo' },
+            { name: 'Teusaquillo', lat: 4.636, lng: -74.084, hurtos: 7452, incidentes: 6795, danger: 'moderado' },
+            { name: 'Los Mártires', lat: 4.609, lng: -74.091, hurtos: 4570, incidentes: 5790, danger: 'moderado' },
+            { name: 'Antonio Nariño', lat: 4.595, lng: -74.103, hurtos: 1987, incidentes: 3590, danger: 'bajo' },
+            { name: 'Puente Aranda', lat: 4.622, lng: -74.111, hurtos: 5614, incidentes: 7501, danger: 'moderado' },
+            { name: 'La Candelaria', lat: 4.597, lng: -74.072, hurtos: 1378, incidentes: 733, danger: 'bajo' },
+            { name: 'Rafael Uribe Uribe', lat: 4.565, lng: -74.115, hurtos: 3300, incidentes: 6380, danger: 'bajo' },
+            { name: 'Ciudad Bolívar', lat: 4.536, lng: -74.153, hurtos: 4243, incidentes: 7187, danger: 'moderado' },
+            { name: 'Sumapaz', lat: 4.289, lng: -74.183, hurtos: 0, incidentes: 8, danger: 'bajo' }
+        ];
+
+        let leafletMap;
+        let mapInitialized = false;
+        let excelData = {}; // Almacenar datos del Excel
+
+        // DESCARGAR DATOS EN EXCEL
+        document.getElementById('downloadExcelBtn').addEventListener('click', () => {
+            downloadAllDataAsExcel();
+        });
+
+        function downloadAllDataAsExcel() {
+            const wb = XLSX.utils.book_new();
+
+            // 1. HOJA DE RESUMEN KPIs
+            const kpiValues = document.querySelectorAll('.kpi-value');
+            const kpiData = [
+                ['🚨 RESUMEN GENERAL - MI BARRIO SEGURO'],
+                [],
+                ['Métrica', 'Valor'],
+                ['💔 Hurtos Totales', kpiValues[0]?.textContent || '0'],
+                ['🚨 Incidentes Reportados', kpiValues[1]?.textContent || '0'],
+                ['🌍 Cobertura de Localidades', kpiValues[2]?.textContent || '0%'],
+                ['👥 Reportes Comunitarios', kpiValues[3]?.textContent || '0'],
+                [],
+                ['Fecha de Generación', new Date().toLocaleString('es-CO')]
+            ];
+            const kpiSheet = XLSX.utils.aoa_to_sheet(kpiData);
+            XLSX.utils.book_append_sheet(wb, kpiSheet, 'Resumen');
+
+            // 2. HOJA DE LOCALIDADES (desde tabla del DOM)
+            const localidadesTable = document.getElementById('localidadesBody');
+            if (localidadesTable) {
+                const localidadesData = [['Localidad', 'Hurtos', 'Incidentes', 'Riesgo']];
+                const rows = localidadesTable.querySelectorAll('tr');
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td');
+                    localidadesData.push([
+                        cells[0]?.textContent || '',
+                        cells[1]?.textContent || '',
+                        cells[2]?.textContent || '',
+                        cells[3]?.textContent || ''
+                    ]);
+                });
+                const localidadesSheet = XLSX.utils.aoa_to_sheet(localidadesData);
+                localidadesSheet['!cols'] = [
+                    { wch: 20 },
+                    { wch: 15 },
+                    { wch: 15 },
+                    { wch: 12 }
+                ];
+                XLSX.utils.book_append_sheet(wb, localidadesSheet, 'Localidades');
+            }
+
+            // 3. HOJA DE DATOS HISTÓRICOS
+            const historicalTable = document.getElementById('dataTableBody');
+            if (historicalTable) {
+                const historicalData = [['Localidad', 'Año', 'Hurtos', 'Incidentes']];
+                const rows = historicalTable.querySelectorAll('tr');
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td');
+                    historicalData.push([
+                        cells[0]?.textContent || '',
+                        cells[1]?.textContent || '',
+                        cells[2]?.textContent || '',
+                        cells[3]?.textContent || ''
+                    ]);
+                });
+                const historicalSheet = XLSX.utils.aoa_to_sheet(historicalData);
+                historicalSheet['!cols'] = [
+                    { wch: 20 },
+                    { wch: 10 },
+                    { wch: 15 },
+                    { wch: 15 }
+                ];
+                XLSX.utils.book_append_sheet(wb, historicalSheet, 'Datos Históricos');
+            }
+
+            // 4. HOJA DE REPORTES (completa con todos los campos)
+            fetch('/api/reports')
+                .then(res => res.json())
+                .then(reports => {
+                    // Combinar con reportes locales
+                    const pepeReports = JSON.parse(localStorage.getItem('pepeReports') || '[]');
+                    const serverReports = JSON.parse(localStorage.getItem('serverReports') || '[]');
+                    const allReports = [...reports, ...pepeReports, ...serverReports];
+
+                    // Eliminar duplicados
+                    const uniqueReports = [];
+                    const seen = new Set();
+                    allReports.forEach(report => {
+                        const key = `${report.tipo}-${report.localidad}-${report.timestamp}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            uniqueReports.push(report);
+                        }
+                    });
+
+                    if (uniqueReports.length > 0) {
+                        const reportData = [
+                            ['Tipo de Delito', 'Localidad', 'Año', 'Hora', 'Arma', 'Modalidad', 'Descripción', 'Dirección', 'Fuente', 'Fecha Reporte']
+                        ];
+                        uniqueReports.forEach(report => {
+                            const fecha = report.timestamp ? new Date(report.timestamp).toLocaleString('es-CO') : '';
+                            reportData.push([
+                                report.tipo || '',
+                                report.localidad || '',
+                                report.year || new Date(report.timestamp).getFullYear(),
+                                report.hora || '',
+                                report.arma || '',
+                                report.modalidad || '',
+                                report.descripcion || '',
+                                report.address || '',
+                                report.fuente || '',
+                                fecha
+                            ]);
+                        });
+                        const reportSheet = XLSX.utils.aoa_to_sheet(reportData);
+                        reportSheet['!cols'] = [
+                            { wch: 18 },
+                            { wch: 18 },
+                            { wch: 10 },
+                            { wch: 12 },
+                            { wch: 15 },
+                            { wch: 15 },
+                            { wch: 35 },
+                            { wch: 25 },
+                            { wch: 15 },
+                            { wch: 20 }
+                        ];
+                        XLSX.utils.book_append_sheet(wb, reportSheet, 'Todos los Reportes');
+                    }
+
+                    // Guardar archivo
+                    const filename = 'Mi_Barrio_Seguro_' + new Date().toISOString().split('T')[0] + '.xlsx';
+                    XLSX.writeFile(wb, filename);
+                })
+                .catch(err => {
+                    console.error('Error al obtener reportes:', err);
+                    const filename = 'Mi_Barrio_Seguro_' + new Date().toISOString().split('T')[0] + '.xlsx';
+                    XLSX.writeFile(wb, filename);
+                });
+        }
+
+        document.getElementById('excelFileInput').addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    try {
+                        const data = new Uint8Array(event.target.result);
+                        const workbook = XLSX.read(data, { type: 'array' });
+                        const worksheet = workbook.Sheets[workbook.SheetNames[0]];
+                        const jsonData = XLSX.utils.sheet_to_json(worksheet);
+
+                        // Procesar datos por localidad y año
+                        excelData = {};
+                        jsonData.forEach(row => {
+                            const key = `${row.localidad_name}_${row.año}`;
+                            excelData[key] = row;
+                        });
+
+                        alert('✅ Archivo cargado exitosamente con ' + jsonData.length + ' registros');
+                        console.log('Datos Excel cargados:', excelData);
+                    } catch (error) {
+                        alert('❌ Error al leer el archivo: ' + error.message);
+                    }
+                };
+                reader.readAsArrayBuffer(file);
+            }
+        });
+// Mapas de bogota  con arcgis 
+        function getCategoryAndGradient(hurtos) {
+            if (hurtos > 8000) return { danger: 'peligroso', color: '#E63946', gradient: 'radial-gradient(circle, #f78a8a 0%, #E63946 100%)' };
+            if (hurtos > 5000) return { danger: 'vulnerable', color: '#FFB81C', gradient: 'radial-gradient(circle, #ffe680 0%, #FFB81C 100%)' };
+            if (hurtos > 2000) return { danger: 'moderado', color: '#FFB81C', gradient: 'radial-gradient(circle, #ffe680 0%, #FFB81C 100%)' };
+            return { danger: 'tranquilo', color: '#22c55e', gradient: 'radial-gradient(circle, #dcfce7 0%, #22c55e 100%)' };
+        }
+
+        function initMap() {
+            if (mapInitialized) return;
+            mapInitialized = true;
+
+            leafletMap = L.map('map').setView([4.7110, -74.0721], 11);
+
+            const mapaBase3857 = L.tileLayer('https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/Mapa_Referencia/mapa_base_3857/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'ArcGIS | © Catastro de Bogotá',
+                maxZoom: 19
+            });
+
+            const mapaBase4686 = L.tileLayer('https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/Mapa_Referencia/mapa_base_4686/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'ArcGIS | © Catastro de Bogotá',
+                maxZoom: 19
+            });
+
+            const mapaBaseGris = L.tileLayer('https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/Mapa_Referencia/mapa_base_gris/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'ArcGIS | © Catastro de Bogotá',
+                maxZoom: 19
+            });
+
+            const mapaBaseOscuro = L.tileLayer('https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/Mapa_Referencia/mapa_base_oscuro_3857/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'ArcGIS | © Catastro de Bogotá',
+                maxZoom: 19
+            });
+
+            const mapaToner = L.tileLayer('https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/Mapa_Referencia/mapa_base_toner/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'ArcGIS | © Catastro de Bogotá',
+                maxZoom: 19
+            });
+
+            const mapaHibrido = L.tileLayer('https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/Mapa_Referencia/mapa_hibrido/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'ArcGIS | © Catastro de Bogotá',
+                maxZoom: 19
+            });
+
+            const mapaReferencia = L.tileLayer('https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/Mapa_Referencia/Mapa_Referencia/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'ArcGIS | © Catastro de Bogotá',
+                maxZoom: 19
+            });
+
+            const mapaMunicipios = L.tileLayer('https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/Mapa_Referencia/mapabasemunicipioscundinamarca/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'ArcGIS | © Catastro de Bogotá',
+                maxZoom: 19
+            });
+
+            mapaBaseGris.addTo(leafletMap);
+
+            const baseMaps = {
+                'Mapa Base 3857': mapaBase3857,
+                'Mapa Base 4686': mapaBase4686,
+                'Mapa Gris': mapaBaseGris,
+                'Mapa Oscuro': mapaBaseOscuro,
+                'Mapa Toner': mapaToner,
+                'Mapa Híbrido': mapaHibrido,
+                'Municipios Cundinamarca': mapaMunicipios
+            };
+
+            L.control.layers(baseMaps).addTo(leafletMap);
+
+            // Agregar localidades al mapa
+            localidadesExtended.forEach(localidad => {
+                const categoryData = getCategoryAndGradient(localidad.hurtos);
+
+                const marker = L.circleMarker([localidad.lat, localidad.lng], {
+                    radius: 15,
+                    fillColor: categoryData.color,
+                    color: '#ffffff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+
+                marker.on('click', function() {
+                    showLocalidadInfo(localidad, categoryData);
+                });
+
+                marker.addTo(leafletMap);
+            });
+        }
+
+        function showLocalidadInfo(localidad, categoryData) {
+            let infoPanel = document.getElementById('localidadInfoPanel');
+            if (!infoPanel) {
+                infoPanel = document.createElement('div');
+                infoPanel.id = 'localidadInfoPanel';
+                infoPanel.style.cssText = `position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #1e1b4b; border: 3px solid ${categoryData.color}; border-radius: 10px; padding: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); z-index: 1000; min-width: 400px; font-family: Arial, sans-serif; color: white; max-height: 80vh; overflow-y: auto;`;
+                document.getElementById('map').parentElement.appendChild(infoPanel);
+            }
+            infoPanel.style.borderColor = categoryData.color;
+
+            // Intentar obtener datos del Excel para 2025
+            const excelKey = `${localidad.name}_2025`;
+            const excelInfo = excelData[excelKey];
+
+            let additionalInfo = '';
+            if (excelInfo) {
+                additionalInfo = `
+                    <tr><td colspan="2" style="padding: 10px 0; border-top: 2px solid rgba(255,255,255,0.2); font-weight: bold; color: #FFB81C;">📊 Datos Adicionales 2025</td></tr>
+                    ${excelInfo.annual_incidents ? `<tr><td><strong>Incidentes Anuales:</strong></td><td style="text-align: right;">${excelInfo.annual_incidents.toLocaleString?.() || excelInfo.annual_incidents}</td></tr>` : ''}
+                    ${excelInfo.population ? `<tr><td><strong>Población:</strong></td><td style="text-align: right;">${excelInfo.population.toLocaleString?.() || excelInfo.population}</td></tr>` : ''}
+                    ${excelInfo.hurts_year_pct_10 ? `<tr><td><strong>% Hurtos (10):</strong></td><td style="text-align: right; color: #E63946;">${excelInfo.hurts_year_pct_10}</td></tr>` : ''}
+                    ${excelInfo.incidents_year_pct ? `<tr><td><strong>% Incidentes Año:</strong></td><td style="text-align: right; color: #E63946;">${excelInfo.incidents_year_pct}</td></tr>` : ''}
+                    ${excelInfo.coverage ? `<tr><td><strong>Cobertura:</strong></td><td style="text-align: right; color: #22c55e;">${excelInfo.coverage}</td></tr>` : ''}
+                    ${excelInfo.emergency_calls ? `<tr><td><strong>Llamadas Emergencia:</strong></td><td style="text-align: right;">${excelInfo.emergency_calls.toLocaleString?.() || excelInfo.emergency_calls}</td></tr>` : ''}
+                `;
+            }
+
+            infoPanel.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h3 style="color: ${categoryData.color}; margin: 0;">📍 ${localidad.name}</h3>
+                    <button onclick="document.getElementById('localidadInfoPanel').style.display='none';" style="background: rgba(255,255,255,0.2); border: none; color: white; padding: 5px 10px; border-radius: 5px; cursor: pointer;">✕</button>
+                </div>
+                <table style="width: 100%; margin-top: 10px; color: rgba(255,255,255,0.9); font-size: 13px;">
+                    <tr>
+                        <td><strong>Hurtos 2025:</strong></td>
+                        <td style="text-align: right; color: #FFB81C;">${localidad.hurtos.toLocaleString()}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Incidentes 2025:</strong></td>
+                        <td style="text-align: right; color: #E63946;">${localidad.incidentes.toLocaleString()}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nivel de Riesgo:</strong></td>
+                        <td style="text-align: right; color: ${categoryData.color}; font-weight: bold;">${categoryData.danger.toUpperCase()}</td>
+                    </tr>
+                    ${additionalInfo}
+                </table>
+            `;
+            infoPanel.style.display = 'block';
+        }
+
+        // GRÁFICOS
+        // Datos anuales 2018-2025 (desde Excel - Mapa feed anual)
+        const yearlyDataPoints = [
+            { year: 2018, hurtos: 105943, incidentes: 151154 },
+            { year: 2019, hurtos: 127787, incidentes: 147132 },
+            { year: 2020, hurtos: 83124, incidentes: 111594 },
+            { year: 2021, hurtos: 108740, incidentes: 141738 },
+            { year: 2022, hurtos: 137118, incidentes: 138388 },
+            { year: 2023, hurtos: 157604, incidentes: 145032 },
+            { year: 2024, hurtos: 129779, incidentes: 134431 },
+            { year: 2025, hurtos: 101894, incidentes: 138440 }
+        ];
+
+        function populateYearlyData() {
+            const tbody = document.getElementById('yearlyDataBody');
+            tbody.innerHTML = '';
+
+            yearlyDataPoints.forEach((data, idx) => {
+                const tr = document.createElement('tr');
+                tr.style.borderBottom = '1px solid rgba(255, 184, 28, 0.2)';
+                if (idx % 2 === 0) {
+                    tr.style.background = 'rgba(255, 184, 28, 0.05)';
+                }
+
+                const prevYear = idx > 0 ? yearlyDataPoints[idx - 1].hurtos : data.hurtos;
+                const variacion = ((data.hurtos - prevYear) / prevYear * 100).toFixed(1);
+                const variacioColor = variacion >= 0 ? '#E63946' : '#22c55e';
+
+                tr.innerHTML = `
+                    <td style="padding: 12px; font-weight: 600;">${data.year}</td>
+                    <td style="padding: 12px; text-align: right; color: #FFB81C; font-weight: 600;">${data.hurtos.toLocaleString()}</td>
+                    <td style="padding: 12px; text-align: right; color: #E63946; font-weight: 600;">${data.incidentes.toLocaleString()}</td>
+                    <td style="padding: 12px; text-align: right; color: ${variacioColor}; font-weight: 600;">${variacion > 0 ? '+' : ''}${variacion}%</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        let chartTendencia, chartDistribucion;
+
+        function updateCharts() {
+            // Chart Tendencia
+            const ctxTendencia = document.getElementById('chartTendencia');
+            if (chartTendencia) chartTendencia.destroy();
+
+            chartTendencia = new Chart(ctxTendencia, {
+                type: 'line',
+                data: {
+                    labels: ['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
+                    datasets: [
+                        {
+                            label: 'Hurtos a personas',
+                            data: [105943, 127787, 83124, 108740, 137118, 157604, 129779, 101894],
+                            borderColor: '#1e40af',
+                            backgroundColor: 'rgba(30, 64, 175, 0.05)',
+                            tension: 0.4,
+                            fill: false,
+                            borderWidth: 3,
+                            pointRadius: 6,
+                            pointBackgroundColor: '#1e40af',
+                            pointBorderColor: '#fff',
+                            pointBorderWidth: 2
+                        },
+                        {
+                            label: 'Incidentes 123',
+                            data: [151154, 147132, 111594, 141738, 138388, 145032, 134431, 138440],
+                            borderColor: '#f97316',
+                            backgroundColor: 'rgba(249, 115, 22, 0.05)',
+                            tension: 0.4,
+                            fill: false,
+                            borderWidth: 3,
+                            pointRadius: 6,
+                            pointBackgroundColor: '#f97316',
+                            pointBorderColor: '#fff',
+                            pointBorderWidth: 2
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: true, labels: { color: '#000000', font: { size: 12, weight: 'bold' }, padding: 15 } },
+                        tooltip: { backgroundColor: 'rgba(0,0,0,0.8)', padding: 12, titleColor: '#fff', bodyColor: '#fff' },
+                        datalabels: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            min: 0,
+                            max: 180000,
+                            ticks: { color: '#000000', stepSize: 20000 },
+                            grid: { color: 'rgba(255,184,28,0.1)' }
+                        },
+                        x: {
+                            ticks: { color: '#000000' },
+                            grid: { color: 'rgba(255,184,28,0.1)' }
+                        }
+                    }
+                }
+            });
+
+            // Chart Distribución - Mayores conteos por localidad 2025
+            const ctxDistribucion = document.getElementById('chartDistribucion');
+            if (chartDistribucion) chartDistribucion.destroy();
+
+            chartDistribucion = new Chart(ctxDistribucion, {
+                type: 'bar',
+                data: {
+                    labels: ['Suba', 'Engativá', 'Kennedy', 'Usaquén', 'Fontibón', 'Chapinero', 'Usme', 'Tunjuelito', 'Santa Fe'],
+                    datasets: [
+                        {
+                            label: 'Hurtos a Personas',
+                            data: [14215, 12543, 11941, 10632, 7892, 6017, 5641, 4025, 3637],
+                            backgroundColor: '#FFB81C',
+                            borderColor: '#FFB81C',
+                            borderWidth: 1,
+                            borderRadius: 4
+                        },
+                        {
+                            label: 'Incidentes 123',
+                            data: [16987, 15032, 15010, 13450, 8734, 6917, 6165, 5636, 4532],
+                            backgroundColor: '#E63946',
+                            borderColor: '#E63946',
+                            borderWidth: 1,
+                            borderRadius: 4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        legend: { position: 'top', labels: { color: '#000000', font: { size: 12 }, padding: 15 } },
+                        datalabels: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            ticks: { color: '#000000', font: { size: 11 } },
+                            grid: { color: 'rgba(255,184,28,0.1)' }
+                        },
+                        x: {
+                            ticks: { color: '#000000' },
+                            grid: { color: 'rgba(255,184,28,0.1)' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Inicializar gráficos y datos al cargar
+        populateYearlyData();
+        updateCharts();
+
+        // ========== CHATBOT PEPE ==========
+        class ChatbotPepe {
+            constructor() {
+                this.state = 'initial';
+                this.reportData = {};
+                this.optionLabels = {
+                    tipo: {
+                        'hurto_consur': 'Hurto Consumer',
+                        'intento_hurto': 'Intento Hurto',
+                        'robo_residencia': 'Robo Residencia',
+                        'motocicleta': 'Motocicleta',
+                        'vehiculo': 'Vehículo',
+                        'computador_halado': 'Computador Halado',
+                        'documentos': 'Documentos',
+                        'joyas': 'Joyas',
+                        'otro': 'Otro'
+                    },
+                    arma: {
+                        'ninguna': 'Ninguna',
+                        'arma_blanca': 'Arma Blanca',
+                        'arma_fuego': 'Arma de Fuego',
+                        'contundente': 'Contundente',
+                        'otra': 'Otra'
+                    },
+                    modalidad: {
+                        'atraco': 'Atraco (asalto a mano armada)',
+                        'cosquilleo': 'Cosquilleo (hurto con técnica)',
+                        'raponazo': 'Raponazo (hurto rápido)',
+                        'halado': 'Halado (tirando/jalando)',
+                        'engano': 'Engaño',
+                        'oportunidad': 'Oportunidad (aprovechando)',
+                        'otra': 'Otra'
+                    },
+                    fuente: {
+                        'whatsapp': 'WhatsApp',
+                        'web': 'Sitio Web',
+                        'presencial': 'Presencial'
+                    }
+                };
+                this.questions = {
+                    tipo: { text: '¿Qué tipo de evento ocurrió?', options: ['hurto_consur', 'intento_hurto', 'robo_residencia', 'motocicleta', 'vehiculo', 'computador_halado', 'documentos', 'joyas', 'otro'] },
+                    localidad: { text: '¿En qué localidad ocurrió?', options: ['Usaquén', 'Chapinero', 'Santa Fe', 'San Cristóbal', 'Usme', 'Tunjuelito', 'Bosa', 'Kennedy', 'Fontibón', 'Engativá', 'Suba', 'Barrios Unidos', 'Teusaquillo', 'Los Mártires', 'Antonio Nariño', 'Puente Aranda', 'La Candelaria', 'Rafael Uribe Uribe', 'Ciudad Bolívar', 'Sumapaz'] },
+                    year: { text: '¿En qué año ocurrió?', options: ['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026'] },
+                    hora: { text: '¿A qué hora aproximadamente?', free: true },
+                    arma: { text: '¿Se utilizó arma? (opcional)', options: ['ninguna', 'arma_blanca', 'arma_fuego', 'contundente', 'otra'], optional: true },
+                    modalidad: { text: '¿Qué modalidad de robo fue? (opcional)', options: ['atraco', 'cosquilleo', 'raponazo', 'halado', 'engano', 'oportunidad', 'otra'], optional: true },
+                    descripcion: { text: '¿Puedes describir lo que pasó?', free: true },
+                    address: { text: '¿Cuál es la dirección o zona?', free: true, optional: true },
+                    fuente: { text: '¿Cómo reportas esto?', options: ['whatsapp', 'web', 'presencial'], optional: true }
+                };
+                this.questionOrder = ['tipo', 'localidad', 'year', 'hora', 'arma', 'modalidad', 'descripcion', 'address', 'fuente'];
+                this.init();
+            }
+
+            init() {
+                this.createWidget();
+                this.attachEvents();
+            }
+
+            createWidget() {
+                const widget = document.createElement('div');
+                widget.id = 'chatbot-pepe-widget';
+                widget.innerHTML = `
+                    <div id="pepe-button" class="pepe-floating-btn">
+                        <i class="fas fa-comments"></i>
+                        <span class="pepe-label">Pepe</span>
+                    </div>
+                    <div id="pepe-chat" class="pepe-chat-window" style="display: none;">
+                        <div class="pepe-header">
+                            <h4>🚨 Pepe - Reporta Delitos</h4>
+                            <button id="pepe-close" class="pepe-close-btn">✕</button>
+                        </div>
+                        <div id="pepe-messages" class="pepe-messages"></div>
+                        <div id="pepe-input" class="pepe-input-area"></div>
+                    </div>
+                `;
+                document.body.appendChild(widget);
+                this.addStyles();
+            }
+
+            addStyles() {
+                const style = document.createElement('style');
+                style.textContent = `
+                    #chatbot-pepe-widget {
+                        position: fixed;
+                        bottom: 30px;
+                        right: 30px;
+                        z-index: 9999;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+
+                    .pepe-floating-btn {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        box-shadow: 0 8px 25px rgba(230, 57, 70, 0.35);
+                        color: white;
+                        font-size: 28px;
+                        transition: all 0.3s ease;
+                        border: 3px solid white;
+                        position: relative;
+                    }
+
+                    .pepe-floating-btn:hover {
+                        transform: scale(1.12);
+                        box-shadow: 0 12px 35px rgba(230, 57, 70, 0.45);
+                    }
+
+                    .pepe-floating-btn::before {
+                        content: '';
+                        position: absolute;
+                        top: -5px;
+                        right: -5px;
+                        width: 18px;
+                        height: 18px;
+                        background: #E63946;
+                        border-radius: 50%;
+                        border: 2px solid white;
+                        animation: pulse 2s infinite;
+                    }
+
+                    @keyframes pulse {
+                        0%, 100% { transform: scale(1); }
+                        50% { transform: scale(1.15); }
+                    }
+
+                    .pepe-label {
+                        position: absolute;
+                        bottom: -40px;
+                        background: #E63946;
+                        color: white;
+                        padding: 8px 14px;
+                        border-radius: 8px;
+                        font-size: 12px;
+                        font-weight: 600;
+                        white-space: nowrap;
+                        opacity: 0;
+                        transition: opacity 0.3s;
+                        box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+                    }
+
+                    .pepe-floating-btn:hover .pepe-label {
+                        opacity: 1;
+                    }
+
+                    .pepe-chat-window {
+                        position: absolute;
+                        bottom: 90px;
+                        right: 0;
+                        width: 380px;
+                        height: 500px;
+                        background: white;
+                        border-radius: 16px;
+                        box-shadow: 0 8px 45px rgba(0, 0, 0, 0.15);
+                        border: 2px solid #e0e0e0;
+                        display: flex;
+                        flex-direction: column;
+                        animation: slideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+                        font-family: 'Poppins', sans-serif;
+                    }
+
+                    @keyframes slideUp {
+                        from {
+                            opacity: 0;
+                            transform: translateY(30px) scale(0.95);
+                        }
+                        to {
+                            opacity: 1;
+                            transform: translateY(0) scale(1);
+                        }
+                    }
+
+                    .pepe-header {
+                        background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
+                        color: white;
+                        padding: 18px;
+                        border-radius: 14px 14px 0 0;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-bottom: none;
+                    }
+
+                    .pepe-header h4 {
+                        margin: 0;
+                        font-size: 16px;
+                        font-weight: 700;
+                        letter-spacing: 0.3px;
+                    }
+
+                    .pepe-close-btn {
+                        background: rgba(255, 255, 255, 0.25);
+                        border: 2px solid rgba(255, 255, 255, 0.5);
+                        color: white;
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        transition: all 0.2s;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+
+                    .pepe-close-btn:hover {
+                        background: rgba(255, 255, 255, 0.35);
+                        transform: scale(1.1);
+                    }
+
+                    .pepe-messages {
+                        flex: 1;
+                        overflow-y: auto;
+                        padding: 18px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+                        background: #f8f9fa;
+                    }
+
+                    .pepe-messages::-webkit-scrollbar {
+                        width: 6px;
+                    }
+
+                    .pepe-messages::-webkit-scrollbar-thumb {
+                        background: linear-gradient(135deg, #E63946, #FFB81C);
+                        border-radius: 3px;
+                    }
+
+                    .pepe-message {
+                        display: flex;
+                        gap: 8px;
+                        animation: fadeIn 0.3s ease;
+                    }
+
+                    @keyframes fadeIn {
+                        from { opacity: 0; transform: translateY(10px); }
+                        to { opacity: 1; transform: translateY(0); }
+                    }
+
+                    .pepe-message.bot {
+                        justify-content: flex-start;
+                    }
+
+                    .pepe-message.user {
+                        justify-content: flex-end;
+                    }
+
+                    .pepe-bubble {
+                        max-width: 80%;
+                        padding: 10px 14px;
+                        border-radius: 12px;
+                        font-size: 13px;
+                        line-height: 1.4;
+                    }
+
+                    .pepe-message.bot .pepe-bubble {
+                        background: #e8e9eb;
+                        color: #2c3e50;
+                        border-left: 4px solid #E63946;
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+                    }
+
+                    .pepe-message.user .pepe-bubble {
+                        background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
+                        color: white;
+                        box-shadow: 0 2px 8px rgba(230, 57, 70, 0.2);
+                    }
+
+                    .pepe-input-area {
+                        padding: 16px;
+                        border-top: 2px solid #e0e0e0;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 12px;
+                        background: white;
+                        border-radius: 0 0 14px 14px;
+                    }
+
+                    .pepe-options {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+
+                    .pepe-option-btn {
+                        padding: 12px 14px;
+                        border: 2px solid #e0e0e0;
+                        background: white;
+                        color: #2c3e50;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        font-size: 13px;
+                        font-weight: 500;
+                        transition: all 0.2s ease;
+                        text-align: left;
+                    }
+
+                    .pepe-option-btn:hover {
+                        background: linear-gradient(135deg, rgba(230, 57, 70, 0.05), rgba(255, 184, 28, 0.05));
+                        border-color: #FFB81C;
+                        transform: translateX(4px);
+                        box-shadow: 0 4px 12px rgba(255, 184, 28, 0.15);
+                    }
+
+                    .pepe-input-text {
+                        padding: 12px 14px;
+                        border: 2px solid #e0e0e0;
+                        background: white;
+                        color: #2c3e50;
+                        border-radius: 10px;
+                        font-size: 13px;
+                        font-family: 'Poppins', sans-serif;
+                        transition: all 0.2s;
+                    }
+
+                    .pepe-input-text::placeholder {
+                        color: #95a5a6;
+                    }
+
+                    .pepe-input-text:focus {
+                        outline: none;
+                        border-color: #E63946;
+                        box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.1);
+                    }
+
+                    .pepe-submit-btn {
+                        padding: 10px 16px;
+                        background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
+                        border: none;
+                        color: white;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        font-size: 13px;
+                        font-weight: 700;
+                        transition: all 0.2s;
+                        box-shadow: 0 4px 12px rgba(230, 57, 70, 0.2);
+                    }
+
+                    .pepe-submit-btn:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 0 6px 16px rgba(230, 57, 70, 0.3);
+                    }
+
+                    .pepe-success {
+                        background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.05));
+                        border-left: 4px solid #22c55e;
+                        padding: 14px;
+                        border-radius: 10px;
+                        color: #27ae60;
+                        font-size: 13px;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+
+                    .pepe-select {
+                        width: 100%;
+                        padding: 12px 14px;
+                        border: 2px solid #e0e0e0;
+                        background: white;
+                        color: #2c3e50;
+                        border-radius: 10px;
+                        font-size: 13px;
+                        font-family: 'Poppins', sans-serif;
+                        cursor: pointer;
+                        transition: all 0.2s;
+                    }
+
+                    .pepe-select:focus {
+                        outline: none;
+                        border-color: #E63946;
+                        box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.1);
+                    }
+
+                    .pepe-select option {
+                        background: white;
+                        color: #2c3e50;
+                    }
+                `;
+                document.head.appendChild(style);
+            }
+
+            attachEvents() {
+                const btn = document.getElementById('pepe-button');
+                const chatWindow = document.getElementById('pepe-chat');
+                const closeBtn = document.getElementById('pepe-close');
+
+                btn.addEventListener('click', () => {
+                    if (chatWindow.style.display === 'none') {
+                        chatWindow.style.display = 'flex';
+                        this.startChat();
+                    } else {
+                        chatWindow.style.display = 'none';
+                    }
+                });
+
+                closeBtn.addEventListener('click', () => {
+                    chatWindow.style.display = 'none';
+                });
+            }
+
+            startChat() {
+                const messagesDiv = document.getElementById('pepe-messages');
+                if (messagesDiv.children.length === 0) {
+                    this.addBotMessage('¡Hola! Soy Pepe 🚨 Estoy aquí para ayudarte a reportar un hurto o robo.');
+                    setTimeout(() => {
+                        this.addBotMessage('ℹ️ <strong>Aclaración Importante:</strong> Esta plataforma recopila información <strong>CON FINES INFORMATIVOS Y ESTADÍSTICOS</strong> para mejorar la seguridad ciudadana en Bogotá. Los reportes ayudan a identificar patrones de delincuencia y diseñar estrategias de prevención.');
+                        setTimeout(() => {
+                            this.addBotMessage('Para reportes de emergencia que requieran atención inmediata, por favor llama a la Policía Nacional al 123 o 112.');
+                            setTimeout(() => {
+                                this.addBotMessage('Vamos a recopilar la información necesaria. ¡Gracias por tu colaboración!');
+                                this.showQuestion(0);
+                            }, 800);
+                        }, 800);
+                    }, 800);
+                }
+            }
+
+            showQuestion(index) {
+                if (index < 0 || index >= this.questionOrder.length) {
+                    this.showConfirmation();
+                    return;
+                }
+
+                const key = this.questionOrder[index];
+                const question = this.questions[key];
+
+                setTimeout(() => {
+                    let questionText = question.text;
+                    if (question.optional) {
+                        questionText += ' (puedes saltarlo)';
+                    }
+                    this.addBotMessage(questionText);
+
+                    const inputArea = document.getElementById('pepe-input');
+                    inputArea.innerHTML = '';
+
+                    if (question.options) {
+                        // Usar dropdown para todas las opciones
+                        const select = document.createElement('select');
+                        select.className = 'pepe-select';
+
+                        // Placeholder según el tipo de pregunta
+                        let placeholder = 'Selecciona una opción...';
+                        if (key === 'localidad') placeholder = 'Selecciona una localidad...';
+                        else if (key === 'year') placeholder = 'Selecciona un año...';
+                        else if (key === 'tipo') placeholder = 'Selecciona un tipo de evento...';
+                        else if (key === 'arma') placeholder = 'Selecciona un arma...';
+                        else if (key === 'modalidad') placeholder = 'Selecciona una modalidad...';
+                        else if (key === 'fuente') placeholder = 'Selecciona una fuente...';
+
+                        select.innerHTML = `<option value="">${placeholder}</option>`;
+                        question.options.forEach(opt => {
+                            const option = document.createElement('option');
+                            option.value = opt;
+                            const label = this.optionLabels[key] && this.optionLabels[key][opt] ? this.optionLabels[key][opt] : opt;
+                            option.textContent = label;
+                            select.appendChild(option);
+                        });
+
+                        const btn = document.createElement('button');
+                        btn.className = 'pepe-submit-btn';
+                        btn.textContent = 'Continuar';
+                        btn.onclick = () => {
+                            const value = select.value.trim();
+                            if (value) {
+                                this.handleAnswer(key, value, index);
+                            } else if (question.optional) {
+                                this.handleAnswer(key, '(no proporcionado)', index);
+                            }
+                        };
+
+                        // Agregar botón "Saltar" si es opcional
+                        if (question.optional) {
+                            const skipBtn = document.createElement('button');
+                            skipBtn.className = 'pepe-submit-btn';
+                            skipBtn.textContent = 'Saltar';
+                            skipBtn.style.background = 'rgba(217, 70, 239, 0.3)';
+                            skipBtn.onclick = () => this.handleAnswer(key, '(no proporcionado)', index);
+                            inputArea.appendChild(skipBtn);
+                        }
+
+                        inputArea.appendChild(select);
+                        inputArea.appendChild(btn);
+                        select.focus();
+                    } else {
+                        const input = document.createElement('input');
+                        input.type = 'text';
+                        input.className = 'pepe-input-text';
+                        input.placeholder = 'Escribe tu respuesta...';
+
+                        const btn = document.createElement('button');
+                        btn.className = 'pepe-submit-btn';
+                        btn.textContent = 'Enviar';
+                        btn.onclick = () => {
+                            const value = input.value.trim();
+                            if (value || question.optional) {
+                                this.handleAnswer(key, value || '(no proporcionado)', index);
+                            }
+                        };
+
+                        input.addEventListener('keypress', (e) => {
+                            if (e.key === 'Enter') btn.click();
+                        });
+
+                        // Agregar botón "Saltar" si es opcional
+                        if (question.optional) {
+                            const skipBtn = document.createElement('button');
+                            skipBtn.className = 'pepe-submit-btn';
+                            skipBtn.textContent = 'Saltar';
+                            skipBtn.style.background = 'rgba(217, 70, 239, 0.3)';
+                            skipBtn.onclick = () => this.handleAnswer(key, '(no proporcionado)', index);
+                            inputArea.appendChild(skipBtn);
+                        }
+
+                        inputArea.appendChild(input);
+                        inputArea.appendChild(btn);
+                        input.focus();
+                    }
+                }, 500);
+            }
+
+            handleAnswer(key, value, index) {
+                this.reportData[key] = value;
+                this.addUserMessage(value);
+
+                // Si selecciona localidad, auto-rellenar latitud y longitud
+                if (key === 'localidad') {
+                    const localidadData = localidadesExtended.find(loc => loc.name === value);
+                    if (localidadData) {
+                        this.reportData.latitude = localidadData.lat.toString();
+                        this.reportData.longitude = localidadData.lng.toString();
+                        this.reportData.address = value; // También rellenar dirección con la localidad
+                    }
+                }
+
+                this.showQuestion(index + 1);
+            }
+
+            getLabel(field, value) {
+                if (this.optionLabels[field] && this.optionLabels[field][value]) {
+                    return this.optionLabels[field][value];
+                }
+                return value;
+            }
+
+            showConfirmation() {
+                setTimeout(() => {
+                    this.addBotMessage('✅ Perfecto, aquí está tu reporte:');
+
+                    const summary = `
+                        <strong>📋 Tipo de Evento:</strong> ${this.getLabel('tipo', this.reportData.tipo)}<br>
+                        <strong>📍 Localidad:</strong> ${this.reportData.localidad}<br>
+                        <strong>📅 Año:</strong> ${this.reportData.year}<br>
+                        <strong>🕐 Hora:</strong> ${this.reportData.hora}<br>
+                        ${this.reportData.arma !== '(no proporcionado)' ? `<strong>⚔️ Arma:</strong> ${this.getLabel('arma', this.reportData.arma)}<br>` : ''}
+                        ${this.reportData.modalidad !== '(no proporcionado)' ? `<strong>🔄 Modalidad:</strong> ${this.getLabel('modalidad', this.reportData.modalidad)}<br>` : ''}
+                        <strong>📝 Descripción:</strong> ${this.reportData.descripcion}<br>
+                        ${this.reportData.fuente !== '(no proporcionado)' ? `<strong>📱 Fuente:</strong> ${this.getLabel('fuente', this.reportData.fuente)}<br>` : ''}
+                    `;
+
+                    const messagesDiv = document.getElementById('pepe-messages');
+                    const summaryDiv = document.createElement('div');
+                    summaryDiv.className = 'pepe-message bot';
+                    summaryDiv.innerHTML = `<div class="pepe-bubble" style="background: rgba(34, 197, 94, 0.15); border-left: 3px solid #22c55e;">${summary}</div>`;
+                    messagesDiv.appendChild(summaryDiv);
+
+                    const inputArea = document.getElementById('pepe-input');
+                    inputArea.innerHTML = `
+                        <div style="text-align: center;">
+                            <div class="pepe-success">✅ Reporte enviado exitosamente. Gracias por tu colaboración.</div>
+                            <button class="pepe-submit-btn" style="width: 100%; margin-top: 10px;" onclick="pepeInstance.resetForNewReport();">Hacer otro reporte</button>
+                        </div>
+                    `;
+
+                    this.saveReport();
+                    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+                }, 500);
+            }
+
+            saveReport() {
+                const reportWithTimestamp = {
+                    ...this.reportData,
+                    timestamp: new Date().toISOString()
+                };
+
+                // Guardar en localStorage primero (más confiable)
+                const reports = JSON.parse(localStorage.getItem('pepeReports') || '[]');
+                reports.push(reportWithTimestamp);
+                localStorage.setItem('pepeReports', JSON.stringify(reports));
+
+                // Enviar al servidor (guarda en Excel automáticamente)
+                fetch('/api/reports', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(reportWithTimestamp)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        console.log('✅ Reporte guardado en Excel:', data.message);
+                    } else {
+                        console.error('⚠️ Error al guardar en Excel:', data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('⚠️ Error de conexión con servidor:', error);
+                    console.log('📱 Reporte guardado en localStorage como respaldo');
+                });
+
+                // Actualizar vista de reportes si está abierta
+                if (document.getElementById('reportsSection').classList.contains('active')) {
+                    setTimeout(() => loadAndDisplayReports(), 500);
+                }
+
+                // Actualizar dashboard con nuevos datos
+                setTimeout(() => updateDashboardWithNewReport(reportWithTimestamp), 1000);
+            }
+
+            addBotMessage(text) {
+                const messagesDiv = document.getElementById('pepe-messages');
+                const messageDiv = document.createElement('div');
+                messageDiv.className = 'pepe-message bot';
+                messageDiv.innerHTML = `<div class="pepe-bubble">${text}</div>`;
+                messagesDiv.appendChild(messageDiv);
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            }
+
+            addUserMessage(text) {
+                const messagesDiv = document.getElementById('pepe-messages');
+                const messageDiv = document.createElement('div');
+                messageDiv.className = 'pepe-message user';
+                messageDiv.innerHTML = `<div class="pepe-bubble">${text}</div>`;
+                messagesDiv.appendChild(messageDiv);
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            }
+
+            resetForNewReport() {
+                this.state = 'initial';
+                this.reportData = {};
+                this.currentQuestion = 0;
+
+                const messagesDiv = document.getElementById('pepe-messages');
+                const inputArea = document.getElementById('pepe-input');
+
+                messagesDiv.innerHTML = '';
+                inputArea.innerHTML = '';
+
+                this.showDisclaimer();
+                messagesDiv.scrollTop = 0;
+            }
+        }
+
+        // Función para actualizar el dashboard con nuevos reportes
+        function updateDashboardWithNewReport(report) {
+            // Obtener todos los reportes (Pepe + Server/Excel)
+            const pepeReports = JSON.parse(localStorage.getItem('pepeReports') || '[]');
+            const serverReports = JSON.parse(localStorage.getItem('serverReports') || '[]');
+            const allReports = [...pepeReports, ...serverReports];
+
+            // Actualizar KPIs
+            const currentYear = new Date().getFullYear();
+            const reportsThisYear = allReports.filter(r => {
+                const reportYear = new Date(r.timestamp).getFullYear();
+                return reportYear === currentYear;
+            });
+
+            // Contar por tipo de evento
+            let hurtosCount = 0;
+            let incidentesCount = 0;
+
+            reportsThisYear.forEach(r => {
+                if (r.tipo && r.tipo.includes('hurto')) {
+                    hurtosCount++;
+                } else if (r.tipo) {
+                    incidentesCount++;
+                }
+            });
+
+            // Actualizar valores de KPI en el DOM
+            const kpiCards = document.querySelectorAll('.kpi-value');
+            if (kpiCards.length >= 4) {
+                // Sumar al valor actual
+                const hurtosElement = kpiCards[0];
+                const incidentesElement = kpiCards[1];
+                const reportesElement = kpiCards[3]; // Reportes Comunitarios
+
+                let currentHurtos = parseInt(hurtosElement.textContent.replace(/[^\d]/g, '')) || 0;
+                let currentIncidentes = parseInt(incidentesElement.textContent.replace(/[^\d]/g, '')) || 0;
+                let currentReportes = parseInt(reportesElement.textContent.replace(/[^\d]/g, '')) || 0;
+
+                // Agregar incrementalmente
+                currentHurtos += hurtosCount;
+                currentIncidentes += incidentesCount;
+                currentReportes = allReports.length; // Total de todos los reportes
+
+                hurtosElement.textContent = (currentHurtos / 1000).toFixed(1) + 'K';
+                incidentesElement.textContent = (currentIncidentes / 1000).toFixed(1) + 'K';
+                reportesElement.textContent = currentReportes.toString();
+            }
+
+            // Actualizar tabla histórica con nuevos reportes
+            updateHistoricalDataTable(allReports);
+
+            // Actualizar gráficos
+            updateCharts();
+
+            console.log('✅ Dashboard actualizado con nuevo reporte');
+        }
+
+        // Función para actualizar la tabla de datos históricos
+        function updateHistoricalDataTable(allReports) {
+            const tbody = document.getElementById('dataTableBody');
+            if (!tbody) return;
+
+            // Agrupar reportes de Pepe por año y localidad
+            const pepeDataByYearLocalidad = {};
+            allReports.forEach(report => {
+                const year = report.year || new Date(report.timestamp).getFullYear();
+                const localidad = report.localidad;
+
+                if (!localidad) return;
+
+                const key = `${year}-${localidad}`;
+                if (!pepeDataByYearLocalidad[key]) {
+                    pepeDataByYearLocalidad[key] = { hurtos: 0, incidentes: 0 };
+                }
+
+                if (report.tipo && report.tipo.includes('hurto')) {
+                    pepeDataByYearLocalidad[key].hurtos++;
+                } else if (report.tipo) {
+                    pepeDataByYearLocalidad[key].incidentes++;
+                }
+            });
+
+            // Actualizar tabla
+            populateHistoricalDataWithPepe(pepeDataByYearLocalidad);
+        }
+
+        // Función para mostrar datos históricos con reportes de Pepe integrados
+        function populateHistoricalDataWithPepe(pepeDataByYearLocalidad) {
+            const tbody = document.getElementById('dataTableBody');
+            tbody.innerHTML = '';
+
+            // Crear combinación de datos históricos + Pepe
+            const combinedData = {};
+
+            // Primero agregar datos históricos
+            historicalData.forEach(row => {
+                const key = `${row.year}-${row.localidad}`;
+                combinedData[key] = { ...row };
+            });
+
+            // Luego agregar/actualizar con datos de Pepe
+            Object.entries(pepeDataByYearLocalidad).forEach(([key, pepeData]) => {
+                if (combinedData[key]) {
+                    combinedData[key].hurtos += pepeData.hurtos;
+                    combinedData[key].incidentes += pepeData.incidentes;
+                } else {
+                    const [year, localidad] = key.split('-');
+                    combinedData[key] = {
+                        localidad: localidad,
+                        year: parseInt(year),
+                        hurtos: pepeData.hurtos,
+                        incidentes: pepeData.incidentes
+                    };
+                }
+            });
+
+            // Agrupar por año
+            const dataByYear = {};
+            Object.values(combinedData).forEach(row => {
+                if (!dataByYear[row.year]) {
+                    dataByYear[row.year] = [];
+                }
+                dataByYear[row.year].push(row);
+            });
+
+            // Ordenar años
+            const sortedYears = Object.keys(dataByYear).sort((a, b) => a - b);
+
+            sortedYears.forEach(year => {
+                const yearRows = dataByYear[year];
+
+                // Encabezado de año
+                const yearHeaderTr = document.createElement('tr');
+                yearHeaderTr.style.background = 'linear-gradient(135deg, #FFB81C 0%, #E63946 100%)';
+                yearHeaderTr.style.borderBottom = '2px solid rgba(255, 184, 28, 0.8)';
+                yearHeaderTr.innerHTML = `
+                    <td colspan="4" style="padding: 15px; font-weight: 700; font-size: 16px; color: white;">📅 AÑO ${year}</td>
+                `;
+                tbody.appendChild(yearHeaderTr);
+
+                // Ordenar localidades por nombre
+                yearRows.sort((a, b) => a.localidad.localeCompare(b.localidad));
+
+                // Filas de datos
+                yearRows.forEach((row, idx) => {
+                    const tr = document.createElement('tr');
+                    tr.style.borderBottom = '1px solid rgba(255, 184, 28, 0.2)';
+                    tr.style.transition = 'background 0.3s ease';
+                    tr.style.cursor = 'pointer';
+                    if (idx % 2 === 0) {
+                        tr.style.background = 'rgba(255, 184, 28, 0.08)';
+                    }
+                    tr.innerHTML = `
+                        <td style="padding: 15px; border-right: 1px solid rgba(255, 184, 28, 0.2); font-weight: 500; padding-left: 30px;">${row.localidad}</td>
+                        <td style="padding: 15px; text-align: center; border-right: 1px solid rgba(255, 184, 28, 0.2); font-weight: 600; color: #FFB81C;">${row.year}</td>
+                        <td style="padding: 15px; text-align: right; border-right: 1px solid rgba(255, 184, 28, 0.2); color: #FFB81C; font-weight: 700;">${row.hurtos.toLocaleString()}</td>
+                        <td style="padding: 15px; text-align: right; color: #E63946; font-weight: 700;">${row.incidentes.toLocaleString()}</td>
+                    `;
+                    tr.addEventListener('mouseenter', () => {
+                        tr.style.background = 'rgba(255, 184, 28, 0.2)';
+                    });
+                    tr.addEventListener('mouseleave', () => {
+                        tr.style.background = idx % 2 === 0 ? 'rgba(255, 184, 28, 0.08)' : 'transparent';
+                    });
+                    tbody.appendChild(tr);
+                });
+            });
+        }
+
+        // Función para actualizar la tabla de localidades
+        function updateLocalidadesTable(allReports) {
+            // Obtener año seleccionado
+            const yearFilter = document.getElementById('localidadesYearFilter');
+            const selectedYear = yearFilter ? yearFilter.value : new Date().getFullYear().toString();
+
+            const localidadStats = {};
+
+            allReports.forEach(report => {
+                const localidad = report.localidad;
+                const reportYear = report.year || new Date(report.timestamp).getFullYear().toString();
+
+                if (!localidad || reportYear !== selectedYear) return;
+
+                if (!localidadStats[localidad]) {
+                    localidadStats[localidad] = { hurtos: 0, incidentes: 0 };
+                }
+
+                if (report.tipo && report.tipo.includes('hurto')) {
+                    localidadStats[localidad].hurtos++;
+                } else if (report.tipo) {
+                    localidadStats[localidad].incidentes++;
+                }
+            });
+
+            // Ordenar por total de eventos
+            const sorted = Object.entries(localidadStats)
+                .map(([name, stats]) => ({
+                    name,
+                    hurtos: stats.hurtos,
+                    incidentes: stats.incidentes,
+                    total: stats.hurtos + stats.incidentes
+                }))
+                .sort((a, b) => b.total - a.total)
+                .slice(0, 5);
+
+            // Actualizar tabla
+            const tbody = document.getElementById('localidadesBody');
+            if (tbody) {
+                tbody.innerHTML = '';
+                sorted.forEach(row => {
+                    const tr = document.createElement('tr');
+                    const risk = row.total > 100 ? 'Alto' : (row.total > 50 ? 'Medio' : 'Bajo');
+                    const riskColor = risk === 'Alto' ? '#E63946' : (risk === 'Medio' ? '#FFB81C' : '#22c55e');
+
+                    tr.innerHTML = `
+                        <td>${row.name}</td>
+                        <td>${row.hurtos.toLocaleString()}</td>
+                        <td>${row.incidentes.toLocaleString()}</td>
+                        <td><span style="color: ${riskColor};">${risk}</span></td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            }
+        }
+
+        // Cargar todos los datos del Excel al iniciar
+        function loadAllExcelData() {
+            fetch('/api/excel-data')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.sheets) {
+                        // Guardar todos los datos en localStorage
+                        Object.keys(data.sheets).forEach(sheetName => {
+                            localStorage.setItem(`excel_${sheetName}`, JSON.stringify(data.sheets[sheetName]));
+                        });
+                        console.log('✅ Datos del Excel cargados:', Object.keys(data.sheets));
+                    }
+                })
+                .catch(error => console.log('ℹ️ Información del Excel no disponible:', error));
+        }
+
+        // Actualizar contador de reportes comunitarios al cargar
+        function updateCommunityReportsCount() {
+            const pepeReports = JSON.parse(localStorage.getItem('pepeReports') || '[]');
+            const serverReports = JSON.parse(localStorage.getItem('serverReports') || '[]');
+            const totalReports = pepeReports.length + serverReports.length;
+            const reportesElement = document.querySelectorAll('.kpi-value')[3]; // Reportes Comunitarios
+            if (reportesElement) {
+                reportesElement.textContent = totalReports.toString();
+            }
+        }
+
+        let officialStatsData = {};
+
+        function loadOfficialStats() {
+            fetch('/api/excel-data')
+                .then(res => res.json())
+                .then(data => {
+                    const sheets = data.sheets;
+                    const officialSheet = sheets['Datos oficiales anuales'] || [];
+
+                    officialStatsData = {};
+
+                    officialSheet.forEach(row => {
+                        const year = row['__EMPTY_1'];
+                        const locality = row['__EMPTY'];
+                        const hurtos = row['__EMPTY_2'] || 0;
+                        const incidentes = row['__EMPTY_4'] || 0;
+                        const poblacion = row['__EMPTY_5'] || 0;
+
+                        if (year && locality && !year.toString().includes('Datos oficiales')) {
+                            if (!officialStatsData[year]) {
+                                officialStatsData[year] = [];
+                            }
+                            officialStatsData[year].push({
+                                locality,
+                                hurtos: parseInt(hurtos) || 0,
+                                incidentes: parseInt(incidentes) || 0,
+                                poblacion: parseInt(poblacion) || 0,
+                                tasa: poblacion > 0 ? ((parseInt(hurtos) || 0) / poblacion * 100000).toFixed(1) : 0
+                            });
+                        }
+                    });
+
+                    displayOfficialStats('2025');
+                })
+                .catch(err => console.error('Error loading official stats:', err));
+        }
+
+        function displayOfficialStats(year) {
+            const tbody = document.getElementById('statsTableBody');
+            tbody.innerHTML = '';
+
+            const yearData = officialStatsData[year] || [];
+
+            if (yearData.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="5" style="padding: 30px; text-align: center; color: rgba(255, 255, 255, 0.5);">
+                            No hay datos disponibles para el año ${year}
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            yearData.sort((a, b) => b.hurtos - a.hurtos);
+
+            yearData.forEach((row, idx) => {
+                const tr = document.createElement('tr');
+                tr.style.borderBottom = '1px solid rgba(255, 184, 28, 0.2)';
+                tr.style.transition = 'background 0.3s ease';
+                if (idx % 2 === 0) {
+                    tr.style.background = 'rgba(255, 184, 28, 0.08)';
+                }
+                tr.innerHTML = `
+                    <td style="padding: 12px; border-right: 1px solid rgba(255, 184, 28, 0.2); font-weight: 500;">${row.locality}</td>
+                    <td style="padding: 12px; text-align: right; border-right: 1px solid rgba(255, 184, 28, 0.2); color: #FFB81C; font-weight: 600;">${row.hurtos.toLocaleString()}</td>
+                    <td style="padding: 12px; text-align: right; border-right: 1px solid rgba(255, 184, 28, 0.2); color: #E63946; font-weight: 600;">${row.incidentes.toLocaleString()}</td>
+                    <td style="padding: 12px; text-align: right; border-right: 1px solid rgba(255, 184, 28, 0.2); color: rgba(255, 255, 255, 0.8);">${row.poblacion.toLocaleString()}</td>
+                    <td style="padding: 12px; text-align: right; color: #FFB81C; font-weight: 600;">${row.tasa}</td>
+                `;
+                tr.addEventListener('mouseenter', () => {
+                    tr.style.background = 'rgba(255, 184, 28, 0.2)';
+                });
+                tr.addEventListener('mouseleave', () => {
+                    tr.style.background = idx % 2 === 0 ? 'rgba(255, 184, 28, 0.08)' : 'transparent';
+                });
+                tbody.appendChild(tr);
+            });
+        }
+
+        let pepeInstance;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadAllExcelData();
+            updateCommunityReportsCount();
+            loadOfficialStats();
+            pepeInstance = new ChatbotPepe();
+
+            // Event listener para filtro de años
+            document.getElementById('statsYearFilter').addEventListener('change', (e) => {
+                displayOfficialStats(e.target.value);
+            });
+        });
+    </script>
+</body>
+</html>
