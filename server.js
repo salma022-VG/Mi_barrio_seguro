@@ -300,24 +300,40 @@ app.get('/api/excel-data', (req, res) => {
         workbook.SheetNames.forEach(sheetName => {
             const worksheet = workbook.Sheets[sheetName];
 
-            // Convertir a JSON para detectar la estructura
-            let data = XLSX.utils.sheet_to_json(worksheet, { defval: '' });
+            // Leer como matriz primero para ver la estructura
+            const matrix = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
 
-            // Si la primera fila parece ser descriptiva, saltarla
-            if (data.length > 0) {
-                const firstRow = data[0];
-                const firstKey = Object.keys(firstRow)[0];
+            if (!matrix || matrix.length === 0) {
+                sheetsData[sheetName] = [];
+                return;
+            }
 
-                // Si el primer valor parece ser un título descriptivo (contiene "2018" o "feed" o "Datos")
-                if (typeof firstRow[firstKey] === 'string' &&
-                    (firstRow[firstKey].includes('2018') ||
-                     firstRow[firstKey].includes('feed') ||
-                     firstRow[firstKey].includes('Datos') ||
-                     firstRow[firstKey].includes('Filtro'))) {
-
-                    // Re-leer desde la fila 2
-                    data = XLSX.utils.sheet_to_json(worksheet, { defval: '', range: 1 });
+            // Encontrar la fila con datos reales (típicamente fila con números o datos)
+            let headerRowIndex = 0;
+            for (let i = 0; i < Math.min(5, matrix.length); i++) {
+                const row = matrix[i];
+                // Si esta fila tiene más de 1 elemento y no es un título descriptivo
+                if (row && row.length > 2 && row[0] && row[1] && !String(row[0]).includes('Filtro')) {
+                    headerRowIndex = i;
+                    break;
                 }
+            }
+
+            // Extraer headers desde la fila correcta
+            const headerRow = matrix[headerRowIndex] || [];
+            const headers = headerRow.filter(h => h && String(h).trim() !== '');
+
+            // Convertir filas a objetos
+            let data = [];
+            for (let i = headerRowIndex + 1; i < matrix.length; i++) {
+                const row = matrix[i];
+                if (!row || !row[0]) continue; // Saltar filas vacías
+
+                const obj = {};
+                headers.forEach((header, idx) => {
+                    obj[String(header).trim()] = row[idx] || '';
+                });
+                data.push(obj);
             }
 
             sheetsData[sheetName] = data;
