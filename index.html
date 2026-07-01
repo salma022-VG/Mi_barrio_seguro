@@ -890,15 +890,16 @@
                     const allSheets = data.sheets || {};
                     let allData = [];
 
-                    // Buscar datos en diferentes sheets posibles
-                    const possibleSheets = ['Datos oficiales anuales', 'Reportes', 'Mapa feed anual', 'Catalogos'];
-
-                    for (const sheetName of possibleSheets) {
-                        if (allSheets[sheetName]) {
-                            const sheetData = allSheets[sheetName];
-                            if (Array.isArray(sheetData)) {
-                                allData.push(...sheetData);
-                            }
+                    // Procesar todos los sheets
+                    for (const sheetName in allSheets) {
+                        const sheetData = allSheets[sheetName];
+                        if (Array.isArray(sheetData) && sheetData.length > 0) {
+                            // Filtrar solo filas con datos válidos
+                            sheetData.forEach(row => {
+                                if (typeof row === 'object' && row !== null) {
+                                    allData.push({ sheetName, ...row });
+                                }
+                            });
                         }
                     }
 
@@ -912,24 +913,53 @@
                         return;
                     }
 
+                    // Función helper para extraer valor con múltiples opciones
+                    const getValue = (row, ...keys) => {
+                        for (const key of keys) {
+                            if (row[key] !== undefined && row[key] !== null && row[key] !== '') {
+                                return row[key];
+                            }
+                        }
+                        return 'N/A';
+                    };
+
                     // Crear tabla con TODOS los datos disponibles
                     allData.forEach((row, idx) => {
-                        if (typeof row !== 'object' || !row) return;
-
                         const tr = document.createElement('tr');
                         tr.style.background = idx % 2 === 0 ? '#f8f9fa' : '#ffffff';
                         tr.style.borderBottom = '1px solid #e0e0e0';
                         tr.style.borderLeft = '4px solid #FFB81C';
 
-                        // Obtener valores principales
-                        const localidad = row['Localidad'] || row['locality_name'] || row['locality_code'] || 'N/A';
-                        const year = row['Año'] || row['year'] || row['Year'] || 'N/A';
-                        const hurtos = row['Hurtos'] || row['hurtos'] || row['registeredAt_person'] || '0';
-                        const incidentes = row['Incidentes'] || row['incidentes'] || row['registeredAt_123_total'] || '0';
+                        // Obtener valores principales con múltiples variantes de nombres
+                        const localidad = getValue(row,
+                            'Localidad', 'locality_name', 'locality_code', 'Locality',
+                            'nombre_localidad', 'locality', 'Nombre Localidad'
+                        );
+
+                        const year = getValue(row,
+                            'Año', 'year', 'Year', 'YEAR', 'año',
+                            'Año del Reporte', 'anio'
+                        );
+
+                        const hurtos = getValue(row,
+                            'Hurtos', 'hurtos', 'Hurtos a Personas', 'hurtos_a_personas',
+                            'registeredAt_person', 'hurts', 'HURTOS',
+                            'Hurtos a personas', 'robo_personas'
+                        );
+
+                        const incidentes = getValue(row,
+                            'Incidentes', 'incidentes', 'Incidentes 123', 'incidentes_123',
+                            'registeredAt_123_total', 'incidents', 'INCIDENTES',
+                            'Incidentes 123', 'incidents_123_total'
+                        );
+
+                        // Convertir a números si es posible
+                        const hurtosNum = parseInt(hurtos) || 0;
+                        const incidentesNum = parseInt(incidentes) || 0;
 
                         // Formatear números
-                        const hurtosFormatted = typeof hurtos === 'number' ? hurtos.toLocaleString() : hurtos;
-                        const incidentesFormatted = typeof incidentes === 'number' ? incidentes.toLocaleString() : incidentes;
+                        const hurtosFormatted = hurtosNum === 0 && hurtos === 'N/A' ? 'N/A' : hurtosNum.toLocaleString();
+                        const incidentesFormatted = incidentesNum === 0 && incidentes === 'N/A' ? 'N/A' : incidentesNum.toLocaleString();
 
                         tr.innerHTML = `
                             <td style="padding: 14px; border-right: 1px solid #ecf0f1; font-weight: 500;">${localidad}</td>
