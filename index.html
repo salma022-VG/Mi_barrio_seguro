@@ -16,6 +16,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
         * {
             margin: 0;
             padding: 0;
@@ -24,9 +26,9 @@
 
         html, body {
             height: 100%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #0f172a;
-            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            background: #f8f9fa;
+            color: #2c3e50;
         }
 
         /* LAYOUT PRINCIPAL */
@@ -38,16 +40,16 @@
         /* PANEL LATERAL */
         .sidebar {
             width: 90px;
-            background: linear-gradient(180deg, #FFB81C 0%, #E63946 100%);
+            background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 20px 0;
             gap: 30px;
-            box-shadow: 0 0 30px rgba(255, 184, 28, 0.3);
+            box-shadow: 4px 0 20px rgba(230, 57, 70, 0.25);
             position: relative;
             z-index: 100;
-            transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease;
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
 
         .sidebar.hidden {
@@ -56,13 +58,13 @@
 
         .sidebar:hover {
             transform: translateX(0);
-            box-shadow: 0 0 40px rgba(255, 184, 28, 0.5);
+            box-shadow: 4px 0 35px rgba(230, 57, 70, 0.4);
         }
 
         .sidebar-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
+            width: 55px;
+            height: 55px;
+            border-radius: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -70,26 +72,42 @@
             font-size: 24px;
             transition: all 0.3s ease;
             color: white;
-            border: 2px solid transparent;
+            border: 2px solid white;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
         }
 
         .sidebar-icon:hover {
-            transform: scale(1.1);
-            background: rgba(255, 255, 255, 0.15);
-            border-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.15);
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
         }
 
         .sidebar-icon.active {
-            background: rgba(255, 255, 255, 0.25);
+            background: rgba(255, 255, 255, 0.35);
             border-color: white;
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4);
         }
 
         /* CONTENIDO PRINCIPAL */
         .main-content {
             flex: 1;
             overflow-y: auto;
-            background: #0f172a;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
             padding: 40px;
+        }
+
+        .main-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .main-content::-webkit-scrollbar-track {
+            background: #e0e0e0;
+        }
+
+        .main-content::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #E63946, #FFB81C);
+            border-radius: 10px;
         }
 
         /* BARRA SUPERIOR */
@@ -109,62 +127,74 @@
 
         .search-bar input {
             width: 100%;
-            padding: 12px 20px;
+            padding: 12px 20px 12px 40px;
             border-radius: 25px;
-            border: none;
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
+            border: 2px solid #e0e0e0;
+            background: white;
+            color: #2c3e50;
             font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .search-bar input:focus {
+            outline: none;
+            border-color: #FFB81C;
+            box-shadow: 0 0 0 3px rgba(255, 184, 28, 0.1);
         }
 
         .search-bar input::placeholder {
-            color: rgba(255, 255, 255, 0.6);
+            color: #95a5a6;
         }
 
         .search-bar i {
             position: absolute;
-            right: 15px;
+            left: 15px;
             top: 50%;
             transform: translateY(-50%);
-            color: rgba(255, 255, 255, 0.6);
+            color: #bdc3c7;
         }
 
         .top-actions {
             display: flex;
-            gap: 15px;
+            gap: 12px;
         }
 
         .action-btn {
             width: 45px;
             height: 45px;
-            border-radius: 10px;
+            border-radius: 12px;
             border: none;
-            background: rgba(255, 184, 28, 0.2);
-            color: white;
+            background: white;
+            color: #E63946;
             cursor: pointer;
             font-size: 20px;
             transition: all 0.3s ease;
             position: relative;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         .action-btn:hover {
-            background: rgba(255, 184, 28, 0.4);
+            background: linear-gradient(135deg, #E63946, #FFB81C);
+            color: white;
             transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(230, 57, 70, 0.2);
         }
 
         .notification-badge {
             position: absolute;
-            top: -5px;
-            right: -5px;
-            width: 20px;
-            height: 20px;
-            background: #E63946;
+            top: -8px;
+            right: -8px;
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #E63946, #c4192e);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 11px;
-            font-weight: bold;
+            font-weight: 700;
+            color: white;
+            border: 2px solid white;
         }
 
         /* KPIs */
@@ -176,44 +206,43 @@
         }
 
         .kpi-card {
-            background: linear-gradient(135deg, rgba(255, 184, 28, 0.1) 0%, rgba(230, 57, 70, 0.1) 100%);
-            border: 1px solid rgba(255, 184, 28, 0.3);
-            border-radius: 15px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 16px;
             padding: 25px;
-            backdrop-filter: blur(10px);
             transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         }
 
         .kpi-card:hover {
-            border-color: rgba(255, 184, 28, 0.6);
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(255, 184, 28, 0.2);
+            border-color: #FFB81C;
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(255, 184, 28, 0.15);
         }
 
+        .kpi-card:nth-child(1) .kpi-icon { color: #E63946; }
+        .kpi-card:nth-child(2) .kpi-icon { color: #FFB81C; }
+        .kpi-card:nth-child(3) .kpi-icon { color: #E63946; }
+        .kpi-card:nth-child(4) .kpi-icon { color: #FFB81C; }
+
         .kpi-icon {
-            font-size: 32px;
-            margin-bottom: 10px;
-            background: linear-gradient(135deg, #FFB81C, #E63946);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            font-size: 36px;
+            margin-bottom: 12px;
         }
 
         .kpi-label {
-            font-size: 13px;
-            color: rgba(255, 255, 255, 0.7);
+            font-size: 12px;
+            color: #7f8c8d;
             margin-bottom: 8px;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.8px;
+            font-weight: 600;
         }
 
         .kpi-value {
             font-size: 32px;
-            font-weight: bold;
-            background: linear-gradient(135deg, #FFB81C, #E63946);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            font-weight: 800;
+            color: #2c3e50;
         }
 
         /* CHARTS SECTION */
@@ -225,18 +254,31 @@
         }
 
         .chart-card {
-            background: linear-gradient(135deg, rgba(255, 184, 28, 0.1) 0%, rgba(230, 57, 70, 0.1) 100%);
-            border: 1px solid rgba(255, 184, 28, 0.3);
-            border-radius: 15px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 16px;
             padding: 25px;
-            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .chart-card:hover {
+            border-color: #FFB81C;
+            box-shadow: 0 8px 25px rgba(255, 184, 28, 0.1);
         }
 
         .chart-card h3 {
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 700;
             margin-bottom: 20px;
-            color: white;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .chart-card h3 i {
+            color: #E63946;
         }
 
         canvas {
@@ -245,37 +287,51 @@
 
         /* STATS TABLE */
         .stats-table {
-            background: linear-gradient(135deg, rgba(255, 184, 28, 0.1) 0%, rgba(230, 57, 70, 0.1) 100%);
-            border: 1px solid rgba(255, 184, 28, 0.3);
-            border-radius: 15px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 16px;
             padding: 25px;
-            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         }
 
         .stats-table h3 {
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 700;
             margin-bottom: 20px;
-            color: white;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stats-table h3 i {
+            color: #FFB81C;
         }
 
         .stats-table table {
             width: 100%;
-            color: rgba(255, 255, 255, 0.8);
+            color: #2c3e50;
         }
 
         .stats-table th {
-            border-bottom: 1px solid rgba(255, 184, 28, 0.3);
-            padding: 12px;
+            border-bottom: 2px solid #FFB81C;
+            padding: 15px;
             text-align: left;
             font-size: 12px;
             text-transform: uppercase;
-            color: rgba(255, 255, 255, 0.6);
+            color: #E63946;
+            font-weight: 700;
+            letter-spacing: 0.5px;
         }
 
         .stats-table td {
-            padding: 12px;
-            border-bottom: 1px solid rgba(255, 184, 28, 0.1);
+            padding: 15px;
+            border-bottom: 1px solid #ecf0f1;
+            font-weight: 500;
+        }
+
+        .stats-table tr:hover {
+            background-color: #f8f9fa;
         }
 
         /* MAP SECTION */
@@ -286,7 +342,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: #0f172a;
+            background: white;
             z-index: 50;
         }
 
@@ -296,56 +352,42 @@
         }
 
         .map-header {
-            background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%);
-            padding: 20px 40px;
+            background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
+            padding: 25px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            box-shadow: 0 4px 15px rgba(230, 57, 70, 0.2);
         }
 
         .map-header h2 {
             margin: 0;
-            font-size: 24px;
+            font-size: 26px;
+            font-weight: 700;
+            color: white;
         }
 
         .close-map-btn {
             background: rgba(255, 255, 255, 0.2);
-            border: none;
+            border: 2px solid white;
             color: white;
-            width: 40px;
-            height: 40px;
-            border-radius: 8px;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
             cursor: pointer;
-            font-size: 20px;
+            font-size: 24px;
             transition: all 0.3s ease;
         }
 
         .close-map-btn:hover {
-            background: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.1);
         }
 
         #map {
             flex: 1;
             width: 100%;
             height: 100%;
-        }
-
-        /* SCROLLBAR */
-        .main-content::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        .main-content::-webkit-scrollbar-track {
-            background: rgba(255, 184, 28, 0.1);
-        }
-
-        .main-content::-webkit-scrollbar-thumb {
-            background: rgba(255, 184, 28, 0.5);
-            border-radius: 4px;
-        }
-
-        .main-content::-webkit-scrollbar-thumb:hover {
-            background: rgba(255, 184, 28, 0.7);
         }
 
         /* RESPONSIVE */
@@ -544,7 +586,7 @@
             <!-- TOP BAR -->
             <div class="top-bar">
                 <div class="search-bar">
-                    <h2 style="margin: 0; color: white; font-size: 28px; font-weight: 700;">🚨 Mi Barrio Seguro</h2>
+                    <h2 style="margin: 0; background: linear-gradient(135deg, #E63946, #FFB81C); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 32px; font-weight: 800; letter-spacing: -0.5px;">🚨 Mi Barrio Seguro</h2>
                 </div>
                 <div class="top-actions">
                     <button class="action-btn" id="downloadExcelBtn" title="Descargar datos en Excel">
@@ -674,15 +716,15 @@
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            <div style="flex: 1; overflow: auto; padding: 30px; background: #0f172a;">
-                <div style="background: linear-gradient(135deg, rgba(255, 184, 28, 0.1) 0%, rgba(230, 57, 70, 0.1) 100%); border: 1px solid rgba(255, 184, 28, 0.3); border-radius: 15px; padding: 25px; backdrop-filter: blur(10px); min-width: fit-content;">
-                    <table id="historicalDataTable" style="width: 100%; color: rgba(255, 255, 255, 0.9); font-size: 14px; border-collapse: collapse;">
+            <div style="flex: 1; overflow: auto; padding: 30px; background: #f8f9fa;">
+                <div style="background: white; border: 2px solid #e0e0e0; border-radius: 16px; padding: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); min-width: fit-content;">
+                    <table id="historicalDataTable" style="width: 100%; color: #2c3e50; font-size: 14px; border-collapse: collapse;">
                         <thead style="position: sticky; top: 0; z-index: 10;">
-                            <tr style="background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%); border-bottom: 2px solid rgba(255, 184, 28, 0.8);">
-                                <th style="padding: 15px; text-align: left; font-weight: 700; min-width: 180px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Localidad</th>
-                                <th style="padding: 15px; text-align: center; font-weight: 700; min-width: 80px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Año</th>
-                                <th style="padding: 15px; text-align: right; font-weight: 700; min-width: 120px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Hurtos</th>
-                                <th style="padding: 15px; text-align: right; font-weight: 700; min-width: 120px;">Incidentes</th>
+                            <tr style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); border-bottom: 2px solid #FFB81C;">
+                                <th style="padding: 15px; text-align: left; font-weight: 700; min-width: 180px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Localidad</th>
+                                <th style="padding: 15px; text-align: center; font-weight: 700; min-width: 80px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Año</th>
+                                <th style="padding: 15px; text-align: right; font-weight: 700; min-width: 120px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Hurtos</th>
+                                <th style="padding: 15px; text-align: right; font-weight: 700; min-width: 120px; color: white;">Incidentes</th>
                             </tr>
                         </thead>
                         <tbody id="dataTableBody">
@@ -700,15 +742,15 @@
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            <div style="flex: 1; overflow: auto; padding: 30px; background: #0f172a;">
-                <div style="background: linear-gradient(135deg, rgba(255, 184, 28, 0.1) 0%, rgba(230, 57, 70, 0.1) 100%); border: 1px solid rgba(255, 184, 28, 0.3); border-radius: 15px; padding: 25px; backdrop-filter: blur(10px);">
+            <div style="flex: 1; overflow: auto; padding: 30px; background: #f8f9fa;">
+                <div style="background: white; border: 2px solid #e0e0e0; border-radius: 16px; padding: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);">
                     <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
-                        <select id="reportFilterType" style="padding: 10px; border: 1px solid rgba(255, 184, 28, 0.3); background: rgba(13, 27, 42, 0.5); color: white; border-radius: 8px; font-size: 13px;">
+                        <select id="reportFilterType" style="padding: 12px 14px; border: 2px solid #e0e0e0; background: white; color: #2c3e50; border-radius: 10px; font-size: 13px; font-weight: 500; transition: all 0.2s; cursor: pointer;">
                             <option value="">Todos los Delitos</option>
                             <option value="Hurto">Hurto</option>
                             <option value="Robo">Robo</option>
                         </select>
-                        <select id="reportFilterLocalidad" style="padding: 10px; border: 1px solid rgba(255, 184, 28, 0.3); background: rgba(13, 27, 42, 0.5); color: white; border-radius: 8px; font-size: 13px;">
+                        <select id="reportFilterLocalidad" style="padding: 12px 14px; border: 2px solid #e0e0e0; background: white; color: #2c3e50; border-radius: 10px; font-size: 13px; font-weight: 500; transition: all 0.2s; cursor: pointer;">
                             <option value="">Todas las Localidades</option>
                             <option value="Usaquén">Usaquén</option>
                             <option value="Chapinero">Chapinero</option>
@@ -729,10 +771,10 @@
                             <option value="Junín">Junín</option>
                             <option value="Nuevo Kennedy">Nuevo Kennedy</option>
                         </select>
-                        <button id="reportRefreshBtn" style="padding: 10px 20px; background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%); border: none; color: white; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 13px; transition: all 0.2s;">🔄 Actualizar</button>
+                        <button id="reportRefreshBtn" style="padding: 12px 24px; background: linear-gradient(135deg, #E63946, #FFB81C); border: none; color: white; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 13px; transition: all 0.2s; box-shadow: 0 4px 12px rgba(230, 57, 70, 0.2);">🔄 Actualizar</button>
                     </div>
                     <div id="reportsContainer">
-                        <p style="color: rgba(255, 255, 255, 0.6); text-align: center; padding: 40px;">Cargando reportes...</p>
+                        <p style="color: #95a5a6; text-align: center; padding: 40px;">Cargando reportes...</p>
                     </div>
                 </div>
             </div>
@@ -746,11 +788,11 @@
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            <div style="flex: 1; overflow: auto; padding: 30px; background: #0f172a;">
-                <div style="background: linear-gradient(135deg, rgba(255, 184, 28, 0.1) 0%, rgba(230, 57, 70, 0.1) 100%); border: 1px solid rgba(255, 184, 28, 0.3); border-radius: 15px; padding: 25px; backdrop-filter: blur(10px); min-width: fit-content;">
+            <div style="flex: 1; overflow: auto; padding: 30px; background: #f8f9fa;">
+                <div style="background: white; border: 2px solid #e0e0e0; border-radius: 16px; padding: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); min-width: fit-content;">
                     <div style="margin-bottom: 20px;">
-                        <label style="color: rgba(255, 255, 255, 0.8); margin-right: 10px;">Seleccionar Año:</label>
-                        <select id="statsYearFilter" style="padding: 10px; border: 1px solid rgba(255, 184, 28, 0.3); background: rgba(13, 27, 42, 0.5); color: white; border-radius: 8px; font-size: 13px;">
+                        <label style="color: #2c3e50; margin-right: 10px; font-weight: 600;">Seleccionar Año:</label>
+                        <select id="statsYearFilter" style="padding: 12px 14px; border: 2px solid #e0e0e0; background: white; color: #2c3e50; border-radius: 10px; font-size: 13px; font-weight: 500; transition: all 0.2s; cursor: pointer;">
                             <option value="2025">2025</option>
                             <option value="2024">2024</option>
                             <option value="2023">2023</option>
@@ -761,14 +803,14 @@
                             <option value="2018">2018</option>
                         </select>
                     </div>
-                    <table id="statsTable" style="width: 100%; color: rgba(255, 255, 255, 0.9); font-size: 13px; border-collapse: collapse;">
+                    <table id="statsTable" style="width: 100%; color: #2c3e50; font-size: 13px; border-collapse: collapse;">
                         <thead style="position: sticky; top: 0; z-index: 10;">
-                            <tr style="background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%); border-bottom: 2px solid rgba(255, 184, 28, 0.8);">
-                                <th style="padding: 12px; text-align: left; font-weight: 700; min-width: 150px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Localidad</th>
-                                <th style="padding: 12px; text-align: right; font-weight: 700; min-width: 100px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Hurtos</th>
-                                <th style="padding: 12px; text-align: right; font-weight: 700; min-width: 100px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Incidentes</th>
-                                <th style="padding: 12px; text-align: right; font-weight: 700; min-width: 110px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Población</th>
-                                <th style="padding: 12px; text-align: right; font-weight: 700; min-width: 130px;">Tasa Hurtos/100k</th>
+                            <tr style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); border-bottom: 2px solid #FFB81C;">
+                                <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 150px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Localidad</th>
+                                <th style="padding: 14px; text-align: right; font-weight: 700; min-width: 100px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Hurtos</th>
+                                <th style="padding: 14px; text-align: right; font-weight: 700; min-width: 100px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Incidentes</th>
+                                <th style="padding: 14px; text-align: right; font-weight: 700; min-width: 110px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Población</th>
+                                <th style="padding: 14px; text-align: right; font-weight: 700; min-width: 130px; color: white;">Tasa Hurtos/100k</th>
                             </tr>
                         </thead>
                         <tbody id="statsTableBody">
@@ -1115,7 +1157,7 @@
             }
 
             if (filteredReports.length === 0) {
-                container.innerHTML = '<p style="color: rgba(255, 255, 255, 0.6); text-align: center; padding: 40px;">📭 No hay reportes con estos filtros</p>';
+                container.innerHTML = '<p style="color: #95a5a6; text-align: center; padding: 40px;">📭 No hay reportes con estos filtros</p>';
                 return;
             }
 
@@ -1126,15 +1168,15 @@
                 return timeB - timeA;
             });
 
-            let html = '<table style="width: 100%; color: rgba(255, 255, 255, 0.9); font-size: 13px; border-collapse: collapse;">';
+            let html = '<table style="width: 100%; color: #2c3e50; font-size: 13px; border-collapse: collapse;">';
             html += `
                 <thead style="position: sticky; top: 0; z-index: 10;">
-                    <tr style="background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%); border-bottom: 2px solid rgba(255, 184, 28, 0.8);">
-                        <th style="padding: 12px; text-align: left; font-weight: 700; min-width: 80px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Delito</th>
-                        <th style="padding: 12px; text-align: left; font-weight: 700; min-width: 120px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Localidad</th>
-                        <th style="padding: 12px; text-align: left; font-weight: 700; min-width: 100px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Hora</th>
-                        <th style="padding: 12px; text-align: left; font-weight: 700; min-width: 200px; border-right: 1px solid rgba(255, 255, 255, 0.2);">Descripción</th>
-                        <th style="padding: 12px; text-align: center; font-weight: 700; min-width: 180px;">Fecha/Hora Reporte</th>
+                    <tr style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); border-bottom: 2px solid #FFB81C;">
+                        <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 80px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Delito</th>
+                        <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 120px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Localidad</th>
+                        <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 100px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Hora</th>
+                        <th style="padding: 14px; text-align: left; font-weight: 700; min-width: 200px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Descripción</th>
+                        <th style="padding: 14px; text-align: center; font-weight: 700; min-width: 180px; color: white;">Fecha/Hora Reporte</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1171,19 +1213,19 @@
                     second: '2-digit'
                 });
 
-                const bgColor = index % 2 === 0 ? 'rgba(255, 184, 28, 0.05)' : 'transparent';
+                const bgColor = index % 2 === 0 ? '#f8f9fa' : '#ffffff';
                 const borderColor = report.tipo === 'Robo' ? '#E63946' : '#FFB81C';
                 const descripcion = (report.descripcion || '').substring(0, 50);
 
                 html += `
-                    <tr style="background: ${bgColor}; border-bottom: 1px solid rgba(255, 184, 28, 0.2); border-left: 3px solid ${borderColor};">
-                        <td style="padding: 12px; border-right: 1px solid rgba(255, 255, 255, 0.1);">
-                            <span style="background: ${report.tipo === 'Robo' ? 'rgba(230, 57, 70, 0.2)' : 'rgba(255, 184, 28, 0.2)'}; padding: 4px 8px; border-radius: 4px; font-weight: 600;">${report.tipo || 'N/A'}</span>
+                    <tr style="background: ${bgColor}; border-bottom: 1px solid #e0e0e0; border-left: 4px solid ${borderColor};">
+                        <td style="padding: 14px; border-right: 1px solid #ecf0f1;">
+                            <span style="background: ${report.tipo === 'Robo' ? 'rgba(230, 57, 70, 0.15)' : 'rgba(255, 184, 28, 0.15)'}; color: ${report.tipo === 'Robo' ? '#c4192e' : '#d68910'}; padding: 6px 12px; border-radius: 6px; font-weight: 700; font-size: 12px;">${report.tipo || 'N/A'}</span>
                         </td>
-                        <td style="padding: 12px; border-right: 1px solid rgba(255, 255, 255, 0.1);">${report.localidad || 'N/A'}</td>
-                        <td style="padding: 12px; border-right: 1px solid rgba(255, 255, 255, 0.1);">${report.hora || 'N/A'}</td>
-                        <td style="padding: 12px; border-right: 1px solid rgba(255, 255, 255, 0.1);" title="${report.descripcion || ''}">${descripcion}${descripcion.length > 50 ? '...' : ''}</td>
-                        <td style="padding: 12px; text-align: center; font-size: 12px; color: rgba(255, 255, 255, 0.7);">${formattedDate}</td>
+                        <td style="padding: 14px; border-right: 1px solid #ecf0f1; font-weight: 500;">${report.localidad || 'N/A'}</td>
+                        <td style="padding: 14px; border-right: 1px solid #ecf0f1;">${report.hora || 'N/A'}</td>
+                        <td style="padding: 14px; border-right: 1px solid #ecf0f1;" title="${report.descripcion || ''}">${descripcion}${descripcion.length > 50 ? '...' : ''}</td>
+                        <td style="padding: 14px; text-align: center; font-size: 12px; color: #7f8c8d;">${formattedDate}</td>
                     </tr>
                 `;
             });
@@ -1707,11 +1749,14 @@
                     maintainAspectRatio: false,
                     plugins: {
                         legend: { display: true, labels: { color: 'rgba(255,255,255,0.8)', font: { size: 12, weight: 'bold' }, padding: 15 } },
-                        tooltip: { backgroundColor: 'rgba(0,0,0,0.8)', padding: 12, titleColor: '#fff', bodyColor: '#fff' }
+                        tooltip: { backgroundColor: 'rgba(0,0,0,0.8)', padding: 12, titleColor: '#fff', bodyColor: '#fff' },
+                        datalabels: { display: false }
                     },
                     scales: {
                         y: {
-                            ticks: { color: 'rgba(255,255,255,0.6)' },
+                            min: 0,
+                            max: 180000,
+                            ticks: { color: 'rgba(255,255,255,0.6)', stepSize: 20000 },
                             grid: { color: 'rgba(255,184,28,0.1)' }
                         },
                         x: {
@@ -1867,37 +1912,58 @@
                     }
 
                     .pepe-floating-btn {
-                        width: 60px;
-                        height: 60px;
+                        width: 70px;
+                        height: 70px;
                         border-radius: 50%;
-                        background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%);
+                        background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         cursor: pointer;
-                        box-shadow: 0 4px 15px rgba(255, 184, 28, 0.4);
+                        box-shadow: 0 8px 25px rgba(230, 57, 70, 0.35);
                         color: white;
-                        font-size: 24px;
+                        font-size: 28px;
                         transition: all 0.3s ease;
-                        border: 2px solid rgba(255, 255, 255, 0.3);
+                        border: 3px solid white;
+                        position: relative;
                     }
 
                     .pepe-floating-btn:hover {
-                        transform: scale(1.1);
-                        box-shadow: 0 6px 20px rgba(255, 184, 28, 0.6);
+                        transform: scale(1.12);
+                        box-shadow: 0 12px 35px rgba(230, 57, 70, 0.45);
+                    }
+
+                    .pepe-floating-btn::before {
+                        content: '';
+                        position: absolute;
+                        top: -5px;
+                        right: -5px;
+                        width: 18px;
+                        height: 18px;
+                        background: #E63946;
+                        border-radius: 50%;
+                        border: 2px solid white;
+                        animation: pulse 2s infinite;
+                    }
+
+                    @keyframes pulse {
+                        0%, 100% { transform: scale(1); }
+                        50% { transform: scale(1.15); }
                     }
 
                     .pepe-label {
                         position: absolute;
-                        bottom: -30px;
-                        background: rgba(0, 0, 0, 0.8);
+                        bottom: -40px;
+                        background: #E63946;
                         color: white;
-                        padding: 5px 10px;
-                        border-radius: 5px;
+                        padding: 8px 14px;
+                        border-radius: 8px;
                         font-size: 12px;
+                        font-weight: 600;
                         white-space: nowrap;
                         opacity: 0;
                         transition: opacity 0.3s;
+                        box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
                     }
 
                     .pepe-floating-btn:hover .pepe-label {
@@ -1906,72 +1972,87 @@
 
                     .pepe-chat-window {
                         position: absolute;
-                        bottom: 80px;
+                        bottom: 90px;
                         right: 0;
-                        width: 360px;
-                        height: 420px;
-                        background: #1a1f3a;
-                        border-radius: 12px;
-                        box-shadow: 0 5px 40px rgba(0, 0, 0, 0.5);
-                        border: 1px solid rgba(255, 184, 28, 0.3);
+                        width: 380px;
+                        height: 500px;
+                        background: white;
+                        border-radius: 16px;
+                        box-shadow: 0 8px 45px rgba(0, 0, 0, 0.15);
+                        border: 2px solid #e0e0e0;
                         display: flex;
                         flex-direction: column;
-                        animation: slideUp 0.3s ease;
+                        animation: slideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+                        font-family: 'Poppins', sans-serif;
                     }
 
                     @keyframes slideUp {
                         from {
                             opacity: 0;
-                            transform: translateY(20px);
+                            transform: translateY(30px) scale(0.95);
                         }
                         to {
                             opacity: 1;
-                            transform: translateY(0);
+                            transform: translateY(0) scale(1);
                         }
                     }
 
                     .pepe-header {
-                        background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%);
+                        background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
                         color: white;
-                        padding: 15px;
-                        border-radius: 12px 12px 0 0;
+                        padding: 18px;
+                        border-radius: 14px 14px 0 0;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        border-bottom: 1px solid rgba(255, 184, 28, 0.5);
+                        border-bottom: none;
                     }
 
                     .pepe-header h4 {
                         margin: 0;
-                        font-size: 14px;
-                        font-weight: 600;
+                        font-size: 16px;
+                        font-weight: 700;
+                        letter-spacing: 0.3px;
                     }
 
                     .pepe-close-btn {
-                        background: rgba(255, 255, 255, 0.2);
-                        border: none;
+                        background: rgba(255, 255, 255, 0.25);
+                        border: 2px solid rgba(255, 255, 255, 0.5);
                         color: white;
-                        width: 28px;
-                        height: 28px;
+                        width: 32px;
+                        height: 32px;
                         border-radius: 50%;
                         cursor: pointer;
                         transition: all 0.2s;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        font-size: 18px;
+                        font-weight: 700;
                     }
 
                     .pepe-close-btn:hover {
-                        background: rgba(255, 255, 255, 0.3);
+                        background: rgba(255, 255, 255, 0.35);
+                        transform: scale(1.1);
                     }
 
                     .pepe-messages {
                         flex: 1;
                         overflow-y: auto;
-                        padding: 15px;
+                        padding: 18px;
                         display: flex;
                         flex-direction: column;
-                        gap: 12px;
+                        gap: 14px;
+                        background: #f8f9fa;
+                    }
+
+                    .pepe-messages::-webkit-scrollbar {
+                        width: 6px;
+                    }
+
+                    .pepe-messages::-webkit-scrollbar-thumb {
+                        background: linear-gradient(135deg, #E63946, #FFB81C);
+                        border-radius: 3px;
                     }
 
                     .pepe-message {
@@ -2002,113 +2083,126 @@
                     }
 
                     .pepe-message.bot .pepe-bubble {
-                        background: rgba(255, 184, 28, 0.2);
-                        color: rgba(255, 255, 255, 0.9);
-                        border-left: 3px solid #FFB81C;
+                        background: #e8e9eb;
+                        color: #2c3e50;
+                        border-left: 4px solid #E63946;
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
                     }
 
                     .pepe-message.user .pepe-bubble {
-                        background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%);
+                        background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
                         color: white;
+                        box-shadow: 0 2px 8px rgba(230, 57, 70, 0.2);
                     }
 
                     .pepe-input-area {
-                        padding: 15px;
-                        border-top: 1px solid rgba(255, 184, 28, 0.2);
+                        padding: 16px;
+                        border-top: 2px solid #e0e0e0;
                         display: flex;
                         flex-direction: column;
-                        gap: 10px;
+                        gap: 12px;
+                        background: white;
+                        border-radius: 0 0 14px 14px;
                     }
 
                     .pepe-options {
                         display: flex;
                         flex-direction: column;
-                        gap: 8px;
+                        gap: 10px;
                     }
 
                     .pepe-option-btn {
-                        padding: 10px 14px;
-                        border: 1px solid rgba(255, 184, 28, 0.5);
-                        background: rgba(255, 184, 28, 0.1);
-                        color: rgba(255, 255, 255, 0.9);
-                        border-radius: 8px;
+                        padding: 12px 14px;
+                        border: 2px solid #e0e0e0;
+                        background: white;
+                        color: #2c3e50;
+                        border-radius: 10px;
                         cursor: pointer;
-                        font-size: 12px;
-                        transition: all 0.2s;
+                        font-size: 13px;
+                        font-weight: 500;
+                        transition: all 0.2s ease;
                         text-align: left;
                     }
 
                     .pepe-option-btn:hover {
-                        background: rgba(255, 184, 28, 0.25);
+                        background: linear-gradient(135deg, rgba(230, 57, 70, 0.05), rgba(255, 184, 28, 0.05));
                         border-color: #FFB81C;
+                        transform: translateX(4px);
+                        box-shadow: 0 4px 12px rgba(255, 184, 28, 0.15);
                     }
 
                     .pepe-input-text {
-                        padding: 10px;
-                        border: 1px solid rgba(255, 184, 28, 0.3);
-                        background: rgba(13, 27, 42, 0.5);
-                        color: white;
-                        border-radius: 8px;
-                        font-size: 12px;
-                        font-family: inherit;
+                        padding: 12px 14px;
+                        border: 2px solid #e0e0e0;
+                        background: white;
+                        color: #2c3e50;
+                        border-radius: 10px;
+                        font-size: 13px;
+                        font-family: 'Poppins', sans-serif;
+                        transition: all 0.2s;
+                    }
+
+                    .pepe-input-text::placeholder {
+                        color: #95a5a6;
                     }
 
                     .pepe-input-text:focus {
                         outline: none;
-                        border-color: #FFB81C;
-                        background: rgba(13, 27, 42, 0.8);
+                        border-color: #E63946;
+                        box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.1);
                     }
 
                     .pepe-submit-btn {
-                        padding: 8px 14px;
-                        background: linear-gradient(135deg, #FFB81C 0%, #E63946 100%);
+                        padding: 10px 16px;
+                        background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%);
                         border: none;
                         color: white;
-                        border-radius: 6px;
+                        border-radius: 10px;
                         cursor: pointer;
-                        font-size: 12px;
-                        font-weight: 600;
+                        font-size: 13px;
+                        font-weight: 700;
                         transition: all 0.2s;
+                        box-shadow: 0 4px 12px rgba(230, 57, 70, 0.2);
                     }
 
                     .pepe-submit-btn:hover {
-                        transform: scale(1.02);
-                        box-shadow: 0 2px 10px rgba(255, 184, 28, 0.3);
+                        transform: translateY(-2px);
+                        box-shadow: 0 6px 16px rgba(230, 57, 70, 0.3);
                     }
 
                     .pepe-success {
-                        background: rgba(34, 197, 94, 0.2);
-                        border-left: 3px solid #22c55e;
-                        padding: 12px;
-                        border-radius: 8px;
-                        color: #22c55e;
+                        background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.05));
+                        border-left: 4px solid #22c55e;
+                        padding: 14px;
+                        border-radius: 10px;
+                        color: #27ae60;
                         font-size: 13px;
+                        font-weight: 500;
                         text-align: center;
                     }
 
                     .pepe-select {
                         width: 100%;
-                        padding: 10px;
-                        border: 1px solid rgba(255, 184, 28, 0.3);
-                        background: rgba(13, 27, 42, 0.5);
-                        color: white;
-                        border-radius: 8px;
-                        font-size: 12px;
-                        font-family: inherit;
+                        padding: 12px 14px;
+                        border: 2px solid #e0e0e0;
+                        background: white;
+                        color: #2c3e50;
+                        border-radius: 10px;
+                        font-size: 13px;
+                        font-family: 'Poppins', sans-serif;
                         cursor: pointer;
                         transition: all 0.2s;
                     }
 
                     .pepe-select:focus {
                         outline: none;
-                        border-color: #FFB81C;
-                        background: rgba(13, 27, 42, 0.8);
-                        box-shadow: 0 0 10px rgba(255, 184, 28, 0.3);
+                        border-color: #E63946;
+                        box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.1);
                     }
 
                     .pepe-select option {
-                        background: #1a1f3a;
-                        color: white;
+                        background: white;
+                        color: #2c3e50;
                     }
                 `;
                 document.head.appendChild(style);
