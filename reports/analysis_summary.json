@@ -1,0 +1,174 @@
+{
+  "analysis_scope": "Only 2025 vs 2026 is treated as explicitly comparable (January-May).",
+  "district": {
+    "thefts_2025": 54196,
+    "thefts_2026": 48483,
+    "theft_change_pct": -10.541368366669124,
+    "incidents_2025": 57979,
+    "incidents_2026": 58193,
+    "incident_change_pct": 0.3690991565911794,
+    "theft_rate_2025": 682.3228942395737,
+    "theft_rate_2026": 610.1563605116338,
+    "theft_rate_change_pct": -10.576595675917789,
+    "incident_to_theft_ratio_2025": 1.0698021994243117,
+    "incident_to_theft_ratio_2026": 1.2002763855371985,
+    "incident_to_theft_ratio_change_pct": 12.19610374544924
+  },
+  "correlations": {
+    "2025": {
+      "count_vs_rate_spearman": 0.11428571428571428,
+      "theft_vs_incident_pearson": 0.9072267664439797,
+      "theft_vs_incident_spearman": 0.8751879699248121
+    },
+    "2026": {
+      "count_vs_rate_spearman": 0.20451127819548873,
+      "theft_vs_incident_pearson": 0.8881026231314227,
+      "theft_vs_incident_spearman": 0.8676691729323308
+    }
+  },
+  "top_counts_2026": [
+    {
+      "locality_name": "Suba",
+      "registered_person_thefts_2026": 4858.0,
+      "theft_rate_per_100k_2026": 387.951619,
+      "count_rank_2026": 1.0,
+      "rate_rank_2026": 14.0
+    },
+    {
+      "locality_name": "Engativá",
+      "registered_person_thefts_2026": 4556.0,
+      "theft_rate_per_100k_2026": 549.662011,
+      "count_rank_2026": 2.0,
+      "rate_rank_2026": 11.0
+    },
+    {
+      "locality_name": "Kennedy",
+      "registered_person_thefts_2026": 4068.0,
+      "theft_rate_per_100k_2026": 368.166786,
+      "count_rank_2026": 3.0,
+      "rate_rank_2026": 15.0
+    },
+    {
+      "locality_name": "Chapinero",
+      "registered_person_thefts_2026": 3865.0,
+      "theft_rate_per_100k_2026": 2412.985797,
+      "count_rank_2026": 4.0,
+      "rate_rank_2026": 4.0
+    },
+    {
+      "locality_name": "Teusaquillo",
+      "registered_person_thefts_2026": 3404.0,
+      "theft_rate_per_100k_2026": 2200.914246,
+      "count_rank_2026": 5.0,
+      "rate_rank_2026": 5.0
+    }
+  ],
+  "top_rates_2026": [
+    {
+      "locality_name": "La Candelaria",
+      "registered_person_thefts_2026": 620.0,
+      "theft_rate_per_100k_2026": 3769.226093,
+      "count_rank_2026": 19.0,
+      "rate_rank_2026": 1.0
+    },
+    {
+      "locality_name": "Santa Fe",
+      "registered_person_thefts_2026": 2970.0,
+      "theft_rate_per_100k_2026": 2620.734688,
+      "count_rank_2026": 7.0,
+      "rate_rank_2026": 2.0
+    },
+    {
+      "locality_name": "Los Mártires",
+      "registered_person_thefts_2026": 1957.0,
+      "theft_rate_per_100k_2026": 2596.420469,
+      "count_rank_2026": 11.0,
+      "rate_rank_2026": 3.0
+    },
+    {
+      "locality_name": "Chapinero",
+      "registered_person_thefts_2026": 3865.0,
+      "theft_rate_per_100k_2026": 2412.985797,
+      "count_rank_2026": 4.0,
+      "rate_rank_2026": 4.0
+    },
+    {
+      "locality_name": "Teusaquillo",
+      "registered_person_thefts_2026": 3404.0,
+      "theft_rate_per_100k_2026": 2200.914246,
+      "count_rank_2026": 5.0,
+      "rate_rank_2026": 5.0
+    }
+  ],
+  "top_divergence_2025_2026": [
+    {
+      "locality_name": "Teusaquillo",
+      "theft_change_pct": -8.837707552222817,
+      "incident_change_pct": 29.929183749534104,
+      "divergence_percentage_points": 38.76689130175692
+    },
+    {
+      "locality_name": "Ciudad Bolívar",
+      "theft_change_pct": -22.517162471395878,
+      "incident_change_pct": 12.255076594228708,
+      "divergence_percentage_points": 34.77223906562459
+    },
+    {
+      "locality_name": "Barrios Unidos",
+      "theft_change_pct": -10.110736639383722,
+      "incident_change_pct": 8.715406856670803,
+      "divergence_percentage_points": 18.826143496054527
+    },
+    {
+      "locality_name": "Engativá",
+      "theft_change_pct": -13.695775715097557,
+      "incident_change_pct": 1.4088916718847821,
+      "divergence_percentage_points": 15.104667386982339
+    },
+    {
+      "locality_name": "Suba",
+      "theft_change_pct": -15.688996876084694,
+      "incident_change_pct": -0.6406249999999947,
+      "divergence_percentage_points": 15.0483718760847
+    }
+  ],
+  "largest_count_rate_rank_gaps_2026": [
+    {
+      "locality_name": "La Candelaria",
+      "count_rank_2026": 19.0,
+      "rate_rank_2026": 1.0,
+      "count_rate_rank_gap_2026": 18.0
+    },
+    {
+      "locality_name": "Suba",
+      "count_rank_2026": 1.0,
+      "rate_rank_2026": 14.0,
+      "count_rate_rank_gap_2026": -13.0
+    },
+    {
+      "locality_name": "Kennedy",
+      "count_rank_2026": 3.0,
+      "rate_rank_2026": 15.0,
+      "count_rate_rank_gap_2026": -12.0
+    },
+    {
+      "locality_name": "Engativá",
+      "count_rank_2026": 2.0,
+      "rate_rank_2026": 11.0,
+      "count_rate_rank_gap_2026": -9.0
+    },
+    {
+      "locality_name": "Antonio Nariño",
+      "count_rank_2026": 16.0,
+      "rate_rank_2026": 7.0,
+      "count_rate_rank_gap_2026": 9.0
+    }
+  ],
+  "current_period_outlier_flags": 7,
+  "hypothesis_assessment": {
+    "count_ranking_differs_from_rate_ranking": "supported",
+    "evidence": "Spearman count-rate ranking association in 2026 = 0.205.",
+    "reporting_gap_varies_by_locality": "supported_as_exploratory_pattern",
+    "causal_or_underreporting_claim": "not_supported"
+  }
+}

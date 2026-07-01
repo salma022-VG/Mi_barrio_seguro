@@ -1,0 +1,58 @@
+{
+  "policy": {
+    "originals_modified": false,
+    "null_count_rows_removed": 0,
+    "outlier_rows_removed": 0,
+    "negative_variations_kept": true,
+    "zero_counts_kept": true,
+    "rule": "Only exact duplicates and records unusable for a map are removed from map-ready outputs; unusable records are preserved separately."
+  },
+  "population": {
+    "input_rows": 131502,
+    "exact_duplicates_removed": 0,
+    "locality_rows_written": 125240,
+    "bogota_aggregate_rows_separated": 6262,
+    "annual_locality_rows_written": 620,
+    "null_rows_removed": 0,
+    "outliers_removed": 0,
+    "zero_population_rows_kept": 526,
+    "population_reconciliation_max_abs_difference": 0
+  },
+  "delito_alto_impacto_localidad": {
+    "input_features": 21,
+    "map_features_written": 20,
+    "unlocated_features_separated": 1,
+    "located_metric_rows_written": 1980,
+    "unlocated_metric_rows_written": 99,
+    "locality_names_canonicalized": 1,
+    "missing_metric_values": 0,
+    "duplicates_removed": 0,
+    "outliers_removed": 0
+  },
+  "incidentes_reportados_localidad": {
+    "input_features": 21,
+    "map_features_written": 20,
+    "unlocated_features_separated": 1,
+    "located_metric_rows_written": 1620,
+    "unlocated_metric_rows_written": 81,
+    "locality_names_canonicalized": 1,
+    "missing_metric_values": 0,
+    "duplicates_removed": 0,
+    "outliers_removed": 0
+  },
+  "locality_geometry_mismatches_between_sources": 0,
+  "incidentes_reportados_upz": {
+    "input_features": 117,
+    "map_features_written": 116,
+    "features_without_geometry_separated": 1,
+    "duplicates_removed": 0,
+    "outliers_removed": 0
+  },
+  "incidentes_reportados_sector_catastral": {
+    "input_features": 1170,
+    "map_features_written": 1170,
+    "features_without_geometry_separated": 0,
+    "duplicates_removed": 0,
+    "outliers_removed": 0
+  }
+}

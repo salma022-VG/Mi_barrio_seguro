@@ -1,0 +1,181 @@
+locality_code,locality_name,year,registered_person_thefts,period_label,period_start_month,period_end_month,is_partial_year,reported_123_theft_incidents,population,theft_rate_per_100k,incident_rate_per_100k,incidents_per_registered_theft,count_rank,rate_rank,rank_difference_count_minus_rate,temporal_comparability
+01,Usaquén,2018,9913,Ene-May (2025vs2026),1,5,True,4888,534118,1855.956923,915.153580,0.493090,4,8,-4,historical_reference_period_not_verified
+02,Chapinero,2018,10373,Ene-May (2025vs2026),1,5,True,2718,156010,6648.932761,1742.196013,0.262026,3,3,0,historical_reference_period_not_verified
+03,Santa Fe,2018,7067,Ene-May (2025vs2026),1,5,True,2224,103640,6818.795832,2145.889618,0.314702,7,2,5,historical_reference_period_not_verified
+04,San Cristóbal,2018,2265,Ene-May (2025vs2026),1,5,True,2635,384392,589.242232,685.498137,1.163355,15,16,-1,historical_reference_period_not_verified
+05,Usme,2018,1642,Ene-May (2025vs2026),1,5,True,1832,362295,453.221822,505.665273,1.115713,17,19,-2,historical_reference_period_not_verified
+06,Tunjuelito,2018,2074,Ene-May (2025vs2026),1,5,True,1532,171130,1211.944136,895.225852,0.738669,16,11,5,historical_reference_period_not_verified
+07,Bosa,2018,3949,Ene-May (2025vs2026),1,5,True,4111,692418,570.320240,593.716512,1.041023,12,17,-5,historical_reference_period_not_verified
+08,Kennedy,2018,10690,Ene-May (2025vs2026),1,5,True,8500,1016834,1051.302376,835.927988,0.795136,2,13,-11,historical_reference_period_not_verified
+09,Fontibón,2018,5940,Ene-May (2025vs2026),1,5,True,2548,364832,1628.146654,698.403649,0.428956,8,10,-2,historical_reference_period_not_verified
+10,Engativá,2018,9424,Ene-May (2025vs2026),1,5,True,6369,790205,1192.601920,805.993381,0.675828,5,12,-7,historical_reference_period_not_verified
+11,Suba,2018,11043,Ene-May (2025vs2026),1,5,True,7338,1149099,961.013803,638.587276,0.664493,1,14,-13,historical_reference_period_not_verified
+12,Barrios Unidos,2018,4306,Ene-May (2025vs2026),1,5,True,2078,132784,3242.860586,1564.947584,0.482582,10,6,4,historical_reference_period_not_verified
+13,Teusaquillo,2018,7111,Ene-May (2025vs2026),1,5,True,2270,144122,4934.014238,1575.054468,0.319224,6,5,1,historical_reference_period_not_verified
+14,Los Mártires,2018,3967,Ene-May (2025vs2026),1,5,True,1841,73076,5428.594888,2519.294981,0.464079,11,4,7,historical_reference_period_not_verified
+15,Antonio Nariño,2018,1621,Ene-May (2025vs2026),1,5,True,1121,79011,2051.613067,1418.789789,0.691548,18,7,11,historical_reference_period_not_verified
+16,Puente Aranda,2018,4462,Ene-May (2025vs2026),1,5,True,3368,242184,1842.400819,1390.678162,0.754818,9,9,0,historical_reference_period_not_verified
+17,La Candelaria,2018,1590,Ene-May (2025vs2026),1,5,True,412,17018,9343.048537,2420.966036,0.259119,19,1,18,historical_reference_period_not_verified
+18,Rafael Uribe Uribe,2018,3098,Ene-May (2025vs2026),1,5,True,3138,363471,852.337601,863.342605,1.012912,13,15,-2,historical_reference_period_not_verified
+19,Ciudad Bolívar,2018,3041,Ene-May (2025vs2026),1,5,True,4065,611245,497.509182,665.036115,1.336731,14,18,-4,historical_reference_period_not_verified
+20,Sumapaz,2018,0,Ene-May (2025vs2026),1,5,True,0,3172,0.000000,0.000000,,20,20,0,historical_reference_period_not_verified
+01,Usaquén,2019,11979,Ene-May (2025vs2026),1,5,True,4752,556257,2153.500990,854.281384,0.396694,5,10,-5,historical_reference_period_not_verified
+02,Chapinero,2019,14343,Ene-May (2025vs2026),1,5,True,3420,158365,9056.925457,2159.568086,0.238444,1,2,-1,historical_reference_period_not_verified
+03,Santa Fe,2019,7615,Ene-May (2025vs2026),1,5,True,2003,106046,7180.846048,1888.802972,0.263033,8,3,5,historical_reference_period_not_verified
+04,San Cristóbal,2019,2830,Ene-May (2025vs2026),1,5,True,2580,387780,729.795245,665.325700,0.911661,15,16,-1,historical_reference_period_not_verified
+05,Usme,2019,2164,Ene-May (2025vs2026),1,5,True,1414,369554,585.570715,382.623378,0.653420,18,19,-1,historical_reference_period_not_verified
+06,Tunjuelito,2019,2656,Ene-May (2025vs2026),1,5,True,1285,173152,1533.912401,742.122528,0.483810,16,11,5,historical_reference_period_not_verified
+07,Bosa,2019,5065,Ene-May (2025vs2026),1,5,True,4528,701367,722.161151,645.596385,0.893978,12,17,-5,historical_reference_period_not_verified
+08,Kennedy,2019,13142,Ene-May (2025vs2026),1,5,True,7853,1038169,1265.882530,756.427903,0.597550,2,13,-11,historical_reference_period_not_verified
+09,Fontibón,2019,8009,Ene-May (2025vs2026),1,5,True,2669,371367,2156.626733,718.696061,0.333250,7,9,-2,historical_reference_period_not_verified
+10,Engativá,2019,12185,Ene-May (2025vs2026),1,5,True,6867,803512,1516.467707,854.623204,0.563562,4,12,-8,historical_reference_period_not_verified
+11,Suba,2019,13089,Ene-May (2025vs2026),1,5,True,7053,1175678,1113.315040,599.909159,0.538849,3,14,-11,historical_reference_period_not_verified
+12,Barrios Unidos,2019,5533,Ene-May (2025vs2026),1,5,True,2247,133784,4135.771094,1679.573043,0.406109,10,6,4,historical_reference_period_not_verified
+13,Teusaquillo,2019,8147,Ene-May (2025vs2026),1,5,True,2306,147038,5540.744569,1568.302072,0.283049,6,5,1,historical_reference_period_not_verified
+14,Los Mártires,2019,5084,Ene-May (2025vs2026),1,5,True,1939,73732,6895.242229,2629.794390,0.381393,11,4,7,historical_reference_period_not_verified
+15,Antonio Nariño,2019,2337,Ene-May (2025vs2026),1,5,True,1127,79278,2947.854386,1421.579757,0.482242,17,7,10,historical_reference_period_not_verified
+16,Puente Aranda,2019,5674,Ene-May (2025vs2026),1,5,True,3091,244880,2317.053251,1262.250898,0.544766,9,8,1,historical_reference_period_not_verified
+17,La Candelaria,2019,1734,Ene-May (2025vs2026),1,5,True,360,17054,10167.702592,2110.941715,0.207612,19,1,18,historical_reference_period_not_verified
+18,Rafael Uribe Uribe,2019,3970,Ene-May (2025vs2026),1,5,True,2718,368116,1078.464397,738.354214,0.684635,14,15,-1,historical_reference_period_not_verified
+19,Ciudad Bolívar,2019,4012,Ene-May (2025vs2026),1,5,True,3363,624876,642.047382,538.186776,0.838235,13,18,-5,historical_reference_period_not_verified
+20,Sumapaz,2019,0,Ene-May (2025vs2026),1,5,True,0,3197,0.000000,0.000000,,20,20,0,historical_reference_period_not_verified
+01,Usaquén,2020,6945,Ene-May (2025vs2026),1,5,True,2754,572435,1213.238184,481.102658,0.396544,4,10,-6,historical_reference_period_not_verified
+02,Chapinero,2020,6902,Ene-May (2025vs2026),1,5,True,1574,161416,4275.908212,975.120186,0.228050,5,3,2,historical_reference_period_not_verified
+03,Santa Fe,2020,4274,Ene-May (2025vs2026),1,5,True,1156,109168,3915.066686,1058.918364,0.270473,8,4,4,historical_reference_period_not_verified
+04,San Cristóbal,2020,2489,Ene-May (2025vs2026),1,5,True,1922,393357,632.758537,488.614668,0.772198,15,16,-1,historical_reference_period_not_verified
+05,Usme,2020,1733,Ene-May (2025vs2026),1,5,True,1340,378875,457.406796,353.678654,0.773226,17,19,-2,historical_reference_period_not_verified
+06,Tunjuelito,2020,1874,Ene-May (2025vs2026),1,5,True,1011,176152,1063.853944,573.936146,0.539488,16,11,5,historical_reference_period_not_verified
+07,Bosa,2020,3808,Ene-May (2025vs2026),1,5,True,2872,721583,527.728619,398.013811,0.754202,10,17,-7,historical_reference_period_not_verified
+08,Kennedy,2020,9045,Ene-May (2025vs2026),1,5,True,4583,1065707,848.732344,430.043154,0.506689,1,13,-12,historical_reference_period_not_verified
+09,Fontibón,2020,5305,Ene-May (2025vs2026),1,5,True,1987,380016,1395.993853,522.872721,0.374552,6,9,-3,historical_reference_period_not_verified
+10,Engativá,2020,8605,Ene-May (2025vs2026),1,5,True,4613,821445,1047.544267,561.571377,0.536084,3,12,-9,historical_reference_period_not_verified
+11,Suba,2020,8755,Ene-May (2025vs2026),1,5,True,4701,1209234,724.012061,388.758503,0.536950,2,15,-13,historical_reference_period_not_verified
+12,Barrios Unidos,2020,3363,Ene-May (2025vs2026),1,5,True,1301,136156,2469.960927,955.521608,0.386857,11,6,5,historical_reference_period_not_verified
+13,Teusaquillo,2020,4452,Ene-May (2025vs2026),1,5,True,1431,150894,2950.415523,948.347847,0.321429,7,5,2,historical_reference_period_not_verified
+14,Los Mártires,2020,3200,Ene-May (2025vs2026),1,5,True,1280,74833,4276.188313,1710.475325,0.400000,13,2,11,historical_reference_period_not_verified
+15,Antonio Nariño,2020,1639,Ene-May (2025vs2026),1,5,True,870,80010,2048.493938,1087.364079,0.530811,18,7,11,historical_reference_period_not_verified
+16,Puente Aranda,2020,3997,Ene-May (2025vs2026),1,5,True,1938,248966,1605.440100,778.419543,0.484864,9,8,1,historical_reference_period_not_verified
+17,La Candelaria,2020,900,Ene-May (2025vs2026),1,5,True,212,17177,5239.564534,1234.208535,0.235556,19,1,18,historical_reference_period_not_verified
+18,Rafael Uribe Uribe,2020,2732,Ene-May (2025vs2026),1,5,True,1834,374791,728.939596,489.339392,0.671303,14,14,0,historical_reference_period_not_verified
+19,Ciudad Bolívar,2020,3286,Ene-May (2025vs2026),1,5,True,2481,642109,511.751120,386.382997,0.755021,12,18,-6,historical_reference_period_not_verified
+20,Sumapaz,2020,0,Ene-May (2025vs2026),1,5,True,0,3240,0.000000,0.000000,,20,20,0,historical_reference_period_not_verified
+01,Usaquén,2021,6489,Ene-May (2025vs2026),1,5,True,3176,580157,1118.490340,547.438021,0.489444,4,12,-8,historical_reference_period_not_verified
+02,Chapinero,2021,5810,Ene-May (2025vs2026),1,5,True,1622,162226,3581.423446,999.839730,0.279174,5,4,1,historical_reference_period_not_verified
+03,Santa Fe,2021,4217,Ene-May (2025vs2026),1,5,True,1671,110770,3806.987451,1508.531191,0.396253,11,3,8,historical_reference_period_not_verified
+04,San Cristóbal,2021,3160,Ene-May (2025vs2026),1,5,True,2619,394779,800.447846,663.409148,0.828797,15,15,0,historical_reference_period_not_verified
+05,Usme,2021,2079,Ene-May (2025vs2026),1,5,True,1903,384340,540.927304,495.134516,0.915344,17,19,-2,historical_reference_period_not_verified
+06,Tunjuelito,2021,2018,Ene-May (2025vs2026),1,5,True,1332,176572,1142.876560,754.366491,0.660059,18,11,7,historical_reference_period_not_verified
+07,Bosa,2021,5275,Ene-May (2025vs2026),1,5,True,3970,734625,718.053429,540.411775,0.752607,7,17,-10,historical_reference_period_not_verified
+08,Kennedy,2021,10340,Ene-May (2025vs2026),1,5,True,7273,1079757,957.622873,673.577481,0.703385,1,13,-12,historical_reference_period_not_verified
+09,Fontibón,2021,5651,Ene-May (2025vs2026),1,5,True,2327,383478,1473.617783,606.814472,0.411786,6,9,-3,historical_reference_period_not_verified
+10,Engativá,2021,10215,Ene-May (2025vs2026),1,5,True,6337,827889,1233.861061,765.440778,0.620362,2,10,-8,historical_reference_period_not_verified
+11,Suba,2021,9240,Ene-May (2025vs2026),1,5,True,6087,1225782,753.804510,496.580958,0.658766,3,16,-13,historical_reference_period_not_verified
+12,Barrios Unidos,2021,3644,Ene-May (2025vs2026),1,5,True,1957,136620,2667.252232,1432.440345,0.537047,13,7,6,historical_reference_period_not_verified
+13,Teusaquillo,2021,4270,Ene-May (2025vs2026),1,5,True,1772,153033,2790.247855,1157.920187,0.414988,10,5,5,historical_reference_period_not_verified
+14,Los Mártires,2021,3727,Ene-May (2025vs2026),1,5,True,1860,75149,4959.480499,2475.082835,0.499061,12,1,11,historical_reference_period_not_verified
+15,Antonio Nariño,2021,2143,Ene-May (2025vs2026),1,5,True,1192,79768,2686.540969,1494.333567,0.556230,16,6,10,historical_reference_period_not_verified
+16,Puente Aranda,2021,4673,Ene-May (2025vs2026),1,5,True,2553,249985,1869.312159,1021.261276,0.546330,8,8,0,historical_reference_period_not_verified
+17,La Candelaria,2021,836,Ene-May (2025vs2026),1,5,True,191,17061,4900.064475,1119.512338,0.228469,19,2,17,historical_reference_period_not_verified
+18,Rafael Uribe Uribe,2021,3488,Ene-May (2025vs2026),1,5,True,2876,376325,926.858434,764.233043,0.824541,14,14,0,historical_reference_period_not_verified
+19,Ciudad Bolívar,2021,4474,Ene-May (2025vs2026),1,5,True,3925,653362,684.765873,600.738947,0.877291,9,18,-9,historical_reference_period_not_verified
+20,Sumapaz,2021,0,Ene-May (2025vs2026),1,5,True,0,3242,0.000000,0.000000,,20,20,0,historical_reference_period_not_verified
+01,Usaquén,2022,7329,Ene-May (2025vs2026),1,5,True,3485,583301,1256.469644,597.461688,0.475508,6,11,-5,historical_reference_period_not_verified
+02,Chapinero,2022,10050,Ene-May (2025vs2026),1,5,True,2387,162213,6195.557693,1471.522011,0.237512,4,1,3,historical_reference_period_not_verified
+03,Santa Fe,2022,6456,Ene-May (2025vs2026),1,5,True,1857,111651,5782.303786,1663.218422,0.287639,7,2,5,historical_reference_period_not_verified
+04,San Cristóbal,2022,2812,Ene-May (2025vs2026),1,5,True,2549,394613,712.596899,645.949323,0.906472,15,17,-2,historical_reference_period_not_verified
+05,Usme,2022,2261,Ene-May (2025vs2026),1,5,True,1796,388197,582.436237,462.651695,0.794339,17,19,-2,historical_reference_period_not_verified
+06,Tunjuelito,2022,2209,Ene-May (2025vs2026),1,5,True,1179,176288,1253.063169,668.791977,0.533726,18,12,6,historical_reference_period_not_verified
+07,Bosa,2022,5392,Ene-May (2025vs2026),1,5,True,3861,743862,724.865634,519.047888,0.716061,10,16,-6,historical_reference_period_not_verified
+08,Kennedy,2022,11737,Ene-May (2025vs2026),1,5,True,6795,1087567,1079.197879,624.789093,0.578938,2,13,-11,historical_reference_period_not_verified
+09,Fontibón,2022,7603,Ene-May (2025vs2026),1,5,True,2675,384590,1976.910476,695.545906,0.351835,5,9,-4,historical_reference_period_not_verified
+10,Engativá,2022,11373,Ene-May (2025vs2026),1,5,True,6306,829701,1370.734759,760.032831,0.554471,3,10,-7,historical_reference_period_not_verified
+11,Suba,2022,11820,Ene-May (2025vs2026),1,5,True,6593,1234678,957.334625,533.985379,0.557783,1,15,-14,historical_reference_period_not_verified
+12,Barrios Unidos,2022,4468,Ene-May (2025vs2026),1,5,True,2008,136347,3276.933119,1472.713004,0.449418,11,6,5,historical_reference_period_not_verified
+13,Teusaquillo,2022,6372,Ene-May (2025vs2026),1,5,True,2240,153970,4138.468533,1454.828863,0.351538,8,5,3,historical_reference_period_not_verified
+14,Los Mártires,2022,4039,Ene-May (2025vs2026),1,5,True,1824,75198,5371.153488,2425.596425,0.451597,13,3,10,historical_reference_period_not_verified
+15,Antonio Nariño,2022,2308,Ene-May (2025vs2026),1,5,True,1305,79160,2915.613946,1648.559879,0.565425,16,7,9,historical_reference_period_not_verified
+16,Puente Aranda,2022,5425,Ene-May (2025vs2026),1,5,True,2601,249893,2170.929158,1040.845482,0.479447,9,8,1,historical_reference_period_not_verified
+17,La Candelaria,2022,823,Ene-May (2025vs2026),1,5,True,262,16916,4865.216363,1548.829511,0.318348,19,4,15,historical_reference_period_not_verified
+18,Rafael Uribe Uribe,2022,3719,Ene-May (2025vs2026),1,5,True,2366,376138,988.732859,629.024454,0.636193,14,14,0,historical_reference_period_not_verified
+19,Ciudad Bolívar,2022,4429,Ene-May (2025vs2026),1,5,True,3520,661661,669.376010,531.994481,0.794762,12,18,-6,historical_reference_period_not_verified
+20,Sumapaz,2022,0,Ene-May (2025vs2026),1,5,True,1,3262,0.000000,30.656039,,20,20,0,historical_reference_period_not_verified
+01,Usaquén,2023,3421,Ene-May (2025vs2026),1,5,True,3787,585076,584.710362,647.266338,1.106986,8,14,-6,historical_reference_period_not_verified
+02,Chapinero,2023,6332,Ene-May (2025vs2026),1,5,True,2603,162013,3908.328344,1606.661194,0.411087,4,1,3,historical_reference_period_not_verified
+03,Santa Fe,2023,3694,Ene-May (2025vs2026),1,5,True,1859,112336,3288.349238,1654.856858,0.503249,6,3,3,historical_reference_period_not_verified
+04,San Cristóbal,2023,1661,Ene-May (2025vs2026),1,5,True,2968,394434,421.109742,752.470629,1.786875,15,17,-2,historical_reference_period_not_verified
+05,Usme,2023,1309,Ene-May (2025vs2026),1,5,True,1847,391852,334.054694,471.351429,1.411001,17,19,-2,historical_reference_period_not_verified
+06,Tunjuelito,2023,964,Ene-May (2025vs2026),1,5,True,1247,175922,547.970123,708.836871,1.293568,18,15,3,historical_reference_period_not_verified
+07,Bosa,2023,2857,Ene-May (2025vs2026),1,5,True,3886,752229,379.804554,516.598004,1.360168,11,18,-7,historical_reference_period_not_verified
+08,Kennedy,2023,7458,Ene-May (2025vs2026),1,5,True,7456,1093721,681.892366,681.709504,0.999732,2,11,-9,historical_reference_period_not_verified
+09,Fontibón,2023,3633,Ene-May (2025vs2026),1,5,True,3343,385154,943.259060,867.964503,0.920176,7,9,-2,historical_reference_period_not_verified
+10,Engativá,2023,6659,Ene-May (2025vs2026),1,5,True,7229,830505,801.801314,870.434254,1.085598,3,10,-7,historical_reference_period_not_verified
+11,Suba,2023,7681,Ene-May (2025vs2026),1,5,True,7025,1241362,618.755850,565.910669,0.914594,1,13,-12,historical_reference_period_not_verified
+12,Barrios Unidos,2023,2971,Ene-May (2025vs2026),1,5,True,2442,136020,2184.237612,1795.324217,0.821945,10,6,4,historical_reference_period_not_verified
+13,Teusaquillo,2023,4793,Ene-May (2025vs2026),1,5,True,2685,154555,3101.161399,1737.245641,0.560192,5,4,1,historical_reference_period_not_verified
+14,Los Mártires,2023,2833,Ene-May (2025vs2026),1,5,True,1929,75278,3763.383724,2562.501661,0.680904,12,2,10,historical_reference_period_not_verified
+15,Antonio Nariño,2023,1428,Ene-May (2025vs2026),1,5,True,1340,78536,1818.274422,1706.223897,0.938375,16,7,9,historical_reference_period_not_verified
+16,Puente Aranda,2023,3063,Ene-May (2025vs2026),1,5,True,2831,249697,1226.686744,1133.774134,0.924257,9,8,1,historical_reference_period_not_verified
+17,La Candelaria,2023,461,Ene-May (2025vs2026),1,5,True,283,16782,2746.990824,1686.330592,0.613883,19,5,14,historical_reference_period_not_verified
+18,Rafael Uribe Uribe,2023,2351,Ene-May (2025vs2026),1,5,True,2572,375730,625.715274,684.534107,1.094003,14,12,2,historical_reference_period_not_verified
+19,Ciudad Bolívar,2023,2829,Ene-May (2025vs2026),1,5,True,3505,669467,422.574974,523.550825,1.238954,13,16,-3,historical_reference_period_not_verified
+20,Sumapaz,2023,0,Ene-May (2025vs2026),1,5,True,3,3259,0.000000,92.052777,,20,20,0,historical_reference_period_not_verified
+01,Usaquén,2024,3591,Ene-May (2025vs2026),1,5,True,2953,586366,612.416136,503.610373,0.822334,6,11,-5,historical_reference_period_not_verified
+02,Chapinero,2024,5210,Ene-May (2025vs2026),1,5,True,2051,161696,3222.095785,1268.429646,0.393666,4,3,1,historical_reference_period_not_verified
+03,Santa Fe,2024,3294,Ene-May (2025vs2026),1,5,True,1819,112939,2916.618706,1610.603954,0.552216,8,4,4,historical_reference_period_not_verified
+04,San Cristóbal,2024,1427,Ene-May (2025vs2026),1,5,True,2490,394656,361.580718,630.929214,1.744919,15,16,-1,historical_reference_period_not_verified
+05,Usme,2024,1055,Ene-May (2025vs2026),1,5,True,1559,395664,266.640382,394.021190,1.477725,17,19,-2,historical_reference_period_not_verified
+06,Tunjuelito,2024,976,Ene-May (2025vs2026),1,5,True,1229,175728,555.403806,699.376309,1.259221,18,12,6,historical_reference_period_not_verified
+07,Bosa,2024,2239,Ene-May (2025vs2026),1,5,True,2681,760580,294.380604,352.494149,1.197410,12,18,-6,historical_reference_period_not_verified
+08,Kennedy,2024,5368,Ene-May (2025vs2026),1,5,True,5834,1099572,488.189950,530.570076,1.086811,2,13,-11,historical_reference_period_not_verified
+09,Fontibón,2024,3556,Ene-May (2025vs2026),1,5,True,2515,385603,922.191995,652.225216,0.707255,7,9,-2,historical_reference_period_not_verified
+10,Engativá,2024,5360,Ene-May (2025vs2026),1,5,True,5456,831376,644.714305,656.261427,1.017910,3,10,-7,historical_reference_period_not_verified
+11,Suba,2024,5849,Ene-May (2025vs2026),1,5,True,5440,1247542,468.841931,436.057463,0.930074,1,14,-13,historical_reference_period_not_verified
+12,Barrios Unidos,2024,2474,Ene-May (2025vs2026),1,5,True,1975,135762,1822.306684,1454.751698,0.798302,10,6,4,historical_reference_period_not_verified
+13,Teusaquillo,2024,3270,Ene-May (2025vs2026),1,5,True,2133,155013,2109.500494,1376.013625,0.652294,9,5,4,historical_reference_period_not_verified
+14,Los Mártires,2024,4665,Ene-May (2025vs2026),1,5,True,1907,75403,6186.756495,2529.077092,0.408789,5,1,4,historical_reference_period_not_verified
+15,Antonio Nariño,2024,1057,Ene-May (2025vs2026),1,5,True,1131,77987,1355.354097,1450.241707,1.070009,16,7,9,historical_reference_period_not_verified
+16,Puente Aranda,2024,2426,Ene-May (2025vs2026),1,5,True,2737,249697,971.577552,1096.128508,1.128195,11,8,3,historical_reference_period_not_verified
+17,La Candelaria,2024,538,Ene-May (2025vs2026),1,5,True,287,16689,3223.680268,1719.695608,0.533457,19,2,17,historical_reference_period_not_verified
+18,Rafael Uribe Uribe,2024,1581,Ene-May (2025vs2026),1,5,True,2308,375542,420.991527,614.578396,1.459836,14,15,-1,historical_reference_period_not_verified
+19,Ciudad Bolívar,2024,2204,Ene-May (2025vs2026),1,5,True,2782,677540,325.294448,410.603064,1.262250,13,17,-4,historical_reference_period_not_verified
+20,Sumapaz,2024,0,Ene-May (2025vs2026),1,5,True,0,3305,0.000000,0.000000,,20,20,0,historical_reference_period_not_verified
+01,Usaquén,2025,3421,Ene-May (2025vs2026),1,5,True,3617,586286,583.503614,616.934397,1.057293,6,12,-6,comparable_ene_may_2025_2026
+02,Chapinero,2025,3655,Ene-May (2025vs2026),1,5,True,2720,161162,2267.904345,1687.742768,0.744186,5,5,0,comparable_ene_may_2025_2026
+03,Santa Fe,2025,2797,Ene-May (2025vs2026),1,5,True,1924,113315,2468.340467,1697.921723,0.687880,9,3,6,comparable_ene_may_2025_2026
+04,San Cristóbal,2025,1321,Ene-May (2025vs2026),1,5,True,2312,394686,334.696442,585.782115,1.750189,15,16,-1,comparable_ene_may_2025_2026
+05,Usme,2025,1143,Ene-May (2025vs2026),1,5,True,1737,399153,286.356360,435.171476,1.519685,16,19,-3,comparable_ene_may_2025_2026
+06,Tunjuelito,2025,1122,Ene-May (2025vs2026),1,5,True,1331,175399,639.684377,758.841270,1.186275,17,10,7,comparable_ene_may_2025_2026
+07,Bosa,2025,2305,Ene-May (2025vs2026),1,5,True,3348,768002,300.129427,435.936365,1.452495,10,18,-8,comparable_ene_may_2025_2026
+08,Kennedy,2025,4682,Ene-May (2025vs2026),1,5,True,6705,1103801,424.170661,607.446451,1.432080,3,15,-12,comparable_ene_may_2025_2026
+09,Fontibón,2025,3282,Ene-May (2025vs2026),1,5,True,2998,385455,851.461260,777.782102,0.913467,7,9,-2,comparable_ene_may_2025_2026
+10,Engativá,2025,5279,Ene-May (2025vs2026),1,5,True,6388,831165,635.132615,768.559793,1.210078,2,11,-9,comparable_ene_may_2025_2026
+11,Suba,2025,5762,Ene-May (2025vs2026),1,5,True,6400,1251652,460.351599,511.324234,1.110725,1,13,-12,comparable_ene_may_2025_2026
+12,Barrios Unidos,2025,2077,Ene-May (2025vs2026),1,5,True,2421,135332,1534.744185,1788.933881,1.165623,13,6,7,comparable_ene_may_2025_2026
+13,Teusaquillo,2025,3734,Ene-May (2025vs2026),1,5,True,2683,155083,2407.742951,1730.041333,0.718532,4,4,0,comparable_ene_may_2025_2026
+14,Los Mártires,2025,2167,Ene-May (2025vs2026),1,5,True,2396,75471,2871.301560,3174.729366,1.105676,12,2,10,comparable_ene_may_2025_2026
+15,Antonio Nariño,2025,913,Ene-May (2025vs2026),1,5,True,1553,77392,1179.708497,2006.667356,1.700986,18,8,10,comparable_ene_may_2025_2026
+16,Puente Aranda,2025,2957,Ene-May (2025vs2026),1,5,True,3355,249519,1185.080094,1344.586985,1.134596,8,7,1,comparable_ene_may_2025_2026
+17,La Candelaria,2025,598,Ene-May (2025vs2026),1,5,True,314,16574,3608.060818,1894.533607,0.525084,19,1,18,comparable_ene_may_2025_2026
+18,Rafael Uribe Uribe,2025,1643,Ene-May (2025vs2026),1,5,True,2715,375043,438.083100,723.916991,1.652465,14,14,0,comparable_ene_may_2025_2026
+19,Ciudad Bolívar,2025,2185,Ene-May (2025vs2026),1,5,True,2807,685039,318.959942,409.757693,1.284668,11,17,-6,comparable_ene_may_2025_2026
+20,Sumapaz,2025,0,Ene-May (2025vs2026),1,5,True,1,3338,0.000000,29.958059,,20,20,0,comparable_ene_may_2025_2026
+01,Usaquén,2026,3290,Ene-May (2025vs2026),1,5,True,3357,584326,563.041864,574.508066,1.020365,6,10,-4,comparable_ene_may_2025_2026
+02,Chapinero,2026,3865,Ene-May (2025vs2026),1,5,True,2953,160175,2412.985797,1843.608553,0.764036,4,4,0,comparable_ene_may_2025_2026
+03,Santa Fe,2026,2970,Ene-May (2025vs2026),1,5,True,2015,113327,2620.734688,1778.040538,0.678451,7,2,5,comparable_ene_may_2025_2026
+04,San Cristóbal,2026,1340,Ene-May (2025vs2026),1,5,True,2338,393880,340.205139,593.581802,1.744776,15,16,-1,comparable_ene_may_2025_2026
+05,Usme,2026,894,Ene-May (2025vs2026),1,5,True,1484,401629,222.593488,369.495231,1.659955,17,19,-2,comparable_ene_may_2025_2026
+06,Tunjuelito,2026,888,Ene-May (2025vs2026),1,5,True,1183,174699,508.302852,677.164723,1.332207,18,12,6,comparable_ene_may_2025_2026
+07,Bosa,2026,2587,Ene-May (2025vs2026),1,5,True,3425,773327,334.528602,442.891558,1.323927,10,17,-7,comparable_ene_may_2025_2026
+08,Kennedy,2026,4068,Ene-May (2025vs2026),1,5,True,6528,1104934,368.166786,590.804519,1.604720,3,15,-12,comparable_ene_may_2025_2026
+09,Fontibón,2026,2901,Ene-May (2025vs2026),1,5,True,2957,384256,754.965440,769.539057,1.019304,8,9,-1,comparable_ene_may_2025_2026
+10,Engativá,2026,4556,Ene-May (2025vs2026),1,5,True,6478,828873,549.662011,781.543131,1.421861,2,11,-9,comparable_ene_may_2025_2026
+11,Suba,2026,4858,Ene-May (2025vs2026),1,5,True,6359,1252218,387.951619,507.818926,1.308975,1,14,-13,comparable_ene_may_2025_2026
+12,Barrios Unidos,2026,1867,Ene-May (2025vs2026),1,5,True,2632,134573,1387.351103,1955.815803,1.409748,12,6,6,comparable_ene_may_2025_2026
+13,Teusaquillo,2026,3404,Ene-May (2025vs2026),1,5,True,3486,154663,2200.914246,2253.932744,1.024089,5,5,0,comparable_ene_may_2025_2026
+14,Los Mártires,2026,1957,Ene-May (2025vs2026),1,5,True,2425,75373,2596.420469,3217.332467,1.239142,11,3,8,comparable_ene_may_2025_2026
+15,Antonio Nariño,2026,946,Ene-May (2025vs2026),1,5,True,1284,76643,1234.294065,1675.299766,1.357294,16,7,9,comparable_ene_may_2025_2026
+16,Puente Aranda,2026,2685,Ene-May (2025vs2026),1,5,True,2939,248758,1079.362272,1181.469541,1.094600,9,8,1,comparable_ene_may_2025_2026
+17,La Candelaria,2026,620,Ene-May (2025vs2026),1,5,True,305,16449,3769.226093,1854.216062,0.491935,19,1,18,comparable_ene_may_2025_2026
+18,Rafael Uribe Uribe,2026,1517,Ene-May (2025vs2026),1,5,True,2675,373665,405.978617,715.881873,1.763349,14,13,1,comparable_ene_may_2025_2026
+19,Ciudad Bolívar,2026,1693,Ene-May (2025vs2026),1,5,True,3151,690843,245.062916,456.109420,1.861193,13,18,-5,comparable_ene_may_2025_2026
+20,Sumapaz,2026,0,Ene-May (2025vs2026),1,5,True,1,3385,0.000000,29.542097,,20,20,0,comparable_ene_may_2025_2026

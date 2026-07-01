@@ -1,2 +1,45 @@
-node_modules/
+# Secrets and local configuration
 .env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+service_account.json
+**/service_account.json
+*service-account*.json
+*credentials*.json
+*.pem
+*.key
+*.p12
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+env/
+
+# Caches, logs and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+logs/
+.agents/
+.codex/
+.tmp*/
+tmp/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases and temporary files
+*.db
+*.sqlite3
+*.tmp
+*.bak
