@@ -1,0 +1,35 @@
+year,locality_code,locality_name,metric,value,iqr_lower_bound,iqr_upper_bound,action
+2018,08,Kennedy,reported_123_theft_incidents,8500.000000,-1517.875000,7433.125000,kept_for_review
+2018,17,La Candelaria,theft_rate_per_100k,9343.048537,-3532.064102,7984.276859,kept_for_review
+2019,08,Kennedy,reported_123_theft_incidents,7853.000000,-1026.125000,6530.875000,kept_for_review
+2019,10,Engativá,reported_123_theft_incidents,6867.000000,-1026.125000,6530.875000,kept_for_review
+2019,11,Suba,reported_123_theft_incidents,7053.000000,-1026.125000,6530.875000,kept_for_review
+2019,17,La Candelaria,theft_rate_per_100k,10167.702592,-4252.278922,9730.590493,kept_for_review
+2020,08,Kennedy,reported_123_theft_incidents,4583.000000,-701.375000,4499.625000,kept_for_review
+2020,10,Engativá,reported_123_theft_incidents,4613.000000,-701.375000,4499.625000,kept_for_review
+2020,11,Suba,reported_123_theft_incidents,4701.000000,-701.375000,4499.625000,kept_for_review
+2021,08,Kennedy,registered_person_thefts,10340.000000,-1271.750000,9868.250000,kept_for_review
+2021,10,Engativá,registered_person_thefts,10215.000000,-1271.750000,9868.250000,kept_for_review
+2021,08,Kennedy,reported_123_theft_incidents,7273.000000,-898.000000,5920.000000,kept_for_review
+2021,10,Engativá,reported_123_theft_incidents,6337.000000,-898.000000,5920.000000,kept_for_review
+2021,11,Suba,reported_123_theft_incidents,6087.000000,-898.000000,5920.000000,kept_for_review
+2021,14,Los Mártires,incident_rate_per_100k,2475.082835,-225.137162,1941.665177,kept_for_review
+2022,08,Kennedy,reported_123_theft_incidents,6795.000000,-698.125000,6008.875000,kept_for_review
+2022,10,Engativá,reported_123_theft_incidents,6306.000000,-698.125000,6008.875000,kept_for_review
+2022,11,Suba,reported_123_theft_incidents,6593.000000,-698.125000,6008.875000,kept_for_review
+2023,11,Suba,registered_person_thefts,7681.000000,-1946.250000,7517.750000,kept_for_review
+2023,08,Kennedy,reported_123_theft_incidents,7456.000000,-723.250000,6154.750000,kept_for_review
+2023,10,Engativá,reported_123_theft_incidents,7229.000000,-723.250000,6154.750000,kept_for_review
+2023,11,Suba,reported_123_theft_incidents,7025.000000,-723.250000,6154.750000,kept_for_review
+2024,08,Kennedy,reported_123_theft_incidents,5834.000000,262.625000,4239.625000,kept_for_review
+2024,10,Engativá,reported_123_theft_incidents,5456.000000,262.625000,4239.625000,kept_for_review
+2024,11,Suba,reported_123_theft_incidents,5440.000000,262.625000,4239.625000,kept_for_review
+2024,20,Sumapaz,reported_123_theft_incidents,0.000000,262.625000,4239.625000,kept_for_review
+2024,14,Los Mártires,theft_rate_per_100k,6186.756495,-1825.810643,4126.054604,kept_for_review
+2025,08,Kennedy,reported_123_theft_incidents,6705.000000,-331.500000,5558.500000,kept_for_review
+2025,10,Engativá,reported_123_theft_incidents,6388.000000,-331.500000,5558.500000,kept_for_review
+2025,11,Suba,reported_123_theft_incidents,6400.000000,-331.500000,5558.500000,kept_for_review
+2026,08,Kennedy,reported_123_theft_incidents,6528.000000,-355.375000,5611.625000,kept_for_review
+2026,10,Engativá,reported_123_theft_incidents,6478.000000,-355.375000,5611.625000,kept_for_review
+2026,11,Suba,reported_123_theft_incidents,6359.000000,-355.375000,5611.625000,kept_for_review
+2026,17,La Candelaria,theft_rate_per_100k,3769.226093,-1483.171897,3435.090160,kept_for_review

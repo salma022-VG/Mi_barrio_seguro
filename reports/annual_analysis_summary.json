@@ -1,0 +1,330 @@
+{
+  "scope": "Annual January-December, complete years 2018-2025. 2026 excluded from annual trend.",
+  "source_files": {
+    "dai_zip": {
+      "path": "data\\raw\\alto_impacto\\dai_anual_geojson.zip",
+      "sha256": "bbf8bfa8918561ea389bee8fd2181e9231928a2d99e39eabd2eb137eaa20a98b",
+      "period_label": "Ene-Dic (2024vs2025)"
+    },
+    "incidents_zip": {
+      "path": "data\\raw\\incidentes_reportados\\ir_anual_geojson.zip",
+      "sha256": "6dd12f0efc215c22bd36a61df1ac795b44f41d24e5f167226b0235f0ba0139d2",
+      "period_label": "Ene-Dic (2024vs2025)"
+    },
+    "population": {
+      "path": "data\\raw\\poblacion_localidades.csv",
+      "sha256": "536d3157cd63f73fa080928f5ff351554410d64cdb5e7f3358aa069639370edc"
+    }
+  },
+  "quality": {
+    "integrated_rows": 160,
+    "localities": 20,
+    "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "missing_required_values": 0,
+    "duplicate_keys": 0,
+    "outlier_flags_retained": 29
+  },
+  "district": [
+    {
+      "year": 2018,
+      "registered_person_thefts": 105943,
+      "reported_123_theft_incidents": 151381,
+      "population": 7391056,
+      "mapped_thefts": 105943,
+      "mapped_incidents": 151154,
+      "unlocated_thefts": 0,
+      "unlocated_incidents": 227,
+      "theft_mapped_coverage_pct": 100.0,
+      "incident_mapped_coverage_pct": 99.85004723181905,
+      "theft_rate_per_100k": 1433.3946326478922,
+      "incident_rate_per_100k": 2048.1647006868843,
+      "incidents_per_registered_theft": 1.4288910074285228,
+      "theft_yoy_pct": NaN,
+      "incident_yoy_pct": NaN,
+      "divergence_yoy_pp": NaN
+    },
+    {
+      "year": 2019,
+      "registered_person_thefts": 127828,
+      "reported_123_theft_incidents": 147993,
+      "population": 7533202,
+      "mapped_thefts": 127787,
+      "mapped_incidents": 147132,
+      "unlocated_thefts": 41,
+      "unlocated_incidents": 861,
+      "theft_mapped_coverage_pct": 99.96792565009231,
+      "incident_mapped_coverage_pct": 99.41821572641949,
+      "theft_rate_per_100k": 1696.8614408587475,
+      "incident_rate_per_100k": 1964.5430986717204,
+      "incidents_per_registered_theft": 1.157751040460619,
+      "theft_yoy_pct": 20.657334604457112,
+      "incident_yoy_pct": -2.2380615797226833,
+      "divergence_yoy_pp": -22.895396184179795
+    },
+    {
+      "year": 2020,
+      "registered_person_thefts": 83131,
+      "reported_123_theft_incidents": 116302,
+      "population": 7717564,
+      "mapped_thefts": 83124,
+      "mapped_incidents": 111594,
+      "unlocated_thefts": 7,
+      "unlocated_incidents": 4708,
+      "theft_mapped_coverage_pct": 99.99157955515993,
+      "incident_mapped_coverage_pct": 95.95191828171484,
+      "theft_rate_per_100k": 1077.1663182838522,
+      "incident_rate_per_100k": 1506.978108636352,
+      "incidents_per_registered_theft": 1.3990208225571688,
+      "theft_yoy_pct": -34.96651750790124,
+      "incident_yoy_pct": -21.413850655098553,
+      "divergence_yoy_pp": 13.552666852802684
+    },
+    {
+      "year": 2021,
+      "registered_person_thefts": 108785,
+      "reported_123_theft_incidents": 143162,
+      "population": 7804920,
+      "mapped_thefts": 108740,
+      "mapped_incidents": 141738,
+      "unlocated_thefts": 45,
+      "unlocated_incidents": 1424,
+      "theft_mapped_coverage_pct": 99.95863400284965,
+      "incident_mapped_coverage_pct": 99.00532264148308,
+      "theft_rate_per_100k": 1393.8003208232756,
+      "incident_rate_per_100k": 1834.2532658886958,
+      "incidents_per_registered_theft": 1.3160086408971825,
+      "theft_yoy_pct": 30.85972741817131,
+      "incident_yoy_pct": 23.095045656996447,
+      "divergence_yoy_pp": -7.764681761174863
+    },
+    {
+      "year": 2022,
+      "registered_person_thefts": 137132,
+      "reported_123_theft_incidents": 139812,
+      "population": 7849206,
+      "mapped_thefts": 137118,
+      "mapped_incidents": 138388,
+      "unlocated_thefts": 14,
+      "unlocated_incidents": 1424,
+      "theft_mapped_coverage_pct": 99.98979085844296,
+      "incident_mapped_coverage_pct": 98.98148942866133,
+      "theft_rate_per_100k": 1747.081169738697,
+      "incident_rate_per_100k": 1781.2247506308279,
+      "incidents_per_registered_theft": 1.0195432138377623,
+      "theft_yoy_pct": 26.05782047157237,
+      "incident_yoy_pct": -2.3400064262863007,
+      "divergence_yoy_pp": -28.39782689785867
+    },
+    {
+      "year": 2023,
+      "registered_person_thefts": 158747,
+      "reported_123_theft_incidents": 145871,
+      "population": 7883928,
+      "mapped_thefts": 157604,
+      "mapped_incidents": 145032,
+      "unlocated_thefts": 1143,
+      "unlocated_incidents": 839,
+      "theft_mapped_coverage_pct": 99.27998639344365,
+      "incident_mapped_coverage_pct": 99.42483427137677,
+      "theft_rate_per_100k": 2013.5521278225779,
+      "incident_rate_per_100k": 1850.2325236861625,
+      "incidents_per_registered_theft": 0.9188898057916055,
+      "theft_yoy_pct": 15.76218533967273,
+      "incident_yoy_pct": 4.3336766515034375,
+      "divergence_yoy_pp": -11.428508688169291
+    },
+    {
+      "year": 2024,
+      "registered_person_thefts": 130504,
+      "reported_123_theft_incidents": 134964,
+      "population": 7918660,
+      "mapped_thefts": 129779,
+      "mapped_incidents": 134431,
+      "unlocated_thefts": 725,
+      "unlocated_incidents": 533,
+      "theft_mapped_coverage_pct": 99.44446147244528,
+      "incident_mapped_coverage_pct": 99.60507987315135,
+      "theft_rate_per_100k": 1648.0566156395148,
+      "incident_rate_per_100k": 1704.3792762916958,
+      "incidents_per_registered_theft": 1.0341751976950897,
+      "theft_yoy_pct": -17.7912023534303,
+      "incident_yoy_pct": -7.4771544721020655,
+      "divergence_yoy_pp": 10.314047881328236
+    },
+    {
+      "year": 2025,
+      "registered_person_thefts": 123800,
+      "reported_123_theft_incidents": 139082,
+      "population": 7942867,
+      "mapped_thefts": 101894,
+      "mapped_incidents": 138440,
+      "unlocated_thefts": 21906,
+      "unlocated_incidents": 642,
+      "theft_mapped_coverage_pct": 82.30533117932148,
+      "incident_mapped_coverage_pct": 99.53840180612876,
+      "theft_rate_per_100k": 1558.6311592526981,
+      "incident_rate_per_100k": 1751.0302010596424,
+      "incidents_per_registered_theft": 1.1234410339256866,
+      "theft_yoy_pct": -5.137007294795559,
+      "incident_yoy_pct": 3.0511840194422213,
+      "divergence_yoy_pp": 8.18819131423778
+    }
+  ],
+  "correlations": {
+    "2018": {
+      "count_vs_rate_spearman": 0.26917293233082706,
+      "theft_vs_incident_pearson": 0.7967792135042512,
+      "theft_vs_incident_spearman": 0.7684210526315788
+    },
+    "2019": {
+      "count_vs_rate_spearman": 0.30075187969924805,
+      "theft_vs_incident_pearson": 0.812873331163109,
+      "theft_vs_incident_spearman": 0.7804511278195487
+    },
+    "2020": {
+      "count_vs_rate_spearman": 0.07368421052631578,
+      "theft_vs_incident_pearson": 0.918097300651692,
+      "theft_vs_incident_spearman": 0.7804511278195487
+    },
+    "2021": {
+      "count_vs_rate_spearman": 0.09624060150375939,
+      "theft_vs_incident_pearson": 0.8980276315679075,
+      "theft_vs_incident_spearman": 0.8150375939849623
+    },
+    "2022": {
+      "count_vs_rate_spearman": 0.13834586466165413,
+      "theft_vs_incident_pearson": 0.8759852359393028,
+      "theft_vs_incident_spearman": 0.813533834586466
+    },
+    "2023": {
+      "count_vs_rate_spearman": 0.30977443609022554,
+      "theft_vs_incident_pearson": 0.8382198641603096,
+      "theft_vs_incident_spearman": 0.724812030075188
+    },
+    "2024": {
+      "count_vs_rate_spearman": 0.29624060150375936,
+      "theft_vs_incident_pearson": 0.7530500365916215,
+      "theft_vs_incident_spearman": 0.7233082706766917
+    },
+    "2025": {
+      "count_vs_rate_spearman": 0.1263157894736842,
+      "theft_vs_incident_pearson": 0.8984483117072644,
+      "theft_vs_incident_spearman": 0.8691729323308269
+    }
+  },
+  "top_counts_2025": [
+    {
+      "locality_name": "Suba",
+      "registered_person_thefts": 10775,
+      "theft_rate_per_100k": 860.8622844049304,
+      "count_rank": 1,
+      "rate_rank": 14
+    },
+    {
+      "locality_name": "Engativá",
+      "registered_person_thefts": 10209,
+      "theft_rate_per_100k": 1228.2759740845681,
+      "count_rank": 2,
+      "rate_rank": 11
+    },
+    {
+      "locality_name": "Kennedy",
+      "registered_person_thefts": 9354,
+      "theft_rate_per_100k": 847.4353619900688,
+      "count_rank": 3,
+      "rate_rank": 15
+    },
+    {
+      "locality_name": "Chapinero",
+      "registered_person_thefts": 8041,
+      "theft_rate_per_100k": 4989.389558332609,
+      "count_rank": 4,
+      "rate_rank": 3
+    },
+    {
+      "locality_name": "Teusaquillo",
+      "registered_person_thefts": 7452,
+      "theft_rate_per_100k": 4805.168845070059,
+      "count_rank": 5,
+      "rate_rank": 5
+    }
+  ],
+  "top_rates_2025": [
+    {
+      "locality_name": "La Candelaria",
+      "registered_person_thefts": 1378,
+      "theft_rate_per_100k": 8314.227102690962,
+      "count_rank": 19,
+      "rate_rank": 1
+    },
+    {
+      "locality_name": "Los Mártires",
+      "registered_person_thefts": 4570,
+      "theft_rate_per_100k": 6055.306011580607,
+      "count_rank": 11,
+      "rate_rank": 2
+    },
+    {
+      "locality_name": "Chapinero",
+      "registered_person_thefts": 8041,
+      "theft_rate_per_100k": 4989.389558332609,
+      "count_rank": 4,
+      "rate_rank": 3
+    },
+    {
+      "locality_name": "Santa Fe",
+      "registered_person_thefts": 5466,
+      "theft_rate_per_100k": 4823.721484357764,
+      "count_rank": 9,
+      "rate_rank": 4
+    },
+    {
+      "locality_name": "Teusaquillo",
+      "registered_person_thefts": 7452,
+      "theft_rate_per_100k": 4805.168845070059,
+      "count_rank": 5,
+      "rate_rank": 5
+    }
+  ],
+  "top_divergence_2024_2025": [
+    {
+      "locality_name": "Los Mártires",
+      "theft_yoy_pct": -60.25741368814679,
+      "incident_yoy_pct": 13.373800665752889,
+      "divergence_yoy_pp": 73.63121435389968
+    },
+    {
+      "locality_name": "Santa Fe",
+      "theft_yoy_pct": -42.782372029728876,
+      "incident_yoy_pct": 3.7428445618670203,
+      "divergence_yoy_pp": 46.52521659159589
+    },
+    {
+      "locality_name": "Chapinero",
+      "theft_yoy_pct": -26.74683428987884,
+      "incident_yoy_pct": 10.137942496260589,
+      "divergence_yoy_pp": 36.884776786139426
+    },
+    {
+      "locality_name": "Barrios Unidos",
+      "theft_yoy_pct": -22.077416844971797,
+      "incident_yoy_pct": 13.963460104399704,
+      "divergence_yoy_pp": 36.0408769493715
+    },
+    {
+      "locality_name": "Engativá",
+      "theft_yoy_pct": -17.289151745928866,
+      "incident_yoy_pct": 6.565992549228317,
+      "divergence_yoy_pp": 23.85514429515718
+    }
+  ]
+}

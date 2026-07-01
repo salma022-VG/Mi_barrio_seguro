@@ -1,0 +1,161 @@
+year,locality_code,locality_name,population
+2018,01,Usaquén,534118
+2018,02,Chapinero,156010
+2018,03,Santa Fe,103640
+2018,04,San Cristóbal,384392
+2018,05,Usme,362295
+2018,06,Tunjuelito,171130
+2018,07,Bosa,692418
+2018,08,Kennedy,1016834
+2018,09,Fontibón,364832
+2018,10,Engativá,790205
+2018,11,Suba,1149099
+2018,12,Barrios Unidos,132784
+2018,13,Teusaquillo,144122
+2018,14,Los Mártires,73076
+2018,15,Antonio Nariño,79011
+2018,16,Puente Aranda,242184
+2018,17,La Candelaria,17018
+2018,18,Rafael Uribe Uribe,363471
+2018,19,Ciudad Bolívar,611245
+2018,20,Sumapaz,3172
+2019,01,Usaquén,556257
+2019,02,Chapinero,158365
+2019,03,Santa Fe,106046
+2019,04,San Cristóbal,387780
+2019,05,Usme,369554
+2019,06,Tunjuelito,173152
+2019,07,Bosa,701367
+2019,08,Kennedy,1038169
+2019,09,Fontibón,371367
+2019,10,Engativá,803512
+2019,11,Suba,1175678
+2019,12,Barrios Unidos,133784
+2019,13,Teusaquillo,147038
+2019,14,Los Mártires,73732
+2019,15,Antonio Nariño,79278
+2019,16,Puente Aranda,244880
+2019,17,La Candelaria,17054
+2019,18,Rafael Uribe Uribe,368116
+2019,19,Ciudad Bolívar,624876
+2019,20,Sumapaz,3197
+2020,01,Usaquén,572435
+2020,02,Chapinero,161416
+2020,03,Santa Fe,109168
+2020,04,San Cristóbal,393357
+2020,05,Usme,378875
+2020,06,Tunjuelito,176152
+2020,07,Bosa,721583
+2020,08,Kennedy,1065707
+2020,09,Fontibón,380016
+2020,10,Engativá,821445
+2020,11,Suba,1209234
+2020,12,Barrios Unidos,136156
+2020,13,Teusaquillo,150894
+2020,14,Los Mártires,74833
+2020,15,Antonio Nariño,80010
+2020,16,Puente Aranda,248966
+2020,17,La Candelaria,17177
+2020,18,Rafael Uribe Uribe,374791
+2020,19,Ciudad Bolívar,642109
+2020,20,Sumapaz,3240
+2021,01,Usaquén,580157
+2021,02,Chapinero,162226
+2021,03,Santa Fe,110770
+2021,04,San Cristóbal,394779
+2021,05,Usme,384340
+2021,06,Tunjuelito,176572
+2021,07,Bosa,734625
+2021,08,Kennedy,1079757
+2021,09,Fontibón,383478
+2021,10,Engativá,827889
+2021,11,Suba,1225782
+2021,12,Barrios Unidos,136620
+2021,13,Teusaquillo,153033
+2021,14,Los Mártires,75149
+2021,15,Antonio Nariño,79768
+2021,16,Puente Aranda,249985
+2021,17,La Candelaria,17061
+2021,18,Rafael Uribe Uribe,376325
+2021,19,Ciudad Bolívar,653362
+2021,20,Sumapaz,3242
+2022,01,Usaquén,583301
+2022,02,Chapinero,162213
+2022,03,Santa Fe,111651
+2022,04,San Cristóbal,394613
+2022,05,Usme,388197
+2022,06,Tunjuelito,176288
+2022,07,Bosa,743862
+2022,08,Kennedy,1087567
+2022,09,Fontibón,384590
+2022,10,Engativá,829701
+2022,11,Suba,1234678
+2022,12,Barrios Unidos,136347
+2022,13,Teusaquillo,153970
+2022,14,Los Mártires,75198
+2022,15,Antonio Nariño,79160
+2022,16,Puente Aranda,249893
+2022,17,La Candelaria,16916
+2022,18,Rafael Uribe Uribe,376138
+2022,19,Ciudad Bolívar,661661
+2022,20,Sumapaz,3262
+2023,01,Usaquén,585076
+2023,02,Chapinero,162013
+2023,03,Santa Fe,112336
+2023,04,San Cristóbal,394434
+2023,05,Usme,391852
+2023,06,Tunjuelito,175922
+2023,07,Bosa,752229
+2023,08,Kennedy,1093721
+2023,09,Fontibón,385154
+2023,10,Engativá,830505
+2023,11,Suba,1241362
+2023,12,Barrios Unidos,136020
+2023,13,Teusaquillo,154555
+2023,14,Los Mártires,75278
+2023,15,Antonio Nariño,78536
+2023,16,Puente Aranda,249697
+2023,17,La Candelaria,16782
+2023,18,Rafael Uribe Uribe,375730
+2023,19,Ciudad Bolívar,669467
+2023,20,Sumapaz,3259
+2024,01,Usaquén,586366
+2024,02,Chapinero,161696
+2024,03,Santa Fe,112939
+2024,04,San Cristóbal,394656
+2024,05,Usme,395664
+2024,06,Tunjuelito,175728
+2024,07,Bosa,760580
+2024,08,Kennedy,1099572
+2024,09,Fontibón,385603
+2024,10,Engativá,831376
+2024,11,Suba,1247542
+2024,12,Barrios Unidos,135762
+2024,13,Teusaquillo,155013
+2024,14,Los Mártires,75403
+2024,15,Antonio Nariño,77987
+2024,16,Puente Aranda,249697
+2024,17,La Candelaria,16689
+2024,18,Rafael Uribe Uribe,375542
+2024,19,Ciudad Bolívar,677540
+2024,20,Sumapaz,3305
+2025,01,Usaquén,586286
+2025,02,Chapinero,161162
+2025,03,Santa Fe,113315
+2025,04,San Cristóbal,394686
+2025,05,Usme,399153
+2025,06,Tunjuelito,175399
+2025,07,Bosa,768002
+2025,08,Kennedy,1103801
+2025,09,Fontibón,385455
+2025,10,Engativá,831165
+2025,11,Suba,1251652
+2025,12,Barrios Unidos,135332
+2025,13,Teusaquillo,155083
+2025,14,Los Mártires,75471
+2025,15,Antonio Nariño,77392
+2025,16,Puente Aranda,249519
+2025,17,La Candelaria,16574
+2025,18,Rafael Uribe Uribe,375043
+2025,19,Ciudad Bolívar,685039
+2025,20,Sumapaz,3338

@@ -1,0 +1,24 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      EVOLUTION_API_URL: ${EVOLUTION_API_URL:-}
+      EVOLUTION_API_KEY: ${EVOLUTION_API_KEY:-}
+      EVOLUTION_INSTANCE_NAME: ${EVOLUTION_INSTANCE_NAME:-}
+      GOOGLE_SERVICE_ACCOUNT_FILE: ${GOOGLE_SERVICE_ACCOUNT_FILE:-service_account.json}
+      GOOGLE_SHEETS_ID: ${GOOGLE_SHEETS_ID:-}
+      GOOGLE_SHEETS_REPORTS_TAB: ${GOOGLE_SHEETS_REPORTS_TAB:-Reportes}
+      TIMEZONE: ${TIMEZONE:-America/Bogota}
+      HOST: 0.0.0.0
+      PORT: ${PORT:-8000}
+      DEBUG: ${DEBUG:-false}
+      SESSION_TIMEOUT_MINUTES: ${SESSION_TIMEOUT_MINUTES:-30}
+    networks:
+      - dokploy-network
+
+networks:
+  dokploy-network:
+    external: true

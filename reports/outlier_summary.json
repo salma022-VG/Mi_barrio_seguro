@@ -1,0 +1,7 @@
+{
+  "flagged_values": 34,
+  "flagged_rows": 31,
+  "removed_values": 0,
+  "method": "IQR 1.5 within each year and metric",
+  "decision": "Flags are diagnostic only. Territorial extremes may be meaningful and were not removed."
+}

@@ -1,0 +1,16 @@
+{
+  "row_count": 180,
+  "expected_row_count": 180,
+  "locality_count": 20,
+  "year_min": 2018,
+  "year_max": 2026,
+  "duplicate_locality_year_rows": 0,
+  "unmatched_source_rows": 0,
+  "missing_population_rows": 0,
+  "nonpositive_population_rows": 0,
+  "negative_crime_count_rows": 0,
+  "negative_incident_count_rows": 0,
+  "period_label_mismatches": 0,
+  "null_rate_rows": 0,
+  "all_checks_passed": true
+}

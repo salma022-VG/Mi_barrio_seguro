@@ -1,0 +1,621 @@
+year,locality_code,locality_name,population
+2005,01,Usaquén,415099
+2005,02,Chapinero,121307
+2005,03,Santa Fe,96046
+2005,04,San Cristóbal,400187
+2005,05,Usme,296824
+2005,06,Tunjuelito,180738
+2005,07,Bosa,499108
+2005,08,Kennedy,933574
+2005,09,Fontibón,295840
+2005,10,Engativá,789840
+2005,11,Suba,907380
+2005,12,Barrios Unidos,218880
+2005,13,Teusaquillo,135325
+2005,14,Los Mártires,93245
+2005,15,Antonio Nariño,113969
+2005,16,Puente Aranda,249279
+2005,17,La Candelaria,22298
+2005,18,Rafael Uribe Uribe,371504
+2005,19,Ciudad Bolívar,564441
+2005,20,Sumapaz,6026
+2006,01,Usaquén,434211
+2006,02,Chapinero,126849
+2006,03,Santa Fe,96952
+2006,04,San Cristóbal,395796
+2006,05,Usme,306676
+2006,06,Tunjuelito,178342
+2006,07,Bosa,530704
+2006,08,Kennedy,944250
+2006,09,Fontibón,306662
+2006,10,Engativá,786757
+2006,11,Suba,945657
+2006,12,Barrios Unidos,203063
+2006,13,Teusaquillo,136344
+2006,14,Los Mártires,89370
+2006,15,Antonio Nariño,107425
+2006,16,Puente Aranda,247064
+2006,17,La Candelaria,21293
+2006,18,Rafael Uribe Uribe,368593
+2006,19,Ciudad Bolívar,569896
+2006,20,Sumapaz,5439
+2007,01,Usaquén,450837
+2007,02,Chapinero,131696
+2007,03,Santa Fe,97837
+2007,04,San Cristóbal,392436
+2007,05,Usme,315329
+2007,06,Tunjuelito,176467
+2007,07,Bosa,557993
+2007,08,Kennedy,954214
+2007,09,Fontibón,316132
+2007,10,Engativá,784883
+2007,11,Suba,979041
+2007,12,Barrios Unidos,189810
+2007,13,Teusaquillo,137347
+2007,14,Los Mártires,86156
+2007,15,Antonio Nariño,101983
+2007,16,Puente Aranda,245418
+2007,17,La Candelaria,20461
+2007,18,Rafael Uribe Uribe,366482
+2007,19,Ciudad Bolívar,575100
+2007,20,Sumapaz,4947
+2008,01,Usaquén,465244
+2008,02,Chapinero,135889
+2008,03,Santa Fe,98645
+2008,04,San Cristóbal,389916
+2008,05,Usme,322963
+2008,06,Tunjuelito,175023
+2008,07,Bosa,581534
+2008,08,Kennedy,963398
+2008,09,Fontibón,324399
+2008,10,Engativá,783921
+2008,11,Suba,1008065
+2008,12,Barrios Unidos,178732
+2008,13,Teusaquillo,138293
+2008,14,Los Mártires,83509
+2008,15,Antonio Nariño,97444
+2008,16,Puente Aranda,244217
+2008,17,La Candelaria,19774
+2008,18,Rafael Uribe Uribe,364990
+2008,19,Ciudad Bolívar,580011
+2008,20,Sumapaz,4545
+2009,01,Usaquén,477857
+2009,02,Chapinero,139559
+2009,03,Santa Fe,99428
+2009,04,San Cristóbal,388169
+2009,05,Usme,329740
+2009,06,Tunjuelito,173979
+2009,07,Bosa,601976
+2009,08,Kennedy,972087
+2009,09,Fontibón,331686
+2009,10,Engativá,783842
+2009,11,Suba,1033570
+2009,12,Barrios Unidos,169541
+2009,13,Teusaquillo,139215
+2009,14,Los Mártires,81352
+2009,15,Antonio Nariño,93704
+2009,16,Puente Aranda,243437
+2009,17,La Candelaria,19219
+2009,18,Rafael Uribe Uribe,364065
+2009,19,Ciudad Bolívar,584760
+2009,20,Sumapaz,4213
+2010,01,Usaquén,488850
+2010,02,Chapinero,142753
+2010,03,Santa Fe,100177
+2010,04,San Cristóbal,387010
+2010,05,Usme,335777
+2010,06,Tunjuelito,173235
+2010,07,Bosa,619699
+2010,08,Kennedy,980198
+2010,09,Fontibón,338086
+2010,10,Engativá,784404
+2010,11,Suba,1055912
+2010,12,Barrios Unidos,161921
+2010,13,Teusaquillo,140098
+2010,14,Los Mártires,79597
+2010,15,Antonio Nariño,90640
+2010,16,Puente Aranda,242970
+2010,17,La Candelaria,18750
+2010,18,Rafael Uribe Uribe,363581
+2010,19,Ciudad Bolívar,589290
+2010,20,Sumapaz,3938
+2011,01,Usaquén,498133
+2011,02,Chapinero,145455
+2011,03,Santa Fe,100799
+2011,04,San Cristóbal,386068
+2011,05,Usme,340938
+2011,06,Tunjuelito,172613
+2011,07,Bosa,634651
+2011,08,Kennedy,987100
+2011,09,Fontibón,343504
+2011,10,Engativá,784935
+2011,11,Suba,1074805
+2011,12,Barrios Unidos,155514
+2011,13,Teusaquillo,140850
+2011,14,Los Mártires,78119
+2011,15,Antonio Nariño,88065
+2011,16,Puente Aranda,242588
+2011,17,La Candelaria,18363
+2011,18,Rafael Uribe Uribe,363220
+2011,19,Ciudad Bolívar,593222
+2011,20,Sumapaz,3714
+2012,01,Usaquén,505657
+2012,02,Chapinero,147658
+2012,03,Santa Fe,101296
+2012,04,San Cristóbal,385095
+2012,05,Usme,345128
+2012,06,Tunjuelito,172012
+2012,07,Bosa,646887
+2012,08,Kennedy,992398
+2012,09,Fontibón,347883
+2012,10,Engativá,784983
+2012,11,Suba,1090136
+2012,12,Barrios Unidos,150063
+2012,13,Teusaquillo,141395
+2012,14,Los Mártires,76849
+2012,15,Antonio Nariño,85852
+2012,16,Puente Aranda,242138
+2012,17,La Candelaria,18030
+2012,18,Rafael Uribe Uribe,362714
+2012,19,Ciudad Bolívar,596269
+2012,20,Sumapaz,3537
+2013,01,Usaquén,511667
+2013,02,Chapinero,149412
+2013,03,Santa Fe,101666
+2013,04,San Cristóbal,384071
+2013,05,Usme,348516
+2013,06,Tunjuelito,171417
+2013,07,Bosa,656769
+2013,08,Kennedy,996291
+2013,09,Fontibón,351346
+2013,10,Engativá,784587
+2013,11,Suba,1102361
+2013,12,Barrios Unidos,145433
+2013,13,Teusaquillo,141772
+2013,14,Los Mártires,75727
+2013,15,Antonio Nariño,83955
+2013,16,Puente Aranda,241638
+2013,17,La Candelaria,17742
+2013,18,Rafael Uribe Uribe,362118
+2013,19,Ciudad Bolívar,598539
+2013,20,Sumapaz,3400
+2014,01,Usaquén,516487
+2014,02,Chapinero,150818
+2014,03,Santa Fe,101925
+2014,04,San Cristóbal,383077
+2014,05,Usme,351251
+2014,06,Tunjuelito,170862
+2014,07,Bosa,664774
+2014,08,Kennedy,999168
+2014,09,Fontibón,354097
+2014,10,Engativá,783973
+2014,11,Suba,1112165
+2014,12,Barrios Unidos,141514
+2014,13,Teusaquillo,142033
+2014,14,Los Mártires,74782
+2014,15,Antonio Nariño,82348
+2014,16,Puente Aranda,241132
+2014,17,La Candelaria,17494
+2014,18,Rafael Uribe Uribe,361478
+2014,19,Ciudad Bolívar,600273
+2014,20,Sumapaz,3298
+2015,01,Usaquén,520480
+2015,02,Chapinero,151996
+2015,03,Santa Fe,102155
+2015,04,San Cristóbal,382247
+2015,05,Usme,353558
+2015,06,Tunjuelito,170388
+2015,07,Bosa,671404
+2015,08,Kennedy,1001537
+2015,09,Fontibón,356388
+2015,10,Engativá,783433
+2015,11,Suba,1120332
+2015,12,Barrios Unidos,138250
+2015,13,Teusaquillo,142245
+2015,14,Los Mártires,73987
+2015,15,Antonio Nariño,81014
+2015,16,Puente Aranda,240697
+2015,17,La Candelaria,17290
+2015,18,Rafael Uribe Uribe,360924
+2015,19,Ciudad Bolívar,601716
+2015,20,Sumapaz,3224
+2016,01,Usaquén,524563
+2016,02,Chapinero,153204
+2016,03,Santa Fe,102485
+2016,04,San Cristóbal,382102
+2016,05,Usme,356045
+2016,06,Tunjuelito,170248
+2016,07,Bosa,677908
+2016,08,Kennedy,1004979
+2016,09,Fontibón,358804
+2016,10,Engativá,784129
+2016,11,Suba,1128753
+2016,12,Barrios Unidos,135739
+2016,13,Teusaquillo,142633
+2016,14,Los Mártires,73440
+2016,15,Antonio Nariño,80014
+2016,16,Puente Aranda,240673
+2016,17,La Candelaria,17141
+2016,18,Rafael Uribe Uribe,361010
+2016,19,Ciudad Bolívar,603882
+2016,20,Sumapaz,3166
+2017,01,Usaquén,528924
+2017,02,Chapinero,154506
+2017,03,Santa Fe,102984
+2017,04,San Cristóbal,382696
+2017,05,Usme,358813
+2017,06,Tunjuelito,170440
+2017,07,Bosa,684570
+2017,08,Kennedy,1009665
+2017,09,Fontibón,361474
+2017,10,Engativá,786139
+2017,11,Suba,1137868
+2017,12,Barrios Unidos,133890
+2017,13,Teusaquillo,143211
+2017,14,Los Mártires,73112
+2017,15,Antonio Nariño,79336
+2017,16,Puente Aranda,241114
+2017,17,La Candelaria,17049
+2017,18,Rafael Uribe Uribe,361722
+2017,19,Ciudad Bolívar,606799
+2017,20,Sumapaz,3137
+2018,01,Usaquén,534118
+2018,02,Chapinero,156010
+2018,03,Santa Fe,103640
+2018,04,San Cristóbal,384392
+2018,05,Usme,362295
+2018,06,Tunjuelito,171130
+2018,07,Bosa,692418
+2018,08,Kennedy,1016834
+2018,09,Fontibón,364832
+2018,10,Engativá,790205
+2018,11,Suba,1149099
+2018,12,Barrios Unidos,132784
+2018,13,Teusaquillo,144122
+2018,14,Los Mártires,73076
+2018,15,Antonio Nariño,79011
+2018,16,Puente Aranda,242184
+2018,17,La Candelaria,17018
+2018,18,Rafael Uribe Uribe,363471
+2018,19,Ciudad Bolívar,611245
+2018,20,Sumapaz,3172
+2019,01,Usaquén,556257
+2019,02,Chapinero,158365
+2019,03,Santa Fe,106046
+2019,04,San Cristóbal,387780
+2019,05,Usme,369554
+2019,06,Tunjuelito,173152
+2019,07,Bosa,701367
+2019,08,Kennedy,1038169
+2019,09,Fontibón,371367
+2019,10,Engativá,803512
+2019,11,Suba,1175678
+2019,12,Barrios Unidos,133784
+2019,13,Teusaquillo,147038
+2019,14,Los Mártires,73732
+2019,15,Antonio Nariño,79278
+2019,16,Puente Aranda,244880
+2019,17,La Candelaria,17054
+2019,18,Rafael Uribe Uribe,368116
+2019,19,Ciudad Bolívar,624876
+2019,20,Sumapaz,3197
+2020,01,Usaquén,572435
+2020,02,Chapinero,161416
+2020,03,Santa Fe,109168
+2020,04,San Cristóbal,393357
+2020,05,Usme,378875
+2020,06,Tunjuelito,176152
+2020,07,Bosa,721583
+2020,08,Kennedy,1065707
+2020,09,Fontibón,380016
+2020,10,Engativá,821445
+2020,11,Suba,1209234
+2020,12,Barrios Unidos,136156
+2020,13,Teusaquillo,150894
+2020,14,Los Mártires,74833
+2020,15,Antonio Nariño,80010
+2020,16,Puente Aranda,248966
+2020,17,La Candelaria,17177
+2020,18,Rafael Uribe Uribe,374791
+2020,19,Ciudad Bolívar,642109
+2020,20,Sumapaz,3240
+2021,01,Usaquén,580157
+2021,02,Chapinero,162226
+2021,03,Santa Fe,110770
+2021,04,San Cristóbal,394779
+2021,05,Usme,384340
+2021,06,Tunjuelito,176572
+2021,07,Bosa,734625
+2021,08,Kennedy,1079757
+2021,09,Fontibón,383478
+2021,10,Engativá,827889
+2021,11,Suba,1225782
+2021,12,Barrios Unidos,136620
+2021,13,Teusaquillo,153033
+2021,14,Los Mártires,75149
+2021,15,Antonio Nariño,79768
+2021,16,Puente Aranda,249985
+2021,17,La Candelaria,17061
+2021,18,Rafael Uribe Uribe,376325
+2021,19,Ciudad Bolívar,653362
+2021,20,Sumapaz,3242
+2022,01,Usaquén,583301
+2022,02,Chapinero,162213
+2022,03,Santa Fe,111651
+2022,04,San Cristóbal,394613
+2022,05,Usme,388197
+2022,06,Tunjuelito,176288
+2022,07,Bosa,743862
+2022,08,Kennedy,1087567
+2022,09,Fontibón,384590
+2022,10,Engativá,829701
+2022,11,Suba,1234678
+2022,12,Barrios Unidos,136347
+2022,13,Teusaquillo,153970
+2022,14,Los Mártires,75198
+2022,15,Antonio Nariño,79160
+2022,16,Puente Aranda,249893
+2022,17,La Candelaria,16916
+2022,18,Rafael Uribe Uribe,376138
+2022,19,Ciudad Bolívar,661661
+2022,20,Sumapaz,3262
+2023,01,Usaquén,585076
+2023,02,Chapinero,162013
+2023,03,Santa Fe,112336
+2023,04,San Cristóbal,394434
+2023,05,Usme,391852
+2023,06,Tunjuelito,175922
+2023,07,Bosa,752229
+2023,08,Kennedy,1093721
+2023,09,Fontibón,385154
+2023,10,Engativá,830505
+2023,11,Suba,1241362
+2023,12,Barrios Unidos,136020
+2023,13,Teusaquillo,154555
+2023,14,Los Mártires,75278
+2023,15,Antonio Nariño,78536
+2023,16,Puente Aranda,249697
+2023,17,La Candelaria,16782
+2023,18,Rafael Uribe Uribe,375730
+2023,19,Ciudad Bolívar,669467
+2023,20,Sumapaz,3259
+2024,01,Usaquén,586366
+2024,02,Chapinero,161696
+2024,03,Santa Fe,112939
+2024,04,San Cristóbal,394656
+2024,05,Usme,395664
+2024,06,Tunjuelito,175728
+2024,07,Bosa,760580
+2024,08,Kennedy,1099572
+2024,09,Fontibón,385603
+2024,10,Engativá,831376
+2024,11,Suba,1247542
+2024,12,Barrios Unidos,135762
+2024,13,Teusaquillo,155013
+2024,14,Los Mártires,75403
+2024,15,Antonio Nariño,77987
+2024,16,Puente Aranda,249697
+2024,17,La Candelaria,16689
+2024,18,Rafael Uribe Uribe,375542
+2024,19,Ciudad Bolívar,677540
+2024,20,Sumapaz,3305
+2025,01,Usaquén,586286
+2025,02,Chapinero,161162
+2025,03,Santa Fe,113315
+2025,04,San Cristóbal,394686
+2025,05,Usme,399153
+2025,06,Tunjuelito,175399
+2025,07,Bosa,768002
+2025,08,Kennedy,1103801
+2025,09,Fontibón,385455
+2025,10,Engativá,831165
+2025,11,Suba,1251652
+2025,12,Barrios Unidos,135332
+2025,13,Teusaquillo,155083
+2025,14,Los Mártires,75471
+2025,15,Antonio Nariño,77392
+2025,16,Puente Aranda,249519
+2025,17,La Candelaria,16574
+2025,18,Rafael Uribe Uribe,375043
+2025,19,Ciudad Bolívar,685039
+2025,20,Sumapaz,3338
+2026,01,Usaquén,584326
+2026,02,Chapinero,160175
+2026,03,Santa Fe,113327
+2026,04,San Cristóbal,393880
+2026,05,Usme,401629
+2026,06,Tunjuelito,174699
+2026,07,Bosa,773327
+2026,08,Kennedy,1104934
+2026,09,Fontibón,384256
+2026,10,Engativá,828873
+2026,11,Suba,1252218
+2026,12,Barrios Unidos,134573
+2026,13,Teusaquillo,154663
+2026,14,Los Mártires,75373
+2026,15,Antonio Nariño,76643
+2026,16,Puente Aranda,248758
+2026,17,La Candelaria,16449
+2026,18,Rafael Uribe Uribe,373665
+2026,19,Ciudad Bolívar,690843
+2026,20,Sumapaz,3385
+2027,01,Usaquén,581789
+2027,02,Chapinero,159101
+2027,03,Santa Fe,113252
+2027,04,San Cristóbal,392964
+2027,05,Usme,403896
+2027,06,Tunjuelito,173941
+2027,07,Bosa,778085
+2027,08,Kennedy,1105269
+2027,09,Fontibón,382749
+2027,10,Engativá,826086
+2027,11,Suba,1251874
+2027,12,Barrios Unidos,133753
+2027,13,Teusaquillo,154034
+2027,14,Los Mártires,75246
+2027,15,Antonio Nariño,75871
+2027,16,Puente Aranda,247914
+2027,17,La Candelaria,16335
+2027,18,Rafael Uribe Uribe,372168
+2027,19,Ciudad Bolívar,696188
+2027,20,Sumapaz,3426
+2028,01,Usaquén,578809
+2028,02,Chapinero,157891
+2028,03,Santa Fe,113096
+2028,04,San Cristóbal,391981
+2028,05,Usme,405949
+2028,06,Tunjuelito,173176
+2028,07,Bosa,782370
+2028,08,Kennedy,1104971
+2028,09,Fontibón,381070
+2028,10,Engativá,822967
+2028,11,Suba,1250884
+2028,12,Barrios Unidos,132893
+2028,13,Teusaquillo,153301
+2028,14,Los Mártires,75080
+2028,15,Antonio Nariño,75106
+2028,16,Puente Aranda,246990
+2028,17,La Candelaria,16213
+2028,18,Rafael Uribe Uribe,370552
+2028,19,Ciudad Bolívar,701173
+2028,20,Sumapaz,3467
+2029,01,Usaquén,575518
+2029,02,Chapinero,156661
+2029,03,Santa Fe,112898
+2029,04,San Cristóbal,390889
+2029,05,Usme,407780
+2029,06,Tunjuelito,172357
+2029,07,Bosa,786217
+2029,08,Kennedy,1104194
+2029,09,Fontibón,379259
+2029,10,Engativá,819590
+2029,11,Suba,1249381
+2029,12,Barrios Unidos,131998
+2029,13,Teusaquillo,152442
+2029,14,Los Mártires,74896
+2029,15,Antonio Nariño,74344
+2029,16,Puente Aranda,246046
+2029,17,La Candelaria,16089
+2029,18,Rafael Uribe Uribe,368847
+2029,19,Ciudad Bolívar,705704
+2029,20,Sumapaz,3522
+2030,01,Usaquén,571992
+2030,02,Chapinero,155360
+2030,03,Santa Fe,112710
+2030,04,San Cristóbal,389767
+2030,05,Usme,409407
+2030,06,Tunjuelito,171521
+2030,07,Bosa,789665
+2030,08,Kennedy,1103010
+2030,09,Fontibón,377349
+2030,10,Engativá,816027
+2030,11,Suba,1247500
+2030,12,Barrios Unidos,131086
+2030,13,Teusaquillo,151494
+2030,14,Los Mártires,74677
+2030,15,Antonio Nariño,73609
+2030,16,Puente Aranda,244991
+2030,17,La Candelaria,15939
+2030,18,Rafael Uribe Uribe,367090
+2030,19,Ciudad Bolívar,709758
+2030,20,Sumapaz,3573
+2031,01,Usaquén,568192
+2031,02,Chapinero,154008
+2031,03,Santa Fe,112512
+2031,04,San Cristóbal,388594
+2031,05,Usme,410809
+2031,06,Tunjuelito,170659
+2031,07,Bosa,792732
+2031,08,Kennedy,1101404
+2031,09,Fontibón,375321
+2031,10,Engativá,812278
+2031,11,Suba,1245265
+2031,12,Barrios Unidos,130128
+2031,13,Teusaquillo,150442
+2031,14,Los Mártires,74436
+2031,15,Antonio Nariño,72835
+2031,16,Puente Aranda,243896
+2031,17,La Candelaria,15788
+2031,18,Rafael Uribe Uribe,365261
+2031,19,Ciudad Bolívar,713422
+2031,20,Sumapaz,3614
+2032,01,Usaquén,564142
+2032,02,Chapinero,152617
+2032,03,Santa Fe,112290
+2032,04,San Cristóbal,387364
+2032,05,Usme,412006
+2032,06,Tunjuelito,169771
+2032,07,Bosa,795414
+2032,08,Kennedy,1099416
+2032,09,Fontibón,373166
+2032,10,Engativá,808288
+2032,11,Suba,1242652
+2032,12,Barrios Unidos,129152
+2032,13,Teusaquillo,149297
+2032,14,Los Mártires,74183
+2032,15,Antonio Nariño,72075
+2032,16,Puente Aranda,242721
+2032,17,La Candelaria,15632
+2032,18,Rafael Uribe Uribe,363394
+2032,19,Ciudad Bolívar,716704
+2032,20,Sumapaz,3639
+2033,01,Usaquén,559866
+2033,02,Chapinero,151139
+2033,03,Santa Fe,112045
+2033,04,San Cristóbal,386044
+2033,05,Usme,413007
+2033,06,Tunjuelito,168902
+2033,07,Bosa,797692
+2033,08,Kennedy,1097026
+2033,09,Fontibón,370925
+2033,10,Engativá,804128
+2033,11,Suba,1239653
+2033,12,Barrios Unidos,128098
+2033,13,Teusaquillo,148083
+2033,14,Los Mártires,73898
+2033,15,Antonio Nariño,71310
+2033,16,Puente Aranda,241498
+2033,17,La Candelaria,15449
+2033,18,Rafael Uribe Uribe,361478
+2033,19,Ciudad Bolívar,719583
+2033,20,Sumapaz,3659
+2034,01,Usaquén,555379
+2034,02,Chapinero,149634
+2034,03,Santa Fe,111793
+2034,04,San Cristóbal,384686
+2034,05,Usme,413809
+2034,06,Tunjuelito,167972
+2034,07,Bosa,799585
+2034,08,Kennedy,1094252
+2034,09,Fontibón,368594
+2034,10,Engativá,799748
+2034,11,Suba,1236279
+2034,12,Barrios Unidos,127038
+2034,13,Teusaquillo,146766
+2034,14,Los Mártires,73599
+2034,15,Antonio Nariño,70554
+2034,16,Puente Aranda,240186
+2034,17,La Candelaria,15258
+2034,18,Rafael Uribe Uribe,359464
+2034,19,Ciudad Bolívar,722038
+2034,20,Sumapaz,3675
+2035,01,Usaquén,550679
+2035,02,Chapinero,148068
+2035,03,Santa Fe,111539
+2035,04,San Cristóbal,383234
+2035,05,Usme,414363
+2035,06,Tunjuelito,167024
+2035,07,Bosa,801054
+2035,08,Kennedy,1091115
+2035,09,Fontibón,366152
+2035,10,Engativá,795153
+2035,11,Suba,1232535
+2035,12,Barrios Unidos,125963
+2035,13,Teusaquillo,145356
+2035,14,Los Mártires,73251
+2035,15,Antonio Nariño,69825
+2035,16,Puente Aranda,238779
+2035,17,La Candelaria,15048
+2035,18,Rafael Uribe Uribe,357395
+2035,19,Ciudad Bolívar,724113
+2035,20,Sumapaz,3678

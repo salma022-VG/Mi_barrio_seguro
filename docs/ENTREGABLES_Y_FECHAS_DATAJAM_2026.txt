@@ -1,0 +1,106 @@
+DATAJAM BOGOTA - EDICION 2 (2026)
+ENTREGABLES Y FECHAS
+Zona horaria: America/Bogota (hora Colombia)
+
+============================================================
+FECHAS OFICIALES
+============================================================
+
+1) ENTREGA FINAL DE PRODUCTOS ANALITICOS
+Fecha: miercoles 1 de julio de 2026
+Hora limite: 11:59 p. m.
+Canal: comunigab@alcaldiabogota.gov.co
+Asunto: DataJam - Entrega final - [Nombre del equipo]
+
+Debe incluir:
+[ ] Enlace al repositorio tecnico (GitHub/GitLab o equivalente)
+[ ] README.md con problema, fuentes, metodologia, estructura e instrucciones
+[ ] Notebook o scripts reproducibles y documentados
+[ ] Evidencia de limpieza, transformacion e integracion de minimo 2 fuentes publicas
+[ ] Archivo de dependencias (requirements.txt, environment.yml o equivalente)
+[ ] Datasets o instrucciones claras para acceder a ellos
+[ ] Visualizacion/dashboard y enlace funcional si esta desplegado
+[ ] Archivo fuente de la visualizacion si aplica (.pbix, .qgz u otro)
+[ ] Formulario de caracterizacion y formulacion del problema diligenciado
+[ ] Nota tecnica de integracion de datos publicos, maximo 1 pagina, en PDF
+[ ] Archivos de soporte necesarios
+
+IMPORTANTE: solo los equipos que entreguen todo dentro del plazo pueden
+participar en la fase final. No se reciben entregas tardias.
+
+2) ENVIO DEL MATERIAL PARA LA PRESENTACION
+Fecha: jueves 2 de julio de 2026
+Hora limite: 4:00 p. m.
+Canal: comunigab@alcaldiabogota.gov.co
+
+Debe incluir:
+[ ] Material definitivo del pitch: PowerPoint, PDF, video, demo u otro formato
+[ ] Verificacion de compatibilidad y apertura del archivo/enlace
+
+Contenido minimo del pitch:
+[ ] Problema publico
+[ ] Fuentes utilizadas
+[ ] Enfoque de analisis
+[ ] Hallazgo principal
+[ ] Conclusion o recomendacion clave
+
+3) JORNADA FINAL, EVALUACION Y PREMIACION
+Fecha: viernes 3 de julio de 2026
+Horario: 8:00 a. m. a 12:00 p. m.
+Lugar: Pontificia Universidad Javeriana
+Tiempo por equipo: 3 minutos de presentacion + 2 minutos de preguntas
+
+============================================================
+FECHAS INTERNAS RECOMENDADAS DEL EQUIPO
+Estas fechas NO son oficiales; son nuestro margen de seguridad.
+============================================================
+
+Domingo 28 de junio
+[ ] Cerrar problema, pregunta, hipotesis, territorio y periodo
+[ ] Confirmar dataset principal y seleccionar segunda fuente cruzable
+[ ] Definir llave de integracion y nivel analitico viable
+
+Lunes 29 de junio - 9:00 p. m.
+[ ] Terminar carga, perfilado, limpieza y cruce reproducible
+[ ] Documentar calidad, faltantes, sesgos, granularidad y limitaciones
+[ ] Obtener primeras tablas e indicadores validados
+
+Martes 30 de junio - 6:00 p. m.
+[ ] Congelar resultados y hallazgo principal
+[ ] Terminar dashboard MVP y validar cifras contra el notebook/script
+
+Martes 30 de junio - 10:00 p. m.
+[ ] Terminar README, formulario, nota tecnica y dependencias
+[ ] Probar ejecucion limpia del repositorio
+
+Miercoles 1 de julio - 6:00 p. m.
+[ ] Auditoria final: enlaces, permisos, archivos, reproducibilidad y coherencia
+[ ] Enviar entrega con al menos 5 horas de margen
+
+Jueves 2 de julio - 12:00 m.
+[ ] Cerrar pitch de 3 minutos y preparar respuestas a preguntas
+[ ] Enviar material con 4 horas de margen
+
+============================================================
+CRITERIOS DE EVALUACION
+============================================================
+
+- Pertinencia frente al reto: 20%
+- Rigor metodologico e integracion de fuentes: 20%
+- Calidad tecnica del analisis: 20%
+- Solidez del diagnostico o propuesta: 20%
+- Visualizacion y comunicacion: 10%
+- Uso estrategico de datos publicos: 10%
+
+Bonificaciones mencionadas en las reglas:
+- Analisis a nivel de localidad: puntos adicionales.
+- Participacion de mujeres y/o enfoque de genero: valoracion adicional.
+
+============================================================
+ALERTA SOBRE FECHAS
+============================================================
+
+Unas notas internas del PowerPoint conservan fechas anteriores (19, 24 y 26
+de junio). No usarlas. Las fechas visibles y confirmadas por las reglas y la
+ficha metodologica son 1, 2 y 3 de julio de 2026, como se indica arriba.
+
