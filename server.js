@@ -294,12 +294,32 @@ app.get('/api/excel-data', (req, res) => {
             return res.json({ sheets: {} });
         }
 
-        const workbook = XLSX.readFile(EXCEL_FILE);
+        const workbook = XLSX.readFile(EXCEL_FILE, { defval: '' });
         const sheetsData = {};
 
         workbook.SheetNames.forEach(sheetName => {
             const worksheet = workbook.Sheets[sheetName];
-            const data = XLSX.utils.sheet_to_json(worksheet);
+
+            // Convertir a JSON para detectar la estructura
+            let data = XLSX.utils.sheet_to_json(worksheet, { defval: '' });
+
+            // Si la primera fila parece ser descriptiva, saltarla
+            if (data.length > 0) {
+                const firstRow = data[0];
+                const firstKey = Object.keys(firstRow)[0];
+
+                // Si el primer valor parece ser un título descriptivo (contiene "2018" o "feed" o "Datos")
+                if (typeof firstRow[firstKey] === 'string' &&
+                    (firstRow[firstKey].includes('2018') ||
+                     firstRow[firstKey].includes('feed') ||
+                     firstRow[firstKey].includes('Datos') ||
+                     firstRow[firstKey].includes('Filtro'))) {
+
+                    // Re-leer desde la fila 2
+                    data = XLSX.utils.sheet_to_json(worksheet, { defval: '', range: 1 });
+                }
+            }
+
             sheetsData[sheetName] = data;
         });
 
