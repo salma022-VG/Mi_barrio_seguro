@@ -310,6 +310,36 @@ app.get('/api/excel-data', (req, res) => {
     }
 });
 
+// API: Debug - Obtener información sobre los datos del Excel
+app.get('/api/debug/excel-info', (req, res) => {
+    try {
+        if (!fs.existsSync(EXCEL_FILE)) {
+            return res.json({ error: 'Archivo no encontrado' });
+        }
+
+        const workbook = XLSX.readFile(EXCEL_FILE);
+        const info = {
+            sheets: workbook.SheetNames,
+            details: {}
+        };
+
+        workbook.SheetNames.forEach(sheetName => {
+            const worksheet = workbook.Sheets[sheetName];
+            const data = XLSX.utils.sheet_to_json(worksheet);
+            info.details[sheetName] = {
+                rowCount: data.length,
+                columns: data.length > 0 ? Object.keys(data[0]) : [],
+                sampleRow: data.length > 0 ? data[0] : null
+            };
+        });
+
+        res.json(info);
+    } catch (error) {
+        console.error('Error:', error);
+        res.json({ error: error.message });
+    }
+});
+
 // API: Obtener estadísticas anuales desde el Excel
 app.get('/api/yearly-stats', (req, res) => {
     try {

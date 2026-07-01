@@ -1658,17 +1658,26 @@
                 document.getElementById('map').parentElement.appendChild(infoPanel);
             }
 
-            // Cargar datos del feed anual del mapa
+            // Cargar datos del Excel
             fetch('/api/excel-data')
                 .then(res => res.json())
                 .then(data => {
                     const sheets = data.sheets || {};
-                    const mapFeedData = sheets['Mapa feed anual'] || [];
+
+                    // Buscar datos en múltiples sheets
+                    let allData = [];
+                    const possibleSheets = ['Datos oficiales anuales', 'Mapa feed anual', 'Reportes', 'Datos oficiales anuales integrados'];
+
+                    for (const sheetName of possibleSheets) {
+                        if (sheets[sheetName] && Array.isArray(sheets[sheetName])) {
+                            allData.push(...sheets[sheetName]);
+                        }
+                    }
 
                     // Filtrar datos para esta localidad (búsqueda flexible)
-                    const localityData = mapFeedData.filter(row => {
+                    const localityData = allData.filter(row => {
                         const rowName = row.locality_name || row.Localidad || row.Locality || '';
-                        return rowName.toLowerCase() === localidad.name.toLowerCase();
+                        return rowName.toLowerCase().trim() === localidad.name.toLowerCase().trim();
                     });
 
                     // Agrupar por año
@@ -1681,7 +1690,7 @@
                     });
 
                     // Datos de 2025 (más recientes)
-                    const latest2025 = dataByYear[2025] || dataByYear['2025'] || localityData[0] || {};
+                    const latest2025 = dataByYear[2025] || dataByYear['2025'] || localityData[localityData.length - 1] || {};
                     const latest2024 = dataByYear[2024] || dataByYear['2024'];
 
                     // Función para obtener valores con múltiples opciones
