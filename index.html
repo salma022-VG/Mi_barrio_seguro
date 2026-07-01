@@ -930,7 +930,7 @@
                         tr.style.borderBottom = '1px solid #e0e0e0';
                         tr.style.borderLeft = '4px solid #FFB81C';
 
-                        // Obtener valores principales con múltiples variantes de nombres
+                        // Obtener valores principales - nombres exactos del Excel
                         const localidad = getValue(row,
                             'locality_name', 'Localidad', 'locality_code', 'Locality',
                             'nombre_localidad', 'locality', 'Nombre Localidad',
@@ -939,19 +939,20 @@
 
                         const year = getValue(row,
                             'year', 'Año', 'Year', 'YEAR', 'año',
-                            'Año del Reporte', 'anio', 'YEAR', 'Year'
+                            'Año del Reporte', 'anio'
                         );
 
+                        // Hurtos - registeredAt_person es la columna correcta
                         const hurtos = getValue(row,
-                            'official_marks', 'Hurtos', 'hurtos', 'Hurtos a Personas', 'hurtos_a_personas',
-                            'registeredAt_person', 'hurts', 'HURTOS', 'annual_incidents',
-                            'Hurtos a personas', 'robo_personas', 'OFFICIAL_MARKS'
+                            'registeredAt_person', 'Hurtos', 'hurtos', 'Hurtos a Personas',
+                            'hurtos_a_personas', 'hurts', 'HURTOS', 'Hurtos a personas'
                         );
 
+                        // Incidentes - registeredAt_123_total es la columna correcta
                         const incidentes = getValue(row,
-                            'annual_incidentes', 'Incidentes', 'incidentes', 'Incidentes 123', 'incidentes_123',
-                            'registeredAt_123_total', 'incidents', 'INCIDENTES', 'incidents_123_total',
-                            'Incidentes 123', 'ANNUAL_INCIDENTES'
+                            'registeredAt_123_total', 'Incidentes', 'incidentes', 'Incidentes 123',
+                            'incidentes_123', 'incidents_123_total', 'incidentes_housing_1',
+                            'incidents_per_year', 'INCIDENTES', 'Incidentes 123'
                         );
 
                         // Convertir a números si es posible
@@ -1693,10 +1694,11 @@
                         return 0;
                     };
 
-                    const hurtos2025 = getMapValue(latest2025, 'official_marks', 'registeredAt_person', 'hurtos', 'Hurtos');
-                    const incidentes2025 = getMapValue(latest2025, 'annual_incidentes', 'incidents_123_total', 'incidentes', 'Incidentes');
-                    const hurtos2024 = getMapValue(latest2024 || {}, 'official_marks', 'registeredAt_person', 'hurtos', 'Hurtos');
-                    const incidentes2024 = getMapValue(latest2024 || {}, 'annual_incidentes', 'incidents_123_total', 'incidentes', 'Incidentes');
+                    // Usar nombres exactos de columnas del Excel
+                    const hurtos2025 = getMapValue(latest2025, 'registeredAt_person', 'Hurtos', 'hurtos', 'official_marks');
+                    const incidentes2025 = getMapValue(latest2025, 'registeredAt_123_total', 'incidentes_housing_1', 'Incidentes', 'incidents_per_year');
+                    const hurtos2024 = getMapValue(latest2024 || {}, 'registeredAt_person', 'Hurtos', 'hurtos', 'official_marks');
+                    const incidentes2024 = getMapValue(latest2024 || {}, 'registeredAt_123_total', 'incidentes_housing_1', 'Incidentes', 'incidents_per_year');
 
                     let html = `
                         <div style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); color: white; padding: 20px; border-radius: 13px 13px 0 0; display: flex; justify-content: space-between; align-items: center;">
