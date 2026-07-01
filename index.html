@@ -718,17 +718,16 @@
             </div>
             <div style="flex: 1; overflow: auto; padding: 30px; background: #f8f9fa;">
                 <div style="background: white; border: 2px solid #e0e0e0; border-radius: 16px; padding: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); min-width: fit-content;">
-                    <table id="historicalDataTable" style="width: 100%; color: #2c3e50; font-size: 13px; border-collapse: collapse;">
+                    <table id="historicalDataTable" style="width: 100%; color: #2c3e50; font-size: 14px; border-collapse: collapse;">
                         <thead style="position: sticky; top: 0; z-index: 10;">
                             <tr style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); border-bottom: 2px solid #FFB81C;">
-                                <th style="padding: 12px; text-align: left; font-weight: 700; min-width: 150px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Localidad</th>
-                                <th style="padding: 12px; text-align: center; font-weight: 700; min-width: 70px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Año</th>
-                                <th style="padding: 12px; text-align: right; font-weight: 700; min-width: 110px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Hurtos</th>
-                                <th style="padding: 12px; text-align: right; font-weight: 700; min-width: 110px; color: white;">Incidentes</th>
+                                <th style="padding: 15px; text-align: left; font-weight: 700; min-width: 180px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Localidad</th>
+                                <th style="padding: 15px; text-align: center; font-weight: 700; min-width: 80px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Año</th>
+                                <th style="padding: 15px; text-align: right; font-weight: 700; min-width: 120px; color: white; border-right: 1px solid rgba(255, 255, 255, 0.3);">Hurtos</th>
+                                <th style="padding: 15px; text-align: right; font-weight: 700; min-width: 120px; color: white;">Incidentes</th>
                             </tr>
                         </thead>
                         <tbody id="dataTableBody">
-                            <tr><td colspan="4" style="padding: 20px; text-align: center; color: #95a5a6;">⏳ Cargando datos...</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -881,109 +880,75 @@
 
         function populateHistoricalData(searchTerm = '') {
             const tbody = document.getElementById('dataTableBody');
-            tbody.innerHTML = '<tr><td colspan="4" style="padding: 20px; text-align: center; color: #95a5a6;">⏳ Cargando datos...</td></tr>';
+            tbody.innerHTML = '';
 
-            // Cargar datos del Excel
-            fetch('/api/excel-data')
-                .then(res => res.json())
-                .then(data => {
-                    const allSheets = data.sheets || {};
-                    let allData = [];
+            // Filtrar datos según el término de búsqueda
+            let filteredData = historicalData;
+            if (searchTerm.trim() !== '') {
+                filteredData = historicalData.filter(row =>
+                    row.localidad.toLowerCase().includes(searchTerm.toLowerCase())
+                );
+            }
 
-                    // Procesar todos los sheets
-                    for (const sheetName in allSheets) {
-                        const sheetData = allSheets[sheetName];
-                        if (Array.isArray(sheetData) && sheetData.length > 0) {
-                            // Filtrar solo filas con datos válidos
-                            sheetData.forEach(row => {
-                                if (typeof row === 'object' && row !== null) {
-                                    allData.push({ sheetName, ...row });
-                                }
-                            });
-                        }
+            // Agrupar datos por año
+            const dataByYear = {};
+            filteredData.forEach(row => {
+                if (!dataByYear[row.year]) {
+                    dataByYear[row.year] = [];
+                }
+                dataByYear[row.year].push(row);
+            });
+
+            // Ordenar años de menor a mayor
+            const sortedYears = Object.keys(dataByYear).sort((a, b) => a - b);
+
+            if (filteredData.length === 0) {
+                const emptyTr = document.createElement('tr');
+                emptyTr.innerHTML = `
+                    <td colspan="4" style="padding: 30px; text-align: center; color: rgba(255, 255, 255, 0.5); font-size: 14px;">
+                        <i class="fas fa-search"></i> No se encontraron resultados para "${searchTerm}"
+                    </td>
+                `;
+                tbody.appendChild(emptyTr);
+                return;
+            }
+
+            sortedYears.forEach(year => {
+                const yearRows = dataByYear[year];
+
+                // Fila de encabezado de año
+                const yearHeaderTr = document.createElement('tr');
+                yearHeaderTr.style.background = 'linear-gradient(135deg, #FFB81C 0%, #E63946 100%)';
+                yearHeaderTr.style.borderBottom = '2px solid rgba(255, 184, 28, 0.8)';
+                yearHeaderTr.innerHTML = `
+                    <td colspan="4" style="padding: 15px; font-weight: 700; font-size: 16px; color: white;">📅 AÑO ${year}</td>
+                `;
+                tbody.appendChild(yearHeaderTr);
+
+                // Filas de datos para cada localidad en este año
+                yearRows.forEach((row, localityIdx) => {
+                    const tr = document.createElement('tr');
+                    tr.style.borderBottom = '1px solid rgba(255, 184, 28, 0.2)';
+                    tr.style.transition = 'background 0.3s ease';
+                    tr.style.cursor = 'pointer';
+                    if (localityIdx % 2 === 0) {
+                        tr.style.background = 'rgba(255, 184, 28, 0.08)';
                     }
-
-                    // Limpiar el tbody
-                    tbody.innerHTML = '';
-
-                    if (allData.length === 0) {
-                        const emptyTr = document.createElement('tr');
-                        emptyTr.innerHTML = `<td colspan="4" style="padding: 30px; text-align: center; color: #95a5a6; font-size: 14px;">📭 No hay datos disponibles</td>`;
-                        tbody.appendChild(emptyTr);
-                        return;
-                    }
-
-                    // Función helper para extraer valor con múltiples opciones
-                    const getValue = (row, ...keys) => {
-                        for (const key of keys) {
-                            if (row[key] !== undefined && row[key] !== null && row[key] !== '') {
-                                return row[key];
-                            }
-                        }
-                        return 'N/A';
-                    };
-
-                    // Crear tabla con TODOS los datos disponibles
-                    allData.forEach((row, idx) => {
-                        const tr = document.createElement('tr');
-                        tr.style.background = idx % 2 === 0 ? '#f8f9fa' : '#ffffff';
-                        tr.style.borderBottom = '1px solid #e0e0e0';
-                        tr.style.borderLeft = '4px solid #FFB81C';
-
-                        // Obtener valores principales - nombres exactos del Excel
-                        const localidad = getValue(row,
-                            'locality_name', 'Localidad', 'locality_code', 'Locality',
-                            'nombre_localidad', 'locality', 'Nombre Localidad',
-                            'Nombre', 'LOCALITY_NAME'
-                        );
-
-                        const year = getValue(row,
-                            'year', 'Año', 'Year', 'YEAR', 'año',
-                            'Año del Reporte', 'anio'
-                        );
-
-                        // Hurtos - usar nombres correctos del Excel
-                        const hurtos = getValue(row,
-                            'official_thefts', 'registeredAt_person', 'Hurtos', 'hurtos',
-                            'Hurtos a Personas', 'hurtos_a_personas', 'hurts', 'HURTOS'
-                        );
-
-                        // Incidentes - usar nombres correctos del Excel
-                        const incidentes = getValue(row,
-                            'official_incidents_123', 'registeredAt_123_total', 'Incidentes',
-                            'incidentes', 'Incidentes 123', 'incidentes_123', 'incidents_123_total',
-                            'incidentes_housing_1', 'incidents_per_year', 'INCIDENTES'
-                        );
-
-                        // Convertir a números si es posible
-                        const hurtosNum = parseInt(hurtos) || 0;
-                        const incidentesNum = parseInt(incidentes) || 0;
-
-                        // Formatear números
-                        const hurtosFormatted = hurtosNum === 0 && hurtos === 'N/A' ? 'N/A' : hurtosNum.toLocaleString();
-                        const incidentesFormatted = incidentesNum === 0 && incidentes === 'N/A' ? 'N/A' : incidentesNum.toLocaleString();
-
-                        tr.innerHTML = `
-                            <td style="padding: 14px; border-right: 1px solid #ecf0f1; font-weight: 500;">${localidad}</td>
-                            <td style="padding: 14px; text-align: center; border-right: 1px solid #ecf0f1; font-weight: 600; color: #E63946;">${year}</td>
-                            <td style="padding: 14px; text-align: right; border-right: 1px solid #ecf0f1; color: #FFB81C; font-weight: 700;">${hurtosFormatted}</td>
-                            <td style="padding: 14px; text-align: right; color: #E63946; font-weight: 700;">${incidentesFormatted}</td>
-                        `;
-
-                        tr.addEventListener('mouseenter', () => {
-                            tr.style.background = '#eff4ff';
-                        });
-                        tr.addEventListener('mouseleave', () => {
-                            tr.style.background = idx % 2 === 0 ? '#f8f9fa' : '#ffffff';
-                        });
-
-                        tbody.appendChild(tr);
+                    tr.innerHTML = `
+                        <td style="padding: 15px; border-right: 1px solid rgba(255, 184, 28, 0.2); font-weight: 500; padding-left: 30px;">${row.localidad}</td>
+                        <td style="padding: 15px; text-align: center; border-right: 1px solid rgba(255, 184, 28, 0.2); font-weight: 600; color: #FFB81C;">${row.year}</td>
+                        <td style="padding: 15px; text-align: right; border-right: 1px solid rgba(255, 184, 28, 0.2); color: #FFB81C; font-weight: 700;">${row.hurtos.toLocaleString()}</td>
+                        <td style="padding: 15px; text-align: right; color: #E63946; font-weight: 700;">${row.incidentes.toLocaleString()}</td>
+                    `;
+                    tr.addEventListener('mouseenter', () => {
+                        tr.style.background = 'rgba(255, 184, 28, 0.2)';
                     });
-                })
-                .catch(error => {
-                    console.error('Error cargando datos:', error);
-                    tbody.innerHTML = '<tr><td colspan="4" style="padding: 20px; text-align: center; color: #e74c3c;">⚠️ Error al cargar datos</td></tr>';
+                    tr.addEventListener('mouseleave', () => {
+                        tr.style.background = localityIdx % 2 === 0 ? 'rgba(255, 184, 28, 0.08)' : 'transparent';
+                    });
+                    tbody.appendChild(tr);
                 });
+            });
         }
 
         // EVENT LISTENER PARA BÚSQUEDA (removido - usando solo título)
@@ -1619,6 +1584,7 @@
 
             const baseMaps = {
                 'Mapa Base 3857': mapaBase3857,
+                'Mapa Base 4686': mapaBase4686,
                 'Mapa Gris': mapaBaseGris,
                 'Mapa Oscuro': mapaBaseOscuro,
                 'Mapa Toner': mapaToner,
@@ -1654,132 +1620,50 @@
             if (!infoPanel) {
                 infoPanel = document.createElement('div');
                 infoPanel.id = 'localidadInfoPanel';
-                infoPanel.style.cssText = `position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; border: 3px solid ${categoryData.color}; border-radius: 16px; padding: 0; box-shadow: 0 12px 40px rgba(0,0,0,0.2); z-index: 1000; min-width: 500px; font-family: 'Poppins', Arial, sans-serif; color: #2c3e50; max-height: 85vh; overflow: hidden; display: flex; flex-direction: column;`;
+                infoPanel.style.cssText = `position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #1e1b4b; border: 3px solid ${categoryData.color}; border-radius: 10px; padding: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); z-index: 1000; min-width: 400px; font-family: Arial, sans-serif; color: white; max-height: 80vh; overflow-y: auto;`;
                 document.getElementById('map').parentElement.appendChild(infoPanel);
             }
+            infoPanel.style.borderColor = categoryData.color;
 
-            // Cargar datos del Excel
-            fetch('/api/excel-data')
-                .then(res => res.json())
-                .then(data => {
-                    const sheets = data.sheets || {};
+            // Intentar obtener datos del Excel para 2025
+            const excelKey = `${localidad.name}_2025`;
+            const excelInfo = excelData[excelKey];
 
-                    // Buscar datos en múltiples sheets
-                    let allData = [];
-                    const possibleSheets = ['Datos oficiales anuales', 'Mapa feed anual', 'Reportes', 'Datos oficiales anuales integrados'];
+            let additionalInfo = '';
+            if (excelInfo) {
+                additionalInfo = `
+                    <tr><td colspan="2" style="padding: 10px 0; border-top: 2px solid rgba(255,255,255,0.2); font-weight: bold; color: #FFB81C;">📊 Datos Adicionales 2025</td></tr>
+                    ${excelInfo.annual_incidents ? `<tr><td><strong>Incidentes Anuales:</strong></td><td style="text-align: right;">${excelInfo.annual_incidents.toLocaleString?.() || excelInfo.annual_incidents}</td></tr>` : ''}
+                    ${excelInfo.population ? `<tr><td><strong>Población:</strong></td><td style="text-align: right;">${excelInfo.population.toLocaleString?.() || excelInfo.population}</td></tr>` : ''}
+                    ${excelInfo.hurts_year_pct_10 ? `<tr><td><strong>% Hurtos (10):</strong></td><td style="text-align: right; color: #E63946;">${excelInfo.hurts_year_pct_10}</td></tr>` : ''}
+                    ${excelInfo.incidents_year_pct ? `<tr><td><strong>% Incidentes Año:</strong></td><td style="text-align: right; color: #E63946;">${excelInfo.incidents_year_pct}</td></tr>` : ''}
+                    ${excelInfo.coverage ? `<tr><td><strong>Cobertura:</strong></td><td style="text-align: right; color: #22c55e;">${excelInfo.coverage}</td></tr>` : ''}
+                    ${excelInfo.emergency_calls ? `<tr><td><strong>Llamadas Emergencia:</strong></td><td style="text-align: right;">${excelInfo.emergency_calls.toLocaleString?.() || excelInfo.emergency_calls}</td></tr>` : ''}
+                `;
+            }
 
-                    for (const sheetName of possibleSheets) {
-                        if (sheets[sheetName] && Array.isArray(sheets[sheetName])) {
-                            allData.push(...sheets[sheetName]);
-                        }
-                    }
-
-                    // Filtrar datos para esta localidad (búsqueda flexible)
-                    const localityData = allData.filter(row => {
-                        const rowName = row.locality_name || row.Localidad || row.Locality || '';
-                        return rowName.toLowerCase().trim() === localidad.name.toLowerCase().trim();
-                    });
-
-                    // Agrupar por año
-                    const dataByYear = {};
-                    localityData.forEach(row => {
-                        const year = row.year || row.Año || row.Year;
-                        if (year && !dataByYear[year]) {
-                            dataByYear[year] = row;
-                        }
-                    });
-
-                    // Datos de 2025 (más recientes)
-                    const latest2025 = dataByYear[2025] || dataByYear['2025'] || localityData[localityData.length - 1] || {};
-                    const latest2024 = dataByYear[2024] || dataByYear['2024'];
-
-                    // Función para obtener valores con múltiples opciones
-                    const getMapValue = (obj, ...keys) => {
-                        for (const key of keys) {
-                            if (obj[key] !== undefined && obj[key] !== null && obj[key] !== '') {
-                                return obj[key];
-                            }
-                        }
-                        return 0;
-                    };
-
-                    // Usar nombres exactos de columnas del Excel
-                    const hurtos2025 = getMapValue(latest2025, 'official_thefts', 'registeredAt_person', 'Hurtos', 'hurtos', 'official_marks');
-                    const incidentes2025 = getMapValue(latest2025, 'official_incidents_123', 'registeredAt_123_total', 'incidentes_housing_1', 'Incidentes', 'incidents_per_year');
-                    const hurtos2024 = getMapValue(latest2024 || {}, 'official_thefts', 'registeredAt_person', 'Hurtos', 'hurtos', 'official_marks');
-                    const incidentes2024 = getMapValue(latest2024 || {}, 'official_incidents_123', 'registeredAt_123_total', 'incidentes_housing_1', 'Incidentes', 'incidents_per_year');
-
-                    let html = `
-                        <div style="background: linear-gradient(135deg, #E63946 0%, #FFB81C 100%); color: white; padding: 20px; border-radius: 13px 13px 0 0; display: flex; justify-content: space-between; align-items: center;">
-                            <div>
-                                <h2 style="margin: 0; font-size: 24px; font-weight: 800;">📍 ${localidad.name}</h2>
-                                <p style="margin: 5px 0 0 0; font-size: 12px; opacity: 0.9;">Datos de Seguridad Ciudadana</p>
-                            </div>
-                            <button onclick="document.getElementById('localidadInfoPanel').style.display='none';" style="background: rgba(255,255,255,0.3); border: 2px solid white; color: white; width: 35px; height: 35px; border-radius: 50%; cursor: pointer; font-size: 18px; font-weight: bold; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">✕</button>
-                        </div>
-                        <div style="flex: 1; overflow-y: auto; padding: 20px;">
-                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
-                                <div style="background: linear-gradient(135deg, rgba(255, 184, 28, 0.1) 0%, rgba(255, 184, 28, 0.05) 100%); padding: 15px; border-radius: 12px; border-left: 4px solid #FFB81C;">
-                                    <div style="font-size: 12px; color: #7f8c8d; font-weight: 600; text-transform: uppercase; margin-bottom: 5px;">Hurtos 2025</div>
-                                    <div style="font-size: 28px; font-weight: 800; color: #FFB81C;">${parseInt(hurtos2025).toLocaleString()}</div>
-                                    ${latest2024 ? `<div style="font-size: 11px; color: #7f8c8d; margin-top: 5px;">2024: ${parseInt(hurtos2024).toLocaleString()}</div>` : ''}
-                                </div>
-                                <div style="background: linear-gradient(135deg, rgba(230, 57, 70, 0.1) 0%, rgba(230, 57, 70, 0.05) 100%); padding: 15px; border-radius: 12px; border-left: 4px solid #E63946;">
-                                    <div style="font-size: 12px; color: #7f8c8d; font-weight: 600; text-transform: uppercase; margin-bottom: 5px;">Incidentes 123</div>
-                                    <div style="font-size: 28px; font-weight: 800; color: #E63946;">${parseInt(incidentes2025).toLocaleString()}</div>
-                                    ${latest2024 ? `<div style="font-size: 11px; color: #7f8c8d; margin-top: 5px;">2024: ${parseInt(incidentes2024).toLocaleString()}</div>` : ''}
-                                </div>
-                            </div>
-
-                            <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; margin-bottom: 15px;">
-                                <h4 style="margin: 0 0 12px 0; color: #E63946; font-size: 14px; font-weight: 700;">📊 Indicadores por 100,000 habitantes</h4>
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 12px;">
-                                    <div><strong>Hurtos/100k:</strong> <span style="color: #FFB81C; font-weight: 700;">${(getMapValue(latest2025, 'hurts_year_pct_10', 'hurts_per_100') || 0).toFixed(1)}</span></div>
-                                    <div><strong>Incidentes/100k:</strong> <span style="color: #E63946; font-weight: 700;">${(getMapValue(latest2025, 'incidents_year_pct', 'incidents_per_100') || 0).toFixed(1)}</span></div>
-                                </div>
-                            </div>
-
-                            <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; margin-bottom: 15px;">
-                                <h4 style="margin: 0 0 12px 0; color: #2c3e50; font-size: 14px; font-weight: 700;">📈 Información Detallada</h4>
-                                <table style="width: 100%; font-size: 12px; border-collapse: collapse;">
-                                    <tr>
-                                        <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0;"><strong>Población:</strong></td>
-                                        <td style="text-align: right; padding: 8px 0; border-bottom: 1px solid #e0e0e0;">${parseInt(getMapValue(latest2025, 'population') || 0).toLocaleString()}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0;"><strong>Variación Anual Hurtos:</strong></td>
-                                        <td style="text-align: right; padding: 8px 0; border-bottom: 1px solid #e0e0e0; color: ${(getMapValue(latest2025, 'truth_per_101') || 0) >= 0 ? '#e74c3c' : '#22c55e'}; font-weight: 600;">${(getMapValue(latest2025, 'truth_per_101') || 0).toFixed(1)}%</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0;"><strong>Variación Anual Incidentes:</strong></td>
-                                        <td style="text-align: right; padding: 8px 0; border-bottom: 1px solid #e0e0e0; color: ${(getMapValue(latest2025, 'incidents_per_101') || 0) >= 0 ? '#e74c3c' : '#22c55e'}; font-weight: 600;">${(getMapValue(latest2025, 'incidents_per_101') || 0).toFixed(1)}%</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0;"><strong>Tasa Anual:</strong></td>
-                                        <td style="text-align: right; padding: 8px 0; border-bottom: 1px solid #e0e0e0;">${(getMapValue(latest2025, 'rate_years') || 0).toFixed(2)}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 8px 0;"><strong>Nivel de Riesgo:</strong></td>
-                                        <td style="text-align: right; padding: 8px 0; color: ${categoryData.color}; font-weight: 700;">${categoryData.danger.toUpperCase()}</td>
-                                    </tr>
-                                </table>
-                            </div>
-
-                            ${localityData.length > 0 ? `
-                                <div style="background: #f0f7ff; padding: 12px; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                                    <div style="font-size: 11px; color: #0369a1; font-weight: 600;">ℹ️ DATOS DISPONIBLES</div>
-                                    <div style="font-size: 12px; color: #2c3e50; margin-top: 5px;">Se muestran datos del feed anual del mapa con ${localityData.length} año(s) de información</div>
-                                </div>
-                            ` : ''}
-                        </div>
-                    `;
-
-                    infoPanel.innerHTML = html;
-                    infoPanel.style.display = 'block';
-                })
-                .catch(error => {
-                    console.error('Error cargando datos del mapa:', error);
-                });
+            infoPanel.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h3 style="color: ${categoryData.color}; margin: 0;">📍 ${localidad.name}</h3>
+                    <button onclick="document.getElementById('localidadInfoPanel').style.display='none';" style="background: rgba(255,255,255,0.2); border: none; color: white; padding: 5px 10px; border-radius: 5px; cursor: pointer;">✕</button>
+                </div>
+                <table style="width: 100%; margin-top: 10px; color: rgba(255,255,255,0.9); font-size: 13px;">
+                    <tr>
+                        <td><strong>Hurtos 2025:</strong></td>
+                        <td style="text-align: right; color: #FFB81C;">${localidad.hurtos.toLocaleString()}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Incidentes 2025:</strong></td>
+                        <td style="text-align: right; color: #E63946;">${localidad.incidentes.toLocaleString()}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nivel de Riesgo:</strong></td>
+                        <td style="text-align: right; color: ${categoryData.color}; font-weight: bold;">${categoryData.danger.toUpperCase()}</td>
+                    </tr>
+                    ${additionalInfo}
+                </table>
+            `;
+            infoPanel.style.display = 'block';
         }
 
         // GRÁFICOS

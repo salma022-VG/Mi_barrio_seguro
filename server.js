@@ -294,48 +294,12 @@ app.get('/api/excel-data', (req, res) => {
             return res.json({ sheets: {} });
         }
 
-        const workbook = XLSX.readFile(EXCEL_FILE, { defval: '' });
+        const workbook = XLSX.readFile(EXCEL_FILE);
         const sheetsData = {};
 
         workbook.SheetNames.forEach(sheetName => {
             const worksheet = workbook.Sheets[sheetName];
-
-            // Leer como matriz primero para ver la estructura
-            const matrix = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
-
-            if (!matrix || matrix.length === 0) {
-                sheetsData[sheetName] = [];
-                return;
-            }
-
-            // Encontrar la fila con datos reales (típicamente fila con números o datos)
-            let headerRowIndex = 0;
-            for (let i = 0; i < Math.min(5, matrix.length); i++) {
-                const row = matrix[i];
-                // Si esta fila tiene más de 1 elemento y no es un título descriptivo
-                if (row && row.length > 2 && row[0] && row[1] && !String(row[0]).includes('Filtro')) {
-                    headerRowIndex = i;
-                    break;
-                }
-            }
-
-            // Extraer headers desde la fila correcta
-            const headerRow = matrix[headerRowIndex] || [];
-            const headers = headerRow.filter(h => h && String(h).trim() !== '');
-
-            // Convertir filas a objetos
-            let data = [];
-            for (let i = headerRowIndex + 1; i < matrix.length; i++) {
-                const row = matrix[i];
-                if (!row || !row[0]) continue; // Saltar filas vacías
-
-                const obj = {};
-                headers.forEach((header, idx) => {
-                    obj[String(header).trim()] = row[idx] || '';
-                });
-                data.push(obj);
-            }
-
+            const data = XLSX.utils.sheet_to_json(worksheet);
             sheetsData[sheetName] = data;
         });
 
@@ -343,36 +307,6 @@ app.get('/api/excel-data', (req, res) => {
     } catch (error) {
         console.error('Error al leer Excel:', error);
         res.json({ sheets: {} });
-    }
-});
-
-// API: Debug - Obtener información sobre los datos del Excel
-app.get('/api/debug/excel-info', (req, res) => {
-    try {
-        if (!fs.existsSync(EXCEL_FILE)) {
-            return res.json({ error: 'Archivo no encontrado' });
-        }
-
-        const workbook = XLSX.readFile(EXCEL_FILE);
-        const info = {
-            sheets: workbook.SheetNames,
-            details: {}
-        };
-
-        workbook.SheetNames.forEach(sheetName => {
-            const worksheet = workbook.Sheets[sheetName];
-            const data = XLSX.utils.sheet_to_json(worksheet);
-            info.details[sheetName] = {
-                rowCount: data.length,
-                columns: data.length > 0 ? Object.keys(data[0]) : [],
-                sampleRow: data.length > 0 ? data[0] : null
-            };
-        });
-
-        res.json(info);
-    } catch (error) {
-        console.error('Error:', error);
-        res.json({ error: error.message });
     }
 });
 
