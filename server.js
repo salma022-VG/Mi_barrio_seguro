@@ -3,9 +3,16 @@ const XLSX = require('xlsx');
 const path = require('path');
 const fs = require('fs');
 const cors = require('cors');
+const https = require('https');
+require('dotenv').config();
+const { google } = require('googleapis');
 
 const app = express();
 const PORT = 3000;
+
+// Variables de entorno
+const GOOGLE_SHEETS_ID = process.env.GOOGLE_SHEETS_ID;
+const SHEET_NAME = 'Reportes';
 
 // Middleware
 app.use(cors());
@@ -15,7 +22,6 @@ app.use(express.static(__dirname));
 // Rutas de archivos
 const EXCEL_FILE = path.join(__dirname, 'alimentacion_mapa_datajam_anual.xlsx');
 const REPORTS_FILE = path.join(__dirname, 'Reportes_Pepe.xlsx');
-const SHEET_NAME = 'Reportes Pepe';
 
 // Función para leer reportes del archivo separado
 function readReports() {
@@ -54,6 +60,100 @@ function readReports() {
     }
 }
 
+// Función para mapear tipo de delito a modalidad
+function getModalidadFromTipo(tipo) {
+    const modalidades = {
+        'hurto_consur': 'hurto',
+        'intento_hurto': 'hurto',
+        'robo_residencia': 'robo',
+        'motocicleta': 'robo',
+        'vehiculo': 'robo',
+        'computador_halado': 'hurto',
+        'documentos': 'hurto',
+        'joyas': 'hurto',
+        'otro': 'otro'
+    };
+    return modalidades[tipo] || tipo || 'desconocido';
+}
+
+// Función para enviar reporte a Google Sheets usando API
+async function sendToGoogleSheets(report) {
+    try {
+        // Cargar credenciales de la cuenta de servicio
+        const credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_FILE);
+
+        const auth = new google.auth.GoogleAuth({
+            credentials,
+            scopes: ['https://www.googleapis.com/auth/spreadsheets']
+        });
+
+        const sheets = google.sheets({ version: 'v4', auth });
+
+        // Usar la primera hoja disponible (normalmente "Sheet1" o similar)
+        const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId: GOOGLE_SHEETS_ID });
+        const firstSheet = spreadsheet.data.sheets[0];
+        const sheetName = firstSheet.properties.title;
+
+        // Preparar los datos mapeados a las columnas correctas
+        const reportData = {
+            report_id: Math.random().toString(36).substr(2, 9),
+            received_at: new Date().toISOString(),
+            event_at: report.timestamp || new Date().toISOString(),
+            locality_code: report.localidad || '',
+            event_type: report.tipo || '',
+            stolen_item_cate: report.modalidad || '',
+            modality: report.modalidad || getModalidadFromTipo(report.tipo),
+            weapon_type: report.arma || '',
+            latitude_private: report.latitude || '',
+            longitude_privat: report.longitude || '',
+            address_private: report.address || '',
+            description_private: report.descripcion || '',
+            source: report.fuente || 'web',
+            moderation_statu: 'pending',
+            consent: false,
+            consent_at: '',
+            phone_hash: '',
+            review_notes_private: `Reporte recibido en ${report.year || new Date().getFullYear()}, hora: ${report.hora || 'no especificada'}`
+        };
+
+        // Construir la fila con los valores en el orden correcto
+        const values = [[
+            reportData.report_id,
+            reportData.received_at,
+            reportData.event_at,
+            reportData.locality_code,
+            reportData.event_type,
+            reportData.stolen_item_cate,
+            reportData.modality,
+            reportData.weapon_type,
+            reportData.latitude_private,
+            reportData.longitude_privat,
+            reportData.address_private,
+            reportData.description_private,
+            reportData.source,
+            reportData.moderation_statu,
+            reportData.consent,
+            reportData.consent_at,
+            reportData.phone_hash,
+            reportData.review_notes_private
+        ]];
+
+        // Agregar datos a Google Sheets
+        const response = await sheets.spreadsheets.values.append({
+            spreadsheetId: GOOGLE_SHEETS_ID,
+            range: `${sheetName}!A:R`,
+            valueInputOption: 'USER_ENTERED',
+            resource: { values }
+        });
+
+        console.log('   ✓ Enviado a Google Sheets (API)');
+        return true;
+    } catch (error) {
+        console.error('   ⚠️  Error al enviar a Google Sheets:', error.message);
+        return false;
+    }
+}
+
 // Función para guardar reportes en ambos archivos
 function saveReportToExcel(report) {
     try {
@@ -63,7 +163,7 @@ function saveReportToExcel(report) {
             'Año': report.year,
             'Hora': report.hora,
             'Arma': report.arma,
-            'Artículo': report.articulo,
+            'Modalidad': report.modalidad,
             'Descripción': report.descripcion,
             'Fuente': report.fuente,
             'Fecha Reporte': new Date(report.timestamp).toLocaleString('es-CO')
@@ -139,8 +239,8 @@ app.get('/api/reports', (req, res) => {
 });
 
 // API: Guardar nuevo reporte
-app.post('/api/reports', (req, res) => {
-    const { tipo, localidad, year, hora, arma, articulo, descripcion, fuente, timestamp } = req.body;
+app.post('/api/reports', async (req, res) => {
+    const { tipo, localidad, year, hora, arma, modalidad, descripcion, fuente, timestamp } = req.body;
 
     if (!tipo || !localidad) {
         return res.status(400).json({ error: 'Faltan datos requeridos' });
@@ -152,7 +252,7 @@ app.post('/api/reports', (req, res) => {
         year: year || new Date().getFullYear().toString(),
         hora,
         arma: arma === '(no proporcionado)' ? '' : arma,
-        articulo: articulo === '(no proporcionado)' ? '' : articulo,
+        modalidad: modalidad === '(no proporcionado)' ? '' : modalidad,
         descripcion,
         fuente: fuente === '(no proporcionado)' ? '' : fuente,
         timestamp: timestamp || new Date().toISOString()
@@ -160,8 +260,13 @@ app.post('/api/reports', (req, res) => {
 
     const success = saveReportToExcel(report);
 
-    if (success) {
-        res.json({ success: true, message: 'Reporte guardado en Excel' });
+    // Enviar a Google Sheets (ahora es asíncrono)
+    const googleSuccess = await sendToGoogleSheets(report);
+
+    if (success && googleSuccess) {
+        res.json({ success: true, message: 'Reporte guardado en Excel y Google Sheets' });
+    } else if (success) {
+        res.json({ success: true, message: 'Reporte guardado en Excel (Google Sheets pendiente)' });
     } else {
         res.status(500).json({ error: 'Error al guardar reporte' });
     }
@@ -180,6 +285,29 @@ app.get('/api/reports/filter', (req, res) => {
     }
 
     res.json(reports);
+});
+
+// API: Obtener todos los datos del Excel con información completa
+app.get('/api/excel-data', (req, res) => {
+    try {
+        if (!fs.existsSync(EXCEL_FILE)) {
+            return res.json({ sheets: {} });
+        }
+
+        const workbook = XLSX.readFile(EXCEL_FILE);
+        const sheetsData = {};
+
+        workbook.SheetNames.forEach(sheetName => {
+            const worksheet = workbook.Sheets[sheetName];
+            const data = XLSX.utils.sheet_to_json(worksheet);
+            sheetsData[sheetName] = data;
+        });
+
+        res.json({ sheets: sheetsData });
+    } catch (error) {
+        console.error('Error al leer Excel:', error);
+        res.json({ sheets: {} });
+    }
 });
 
 // API: Obtener estadísticas anuales desde el Excel

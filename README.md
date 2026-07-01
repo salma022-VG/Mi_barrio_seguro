@@ -142,7 +142,7 @@ El chatbot conversacional permite reportar incidentes con detalles completos:
 - ✅ **Año:** Rango 2018-2025
 - ✅ **Hora:** Formato 24 horas
 - ✅ **Arma:** Información de armas usadas
-- ✅ **Artículo:** Clasificación de bienes robados
+- ✅ **Modalidad:** Tipo de robo (Atraco, Cosquilleo, Raponazo, etc.)
 - ✅ **Descripción:** Texto libre (hasta 500 caracteres)
 - ✅ **Fuente:** Tipo de testigo/reporte
 - ⭕ *Campos opcionales pueden ser omitidos*
@@ -160,8 +160,8 @@ Pepe: ¿A qué hora?
 Tú:   → Escribe "14:30"
 Pepe: ¿Se usó arma?
 Tú:   → Selecciona "No"
-Pepe: ¿Qué tipo de artículo?
-Tú:   → Salta (opcional)
+Pepe: ¿Qué modalidad de robo fue?
+Tú:   → Selecciona "Raponazo" (opcional)
 Pepe: ¿Descripción adicional?
 Tú:   → "Moto roja placa ABC123"
 Pepe: ¿Cómo reportas?
@@ -569,15 +569,16 @@ Guarda un nuevo reporte en Excel y localStorage
   "year": "2024",
   "hora": "14:30",
   "arma": "No",
-  "articulo": "Moto",
+  "modalidad": "Raponazo",
   "descripcion": "Moto roja placa ABC123",
   "fuente": "Testigo"
 }
 ```
 
 **Notas:**
-- Se guardan los campos: tipo, localidad, year, hora, arma, articulo, descripcion, fuente
+- Se guardan los campos: tipo, localidad, year, hora, arma, modalidad, descripcion, fuente
 - El campo de contacto fue removido
+- La modalidad se obtiene del catálogo de modalidades de robo
 
 **Respuesta exitosa:**
 ```json
@@ -671,12 +672,16 @@ Cuchillo              (Cuchillo/arma blanca)
 No especificado       (Se usó arma pero no sabe cuál)
 ```
 
-### Pregunta 6: Artículo (OPCIONAL)
+### Pregunta 6: Modalidad de Robo (OPCIONAL)
 
 ```
-Celular               Laptop/Computadora    Joyería
-Moto                  Carro                 Efectivo
-Documentos            Ropa                  Otro
+Atraco                (Asalto a mano armada)
+Cosquilleo            (Hurto con técnica)
+Raponazo              (Hurto rápido)
+Halado                (Tirando/Jalando)
+Engaño                (Robo por engaño)
+Oportunidad           (Aprovechando oportunidad)
+Otra                  (Otra modalidad)
 (Dejar en blanco si no sabe)
 ```
 
@@ -1026,6 +1031,27 @@ Test-Path "c:\Users\valen\Downloads\Mi barrio seguro\alimentacion_mapa_datajam_a
 
 ## 📝 Historial de Cambios
 
+### Versión 4.0 (2026-06-30) - Modalidad de Robo
+
+**Cambios:**
+- ❌ Reemplazada la pregunta "¿Qué fue robado?" por "¿Qué modalidad de robo fue?"
+- ❌ Removido campo de "Artículo" (tipo de bien robado)
+- ✅ Nuevo campo "Modalidad" con opciones de clasificación de robo:
+  - Atraco (asalto a mano armada)
+  - Cosquilleo (hurto con técnica)
+  - Raponazo (hurto rápido)
+  - Halado (tirando/jalando)
+  - Engaño
+  - Oportunidad (aprovechando oportunidad)
+  - Otra
+- ✅ Modalidades obtenidas del catálogo Excel (Catalogos sheet)
+- ✅ Cambio reflejado en servidor (server.js) y API
+- ✅ Campo opcional (puede omitirse)
+- ✅ Mayor claridad sobre la naturaleza del robo vs el artículo robado
+
+**Justificación:**
+Los usuarios no entendían bien "¿Qué fue robado?" porque no es lo mismo el tipo de robo (cómo se cometió) que el bien robado. La modalidad de robo es más útil estadísticamente para entender patrones delincuenciales.
+
 ### Versión 3.1 (2026-06-30) - Eliminación de Contacto
 
 **Cambios:**
@@ -1062,7 +1088,7 @@ Localidad:    20 localidades de Bogotá
 Año:          2018-2025
 Hora:         Formato 24 horas
 Arma:         ¿Se usó arma?
-Artículo:     Tipo de bien robado (opcional)
+Modalidad:    Tipo de robo (Atraco, Cosquilleo, Raponazo, Halado, Engaño, Oportunidad) (opcional)
 Descripción:  Texto libre (hasta 500 caracteres)
 Fuente:       Tipo de reporte (Testigo, Víctima, Cámara, Otro)
 ```
@@ -1076,13 +1102,19 @@ Fuente:       Tipo de reporte (Testigo, Víctima, Cámara, Otro)
 
 ## 📊 Información Técnica
 
-**Versión actual:** 3.0  
+**Versión actual:** 4.0  
 **Fecha de actualización:** 2026-06-30  
 **Estado:** ✅ Producción - Totalmente funcional  
 **Servidor:** Express.js en puerto 3000  
 **Base de datos:** Excel local + localStorage  
 **Interfaz:** Single Page Application (SPA)  
 **Contacto:** valentona143@gmail.com
+
+**Cambios en v4.0:**
+- ✅ Reemplazado campo "Artículo" por "Modalidad de Robo"
+- ✅ Modalidades: Atraco, Cosquilleo, Raponazo, Halado, Engaño, Oportunidad, Otra
+- ✅ Mejor claridad en reportes de seguridad
+- ✅ Datos sincronizados entre servidor, Excel y localStorage
 
 ---
 
